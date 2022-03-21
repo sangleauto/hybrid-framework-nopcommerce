@@ -18,6 +18,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 // Common class
 public class BasePage {
 	// Selenium Web Browser Function
+	public static BasePage getBasePageObject() {
+		return new BasePage();
+	}
+
 	public void openPageURL(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
 	}
@@ -99,15 +103,15 @@ public class BasePage {
 	}
 
 	// Selenium Web Element Function
-	public By getByXpath(String xpathLocator) {
+	private By getByXpath(String xpathLocator) {
 		return By.xpath(xpathLocator);
 	}
 
-	public WebElement getWebElement(WebDriver driver, String xpathLocator) {
+	private WebElement getWebElement(WebDriver driver, String xpathLocator) {
 		return driver.findElement(getByXpath(xpathLocator));
 	}
 
-	public List<WebElement> getListWebElement(WebDriver driver, String xpathLocator) {
+	private List<WebElement> getListWebElement(WebDriver driver, String xpathLocator) {
 		return driver.findElements(getByXpath(xpathLocator));
 	}
 
