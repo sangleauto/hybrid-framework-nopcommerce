@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 // Common class
 public class BasePage {
+
 	// Selenium Web Browser Function
 	public static BasePage getBasePageObject() {
 		return new BasePage();
@@ -117,6 +118,8 @@ public class BasePage {
 
 	public void clickToElement(WebDriver driver, String xpathLocator) {
 		getWebElement(driver, xpathLocator).click();
+		System.out.println("Driver tai BasePage: " + driver.toString());
+
 	}
 
 	public void sendkeyToElement(WebDriver driver, String xpathLocator, String textValue) {
