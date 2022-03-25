@@ -1,9 +1,9 @@
-package pageObjects;
+package pageObjects.nopCommerce;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.LoginPageUI;
+import pageUIs.nopCommerce.LoginPageUI;
 
 public class LoginPageObject extends BasePage {
 	private WebDriver driver;
@@ -12,9 +12,10 @@ public class LoginPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void clickToLoginButton() {
+	public HomePageObject clickToLoginButton() {
 		waitForElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		return PageGeneratorManager.getHomePageObject(driver);
 	}
 
 	public String getErrorMessageAtEmailTextbox() {
@@ -22,9 +23,10 @@ public class LoginPageObject extends BasePage {
 		return getElementText(driver, LoginPageUI.EMAIL_ERROR_MESSAGE);
 	}
 
-	public void inputToEmailnameTextbox(String email) {
+	public LoginPageObject inputToEmailnameTextbox(String email) {
 		waitForElementVisible(driver, LoginPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, LoginPageUI.EMAIL_TEXTBOX, email);
+		return PageGeneratorManager.getLoginPageObject(driver);
 	}
 
 	public String getErrorMessageLoginWasUnsuccessful() {

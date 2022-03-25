@@ -1,5 +1,6 @@
 package commons;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -41,7 +42,13 @@ public class BaseTest {
 			throw new RuntimeException("Browser name is incorrect !");
 		}
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://demo.nopcommerce.com/");
+		// driver.get("https://demo.nopcommerce.com/");
+		driver.get("http://live.techpanda.org/index.php/");
 		return driver;
+	}
+
+	public int generateRandomNumber() {
+		Random rand = new Random();
+		return rand.nextInt(9999);
 	}
 }
