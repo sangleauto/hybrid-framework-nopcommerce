@@ -6,7 +6,6 @@ import java.util.Arrays;
 public class Topic_11_Array {
 
 	public static void main(String[] args) {
-		Topic_11_Array topic = new Topic_11_Array();
 
 	}
 

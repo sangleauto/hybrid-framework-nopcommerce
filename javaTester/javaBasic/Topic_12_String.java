@@ -22,9 +22,6 @@ public class Topic_12_String {
 		System.out.println(b.length());
 
 		// Dynamic locator
-		String dynamicButtonXpath = "//button[@id='%s']";
-
-		System.out.println("Click to login button: " + dynamicButtonXpath.format(dynamicButtonXpath, "login"));
 
 	}
 }

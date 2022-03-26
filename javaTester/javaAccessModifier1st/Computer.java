@@ -2,7 +2,6 @@ package javaAccessModifier1st;
 
 public class Computer {
 	// Property
-	private int ssdSize;
 
 	String ramName;
 
@@ -11,9 +10,6 @@ public class Computer {
 	public String vgaBrand;
 
 	// Method
-	private void setSsdSize(int ssdSize) {
-		this.ssdSize = ssdSize;
-	}
 
 	void setRamName(String ramName) {
 		this.ramName = ramName;
