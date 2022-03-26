@@ -14,12 +14,15 @@ public class MyDashBoardPageObject extends BasePage {
 	}
 
 	public HomePageObject clickToLogoutLink() {
+		waitForElementClickable(driver, MyDashboardPageUI.ACCOUT_LINK);
 		clickToElement(driver, MyDashboardPageUI.ACCOUT_LINK);
+		waitForElementClickable(driver, MyDashboardPageUI.LOG_OUT_LINK);
 		clickToElement(driver, MyDashboardPageUI.LOG_OUT_LINK);
 		return PageGeneratorManager.getHomePageObject(driver);
 	}
 
 	public String getPageTitle() {
+		waitForAllElementsVisible(driver, MyDashboardPageUI.PAGE_TITLE);
 		return getElementText(driver, MyDashboardPageUI.PAGE_TITLE);
 	}
 

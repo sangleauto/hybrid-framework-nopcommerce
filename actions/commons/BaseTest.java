@@ -42,8 +42,8 @@ public class BaseTest {
 			throw new RuntimeException("Browser name is incorrect !");
 		}
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		// driver.get("https://demo.nopcommerce.com/");
-		driver.get("http://live.techpanda.org/index.php/");
+		driver.get("https://demo.nopcommerce.com/");
+		// driver.get("http://live.techpanda.org/index.php/");
 		return driver;
 	}
 

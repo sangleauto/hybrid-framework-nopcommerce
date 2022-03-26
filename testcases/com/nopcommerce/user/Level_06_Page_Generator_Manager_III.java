@@ -122,10 +122,8 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		loginPage.inputToEmailnameTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(correctPassword);
 
-		loginPage.clickToLoginButton();
-
 		// 10
-		homePage = new HomePageObject(driver);
+		homePage = loginPage.clickToLoginButton();
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
