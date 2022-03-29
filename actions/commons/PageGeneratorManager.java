@@ -26,7 +26,7 @@ public class PageGeneratorManager {
 		return new UserRegisterPageObject(driver);
 	}
 
-	public static UserCustomerInfoPageObject getUserMyAccountPage(WebDriver driver) {
+	public static UserCustomerInfoPageObject getUserCustomerInfoPageObject(WebDriver driver) {
 		return new UserCustomerInfoPageObject(driver);
 	}
 
