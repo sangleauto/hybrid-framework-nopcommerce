@@ -16,26 +16,27 @@ public class BaseTest {
 	private WebDriver driver;
 
 	protected WebDriver GetBrowserDriver(String browserName) {
-		if (browserName.equals("firefox")) {
+		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("chrome")) {
+		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		} else if (browserName.equals("edge")) {
+		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-		} else if (browserName.equals("coccoc")) {
+		} else if (browserList == BrowserList.COCCOC) {
 			WebDriverManager.chromedriver().driverVersion("98.0.4758.102").setup();
 			ChromeOptions option = new ChromeOptions();
 			option.setBinary("C:\\Users\\Admin\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
 			driver = new ChromeDriver(option);
-		} else if (browserName.equals("brave")) {
+		} else if (browserList == BrowserList.BRAVE) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions option = new ChromeOptions();
 			option.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
 			driver = new ChromeDriver(option);
-		} else if (browserName.equals("opera")) {
+		} else if (browserList == BrowserList.OPERA) {
 			WebDriverManager.operadriver().setup();
 			driver = new OperaDriver();
 		} else {
