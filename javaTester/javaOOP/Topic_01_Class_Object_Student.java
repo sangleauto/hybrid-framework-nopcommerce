@@ -1,21 +1,21 @@
 package javaOOP;
 
-public class ExerciseClassObject {
+public class Topic_01_Class_Object_Student {
 
 	private int studentID;
 	private String studentName;
-	private float firstScore;
-	private float secondScore;
+	private Float firstScore;
+	private Float secondScore;
 
-	protected ExerciseClassObject(int studentID, String studentName, float firstScore, float secondScore) {
+	protected Topic_01_Class_Object_Student(int studentID, String studentName, float firstScore, float secondScore) {
 		this.studentID = studentID;
 		this.studentName = studentName;
 		this.firstScore = firstScore;
 		this.secondScore = secondScore;
 	}
 
-	protected double showStudentAvgScore() {
-		return (firstScore + secondScore * 2) / 3;
+	protected Float showStudentAvgScore() {
+		return (this.firstScore + this.secondScore * 2) / 3;
 	}
 
 	protected void showStudentInfo() {
@@ -25,10 +25,10 @@ public class ExerciseClassObject {
 	}
 
 	public static void main(String[] args) {
-		ExerciseClassObject student1 = new ExerciseClassObject(100, "Sang", 8, 9);
+		Topic_01_Class_Object_Student student1 = new Topic_01_Class_Object_Student(100, "Sang", 8f, 9f);
 		student1.showStudentInfo();
 
-		ExerciseClassObject student2 = new ExerciseClassObject(101, "Huy", 9, 10);
+		Topic_01_Class_Object_Student student2 = new Topic_01_Class_Object_Student(101, "Huy", 9f, 10f);
 		student2.showStudentInfo();
 	}
 
