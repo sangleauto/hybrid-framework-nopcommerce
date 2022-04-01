@@ -1,4 +1,4 @@
-package javaOOP;
+package javaOOP.knowledge;
 
 public class Topic_05_This_Super extends BaseOOP {
 	private int firstNumber = 5;

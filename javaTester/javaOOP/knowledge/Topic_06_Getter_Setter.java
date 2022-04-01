@@ -1,4 +1,4 @@
-package javaOOP;
+package javaOOP.knowledge;
 
 public class Topic_06_Getter_Setter {
 	private String personName;

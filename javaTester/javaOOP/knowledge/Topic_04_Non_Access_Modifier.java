@@ -1,4 +1,4 @@
-package javaOOP;
+package javaOOP.knowledge;
 
 public final class Topic_04_Non_Access_Modifier {
 
