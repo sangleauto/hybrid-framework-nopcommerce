@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	private WebDriver driver;
 
-	protected WebDriver GetBrowserDriver(String browserName) throws BrowserNotSupported {
+	protected WebDriver GetBrowserDriver(String browserName) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
@@ -43,9 +43,41 @@ public class BaseTest {
 		} else {
 			throw new BrowserNotSupported(browserName);
 		}
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIME_OUT, TimeUnit.SECONDS);
 		driver.get(GlobalConstant.USER_PAGE_URL);
 		// driver.get("http://live.techpanda.org/index.php/");
+		return driver;
+	}
+
+	protected WebDriver GetBrowserDriver(String browserName, String appUrl) {
+		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+		if (browserList == BrowserList.FIREFOX) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		} else if (browserList == BrowserList.CHROME) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		} else if (browserList == BrowserList.EDGE) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		} else if (browserList == BrowserList.COCCOC) {
+			WebDriverManager.chromedriver().driverVersion("98.0.4758.102").setup();
+			ChromeOptions option = new ChromeOptions();
+			option.setBinary("C:\\Users\\Admin\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
+			driver = new ChromeDriver(option);
+		} else if (browserList == BrowserList.BRAVE) {
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions option = new ChromeOptions();
+			option.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			driver = new ChromeDriver(option);
+		} else if (browserList == BrowserList.OPERA) {
+			WebDriverManager.operadriver().setup();
+			driver = new OperaDriver();
+		} else {
+			throw new BrowserNotSupported(browserName);
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.get(appUrl);
 		return driver;
 	}
 

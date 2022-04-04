@@ -6,6 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -112,7 +113,7 @@ public class BasePage {
 	}
 
 	// Selenium Web Element Function
-	private By getByLocator(String locatorType) {
+	public By getByLocator(String locatorType) {
 		By by = null;
 		System.out.println("Locator type: " + locatorType);
 		if (locatorType.startsWith("id") || locatorType.startsWith("Id") || locatorType.startsWith("ID")) {
@@ -140,7 +141,7 @@ public class BasePage {
 		return by;
 	}
 
-	private String getDynamicXpath(String locatorType, String... dynamicValues) {
+	public String getDynamicXpath(String locatorType, String... dynamicValues) {
 		System.out.println("Locator Type Before: " + locatorType);
 		if (locatorType.startsWith("xpath") || locatorType.startsWith("Xpath") || locatorType.startsWith("XPATH")) {
 			locatorType = String.format(locatorType, (Object[]) dynamicValues);
@@ -151,11 +152,11 @@ public class BasePage {
 
 	}
 
-	private WebElement getWebElement(WebDriver driver, String locatorType) {
+	public WebElement getWebElement(WebDriver driver, String locatorType) {
 		return driver.findElement(getByLocator(locatorType));
 	}
 
-	private List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
 		return driver.findElements(getByLocator(locatorType));
 	}
 
@@ -308,6 +309,16 @@ public class BasePage {
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
+		Actions action = new Actions(driver);
+		action.sendKeys(getWebElement(driver, locatorType), key).perform();
+	}
+
+	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		action.sendKeys(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)), key).perform();
 	}
 
 	public void scrollToBottomPage(WebDriver driver) {
@@ -505,7 +516,7 @@ public class BasePage {
 		return PageGeneratorManager.getAdminLoginPage(driver);
 	}
 
-	private long longTimeout = 30;
-	// private long shortTimeout = 5;
+	private long longTimeout = GlobalConstant.LONG_TIME_OUT;
+	// public long shortTimeout = 5;
 
 }
