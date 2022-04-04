@@ -10,12 +10,13 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
+import exception.BrowserNotSupported;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	private WebDriver driver;
 
-	protected WebDriver GetBrowserDriver(String browserName) {
+	protected WebDriver GetBrowserDriver(String browserName) throws BrowserNotSupported {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
@@ -40,7 +41,7 @@ public class BaseTest {
 			WebDriverManager.operadriver().setup();
 			driver = new OperaDriver();
 		} else {
-			throw new RuntimeException("Browser name is incorrect !");
+			throw new BrowserNotSupported(browserName);
 		}
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(GlobalConstant.USER_PAGE_URL);
