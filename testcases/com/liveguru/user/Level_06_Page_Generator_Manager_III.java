@@ -8,11 +8,11 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObjects.liveGuru.HomePageObject;
-import pageObjects.liveGuru.LoginPageObject;
-import pageObjects.liveGuru.MyDashBoardPageObject;
-import pageObjects.liveGuru.PageGeneratorManager;
-import pageObjects.liveGuru.RegisterPageObject;
+import commons.PageGeneratorManagerLiveGuru;
+import pageObjects.liveGuru.user.UserHomePageObject;
+import pageObjects.liveGuru.user.UserLoginPageObject;
+import pageObjects.liveGuru.user.UserMyDashBoardPageObject;
+import pageObjects.liveGuru.user.UserRegisterPageObject;
 
 public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
@@ -26,7 +26,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		email = "autotest" + generateRandomNumber() + "@gmail.com";
 		password = "123123";
 
-		homePage = PageGeneratorManager.getHomePageObject(driver);
+		homePage = PageGeneratorManagerLiveGuru.getUserHomePageObject(driver);
 	}
 
 	@Test
@@ -71,8 +71,8 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
 	private WebDriver driver;
 	private String firstName, lastName, email, password;
-	private HomePageObject homePage;
-	private LoginPageObject loginPage;
-	private MyDashBoardPageObject dashBoardPage;
-	private RegisterPageObject registerPage;
+	private UserHomePageObject homePage;
+	private UserLoginPageObject loginPage;
+	private UserMyDashBoardPageObject dashBoardPage;
+	private UserRegisterPageObject registerPage;
 }

@@ -44,7 +44,7 @@ public class BaseTest {
 			throw new BrowserNotSupported(browserName);
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.get(GlobalConstant.USER_PAGE_URL);
+		driver.get(GlobalConstant.USER_PAGE_URL_NOP);
 		// driver.get("http://live.techpanda.org/index.php/");
 		return driver;
 	}

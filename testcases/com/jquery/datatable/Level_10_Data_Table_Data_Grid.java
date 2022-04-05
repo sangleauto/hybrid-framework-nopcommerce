@@ -2,7 +2,6 @@ package com.jquery.datatable;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -55,12 +54,56 @@ public class Level_10_Data_Table_Data_Grid extends BaseTest {
 
 	}
 
-	@Test
+	// @Test
 	public void Table_03_Get_Each_Row_All_Pages() {
 		homePage.getValueEachRowAtAllPage();
 	}
 
-	@AfterClass
+	@Test
+	public void Table_04_Enter_To_Textbox_At_Any_Row() {
+		homePage.clickToLoadButton();
+
+		// homePage.enterToTextboxByColumnNameAtRowNumber("Album", "2", "Auto Testing");
+		// homePage.enterToTextboxByColumnNameAtRowNumber("Artist", "1", "Black Pink");
+		// homePage.enterToTextboxByColumnNameAtRowNumber("Year", "3", "2022");
+		// homePage.enterToDropDownByColumnNameAtRowNumber("Origin", "5", "Korea");
+		// homePage.enterToTextboxByColumnNameAtRowNumber("Price", "4", "50000");
+		//
+		// homePage.checkToCheckBoxByColumnNameAtRowNumber("With Poster?", "3");
+		// homePage.checkToCheckBoxByColumnNameAtRowNumber("With Poster?", "5");
+		// homePage.uncheckToCheckBoxByColumnNameAtRowNumber("With Poster?", "4");
+		// homePage.uncheckToCheckBoxByColumnNameAtRowNumber("With Poster?", "2");
+		// homePage.uncheckToCheckBoxByColumnNameAtRowNumber("With Poster?", "1");
+
+		homePage.clickToIconByRowNumber("2", "Insert Row Above");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("3", "Move Up");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Move Down");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		homePage.sleepInSecond(2);
+	}
+
+	// @AfterClass
 	public void afterClass() {
 		driver.quit();
 	}

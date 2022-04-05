@@ -142,12 +142,11 @@ public class BasePage {
 	}
 
 	public String getDynamicXpath(String locatorType, String... dynamicValues) {
-		System.out.println("Locator Type Before: " + locatorType);
 		if (locatorType.startsWith("xpath") || locatorType.startsWith("Xpath") || locatorType.startsWith("XPATH")) {
 			locatorType = String.format(locatorType, (Object[]) dynamicValues);
 		}
 
-		System.out.println("Locator Type After: " + locatorType);
+		System.out.println("Locator Type: " + locatorType);
 		return locatorType;
 
 	}
@@ -190,12 +189,12 @@ public class BasePage {
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
 		Select select = new Select(getWebElement(driver, locatorType));
-		select.selectByValue(textItem);
+		select.selectByVisibleText(textItem);
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... dynamicValues) {
 		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
-		select.selectByValue(textItem);
+		select.selectByVisibleText(textItem);
 	}
 
 	public String getSelectedItemInDefaultDropdown(WebDriver driver, String locatorType) {
@@ -268,15 +267,29 @@ public class BasePage {
 		return getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).size();
 	}
 
-	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
+	public void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
 		if (!element.isSelected()) {
 			element.click();
 		}
 	}
 
-	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorType) {
+	public void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		if (!element.isSelected()) {
+			element.click();
+		}
+	}
+
+	public void uncheckToDefaultCheckbox(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
+		if (element.isSelected()) {
+			element.click();
+		}
+	}
+
+	public void uncheckToDefaultCheckbox(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
 		if (element.isSelected()) {
 			element.click();
 		}
