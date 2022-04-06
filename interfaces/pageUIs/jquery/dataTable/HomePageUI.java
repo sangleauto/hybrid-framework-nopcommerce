@@ -1,4 +1,4 @@
-package pageUIs.jquery;
+package pageUIs.jquery.dataTable;
 
 public class HomePageUI {
 	public static final String PAGINATION_PAGE_BY_NUMBER = "xpath=//li[@class='qgrd-pagination-page']/a[text()='%s']";
@@ -14,5 +14,4 @@ public class HomePageUI {
 	public static final String LOAD_DATA_BUTTON = "Css=#btnLoad .ui-button-text";
 	public static final String CHECKBOX_BY_COLUMN_AND_ROW_INDEX = "xpath=//tbody/tr[%s]/td[%s]/input[@type='checkbox']";
 	public static final String ICON_NAME_BY_ROW_INDEX = "xpath=//tbody/tr[%s]/td[8]/button[@title='%s']";
-
 }

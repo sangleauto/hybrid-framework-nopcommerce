@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="liveGuru">
+<suite name="JqueryUpload">
 
+	<parameter name ="url" value = "https://blueimp.github.io/jQuery-File-Upload/"/>
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "firefox"/>
 		<classes>
-			<class name="com.liveguru.user.Data_Table_Data_Grid" />
+			<class name="com.jquery.Level_11_Upload_Files" />
 		</classes>
 	</test> 
+	
 
 	
 

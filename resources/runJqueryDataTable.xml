@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce">
+<suite name="jqueryDatatable">
 
 	<parameter name ="url" value = "https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/"/>
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "firefox"/>
 		<classes>
-			<class name="com.jquery.datatable.Level_10_Data_Table_Data_Grid" />
+			<class name="com.jquery.Level_10_Data_Table_Data_Grid" />
 		</classes>
 	</test> 
 	

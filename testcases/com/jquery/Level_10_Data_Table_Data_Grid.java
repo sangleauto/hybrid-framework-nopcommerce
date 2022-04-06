@@ -1,4 +1,4 @@
-package com.jquery.datatable;
+package com.jquery;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -7,8 +7,8 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObject.jquery.HomePageObject;
-import pageObject.jquery.PageGeneratorManager;
+import pageObject.jQuery.dataTable.HomePageObject;
+import pageObject.jQuery.dataTable.PageGeneratorManager;
 
 public class Level_10_Data_Table_Data_Grid extends BaseTest {
 	HomePageObject homePage;

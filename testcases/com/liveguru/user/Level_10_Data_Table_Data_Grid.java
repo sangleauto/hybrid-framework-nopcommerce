@@ -17,7 +17,7 @@ import pageObjects.liveGuru.user.UserLoginPageObject;
 import pageObjects.liveGuru.user.UserMyDashBoardPageObject;
 import pageObjects.liveGuru.user.UserRegisterPageObject;
 
-public class Data_Table_Data_Grid extends BaseTest {
+public class Level_10_Data_Table_Data_Grid extends BaseTest {
 
 	@Parameters("browser")
 	@BeforeClass // Multiple browser
