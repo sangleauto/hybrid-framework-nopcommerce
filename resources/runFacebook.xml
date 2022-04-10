@@ -9,7 +9,7 @@
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "firefox"/>
 		<classes>
-			<class name="com.nopcommerce.user.Level_13_Element_Undisplayed" />
+			<class name="com.facebook.register.Level_13_Element_Undisplayed" />
 		</classes>
 	</test> 
 

@@ -1,0 +1,124 @@
+[2022-04-10 20:25:19,226] Register - Step 01: Open 'Register' page
+[2022-04-10 20:25:19,848] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 20:25:19,963] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 20:25:20,039] Register - Step 04: Enter to Email textbox with value is: 'afc2153@gmail.com'
+[2022-04-10 20:25:20,140] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 20:25:20,215] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 20:25:20,297] Register - Step 07: Click to 'Register' button
+[2022-04-10 20:25:21,114] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 20:25:21,171] Register - Step 09: Click to Logout link
+[2022-04-10 20:25:21,863] Login - Step 10: Navigate to Login page
+[2022-04-10 20:25:22,362] Login - Step 11: Enter to Email textbox with value is: 'afc2153@gmail.com'
+[2022-04-10 20:25:22,435] Login - Step 12: Enter to Password textbox with value is: '123456'
+[2022-04-10 20:25:22,490] Login - Step 13: Click to Login button
+[2022-04-10 20:25:23,205] Login - Step 14: Verify Account link is displayed
+[2022-04-10 20:25:23,280] Login - Step 15: Open My Account page
+[2022-04-10 20:25:23,778] Login - Step 16: Verify Customer Info is displayed
+[2022-04-10 20:38:44,518] Register - Step 01: Open 'Register' page
+[2022-04-10 20:38:45,240] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 20:38:45,376] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 20:38:45,453] Register - Step 04: Enter to Email textbox with value is: 'afc4291@gmail.com'
+[2022-04-10 20:38:45,547] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 20:38:45,623] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 20:38:45,699] Register - Step 07: Click to 'Register' button
+[2022-04-10 20:38:48,171] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 20:38:48,239] Register - Step 09: Click to Logout link
+[2022-04-10 20:38:49,027] Login - Step 01: Navigate to Login page
+[2022-04-10 20:38:49,639] Login - Step 02: Enter to Email textbox with value is: 'afc4291@gmail.com'
+[2022-04-10 20:38:49,732] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-10 20:38:49,788] Login - Step 04: Click to Login button
+[2022-04-10 20:38:50,588] Login - Step 05: Verify Account link is displayed
+[2022-04-10 20:38:50,663]  -------------------------- FAILED -------------------------- 
+[2022-04-10 20:38:50,663] Login - Step 06: Open My Account page
+[2022-04-10 20:38:51,233] Login - Step 07: Verify Customer Info is displayed
+[2022-04-10 20:38:51,317]  -------------------------- FAILED -------------------------- 
+[2022-04-10 20:53:59,144] Register - Step 01: Open 'Register' page
+[2022-04-10 20:53:59,944] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 20:54:00,044] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 20:54:00,122] Register - Step 04: Enter to Email textbox with value is: 'afc5726@gmail.com'
+[2022-04-10 20:54:00,203] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 20:54:00,272] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 20:54:00,347] Register - Step 07: Click to 'Register' button
+[2022-04-10 20:54:01,636] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 20:54:01,706] Register - Step 09: Click to Logout link
+[2022-04-10 20:54:02,691] Login - Step 01: Navigate to Login page
+[2022-04-10 20:54:03,602] Login - Step 02: Enter to Email textbox with value is: 'afc5726@gmail.com'
+[2022-04-10 20:54:03,683] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-10 20:54:03,738] Login - Step 04: Click to Login button
+[2022-04-10 20:54:04,535] Login - Step 05: Verify Account link is displayed
+[2022-04-10 20:54:04,616]  -------------------------- FAILED -------------------------- 
+[2022-04-10 20:54:04,617] Login - Step 06: Open My Account page
+[2022-04-10 20:54:05,294] Login - Step 07: Verify Customer Info is displayed
+[2022-04-10 20:54:05,353]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:00:20,745] Register - Step 01: Open 'Register' page
+[2022-04-10 21:00:21,554] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 21:00:21,671] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 21:00:21,749] Register - Step 04: Enter to Email textbox with value is: 'afc9701@gmail.com'
+[2022-04-10 21:00:21,846] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:00:21,927] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 21:00:22,004] Register - Step 07: Click to 'Register' button
+[2022-04-10 21:00:22,922] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 21:00:23,000] Register - Step 09: Click to Logout link
+[2022-04-10 21:00:23,980] Login - Step 01: Navigate to Login page
+[2022-04-10 21:00:24,553] Login - Step 02: Enter to Email textbox with value is: 'afc9701@gmail.com'
+[2022-04-10 21:00:24,631] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:00:24,690] Login - Step 04: Click to Login button
+[2022-04-10 21:00:25,430] Login - Step 05: Verify Account link is displayed
+[2022-04-10 21:00:25,505]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:00:25,506] Login - Step 06: Open My Account page
+[2022-04-10 21:00:26,065] Login - Step 07: Verify Customer Info is displayed
+[2022-04-10 21:00:26,134]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:03:16,442] Register - Step 01: Open 'Register' page
+[2022-04-10 21:03:17,229] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 21:03:17,319] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 21:03:17,386] Register - Step 04: Enter to Email textbox with value is: 'afc4456@gmail.com'
+[2022-04-10 21:03:17,480] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:03:17,544] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 21:03:17,630] Register - Step 07: Click to 'Register' button
+[2022-04-10 21:03:18,568] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 21:03:18,626] Register - Step 09: Click to Logout link
+[2022-04-10 21:03:19,334] Login - Step 01: Navigate to Login page
+[2022-04-10 21:03:20,007] Login - Step 02: Enter to Email textbox with value is: 'afc4456@gmail.com'
+[2022-04-10 21:03:20,079] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:03:20,134] Login - Step 04: Click to Login button
+[2022-04-10 21:03:20,861] Login - Step 05: Verify Account link is displayed
+[2022-04-10 21:03:20,937]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:03:20,938] Login - Step 06: Open My Account page
+[2022-04-10 21:03:21,493] Login - Step 07: Verify Customer Info is displayed
+[2022-04-10 21:03:21,558]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:15:04,218] Register - Step 01: Open 'Register' page
+[2022-04-10 21:15:04,905] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 21:15:05,037] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 21:15:05,160] Register - Step 04: Enter to Email textbox with value is: 'afc5411@gmail.com'
+[2022-04-10 21:15:05,296] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:15:05,426] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 21:15:05,549] Register - Step 07: Click to 'Register' button
+[2022-04-10 21:15:06,597] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 21:15:06,647] Register - Step 09: Click to Logout link
+[2022-04-10 21:15:07,531] Login - Step 01: Navigate to Login page
+[2022-04-10 21:15:08,289] Login - Step 02: Enter to Email textbox with value is: 'afc5411@gmail.com'
+[2022-04-10 21:15:08,413] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:15:08,528] Login - Step 04: Click to Login button
+[2022-04-10 21:15:09,374] Login - Step 05: Verify Account link is displayed
+[2022-04-10 21:15:09,440]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:15:09,440] Login - Step 06: Open My Account page
+[2022-04-10 21:15:10,193] Login - Step 07: Verify Customer Info is displayed
+[2022-04-10 21:15:10,245]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:15:17,546] Register - Step 01: Open 'Register' page
+[2022-04-10 21:15:18,243] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-10 21:15:18,332] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-10 21:15:18,397] Register - Step 04: Enter to Email textbox with value is: 'afc1216@gmail.com'
+[2022-04-10 21:15:18,474] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:15:18,549] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-10 21:15:18,623] Register - Step 07: Click to 'Register' button
+[2022-04-10 21:15:19,558] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-10 21:15:19,608] Register - Step 09: Click to Logout link
+[2022-04-10 21:15:20,380] Login - Step 01: Navigate to Login page
+[2022-04-10 21:15:21,047] Login - Step 02: Enter to Email textbox with value is: 'afc1216@gmail.com'
+[2022-04-10 21:15:21,121] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-10 21:15:21,170] Login - Step 04: Click to Login button
+[2022-04-10 21:15:21,992] Login - Step 05: Verify Account link is displayed
+[2022-04-10 21:15:22,064]  -------------------------- FAILED -------------------------- 
+[2022-04-10 21:15:22,064] Login - Step 06: Open My Account page
+[2022-04-10 21:15:22,784] Login - Step 07: Verify Customer Info is displayed
+[2022-04-10 21:15:22,845]  -------------------------- FAILED -------------------------- 

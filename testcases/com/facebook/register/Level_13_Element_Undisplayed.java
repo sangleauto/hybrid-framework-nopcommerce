@@ -1,4 +1,4 @@
-package com.nopcommerce.user;
+package com.facebook.register;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
