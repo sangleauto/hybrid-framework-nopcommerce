@@ -18,10 +18,10 @@ import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 
 public class Level_12_Assert extends BaseTest {
 
-	@Parameters("browser")
+	@Parameters({ "browser", "url" })
 	@BeforeClass // Multiple browser
-	public void beforeClass(String browserName) {
-		driver = GetBrowserDriver(browserName);
+	public void beforeClass(String browserName, String appUrl) {
+		driver = GetBrowserDriver(browserName, appUrl);
 
 		// 1
 		homePage = PageGeneratorManager.getUserHomePage(driver);

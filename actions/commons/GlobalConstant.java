@@ -14,6 +14,6 @@ public class GlobalConstant {
 	public static final String BROWSER_FILE = PROJECT_PATH + File.separator + "browserLogs";
 	public static final String DRAG_DROP_HTML5 = PROJECT_PATH + File.separator + "dragDropHTML5";
 	public static final int SHORT_TIME_OUT = 5;
-	public static final int LONG_TIME_OUT = 10;
+	public static final int LONG_TIME_OUT = 30;
 
 }
