@@ -91,6 +91,10 @@ public class BaseTest {
 		return driver;
 	}
 
+	public WebDriver getDriverInstance() {
+		return this.driver;
+	}
+
 	protected int generateRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);
