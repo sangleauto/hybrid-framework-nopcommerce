@@ -53,7 +53,7 @@ public class BaseTest {
 		} else {
 			throw new BrowserNotSupported(browserName);
 		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
 		// driver.get(GlobalConstant.USER_PAGE_URL_NOP);
 		// driver.get("http://live.techpanda.org/index.php/");
 		return driver;
@@ -86,7 +86,7 @@ public class BaseTest {
 		} else {
 			throw new BrowserNotSupported(browserName);
 		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIME_OUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIME_OUT, TimeUnit.SECONDS);
 		driver.get(appUrl);
 		return driver;
 	}

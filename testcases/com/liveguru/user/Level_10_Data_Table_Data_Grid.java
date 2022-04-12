@@ -8,7 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import commons.GlobalConstant;
+import commons.GlobalConstants;
 import commons.PageGeneratorManagerLiveGuru;
 import pageObjects.liveGuru.admin.AdminDashboardPageObject;
 import pageObjects.liveGuru.admin.AdminLoginPageObject;
@@ -22,7 +22,7 @@ public class Level_10_Data_Table_Data_Grid extends BaseTest {
 	@Parameters("browser")
 	@BeforeClass // Multiple browser
 	public void beforeClass(String browserName) {
-		driver = GetBrowserDriver(browserName, GlobalConstant.USER_PAGE_URL_LIVEGURU);
+		driver = GetBrowserDriver(browserName, GlobalConstants.USER_PAGE_URL_LIVEGURU);
 
 		firstName = "Huy";
 		lastName = "Le";
@@ -69,7 +69,7 @@ public class Level_10_Data_Table_Data_Grid extends BaseTest {
 
 	@Test
 	public void User_02_Login_To_System() {
-		userHomePage.openPageURL(driver, GlobalConstant.ADMIN_PAGE_URL_LIVEGURU);
+		userHomePage.openPageURL(driver, GlobalConstants.ADMIN_PAGE_URL_LIVEGURU);
 		adminLoginPage = PageGeneratorManagerLiveGuru.getAdminLoginPageObject(driver);
 
 		adminLoginPage.inputToUserNameTextbox(userNameAdmin);
@@ -94,7 +94,7 @@ public class Level_10_Data_Table_Data_Grid extends BaseTest {
 
 	@Test
 	public void User_04_Verify_Can_Not_Login_After_Deleted() {
-		adminDashboardPage.openPageURL(driver, GlobalConstant.USER_PAGE_URL_LIVEGURU);
+		adminDashboardPage.openPageURL(driver, GlobalConstants.USER_PAGE_URL_LIVEGURU);
 		userHomePage = PageGeneratorManagerLiveGuru.getUserHomePageObject(driver);
 		userLoginPage = userHomePage.clickToMyAccountLink();
 
