@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import commons.PageGeneratorManager;
+import io.qameta.allure.Step;
 import pageUIs.nopCommerce.user.UserRegisterPageUI;
 
 public class UserRegisterPageObject extends BasePage {
@@ -13,6 +14,7 @@ public class UserRegisterPageObject extends BasePage {
 		this.driver = driver;
 	}
 
+	@Step("Click to Register button")
 	public void clickToRegisterButton() {
 		waitForElementClickable(driver, UserRegisterPageUI.REGISTER_BUTTON);
 		clickToElement(driver, UserRegisterPageUI.REGISTER_BUTTON);
@@ -43,36 +45,43 @@ public class UserRegisterPageObject extends BasePage {
 		return getElementText(driver, UserRegisterPageUI.CONFIRM_PASSWORD_ERROR_MESSAGE);
 	}
 
+	@Step("Enter to First name textbox with value: {0}")
 	public void inputToFirstnameTextbox(String textValue) {
 		waitForElementVisible(driver, UserRegisterPageUI.FIRST_NAME_TEXTBOX);
 		sendkeyToElement(driver, UserRegisterPageUI.FIRST_NAME_TEXTBOX, textValue);
 	}
 
+	@Step("Enter to Last name textbox with value: {0}")
 	public void inputToLastnameTextbox(String textValue) {
 		waitForElementVisible(driver, UserRegisterPageUI.LAST_NAME_TEXTBOX);
 		sendkeyToElement(driver, UserRegisterPageUI.LAST_NAME_TEXTBOX, textValue);
 	}
 
+	@Step("Enter to Email textbox with value: {0}")
 	public void inputToEmailnameTextbox(String textValue) {
 		waitForElementVisible(driver, UserRegisterPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, UserRegisterPageUI.EMAIL_TEXTBOX, textValue);
 	}
 
+	@Step("Enter to Password textbox with value: {0}")
 	public void inputToPasswordTextbox(String textValue) {
 		waitForElementVisible(driver, UserRegisterPageUI.PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, UserRegisterPageUI.PASSWORD_TEXTBOX, textValue);
 	}
 
+	@Step("Enter to Confirm Password textbox with value: {0}")
 	public void inputToConfirmPasswordTextbox(String textValue) {
 		waitForElementVisible(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX, textValue);
 	}
 
+	@Step("Verify Register success message")
 	public String getRegisterSuccessMessage() {
 		waitForElementVisible(driver, UserRegisterPageUI.REGISTER_SUCCESS_MESSAGE);
 		return getElementText(driver, UserRegisterPageUI.REGISTER_SUCCESS_MESSAGE);
 	}
 
+	@Step("Click to Logout link")
 	public UserHomePageObject clickToLogoutLink() {
 		waitForElementClickable(driver, UserRegisterPageUI.LOGOUT_LINK);
 		clickToElement(driver, UserRegisterPageUI.LOGOUT_LINK);
