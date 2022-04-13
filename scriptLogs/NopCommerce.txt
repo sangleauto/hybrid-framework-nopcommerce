@@ -1,0 +1,3 @@
+[2022-04-13 21:22:46,837] Precondition - Step 01: Open Login page
+[2022-04-13 21:22:47,446] Precondition - Step 02: Set cookies and reload page
+[2022-04-13 21:22:48,945] Precondition - Step 03: Verify Account link is displayed

@@ -169,3 +169,66 @@
 [2022-04-11 19:09:01,205] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
 [2022-04-11 19:09:01,284] Register - Step 07: Click to 'Register' button
 [2022-04-11 19:09:02,206] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-13 19:35:29,448] Login - Step 02: Enter to Email textbox with value is: 'null'
+[2022-04-13 19:38:08,480] Login - Step 02: Enter to Email textbox with value is: 'afc1781@gmail.com'
+[2022-04-13 19:38:08,578] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 19:38:08,644] Login - Step 04: Click to Login button
+[2022-04-13 19:38:43,275] Login - Step 02: Enter to Email textbox with value is: 'null'
+[2022-04-13 19:39:22,012] Login - Step 02: Enter to Email textbox with value is: 'null'
+[2022-04-13 19:40:38,956] Login - Step 02: Enter to Email textbox with value is: 'afc6469@gmail.com'
+[2022-04-13 19:40:39,056] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 19:40:39,134] Login - Step 04: Click to Login button
+[2022-04-13 19:41:34,297] Login - Step 02: Enter to Email textbox with value is: 'afc7313@gmail.com'
+[2022-04-13 19:41:34,382] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 19:41:34,458] Login - Step 04: Click to Login button
+[2022-04-13 19:42:25,165] Login - Step 02: Enter to Email textbox with value is: 'afc1518@gmail.com'
+[2022-04-13 19:42:25,245] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 19:42:25,329] Login - Step 04: Click to Login button
+[2022-04-13 19:43:13,059] Login - Step 02: Enter to Email textbox with value is: 'afc9526@gmail.com'
+[2022-04-13 19:43:13,135] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 19:43:13,212] Login - Step 04: Click to Login button
+[2022-04-13 19:56:00,105] Register - Step 01: Open 'Register' page
+[2022-04-13 19:56:00,681] Register - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-13 19:56:00,754] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-13 19:56:00,837] Register - Step 04: Enter to Email textbox with value is: 'null'
+[2022-04-13 20:00:23,643] Precondition - Step 01: Open 'Register' page
+[2022-04-13 20:00:24,256] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-13 20:00:24,330] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-13 20:00:24,412] Precondition - Step 04: Enter to Email textbox with value is: 'null'
+[2022-04-13 20:01:20,487] Precondition - Step 01: Open 'Register' page
+[2022-04-13 20:01:21,129] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-13 20:01:21,220] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-13 20:01:21,300] Precondition - Step 04: Enter to Email textbox with value is: 'afc2330@gmail.com'
+[2022-04-13 20:01:21,390] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-13 20:01:21,471] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-13 20:01:21,552] Precondition - Step 07: Click to 'Register' button
+[2022-04-13 20:01:22,448] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-13 20:01:22,496] Precondition - Step 09: Open Login Page
+[2022-04-13 20:02:21,675] Precondition - Step 01: Open 'Register' page
+[2022-04-13 20:02:22,400] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-13 20:02:22,486] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-13 20:02:22,554] Precondition - Step 04: Enter to Email textbox with value is: 'afc2493@gmail.com'
+[2022-04-13 20:02:22,648] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-13 20:02:22,711] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-13 20:02:22,770] Precondition - Step 07: Click to 'Register' button
+[2022-04-13 20:02:23,642] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-13 20:02:23,690] Precondition - Step 09: Click to Logout link
+[2022-04-13 20:02:24,426] Precondition - Step 10: Open Login Page
+[2022-04-13 20:02:24,971] Precondition - Step 11: Enter to Email textbox with value is: 'afc2493@gmail.com'
+[2022-04-13 20:02:25,049] Precondition - Step 12: Enter to Password textbox with value is: '123456'
+[2022-04-13 20:02:25,113] Precondition - Step 13: Click to Login button
+[2022-04-13 20:16:04,351] Login - Step 01: Open Login page
+[2022-04-13 20:16:05,058] Login - Step 02: Enter to Email textbox with value is: 'afc2797@gmail.com'
+[2022-04-13 20:16:05,154] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 20:16:05,233] Login - Step 04: Click to Login button
+[2022-04-13 20:18:14,001] Login - Step 01: Open Login page
+[2022-04-13 20:18:14,755] Login - Step 02: Enter to Email textbox with value is: 'afc549@gmail.com'
+[2022-04-13 20:18:14,863] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 20:18:14,927] Login - Step 04: Click to Login button
+[2022-04-13 20:50:15,363] Login - Step 01: Open Login page
+[2022-04-13 20:50:15,918] Login - Step 02: Enter to Email textbox with value is: 'afc4545@gmail.com'
+[2022-04-13 20:50:15,992] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-13 20:50:16,047] Login - Step 04: Click to Login button
+[2022-04-13 21:22:46,837] Precondition - Step 01: Open Login page
+[2022-04-13 21:22:47,446] Precondition - Step 02: Set cookies and reload page
+[2022-04-13 21:22:48,945] Precondition - Step 03: Verify Account link is displayed
