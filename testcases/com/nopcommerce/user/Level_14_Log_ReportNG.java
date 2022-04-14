@@ -19,7 +19,6 @@ public class Level_14_Log_ReportNG extends BaseTest {
 	@BeforeClass // Multiple browser
 	public void beforeClass(String browserName, String appUrl) {
 		driver = GetBrowserDriver(browserName, appUrl);
-
 		// 1
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
