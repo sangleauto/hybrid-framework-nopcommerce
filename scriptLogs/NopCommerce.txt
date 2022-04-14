@@ -1,3 +1,25 @@
-[2022-04-13 21:22:46,837] Precondition - Step 01: Open Login page
-[2022-04-13 21:22:47,446] Precondition - Step 02: Set cookies and reload page
-[2022-04-13 21:22:48,945] Precondition - Step 03: Verify Account link is displayed
+[2022-04-14 21:20:36,046] Register - Step 01: Open 'Register' page
+[2022-04-14 21:20:37,018] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 21:20:37,077] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 21:20:37,956] Register - Step 04: Enter to Email textbox with value is: 'afc3165@gmail.com'
+[2022-04-14 21:20:38,047] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:20:38,131] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 21:20:38,220] Register - Step 07: Click to 'Register' button
+[2022-04-14 21:20:39,102] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 21:20:39,260] Login - Step 01: Navigate to Login page
+[2022-04-14 21:20:40,619] Login - Step 02: Enter to Email textbox with value is: 'afc3165@gmail.com'
+[2022-04-14 21:20:40,683] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:20:40,732] Login - Step 04: Click to Login button
+[2022-04-14 21:20:41,596] Login - Step 05: Verify Account link is displayed
+[2022-04-14 21:20:41,664] My Account - Step 01: Open My Account page
+[2022-04-14 21:20:42,235] My Account - Step 02: Verify Customer Info is displayed
+[2022-04-14 21:20:42,289] My Account - Step 03: Verify Gender Info is checked
+[2022-04-14 21:20:42,318] My Account - Step 04: Verify First name Info is displayed
+[2022-04-14 21:20:42,350] My Account - Step 05: Verify Last name Info is displayed
+[2022-04-14 21:20:42,386] My Account - Step 06: Verify Day Info is displayed
+[2022-04-14 21:20:42,523] My Account - Step 07: Verify Month Info is displayed
+[2022-04-14 21:20:42,589] My Account - Step 08: Verify Year Info is displayed
+[2022-04-14 21:20:42,853] My Account - Step 09: Verify Email Info is displayed
+[2022-04-14 21:20:42,881] My Account - Step 10: Verify Newsletter Info is checked
+[2022-04-14 21:20:42,915] OS name = windows 10
+[2022-04-14 21:20:42,915] Driver instance name = firefoxdriver: firefox on windows (99d03e65-2958-4419-b481-a2a7c7fad70c)

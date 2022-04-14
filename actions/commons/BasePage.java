@@ -29,6 +29,10 @@ import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
 
 // Common class
+/**
+ * @author Admin
+ *
+ */
 public class BasePage {
 
 	// Selenium Web Browser Function
@@ -344,6 +348,10 @@ public class BasePage {
 		return getWebElement(driver, locatorType).isSelected();
 	}
 
+	public boolean isElementSelected(WebDriver driver, String locatorType, String... dynamicValues) {
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isSelected();
+	}
+
 	public boolean isElementEnabled(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).isEnabled();
 	}
@@ -583,9 +591,88 @@ public class BasePage {
 		}
 	}
 
+	// Pattern Object
 	public void openPagesAtMyAccountByPageName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
 		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
+	}
+
+	/**
+	 * Enter to Dynamic Textbox by ID
+	 * 
+	 * @param driver
+	 * @param TextboxID
+	 * @param value
+	 */
+	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
+	}
+
+	/**
+	 * Click to dynamic Button by Text
+	 * 
+	 * @param driver
+	 * @param buttonText
+	 */
+	public void clickToButtonByText(WebDriver driver, String buttonText) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
+		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
+	}
+
+	/**
+	 * Click to dynamic Radio by Label name
+	 * 
+	 * @param driver
+	 * @param radioLabelName
+	 */
+	public void clickToRadioByLabel(WebDriver driver, String radioLabelName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
+		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
+	}
+
+	/**
+	 * Select dynamic Dropdown by Name with value
+	 * 
+	 * @param driver
+	 * @param dropdownAttributeName
+	 * @param value
+	 */
+	public void selectDropdownByNameAttribute(WebDriver driver, String dropdownAttributeName, String value) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
+		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, value, dropdownAttributeName);
+
+	}
+
+	/**
+	 * Click to dynamic Checkbox by Label name
+	 * 
+	 * @param driver
+	 * @param checkboxLabelName
+	 */
+	public void clickToCheckboxByLabel(WebDriver driver, String checkboxLabelName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
+		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
+	}
+
+	public boolean getCheckboxCheckedStatusByLabel(WebDriver driver, String checkboxLabelName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
+		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
+	}
+
+	public boolean getRadioCheckedStatusByLabel(WebDriver driver, String radioLabelName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
+		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
+	}
+
+	public String getTextboxValueByID(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		return getAttributeValue(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+	}
+
+	public String getDropdownValueByNameAttribute(WebDriver driver, String dropdownAttributeName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
+		return getSelectedItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
 	}
 
 	// Level_08_Switch_Role

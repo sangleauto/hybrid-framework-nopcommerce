@@ -232,3 +232,313 @@
 [2022-04-13 21:22:46,837] Precondition - Step 01: Open Login page
 [2022-04-13 21:22:47,446] Precondition - Step 02: Set cookies and reload page
 [2022-04-13 21:22:48,945] Precondition - Step 03: Verify Account link is displayed
+[2022-04-14 13:24:38,958] Register - Step 01: Open 'Register' page
+[2022-04-14 13:24:39,749] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 13:24:39,830] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:24:39,897] Register - Step 04: Enter to Email textbox with value is: 'afc7477@gmail.com'
+[2022-04-14 13:24:39,992] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:24:40,055] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:24:40,130] Register - Step 07: Click to 'Register' button
+[2022-04-14 13:24:41,054] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 13:24:41,109] Register - Step 09: Click to Logout link
+[2022-04-14 13:24:42,324] Login - Step 01: Navigate to Login page
+[2022-04-14 13:24:42,910] Login - Step 02: Enter to Email textbox with value is: 'afc7477@gmail.com'
+[2022-04-14 13:24:43,007] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:24:43,065] Login - Step 04: Click to Login button
+[2022-04-14 13:24:43,918] Login - Step 05: Verify Account link is displayed
+[2022-04-14 13:24:44,026]  -------------------------- FAILED -------------------------- 
+[2022-04-14 13:24:44,026] Login - Step 06: Open My Account page
+[2022-04-14 13:24:44,592] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 13:24:44,652]  -------------------------- FAILED -------------------------- 
+[2022-04-14 13:26:06,163] Register - Step 01: Open 'Register' page
+[2022-04-14 13:26:06,906] Register - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 13:26:07,006] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:26:07,061] Register - Step 04: Enter to Email textbox with value is: 'afc6965@gmail.com'
+[2022-04-14 13:26:07,144] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:26:07,205] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:26:07,284] Register - Step 07: Click to 'Register' button
+[2022-04-14 13:26:08,182] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 13:26:08,255] Register - Step 09: Click to Logout link
+[2022-04-14 13:26:09,181] Login - Step 01: Navigate to Login page
+[2022-04-14 13:26:09,760] Login - Step 02: Enter to Email textbox with value is: 'afc6965@gmail.com'
+[2022-04-14 13:26:09,856] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:26:09,907] Login - Step 04: Click to Login button
+[2022-04-14 13:26:10,678] Login - Step 05: Verify Account link is displayed
+[2022-04-14 13:26:10,745] Login - Step 06: Open My Account page
+[2022-04-14 13:26:12,324] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 13:26:12,385]  -------------------------- FAILED -------------------------- 
+[2022-04-14 13:28:06,703] Register - Step 01: Open 'Register' page
+[2022-04-14 13:28:07,317] Register - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 13:28:10,443] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:28:10,501] Register - Step 04: Enter to Email textbox with value is: 'afc7692@gmail.com'
+[2022-04-14 13:28:10,587] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:28:10,648] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:28:10,715] Register - Step 07: Click to 'Register' button
+[2022-04-14 13:28:11,599] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 13:28:11,665] Register - Step 09: Click to Logout link
+[2022-04-14 13:28:12,534] Login - Step 01: Navigate to Login page
+[2022-04-14 13:28:13,079] Login - Step 02: Enter to Email textbox with value is: 'afc7692@gmail.com'
+[2022-04-14 13:28:13,149] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:28:13,201] Login - Step 04: Click to Login button
+[2022-04-14 13:28:13,951] Login - Step 05: Verify Account link is displayed
+[2022-04-14 13:28:14,015] Login - Step 06: Open My Account page
+[2022-04-14 13:28:14,561] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 13:28:14,620]  -------------------------- FAILED -------------------------- 
+[2022-04-14 13:30:36,523] Register - Step 01: Open 'Register' page
+[2022-04-14 13:30:37,169] Register - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 13:30:40,276] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:30:40,333] Register - Step 04: Enter to Email textbox with value is: 'afc8028@gmail.com'
+[2022-04-14 13:30:40,413] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:30:40,469] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:30:40,544] Register - Step 07: Click to 'Register' button
+[2022-04-14 13:30:41,353] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 13:30:41,406] Register - Step 09: Click to Logout link
+[2022-04-14 13:30:42,251] Login - Step 01: Navigate to Login page
+[2022-04-14 13:30:42,933] Login - Step 02: Enter to Email textbox with value is: 'afc8028@gmail.com'
+[2022-04-14 13:30:43,003] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:30:43,058] Login - Step 04: Click to Login button
+[2022-04-14 13:30:43,793] Login - Step 05: Verify Account link is displayed
+[2022-04-14 13:30:43,875] Login - Step 06: Open My Account page
+[2022-04-14 13:30:44,409] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 13:30:44,470]  -------------------------- FAILED -------------------------- 
+[2022-04-14 13:36:15,816] Register - Step 01: Open 'Register' page
+[2022-04-14 13:36:16,508] Register - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 13:36:19,597] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:36:19,656] Register - Step 04: Enter to Email textbox with value is: 'afc9044@gmail.com'
+[2022-04-14 13:36:19,737] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:36:19,809] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:36:19,874] Register - Step 07: Click to 'Register' button
+[2022-04-14 13:36:20,762] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 13:36:20,826] Register - Step 09: Click to Logout link
+[2022-04-14 13:36:21,658] Login - Step 01: Navigate to Login page
+[2022-04-14 13:36:22,213] Login - Step 02: Enter to Email textbox with value is: 'afc9044@gmail.com'
+[2022-04-14 13:36:22,286] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:36:22,343] Login - Step 04: Click to Login button
+[2022-04-14 13:36:23,151] Login - Step 05: Verify Account link is displayed
+[2022-04-14 13:36:23,211] Login - Step 06: Open My Account page
+[2022-04-14 13:36:23,761] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 13:36:23,826]  -------------------------- FAILED -------------------------- 
+[2022-04-14 13:47:56,056] Precondition - Step 01: Open 'Register' page
+[2022-04-14 13:47:56,729] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 13:47:56,824] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:47:56,899] Precondition - Step 04: Enter to Email textbox with value is: 'afc7226@gmail.com'
+[2022-04-14 13:47:56,994] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:47:57,065] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:47:57,137] Precondition - Step 07: Click to 'Register' button
+[2022-04-14 13:47:58,011] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-14 13:47:58,066] Precondition - Step 09: Click to Logout link
+[2022-04-14 13:47:58,797] Precondition - Step 10: Open Login Page
+[2022-04-14 13:47:59,334] Precondition - Step 11: Enter to Email textbox with value is: 'afc7226@gmail.com'
+[2022-04-14 13:47:59,400] Precondition - Step 12: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:47:59,455] Precondition - Step 13: Click to Login button
+[2022-04-14 13:59:04,840] Precondition - Step 01: Open 'Register' page
+[2022-04-14 13:59:05,494] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 13:59:05,581] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 13:59:05,642] Precondition - Step 04: Enter to Email textbox with value is: 'afc9687@gmail.com'
+[2022-04-14 13:59:05,720] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 13:59:05,790] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 13:59:05,869] Precondition - Step 07: Click to 'Register' button
+[2022-04-14 13:59:06,818] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-14 14:24:11,440] Precondition - Step 01: Open 'Register' page
+[2022-04-14 14:24:12,097] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 14:24:12,190] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 14:24:12,269] Precondition - Step 04: Enter to Email textbox with value is: 'afc5840@gmail.com'
+[2022-04-14 14:24:12,369] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 14:24:12,433] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 14:24:12,502] Precondition - Step 07: Click to 'Register' button
+[2022-04-14 14:24:13,397] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-14 14:35:30,470] Precondition - Step 01: Open 'Register' page
+[2022-04-14 14:35:30,823] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 14:46:30,422] Precondition - Step 01: Open 'Register' page
+[2022-04-14 14:46:31,045] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 14:46:31,143] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 14:46:31,229] Precondition - Step 04: Enter to Email textbox with value is: 'afc6600@gmail.com'
+[2022-04-14 14:46:31,334] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 14:46:31,411] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 14:46:31,487] Precondition - Step 07: Click to 'Register' button
+[2022-04-14 14:46:32,443] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-14 14:57:12,951] Precondition - Step 01: Open 'Register' page
+[2022-04-14 14:57:13,565] Precondition - Step 02: Enter to Firstname textbox with value is: 'Huy'
+[2022-04-14 14:57:13,679] Precondition - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 14:57:13,762] Precondition - Step 04: Enter to Email textbox with value is: 'afc6673@gmail.com'
+[2022-04-14 14:57:13,873] Precondition - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 14:57:13,941] Precondition - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 14:57:14,027] Precondition - Step 07: Click to 'Register' button
+[2022-04-14 14:57:15,047] Precondition - Step 08: Verify Register Success Message is displayed
+[2022-04-14 14:57:15,364] OS name = windows 10
+[2022-04-14 14:57:15,364] Driver instance name = firefoxdriver: firefox on windows (4c2331b0-52b1-4478-b08c-928be9b54358)
+[2022-04-14 19:22:55,434] Register - Step 01: Open 'Register' page
+[2022-04-14 19:22:56,117] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 19:22:56,193] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 19:22:56,257] Register - Step 04: Enter to Email textbox with value is: 'afc9218@gmail.com'
+[2022-04-14 19:22:56,349] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:22:56,405] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 19:22:56,474] Register - Step 07: Click to 'Register' button
+[2022-04-14 19:22:57,943] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 19:22:58,116] Login - Step 01: Navigate to Login page
+[2022-04-14 19:22:59,538] Login - Step 02: Enter to Email textbox with value is: 'afc9218@gmail.com'
+[2022-04-14 19:22:59,613] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:22:59,672] Login - Step 04: Click to Login button
+[2022-04-14 19:23:00,717] Login - Step 05: Verify Account link is displayed
+[2022-04-14 19:23:00,784] OS name = windows 10
+[2022-04-14 19:23:00,784] Driver instance name = firefoxdriver: firefox on windows (9456f1c0-37d1-4136-8f35-d187eef5af9d)
+[2022-04-14 19:36:26,235] Register - Step 01: Open 'Register' page
+[2022-04-14 19:36:27,345] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 19:36:27,417] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 19:36:27,478] Register - Step 04: Enter to Email textbox with value is: 'afc6235@gmail.com'
+[2022-04-14 19:36:27,573] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:36:27,637] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 19:36:27,716] Register - Step 07: Click to 'Register' button
+[2022-04-14 19:36:28,686] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 19:36:28,837] Login - Step 01: Navigate to Login page
+[2022-04-14 19:36:30,693] Login - Step 02: Enter to Email textbox with value is: 'afc6235@gmail.com'
+[2022-04-14 19:36:30,762] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:36:30,814] Login - Step 04: Click to Login button
+[2022-04-14 19:36:31,609] Login - Step 05: Verify Account link is displayed
+[2022-04-14 19:36:31,679] OS name = windows 10
+[2022-04-14 19:36:31,679] Driver instance name = firefoxdriver: firefox on windows (506e2d26-eb5d-4dd6-b08c-beb16e6c850b)
+[2022-04-14 19:37:30,623] Register - Step 01: Open 'Register' page
+[2022-04-14 19:37:31,271] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 19:37:31,366] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 19:37:31,431] Register - Step 04: Enter to Email textbox with value is: 'afc8077@gmail.com'
+[2022-04-14 19:37:31,531] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:37:31,598] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 19:37:31,671] Register - Step 07: Click to 'Register' button
+[2022-04-14 19:37:32,556] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 19:37:32,707] Login - Step 01: Navigate to Login page
+[2022-04-14 19:37:34,025] Login - Step 02: Enter to Email textbox with value is: 'afc8077@gmail.com'
+[2022-04-14 19:37:34,087] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:37:34,141] Login - Step 04: Click to Login button
+[2022-04-14 19:37:34,915] Login - Step 05: Verify Account link is displayed
+[2022-04-14 19:37:34,975]  -------------------------- FAILED -------------------------- 
+[2022-04-14 19:37:34,975] Login - Step 06: Open My Account page
+[2022-04-14 19:37:35,526] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 19:37:35,576]  -------------------------- FAILED -------------------------- 
+[2022-04-14 19:37:35,585] OS name = windows 10
+[2022-04-14 19:37:35,585] Driver instance name = firefoxdriver: firefox on windows (3316a19d-97e9-4ad1-805f-52287dad5488)
+[2022-04-14 19:38:15,460] Register - Step 01: Open 'Register' page
+[2022-04-14 19:38:16,145] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 19:38:16,240] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 19:38:16,313] Register - Step 04: Enter to Email textbox with value is: 'afc3205@gmail.com'
+[2022-04-14 19:38:16,413] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:38:16,481] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 19:38:16,564] Register - Step 07: Click to 'Register' button
+[2022-04-14 19:38:17,425] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 19:38:17,616] Login - Step 01: Navigate to Login page
+[2022-04-14 19:38:18,927] Login - Step 02: Enter to Email textbox with value is: 'afc3205@gmail.com'
+[2022-04-14 19:38:19,010] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 19:38:19,060] Login - Step 04: Click to Login button
+[2022-04-14 19:38:19,826] Login - Step 05: Verify Account link is displayed
+[2022-04-14 19:38:19,890]  -------------------------- FAILED -------------------------- 
+[2022-04-14 19:38:19,891] Login - Step 06: Open My Account page
+[2022-04-14 19:38:20,411] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 19:38:20,479]  -------------------------- FAILED -------------------------- 
+[2022-04-14 19:38:20,485] OS name = windows 10
+[2022-04-14 19:38:20,486] Driver instance name = firefoxdriver: firefox on windows (14575eaa-9d61-421c-98b1-248d11bc200f)
+[2022-04-14 20:25:10,001] Register - Step 01: Open 'Register' page
+[2022-04-14 20:25:25,071] Login - Step 01: Navigate to Login page
+[2022-04-14 20:25:25,092] OS name = windows 10
+[2022-04-14 20:25:25,093] Driver instance name = firefoxdriver: firefox on windows (e2061168-094a-412d-8ae9-36b56e563bce)
+[2022-04-14 20:25:25,096] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '172.16.2.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 12172, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2061168-094a-412d-8ae9-36b56e563bce
+[2022-04-14 20:27:17,058] Register - Step 01: Open 'Register' page
+[2022-04-14 20:27:18,001] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 20:27:18,070] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 20:27:18,931] Register - Step 04: Enter to Email textbox with value is: 'afc959@gmail.com'
+[2022-04-14 20:27:19,016] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 20:27:19,076] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 20:27:24,143] Register - Step 07: Click to 'Register' button
+[2022-04-14 20:27:25,010] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 20:27:25,175] Login - Step 01: Navigate to Login page
+[2022-04-14 20:27:26,487] Login - Step 02: Enter to Email textbox with value is: 'afc959@gmail.com'
+[2022-04-14 20:27:26,553] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 20:27:26,606] Login - Step 04: Click to Login button
+[2022-04-14 20:27:27,389] Login - Step 05: Verify Account link is displayed
+[2022-04-14 20:27:27,446]  -------------------------- FAILED -------------------------- 
+[2022-04-14 20:27:27,447] Login - Step 06: Open My Account page
+[2022-04-14 20:27:27,976] Login - Step 07: Verify Customer Info is displayed
+[2022-04-14 20:27:28,035]  -------------------------- FAILED -------------------------- 
+[2022-04-14 20:27:28,042] OS name = windows 10
+[2022-04-14 20:27:28,042] Driver instance name = firefoxdriver: firefox on windows (bf90c6c1-d9c5-42a3-94f8-76e82790191d)
+[2022-04-14 21:19:03,820] Register - Step 01: Open 'Register' page
+[2022-04-14 21:19:04,789] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 21:19:04,854] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 21:19:05,745] Register - Step 04: Enter to Email textbox with value is: 'afc2724@gmail.com'
+[2022-04-14 21:19:05,845] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:19:05,910] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 21:19:10,979] Register - Step 07: Click to 'Register' button
+[2022-04-14 21:19:11,849] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 21:19:11,987] Login - Step 01: Navigate to Login page
+[2022-04-14 21:19:13,299] Login - Step 02: Enter to Email textbox with value is: 'afc2724@gmail.com'
+[2022-04-14 21:19:13,364] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:19:13,416] Login - Step 04: Click to Login button
+[2022-04-14 21:19:14,212] Login - Step 05: Verify Account link is displayed
+[2022-04-14 21:19:14,275] My Account - Step 01: Open My Account page
+[2022-04-14 21:19:14,802] My Account - Step 02: Verify Customer Info is displayed
+[2022-04-14 21:19:14,855] My Account - Step 03: Verify Gender Info is checked
+[2022-04-14 21:19:14,883] My Account - Step 04: Verify First name Info is displayed
+[2022-04-14 21:19:14,916] My Account - Step 05: Verify Last name Info is displayed
+[2022-04-14 21:19:14,949] My Account - Step 06: Verify Day Info is displayed
+[2022-04-14 21:19:15,082] My Account - Step 07: Verify Month Info is displayed
+[2022-04-14 21:19:15,152] My Account - Step 08: Verify Year Info is displayed
+[2022-04-14 21:19:15,420] My Account - Step 09: Verify Email Info is displayed
+[2022-04-14 21:19:15,450] My Account - Step 10: Verify Newsletter Info is checked
+[2022-04-14 21:19:15,478] OS name = windows 10
+[2022-04-14 21:19:15,478] Driver instance name = firefoxdriver: firefox on windows (0aa15629-e699-465a-b383-308ef3f24015)
+[2022-04-14 21:19:36,808] OS name = windows 10
+[2022-04-14 21:19:36,809] 
+[2022-04-14 21:19:55,711] Register - Step 01: Open 'Register' page
+[2022-04-14 21:19:56,674] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 21:19:56,741] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 21:19:57,634] Register - Step 04: Enter to Email textbox with value is: 'afc7949@gmail.com'
+[2022-04-14 21:19:57,719] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:19:57,775] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 21:19:57,841] Register - Step 07: Click to 'Register' button
+[2022-04-14 21:19:58,708] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 21:19:58,838] Login - Step 01: Navigate to Login page
+[2022-04-14 21:20:00,118] Login - Step 02: Enter to Email textbox with value is: 'afc7949@gmail.com'
+[2022-04-14 21:20:00,189] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:20:00,238] Login - Step 04: Click to Login button
+[2022-04-14 21:20:01,071] Login - Step 05: Verify Account link is displayed
+[2022-04-14 21:20:01,145] My Account - Step 01: Open My Account page
+[2022-04-14 21:20:01,658] My Account - Step 02: Verify Customer Info is displayed
+[2022-04-14 21:20:01,706] My Account - Step 03: Verify Gender Info is checked
+[2022-04-14 21:20:01,734] My Account - Step 04: Verify First name Info is displayed
+[2022-04-14 21:20:01,771] My Account - Step 05: Verify Last name Info is displayed
+[2022-04-14 21:20:01,814] My Account - Step 06: Verify Day Info is displayed
+[2022-04-14 21:20:01,947] My Account - Step 07: Verify Month Info is displayed
+[2022-04-14 21:20:02,014] My Account - Step 08: Verify Year Info is displayed
+[2022-04-14 21:20:02,282] My Account - Step 09: Verify Email Info is displayed
+[2022-04-14 21:20:02,312] My Account - Step 10: Verify Newsletter Info is checked
+[2022-04-14 21:20:02,338]  -------------------------- FAILED -------------------------- 
+[2022-04-14 21:20:02,345] OS name = windows 10
+[2022-04-14 21:20:02,345] Driver instance name = firefoxdriver: firefox on windows (7f418510-fea4-4e23-8604-fec67687068a)
+[2022-04-14 21:20:36,046] Register - Step 01: Open 'Register' page
+[2022-04-14 21:20:37,018] Register - Step 02: Enter to Firstname textbox with value is: 'Sang'
+[2022-04-14 21:20:37,077] Register - Step 03: Enter to Lastname textbox with value is: 'Le'
+[2022-04-14 21:20:37,956] Register - Step 04: Enter to Email textbox with value is: 'afc3165@gmail.com'
+[2022-04-14 21:20:38,047] Register - Step 05: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:20:38,131] Register - Step 06: Enter to Confirm password textbox with value is: '123456'
+[2022-04-14 21:20:38,220] Register - Step 07: Click to 'Register' button
+[2022-04-14 21:20:39,102] Register - Step 08: Verify Register Success Message is displayed
+[2022-04-14 21:20:39,260] Login - Step 01: Navigate to Login page
+[2022-04-14 21:20:40,619] Login - Step 02: Enter to Email textbox with value is: 'afc3165@gmail.com'
+[2022-04-14 21:20:40,683] Login - Step 03: Enter to Password textbox with value is: '123456'
+[2022-04-14 21:20:40,732] Login - Step 04: Click to Login button
+[2022-04-14 21:20:41,596] Login - Step 05: Verify Account link is displayed
+[2022-04-14 21:20:41,664] My Account - Step 01: Open My Account page
+[2022-04-14 21:20:42,235] My Account - Step 02: Verify Customer Info is displayed
+[2022-04-14 21:20:42,289] My Account - Step 03: Verify Gender Info is checked
+[2022-04-14 21:20:42,318] My Account - Step 04: Verify First name Info is displayed
+[2022-04-14 21:20:42,350] My Account - Step 05: Verify Last name Info is displayed
+[2022-04-14 21:20:42,386] My Account - Step 06: Verify Day Info is displayed
+[2022-04-14 21:20:42,523] My Account - Step 07: Verify Month Info is displayed
+[2022-04-14 21:20:42,589] My Account - Step 08: Verify Year Info is displayed
+[2022-04-14 21:20:42,853] My Account - Step 09: Verify Email Info is displayed
+[2022-04-14 21:20:42,881] My Account - Step 10: Verify Newsletter Info is checked
+[2022-04-14 21:20:42,915] OS name = windows 10
+[2022-04-14 21:20:42,915] Driver instance name = firefoxdriver: firefox on windows (99d03e65-2958-4419-b481-a2a7c7fad70c)
