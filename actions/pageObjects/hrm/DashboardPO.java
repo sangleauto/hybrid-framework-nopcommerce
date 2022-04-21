@@ -10,10 +10,4 @@ public class DashboardPO extends BasePage {
 	protected DashboardPO(WebDriver driver) {
 		this.driver = driver;
 	}
-
-	public EmployeeListPO openEmployeeListPage() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

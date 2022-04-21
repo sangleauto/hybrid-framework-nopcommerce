@@ -23,56 +23,73 @@ public class Level_19_Live_Coding extends BaseTest {
 		driver = GetBrowserDriver(browserName, appUrl);
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 
+		firstName = "Huy";
+		lastName = "Aliciaaa";
+		statusValue = "Enabled";
+		userName = "sangfire123";
+		password = "admin123";
+
 		log.info("Precondition - Step 02: Login with Admin role");
-		dashboardPage = loginPage.loginToSystem("Admin", "admin123");
+		loginPage.enterToTextboxByID(driver, "txtUsername", "Admin");
+		loginPage.enterToTextboxByID(driver, "txtPassword", "admin123");
+		loginPage.clickToButtonByID(driver, "btnLogin");
+		dashboardPage = PageGeneratorManager.getDashboardPage(driver);
 	}
 
 	@Test
 	public void Employee_01_Add_New_Employee() {
 		log.info("Add_New_Employee - Step 01: Open 'Employee List' page");
-		employeeListPage = dashboardPage.openEmployeeListPage();
+		dashboardPage.openSubMenuPage(driver, "PIM", "Employee List");
+		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
 
 		log.info("Add_New_Employee - Step 02: Click to 'Add' button");
-		addEmployeePage = employeeListPage.clickToAddButton();
+		employeeListPage.clickToButtonByID(driver, "btnAdd");
+		addEmployeePage = PageGeneratorManager.getAddEmployeePage(driver);
 
 		log.info("Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox");
-		addEmployeePage.enterToFirstNameTextbox("");
+		addEmployeePage.enterToTextboxByID(driver, "firstName", firstName);
 
 		log.info("Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox");
-		addEmployeePage.enterToLastNameTextbox("");
+		addEmployeePage.enterToTextboxByID(driver, "lastName", lastName);
 
 		log.info("Add_New_Employee - Step 05: Get value of 'Employee ID'");
-		employeeID = addEmployeePage.getEmployeeID();
+		employeeID = addEmployeePage.getAttributeInTextboxByID(driver, "employeeId", "value");
 
-		log.info("Add_New_Employee - Step 06: Click to 'Create Login Details' checkbox");
-		addEmployeePage.clickToCreateLoginDetailsCheckbox();
+		log.info("Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox");
+		addEmployeePage.checkToCheckboxByID(driver, "Create Login Details");
 
 		log.info("Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox");
-		addEmployeePage.enterToUserNameTextbox("");
+		addEmployeePage.enterToTextboxByID(driver, "user_name", userName);
 
 		log.info("Add_New_Employee - Step 08: Enter valid info to 'Password' textbox");
-		addEmployeePage.enterToPasswordTextbox("");
+		addEmployeePage.enterToTextboxByID(driver, "user_password", password);
 
 		log.info("Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox");
-		addEmployeePage.enterToConfirmPasswordTextbox("");
+		addEmployeePage.enterToTextboxByID(driver, "re_password", password);
 
 		log.info("Add_New_Employee - Step 10: Select '" + statusValue + " ' value in 'Status' dropdown");
-		addEmployeePage.selectValueInStatusDropdown(statusValue);
+		addEmployeePage.selectDropdownByID(driver, "status", statusValue);
 
 		log.info("Add_New_Employee - Step 11: Click to 'Save' button");
-		personalDetailPage = addEmployeePage.clickToSaveButton();
+		addEmployeePage.clickToButtonByID(driver, "btnSave");
+		personalDetailPage = PageGeneratorManager.getPersonalDetailPage(driver);
 
 		log.info("Add_New_Employee - Step 12: Open 'Employee List' page");
-		employeeListPage = personalDetailPage.clickToEmployeeListPage();
+		personalDetailPage.openSubMenuPage(driver, "PIM", "Employee List");
+		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
 
 		log.info("Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox");
-		employeeListPage.enterToEmployeeNameTextbox("");
+		employeeListPage.sleepInSecond(3);
+		employeeListPage.enterToTextboxByID(driver, "empsearch_employee_name_empName", lastName);
+		employeeListPage.sleepInSecond(3);
 
 		log.info("Add_New_Employee - Step 14: Click to 'Search' button");
-		employeeListPage.clickToSearchButton();
+		employeeListPage.clickToButtonByID(driver, "searchBtn");
+		employeeListPage.sleepInSecond(3);
 
 		log.info("Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'");
-		verifyTrue(employeeListPage.isEmployeeInfoIsDisplayedAtTable("", "", ""));
+		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Id"), employeeID);
+		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Last Name"), lastName);
 	}
 
 	@Test
@@ -131,7 +148,7 @@ public class Level_19_Live_Coding extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String firstName, lastName, employeeID, statusValue;
+	private String firstName, lastName, employeeID, statusValue, userName, password;
 
 	private LoginPO loginPage;
 	private DashboardPO dashboardPage;

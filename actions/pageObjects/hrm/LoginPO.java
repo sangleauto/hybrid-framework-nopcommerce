@@ -11,9 +11,4 @@ public class LoginPO extends BasePage {
 		this.driver = driver;
 	}
 
-	public DashboardPO loginToSystem(String string, String string2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

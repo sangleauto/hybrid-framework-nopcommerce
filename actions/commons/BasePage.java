@@ -25,6 +25,7 @@ import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageUIs.hrm.BasePageHrmUI;
 import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
 
@@ -198,11 +199,11 @@ public class BasePage {
 	}
 
 	public String getElementText(WebDriver driver, String locatorType) {
-		return getWebElement(driver, locatorType).getText();
+		return getWebElement(driver, locatorType).getText().trim();
 	}
 
 	public String getElementText(WebDriver driver, String locatorType, String... dynamicValues) {
-		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText();
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText().trim();
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
@@ -367,6 +368,11 @@ public class BasePage {
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void hoverMouseToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues))).perform();
 	}
 
 	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
@@ -592,94 +598,176 @@ public class BasePage {
 	}
 
 	// Pattern Object
-	public void openPagesAtMyAccountByPageName(WebDriver driver, String pageName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
-		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
-	}
 
-	/**
-	 * Enter to Dynamic Textbox by ID
+	/*
+	 * public void openPagesAtMyAccountByPageName(WebDriver driver, String pageName) { waitForElementClickable(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName); clickToElement(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName); }
 	 * 
-	 * @param driver
-	 * @param TextboxID
-	 * @param value
-	 */
-	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
-		sendkeyToElement(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
-	}
-
-	/**
-	 * Click to dynamic Button by Text
+	 *//**
+		 * Enter to Dynamic Textbox by ID
+		 * 
+		 * @param driver
+		 * @param TextboxID
+		 * @param value
+		 */
+	/*
 	 * 
-	 * @param driver
-	 * @param buttonText
-	 */
-	public void clickToButtonByText(WebDriver driver, String buttonText) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
-		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
-	}
-
-	/**
-	 * Click to dynamic Radio by Label name
+	 * public void inputToTextboxByID(WebDriver driver, String textboxID, String value) { waitForElementVisible(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID); sendkeyToElement(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, value,
+	 * textboxID); }
 	 * 
-	 * @param driver
-	 * @param radioLabelName
-	 */
-	public void clickToRadioByLabel(WebDriver driver, String radioLabelName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
-		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
-	}
-
-	/**
-	 * Select dynamic Dropdown by Name with value
+	 *//**
+		 * Click to dynamic Button by Text
+		 * 
+		 * @param driver
+		 * @param buttonText
+		 */
+	/*
 	 * 
-	 * @param driver
-	 * @param dropdownAttributeName
-	 * @param value
-	 */
-	public void selectDropdownByNameAttribute(WebDriver driver, String dropdownAttributeName, String value) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
-		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, value, dropdownAttributeName);
-
-	}
-
-	/**
-	 * Click to dynamic Checkbox by Label name
+	 * public void clickToButtonByText(WebDriver driver, String buttonText) { waitForElementClickable(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText); clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT,
+	 * buttonText); }
 	 * 
-	 * @param driver
-	 * @param checkboxLabelName
-	 */
-	public void clickToCheckboxByLabel(WebDriver driver, String checkboxLabelName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
-		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
-	}
+	 *//**
+		 * Click to dynamic Radio by Label name
+		 * 
+		 * @param driver
+		 * @param radioLabelName
+		 */
+	/*
+	 * 
+	 * public void clickToRadioByLabel(WebDriver driver, String radioLabelName) { waitForElementClickable(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName); checkToDefaultCheckboxOrRadio(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName); }
+	 * 
+	 *//**
+		 * Select dynamic Dropdown by Name with value
+		 * 
+		 * @param driver
+		 * @param dropdownAttributeName
+		 * @param value
+		 */
 
-	public boolean getCheckboxCheckedStatusByLabel(WebDriver driver, String checkboxLabelName) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
-		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
-	}
-
-	public boolean getRadioCheckedStatusByLabel(WebDriver driver, String radioLabelName) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
-		return isElementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName);
-	}
-
-	public String getTextboxValueByID(WebDriver driver, String textboxID) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
-		return getAttributeValue(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
-	}
-
-	public String getDropdownValueByNameAttribute(WebDriver driver, String dropdownAttributeName) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
-		return getSelectedItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
-	}
+	/*
+	 * 
+	 * public void selectDropdownByNameAttribute(WebDriver driver, String dropdownAttributeName, String value) { waitForElementClickable(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName); selectItemInDefaultDropdown(driver,
+	 * BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, value, dropdownAttributeName);
+	 * 
+	 * }
+	 * 
+	 *//**
+		 * Click to dynamic Checkbox by Label name
+		 * 
+		 * @param driver
+		 * @param checkboxLabelName
+		 *//*
+			 * public void clickToCheckboxByLabel(WebDriver driver, String checkboxLabelName) { waitForElementClickable(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName); checkToDefaultCheckboxOrRadio(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName); }
+			 * 
+			 * public boolean getCheckboxCheckedStatusByLabel(WebDriver driver, String checkboxLabelName) { waitForElementVisible(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName); return isElementSelected(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName); }
+			 * 
+			 * public boolean getRadioCheckedStatusByLabel(WebDriver driver, String radioLabelName) { waitForElementVisible(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName); return isElementSelected(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, radioLabelName); }
+			 * 
+			 * public String getTextboxValueByID(WebDriver driver, String textboxID) { waitForElementVisible(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID); return getAttributeValue(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID,
+			 * "value", textboxID); }
+			 * 
+			 * public String getDropdownValueByNameAttribute(WebDriver driver, String dropdownAttributeName) { waitForElementVisible(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName); return getSelectedItemInDefaultDropdown(driver,
+			 * BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName); }
+			 */
 
 	// Level_08_Switch_Role
 	public AdminLoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_ADMIN);
 		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_LINK_ADMIN);
 		return PageGeneratorManager.getAdminLoginPage(driver);
+	}
+
+	// HRM Orange Page
+	// Menu
+	public void openMenuPage(WebDriver driver, String menuPageName) {
+		waitForElementClickable(driver, BasePageHrmUI.MENU_PAGE_BY_NAME, menuPageName);
+		clickToElement(driver, BasePageHrmUI.MENU_PAGE_BY_NAME, menuPageName);
+	}
+
+	// Sub Menu
+	public void openSubMenuPage(WebDriver driver, String menuPageName, String subMenuPage) {
+		waitForElementClickable(driver, BasePageHrmUI.MENU_PAGE_BY_NAME, menuPageName);
+		clickToElement(driver, BasePageHrmUI.MENU_PAGE_BY_NAME, menuPageName);
+
+		waitForElementClickable(driver, BasePageHrmUI.SUB_AND_CHILDSUB_MENU_PAGE_BY_NAME, subMenuPage);
+		clickToElement(driver, BasePageHrmUI.SUB_AND_CHILDSUB_MENU_PAGE_BY_NAME, subMenuPage);
+
+	}
+
+	// Child Sub Menu
+	public void openChildSubMenuPage(WebDriver driver, String menuPageName, String subMenuPage, String childSubMenuPage) {
+		waitForElementClickable(driver, BasePageHrmUI.MENU_PAGE_BY_NAME, menuPageName);
+		clickToElement(driver, BasePageHrmUI.MENU_PAGE_BY_NAME, menuPageName);
+
+		waitForElementVisible(driver, BasePageHrmUI.SUB_AND_CHILDSUB_MENU_PAGE_BY_NAME, subMenuPage);
+		hoverMouseToElement(driver, BasePageHrmUI.SUB_AND_CHILDSUB_MENU_PAGE_BY_NAME, subMenuPage);
+
+		waitForElementClickable(driver, BasePageHrmUI.SUB_AND_CHILDSUB_MENU_PAGE_BY_NAME, childSubMenuPage);
+		clickToElement(driver, BasePageHrmUI.SUB_AND_CHILDSUB_MENU_PAGE_BY_NAME, childSubMenuPage);
+
+	}
+
+	// Click to Button
+	public void clickToButtonByID(WebDriver driver, String buttonID) {
+		waitForElementClickable(driver, BasePageHrmUI.BUTTON_BY_ID, buttonID);
+		clickToElement(driver, BasePageHrmUI.BUTTON_BY_ID, buttonID);
+	}
+
+	// Enter to Textbox
+	public void enterToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageHrmUI.TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, BasePageHrmUI.TEXTBOX_BY_ID, value, textboxID);
+	}
+
+	// Get value in Textbox
+	public String getAttributeInTextboxByID(WebDriver driver, String textboxID, String attrValue) {
+		waitForElementVisible(driver, BasePageHrmUI.TEXTBOX_BY_ID, textboxID);
+		return getAttributeValue(driver, BasePageHrmUI.TEXTBOX_BY_ID, attrValue, textboxID);
+	}
+
+	// Check to Checkbox
+	public void checkToCheckboxByID(WebDriver driver, String checkboxLableName) {
+		waitForElementClickable(driver, BasePageHrmUI.CHECKBOX_BY_LABEL, checkboxLableName);
+		checkToDefaultCheckboxOrRadio(driver, BasePageHrmUI.CHECKBOX_BY_LABEL, checkboxLableName);
+	}
+
+	// Check to Radio button
+	public void checkToRadioButtonByID(WebDriver driver, String radioLableName) {
+		waitForElementClickable(driver, BasePageHrmUI.RADIO_BY_LABEL, radioLableName);
+		checkToDefaultCheckboxOrRadio(driver, BasePageHrmUI.RADIO_BY_LABEL, radioLableName);
+	}
+
+	// Select item in default dropdown
+	public void selectDropdownByID(WebDriver driver, String dropdownID, String value) {
+		waitForElementClickable(driver, BasePageHrmUI.DROPDOWN_BY_ID, dropdownID);
+		selectItemInDefaultDropdown(driver, BasePageHrmUI.DROPDOWN_BY_ID, value, dropdownID);
+	}
+
+	// Get selected item in default dropdown
+	public String getSelectedItemInDropdownByID(WebDriver driver, String dropdownID) {
+		waitForElementVisible(driver, BasePageHrmUI.DROPDOWN_BY_ID, dropdownID);
+		return getSelectedItemInDefaultDropdown(driver, BasePageHrmUI.DROPDOWN_BY_ID, dropdownID);
+	}
+
+	// Verify value in Result Table
+	public String getValueTextInTableByIDAtRowAndColumnIndex(WebDriver driver, String tableID, String rowIndex, String columnName) {
+		int columnIndex = getElementSize(driver, BasePageHrmUI.COLUMN_INDEX_BY_ID, tableID, columnName) + 1;
+		waitForElementVisible(driver, BasePageHrmUI.TABLE_VALUE_BY_ROW_AND_COLUMN_INDEX, tableID, rowIndex, String.valueOf(columnIndex));
+		return getElementText(driver, BasePageHrmUI.TABLE_VALUE_BY_ROW_AND_COLUMN_INDEX, tableID, rowIndex, String.valueOf(columnIndex));
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIME_OUT;

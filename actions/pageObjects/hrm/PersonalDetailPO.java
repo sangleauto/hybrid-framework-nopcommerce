@@ -11,9 +11,4 @@ public class PersonalDetailPO extends BasePage {
 		this.driver = driver;
 	}
 
-	public EmployeeListPO clickToEmployeeListPage() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }
