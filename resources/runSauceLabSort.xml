@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce - User">
+<suite name="SauceLab">
 
 
 	<listeners>
@@ -11,11 +11,11 @@
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
 	</listeners>
 	
-	<parameter name ="url" value = "https://demo.nopcommerce.com/"/>
+	<parameter name ="url" value = "https://www.saucedemo.com/"/>
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "firefox"/>
 		<classes>
-			<class name="com.nopcommerce.user.Level_20_Independence_Test"/>
+			<class name="com.saucelab.sort.Level_21_Sort"/>
 		</classes>
 	</test> 
 </suite> <!-- Suite -->
