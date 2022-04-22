@@ -15,7 +15,7 @@ import pageObjects.hrm.PageGeneratorManager;
 import pageObjects.hrm.PersonalDetailPO;
 import ultilities.DataUtil;
 
-public class Level_19_Live_Coding extends BaseTest {
+public class Level_22_FakeData extends BaseTest {
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass // Multiple browser
