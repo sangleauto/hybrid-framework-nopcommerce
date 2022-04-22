@@ -11,4 +11,7 @@ public class BasePageHrmUI {
 	public static final String COLUMN_INDEX_BY_ID = "xpath=//table[@id='%s']//th[string()='%s']/preceding-sibling::th";
 	public static final String TABLE_VALUE_BY_ROW_AND_COLUMN_INDEX = "xpath=//table[@id='%s']//tbody//tr[%s]//td[%s]";
 
+	public static final String WELCOME_LINK = "xpath=//a[@id='welcome']";
+	public static final String LOGOUT_LINK = "xpath=//a[text()='Logout']";
+
 }

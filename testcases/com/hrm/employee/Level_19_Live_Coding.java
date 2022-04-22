@@ -11,7 +11,7 @@ import pageObjects.hrm.AddEmployeePO;
 import pageObjects.hrm.DashboardPO;
 import pageObjects.hrm.EmployeeListPO;
 import pageObjects.hrm.LoginPO;
-import pageObjects.hrm.PageGeneratorManager;
+import pageObjects.hrm.PageGeneratorManagerHRM;
 import pageObjects.hrm.PersonalDetailPO;
 import ultilities.DataUtil;
 
@@ -22,7 +22,7 @@ public class Level_19_Live_Coding extends BaseTest {
 	public void beforeClass(String browserName, String appUrl) {
 		log.info("Precondition - Step 01: Open '" + browserName + "' browser and navigate to '" + appUrl + "'");
 		driver = GetBrowserDriver(browserName, appUrl);
-		loginPage = PageGeneratorManager.getLoginPage(driver);
+		loginPage = PageGeneratorManagerHRM.getLoginPage(driver);
 		faker = DataUtil.getData();
 
 		adminUserName = "admin";
@@ -39,18 +39,18 @@ public class Level_19_Live_Coding extends BaseTest {
 		loginPage.enterToTextboxByID(driver, "txtUsername", adminUserName);
 		loginPage.enterToTextboxByID(driver, "txtPassword", adminPassword);
 		loginPage.clickToButtonByID(driver, "btnLogin");
-		dashboardPage = PageGeneratorManager.getDashboardPage(driver);
+		dashboardPage = PageGeneratorManagerHRM.getDashboardPage(driver);
 	}
 
 	@Test
 	public void Employee_01_Add_New_Employee() {
 		log.info("Add_New_Employee - Step 01: Open 'Employee List' page");
 		dashboardPage.openSubMenuPage(driver, "PIM", "Employee List");
-		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+		employeeListPage = PageGeneratorManagerHRM.getEmployeeListPage(driver);
 
 		log.info("Add_New_Employee - Step 02: Click to 'Add' button");
 		employeeListPage.clickToButtonByID(driver, "btnAdd");
-		addEmployeePage = PageGeneratorManager.getAddEmployeePage(driver);
+		addEmployeePage = PageGeneratorManagerHRM.getAddEmployeePage(driver);
 
 		log.info("Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox");
 		addEmployeePage.enterToTextboxByID(driver, "firstName", empFirstName);
@@ -78,21 +78,22 @@ public class Level_19_Live_Coding extends BaseTest {
 
 		log.info("Add_New_Employee - Step 11: Click to 'Save' button");
 		addEmployeePage.clickToButtonByID(driver, "btnSave");
-		personalDetailPage = PageGeneratorManager.getPersonalDetailPage(driver);
+		personalDetailPage = PageGeneratorManagerHRM.getPersonalDetailPage(driver);
 
 		log.info("Add_New_Employee - Step 12: Open 'Employee List' page");
-		personalDetailPage.sleepInSecond(3);
+		// verifyTrue(personalDetailPage.areJQueryAndJSLoadedSuccess(driver));
 		personalDetailPage.openSubMenuPage(driver, "PIM", "Employee List");
-		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+		employeeListPage = PageGeneratorManagerHRM.getEmployeeListPage(driver);
 
 		log.info("Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox");
-		employeeListPage.sleepInSecond(3);
+		verifyTrue(personalDetailPage.areJQueryAndJSLoadedSuccess(driver));
+
 		employeeListPage.enterToTextboxByID(driver, "empsearch_employee_name_empName", empFullName);
-		employeeListPage.sleepInSecond(3);
+		verifyTrue(personalDetailPage.areJQueryAndJSLoadedSuccess(driver));
 
 		log.info("Add_New_Employee - Step 14: Click to 'Search' button");
 		employeeListPage.clickToButtonByID(driver, "searchBtn");
-		employeeListPage.sleepInSecond(3);
+		verifyTrue(personalDetailPage.areJQueryAndJSLoadedSuccess(driver));
 
 		log.info("Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'");
 		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Id"), employeeID);
@@ -101,7 +102,28 @@ public class Level_19_Live_Coding extends BaseTest {
 
 	@Test
 	public void Employee_02_Upload_Avatar() {
+		log.info("Upload_Avatar - Step 01: Login with Employee role");
+		loginPage = employeeListPage.logoutToSystem(driver);
+		dashboardPage = loginPage.loginToSystem(empUserName, empPassword);
 
+		log.info("Upload_Avatar - Step 02: Click to Personal Detail Page");
+		dashboardPage.openMenuPage(driver, "My Info");
+		personalDetailPage = PageGeneratorManagerHRM.getPersonalDetailPage(driver);
+
+		log.info("Upload_Avatar - Step 03: Click to change Avatar IMG");
+		personalDetailPage.clickToChangeAvatar();
+
+		log.info("Upload_Avatar - Step 04: Upload Avatar IMG");
+		personalDetailPage.uploadMultipleFiles(driver, "Appium.png");
+
+		log.info("Upload_Avatar - Step 05: Click to Upload button");
+		personalDetailPage.clickToButtonByID(driver, "btnSave");
+
+		log.info("Upload_Avatar - Step 06: Verify success message is displayed");
+		verifyTrue(personalDetailPage.isAvatarUploadSuccessMessageDisplayed());
+
+		log.info("Upload_Avatar - Step 06: Verify new Avatar IMG is displayed");
+		verifyTrue(personalDetailPage.isNewAvatarDisplayed());
 	}
 
 	@Test
@@ -156,7 +178,8 @@ public class Level_19_Live_Coding extends BaseTest {
 
 	private WebDriver driver;
 	private DataUtil faker;
-	private String empFirstName, empLastName, employeeID, statusValue, empUserName, empPassword, empFullName, adminUserName, adminPassword;
+	private String empFirstName, empLastName, employeeID, statusValue, empUserName, empPassword, empFullName;
+	private String adminUserName, adminPassword;
 
 	private LoginPO loginPage;
 	private DashboardPO dashboardPage;

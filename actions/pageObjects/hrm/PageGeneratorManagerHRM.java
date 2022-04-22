@@ -2,7 +2,7 @@ package pageObjects.hrm;
 
 import org.openqa.selenium.WebDriver;
 
-public class PageGeneratorManager {
+public class PageGeneratorManagerHRM {
 	public static LoginPO getLoginPage(WebDriver driver) {
 		return new LoginPO(driver);
 	}

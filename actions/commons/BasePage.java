@@ -19,6 +19,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.hrm.LoginPO;
+import pageObjects.hrm.PageGeneratorManagerHRM;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
@@ -434,6 +436,26 @@ public class BasePage {
 		jsExecutor.executeScript("arguments[0].removeAttribute('" + attributeRemove + "');", getWebElement(driver, locatorType));
 	}
 
+	public boolean isJqueyAjaxLoadedSuccess(WebDriver driver) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
+			@Override
+			public Boolean apply(WebDriver driver) {
+				return (Boolean) jsExecutor.executeScript("return (window.jQuery != null) && (jQuery.active === 0);");
+			}
+		};
+		//
+		// ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+		// @Override
+		// public Boolean apply(WebDriver driver) {
+		// return jsExecutor.executeScript("return document.readyState").toString().equals("complete");
+		// }
+		// };
+		// return explicitWait.until(jQueryLoad) && explicitWait.until(jsLoad);
+		return explicitWait.until(jQueryLoad);
+	}
+
 	public boolean areJQueryAndJSLoadedSuccess(WebDriver driver) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
@@ -768,6 +790,16 @@ public class BasePage {
 		int columnIndex = getElementSize(driver, BasePageHrmUI.COLUMN_INDEX_BY_ID, tableID, columnName) + 1;
 		waitForElementVisible(driver, BasePageHrmUI.TABLE_VALUE_BY_ROW_AND_COLUMN_INDEX, tableID, rowIndex, String.valueOf(columnIndex));
 		return getElementText(driver, BasePageHrmUI.TABLE_VALUE_BY_ROW_AND_COLUMN_INDEX, tableID, rowIndex, String.valueOf(columnIndex));
+	}
+
+	public LoginPO logoutToSystem(WebDriver driver) {
+		waitForElementClickable(driver, BasePageHrmUI.WELCOME_LINK);
+		clickToElement(driver, BasePageHrmUI.WELCOME_LINK);
+
+		waitForElementClickable(driver, BasePageHrmUI.LOGOUT_LINK);
+		clickToElement(driver, BasePageHrmUI.LOGOUT_LINK);
+
+		return PageGeneratorManagerHRM.getLoginPage(driver);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIME_OUT;

@@ -11,9 +11,4 @@ public class EmployeeListPO extends BasePage {
 		this.driver = driver;
 	}
 
-	public boolean isEmployeeInfoIsDisplayedAtTable(String string, String string2, String string3) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
 }

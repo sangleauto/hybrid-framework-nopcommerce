@@ -11,7 +11,7 @@ import pageObjects.hrm.AddEmployeePO;
 import pageObjects.hrm.DashboardPO;
 import pageObjects.hrm.EmployeeListPO;
 import pageObjects.hrm.LoginPO;
-import pageObjects.hrm.PageGeneratorManager;
+import pageObjects.hrm.PageGeneratorManagerHRM;
 import pageObjects.hrm.PersonalDetailPO;
 import ultilities.DataUtil;
 
@@ -22,7 +22,7 @@ public class Level_22_FakeData extends BaseTest {
 	public void beforeClass(String browserName, String appUrl) {
 		log.info("Precondition - Step 01: Open '" + browserName + "' browser and navigate to '" + appUrl + "'");
 		driver = GetBrowserDriver(browserName, appUrl);
-		loginPage = PageGeneratorManager.getLoginPage(driver);
+		loginPage = PageGeneratorManagerHRM.getLoginPage(driver);
 		faker = DataUtil.getData();
 
 		adminUserName = "admin";
@@ -39,18 +39,18 @@ public class Level_22_FakeData extends BaseTest {
 		loginPage.enterToTextboxByID(driver, "txtUsername", adminUserName);
 		loginPage.enterToTextboxByID(driver, "txtPassword", adminPassword);
 		loginPage.clickToButtonByID(driver, "btnLogin");
-		dashboardPage = PageGeneratorManager.getDashboardPage(driver);
+		dashboardPage = PageGeneratorManagerHRM.getDashboardPage(driver);
 	}
 
 	@Test
 	public void Employee_01_Add_New_Employee() {
 		log.info("Add_New_Employee - Step 01: Open 'Employee List' page");
 		dashboardPage.openSubMenuPage(driver, "PIM", "Employee List");
-		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+		employeeListPage = PageGeneratorManagerHRM.getEmployeeListPage(driver);
 
 		log.info("Add_New_Employee - Step 02: Click to 'Add' button");
 		employeeListPage.clickToButtonByID(driver, "btnAdd");
-		addEmployeePage = PageGeneratorManager.getAddEmployeePage(driver);
+		addEmployeePage = PageGeneratorManagerHRM.getAddEmployeePage(driver);
 
 		log.info("Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox");
 		addEmployeePage.enterToTextboxByID(driver, "firstName", empFirstName);
@@ -78,12 +78,12 @@ public class Level_22_FakeData extends BaseTest {
 
 		log.info("Add_New_Employee - Step 11: Click to 'Save' button");
 		addEmployeePage.clickToButtonByID(driver, "btnSave");
-		personalDetailPage = PageGeneratorManager.getPersonalDetailPage(driver);
+		personalDetailPage = PageGeneratorManagerHRM.getPersonalDetailPage(driver);
 
 		log.info("Add_New_Employee - Step 12: Open 'Employee List' page");
 		personalDetailPage.sleepInSecond(3);
 		personalDetailPage.openSubMenuPage(driver, "PIM", "Employee List");
-		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+		employeeListPage = PageGeneratorManagerHRM.getEmployeeListPage(driver);
 
 		log.info("Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox");
 		employeeListPage.sleepInSecond(3);
