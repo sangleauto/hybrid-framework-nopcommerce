@@ -12,7 +12,7 @@ import pageObjects.hrm.DashboardPO;
 import pageObjects.hrm.EmployeeListPO;
 import pageObjects.hrm.LoginPO;
 import pageObjects.hrm.PageGeneratorManagerHRM;
-import pageObjects.hrm.PersonalDetailPO;
+import pageObjects.hrm.MyInfoPO;
 import ultilities.DataUtil;
 
 public class Level_22_FakeData extends BaseTest {
@@ -62,7 +62,7 @@ public class Level_22_FakeData extends BaseTest {
 		employeeID = addEmployeePage.getAttributeInTextboxByID(driver, "employeeId", "value");
 
 		log.info("Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox");
-		addEmployeePage.checkToCheckboxByID(driver, "Create Login Details");
+		addEmployeePage.checkToCheckboxByLabelName(driver, "Create Login Details");
 
 		log.info("Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox");
 		addEmployeePage.enterToTextboxByID(driver, "user_name", empUserName);
@@ -78,7 +78,7 @@ public class Level_22_FakeData extends BaseTest {
 
 		log.info("Add_New_Employee - Step 11: Click to 'Save' button");
 		addEmployeePage.clickToButtonByID(driver, "btnSave");
-		personalDetailPage = PageGeneratorManagerHRM.getPersonalDetailPage(driver);
+		personalDetailPage = PageGeneratorManagerHRM.getMyInfoPage(driver);
 
 		log.info("Add_New_Employee - Step 12: Open 'Employee List' page");
 		personalDetailPage.sleepInSecond(3);
@@ -162,6 +162,6 @@ public class Level_22_FakeData extends BaseTest {
 	private DashboardPO dashboardPage;
 	private EmployeeListPO employeeListPage;
 	private AddEmployeePO addEmployeePage;
-	private PersonalDetailPO personalDetailPage;
+	private MyInfoPO personalDetailPage;
 
 }

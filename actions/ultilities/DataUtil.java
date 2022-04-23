@@ -37,4 +37,28 @@ public class DataUtil {
 		return faker.internet().password();
 	}
 
+	public String getCity() {
+		return faker.address().city();
+	}
+
+	public String getCountry() {
+		return faker.address().country();
+	}
+
+	public String getAddress() {
+		return faker.address().streetAddress();
+	}
+
+	public String getStateOrProVince() {
+		return faker.address().state();
+	}
+
+	public String getZipCode() {
+		return faker.address().zipCode();
+	}
+
+	public String getPhoneNumber() {
+		return faker.phoneNumber().cellPhone();
+	}
+
 }

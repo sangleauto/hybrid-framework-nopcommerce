@@ -167,7 +167,6 @@ public class BasePage {
 			locatorType = String.format(locatorType, (Object[]) dynamicValues);
 		}
 
-		System.out.println("Locator Type: " + locatorType);
 		return locatorType;
 
 	}
@@ -205,7 +204,7 @@ public class BasePage {
 	}
 
 	public String getElementText(WebDriver driver, String locatorType, String... dynamicValues) {
-		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText().trim();
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText();
 	}
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
@@ -357,6 +356,10 @@ public class BasePage {
 
 	public boolean isElementEnabled(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).isEnabled();
+	}
+
+	public boolean isElementEnabled(WebDriver driver, String locatorType, String... dynamicValues) {
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isEnabled();
 	}
 
 	public void switchToFrameIFrame(WebDriver driver, String locatorType) {
@@ -756,21 +759,33 @@ public class BasePage {
 	}
 
 	// Get value in Textbox
+	public String getValueInTextboxByID(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, BasePageHrmUI.TEXTBOX_BY_ID, textboxID);
+		return getElementText(driver, BasePageHrmUI.TEXTBOX_BY_ID, textboxID);
+	}
+
+	// Get attribute value in Textbox
 	public String getAttributeInTextboxByID(WebDriver driver, String textboxID, String attrValue) {
 		waitForElementVisible(driver, BasePageHrmUI.TEXTBOX_BY_ID, textboxID);
 		return getAttributeValue(driver, BasePageHrmUI.TEXTBOX_BY_ID, attrValue, textboxID);
 	}
 
 	// Check to Checkbox
-	public void checkToCheckboxByID(WebDriver driver, String checkboxLableName) {
+	public void checkToCheckboxByLabelName(WebDriver driver, String checkboxLableName) {
 		waitForElementClickable(driver, BasePageHrmUI.CHECKBOX_BY_LABEL, checkboxLableName);
 		checkToDefaultCheckboxOrRadio(driver, BasePageHrmUI.CHECKBOX_BY_LABEL, checkboxLableName);
 	}
 
 	// Check to Radio button
-	public void checkToRadioButtonByID(WebDriver driver, String radioLableName) {
+	public void checkToRadioButtonByLabelName(WebDriver driver, String radioLableName) {
 		waitForElementClickable(driver, BasePageHrmUI.RADIO_BY_LABEL, radioLableName);
 		checkToDefaultCheckboxOrRadio(driver, BasePageHrmUI.RADIO_BY_LABEL, radioLableName);
+	}
+
+	// Check Radio is checked or not
+	public boolean isRadioCheckedByLabelName(WebDriver driver, String radioLableName) {
+		waitForElementVisible(driver, BasePageHrmUI.RADIO_BY_LABEL, radioLableName);
+		return isElementSelected(driver, BasePageHrmUI.RADIO_BY_LABEL, radioLableName);
 	}
 
 	// Select item in default dropdown
@@ -800,6 +815,16 @@ public class BasePage {
 		clickToElement(driver, BasePageHrmUI.LOGOUT_LINK);
 
 		return PageGeneratorManagerHRM.getLoginPage(driver);
+	}
+
+	public boolean isSuccessMessageDisplayed(WebDriver driver, String msgContent) {
+		waitForElementVisible(driver, BasePageHrmUI.SUCCESS_MSG, msgContent);
+		return isElementDisplayed(driver, BasePageHrmUI.SUCCESS_MSG, msgContent);
+	}
+
+	public boolean isFieldEnabledByID(WebDriver driver, String fieldID) {
+		waitForElementVisible(driver, BasePageHrmUI.ANY_FIELD_BY_ID, fieldID);
+		return isElementEnabled(driver, BasePageHrmUI.ANY_FIELD_BY_ID, fieldID);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIME_OUT;
