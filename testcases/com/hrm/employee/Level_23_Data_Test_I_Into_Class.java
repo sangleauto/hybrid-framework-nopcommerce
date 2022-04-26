@@ -15,7 +15,7 @@ import pageObjects.hrm.MyInfoPO;
 import pageObjects.hrm.PageGeneratorManagerHRM;
 import ultilities.DataUtil;
 
-public class Level_19_Live_Coding extends BaseTest {
+public class Level_23_Data_Test_I_Into_Class extends BaseTest {
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass // Multiple browser

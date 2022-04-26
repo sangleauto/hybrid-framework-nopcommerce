@@ -6,6 +6,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.hrm.data.Employee;
+
 import commons.BaseTest;
 import pageObjects.hrm.AddEmployeePO;
 import pageObjects.hrm.DashboardPO;
@@ -15,7 +17,7 @@ import pageObjects.hrm.MyInfoPO;
 import pageObjects.hrm.PageGeneratorManagerHRM;
 import ultilities.DataUtil;
 
-public class Level_19_Live_Coding extends BaseTest {
+public class Level_23_Data_Test_III_Out_Class extends BaseTest {
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass // Multiple browser
@@ -25,21 +27,7 @@ public class Level_19_Live_Coding extends BaseTest {
 		loginPage = PageGeneratorManagerHRM.getLoginPage(driver);
 		faker = DataUtil.getData();
 
-		adminUserName = "Admin";
-		adminPassword = "admin123";
-
 		statusValue = "Enabled";
-		empFirstName = faker.getFirstName();
-		empLastName = faker.getLastName();
-		empFullName = empFirstName + " " + empLastName;
-		empUserName = faker.getUsername();
-		empPassword = faker.getPassword();
-
-		editEmpFirstName = faker.getFirstName();
-		editEmpLastName = faker.getLastName();
-		editEmpGender = "Male";
-		editEmpMarital = "Single";
-		editEmpNationality = "American";
 
 		contactAddress1 = faker.getAddress();
 		contactCity = faker.getCity();
@@ -48,8 +36,8 @@ public class Level_19_Live_Coding extends BaseTest {
 		contactWorkEmail = faker.getEmailAddress();
 
 		log.info("Precondition - Step 02: Login with Admin role");
-		loginPage.enterToTextboxByID(driver, "txtUsername", adminUserName);
-		loginPage.enterToTextboxByID(driver, "txtPassword", adminPassword);
+		loginPage.enterToTextboxByID(driver, "txtUsername", Employee.Role.ADMIN_USERNAME);
+		loginPage.enterToTextboxByID(driver, "txtPassword", Employee.Role.ADMIN_PASSWORD);
 		loginPage.clickToButtonByID(driver, "btnLogin");
 		dashboardPage = PageGeneratorManagerHRM.getDashboardPage(driver);
 	}
@@ -65,10 +53,10 @@ public class Level_19_Live_Coding extends BaseTest {
 		addEmployeePage = PageGeneratorManagerHRM.getAddEmployeePage(driver);
 
 		log.info("Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox");
-		addEmployeePage.enterToTextboxByID(driver, "firstName", empFirstName);
+		addEmployeePage.enterToTextboxByID(driver, "firstName", Employee.PersonalDetail.FIRSTNAME);
 
 		log.info("Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox");
-		addEmployeePage.enterToTextboxByID(driver, "lastName", empLastName);
+		addEmployeePage.enterToTextboxByID(driver, "lastName", Employee.PersonalDetail.LASTNAME);
 
 		log.info("Add_New_Employee - Step 05: Get value of 'Employee ID'");
 		employeeID = addEmployeePage.getAttributeInTextboxByID(driver, "employeeId", "value");
@@ -77,13 +65,13 @@ public class Level_19_Live_Coding extends BaseTest {
 		addEmployeePage.checkToCheckboxByLabelName(driver, "Create Login Details");
 
 		log.info("Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox");
-		addEmployeePage.enterToTextboxByID(driver, "user_name", empUserName);
+		addEmployeePage.enterToTextboxByID(driver, "user_name", Employee.PersonalDetail.USERNAME);
 
 		log.info("Add_New_Employee - Step 08: Enter valid info to 'Password' textbox");
-		addEmployeePage.enterToTextboxByID(driver, "user_password", empPassword);
+		addEmployeePage.enterToTextboxByID(driver, "user_password", Employee.PersonalDetail.PASSWORD);
 
 		log.info("Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox");
-		addEmployeePage.enterToTextboxByID(driver, "re_password", empPassword);
+		addEmployeePage.enterToTextboxByID(driver, "re_password", Employee.PersonalDetail.PASSWORD);
 
 		log.info("Add_New_Employee - Step 10: Select '" + statusValue + " ' value in 'Status' dropdown");
 		addEmployeePage.selectDropdownByID(driver, "status", statusValue);
@@ -100,7 +88,7 @@ public class Level_19_Live_Coding extends BaseTest {
 		log.info("Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox");
 		verifyTrue(myInfoPage.areJQueryAndJSLoadedSuccess(driver));
 
-		employeeListPage.enterToTextboxByID(driver, "empsearch_employee_name_empName", empFullName);
+		employeeListPage.enterToTextboxByID(driver, "empsearch_employee_name_empName", Employee.PersonalDetail.FULLNAME);
 		verifyTrue(myInfoPage.areJQueryAndJSLoadedSuccess(driver));
 
 		log.info("Add_New_Employee - Step 14: Click to 'Search' button");
@@ -109,14 +97,14 @@ public class Level_19_Live_Coding extends BaseTest {
 
 		log.info("Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'");
 		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Id"), employeeID);
-		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Last Name"), empLastName);
+		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Last Name"), Employee.PersonalDetail.LASTNAME);
 	}
 
 	@Test
 	public void Employee_02_Upload_Avatar() {
 		log.info("Upload_Avatar - Step 01: Login with Employee role");
 		loginPage = employeeListPage.logoutToSystem(driver);
-		dashboardPage = loginPage.loginToSystem(empUserName, empPassword);
+		dashboardPage = loginPage.loginToSystem(Employee.PersonalDetail.USERNAME, Employee.PersonalDetail.PASSWORD);
 
 		log.info("Upload_Avatar - Step 02: Click to Personal Detail Page");
 		dashboardPage.openMenuPage(driver, "My Info");
@@ -173,19 +161,19 @@ public class Level_19_Live_Coding extends BaseTest {
 		verifyFalse(myInfoPage.isFieldEnabledByID(driver, "personal_DOB"));
 
 		log.info("Personal_Details - Step 09: Enter new value to 'First Name' textbox");
-		myInfoPage.enterToTextboxByID(driver, "personal_txtEmpFirstName", editEmpFirstName);
+		myInfoPage.enterToTextboxByID(driver, "personal_txtEmpFirstName", Employee.EditInfo.EDIT_FIRST_NAME);
 
 		log.info("Personal_Details - Step 10: Enter new value to 'Last Name' textbox");
-		myInfoPage.enterToTextboxByID(driver, "personal_txtEmpLastName", editEmpLastName);
+		myInfoPage.enterToTextboxByID(driver, "personal_txtEmpLastName", Employee.EditInfo.EDIT_LAST_NAME);
 
 		log.info("Personal_Details - Step 11: Enter new value to 'Gender' radio");
-		myInfoPage.checkToRadioButtonByLabelName(driver, editEmpGender);
+		myInfoPage.checkToRadioButtonByLabelName(driver, Employee.EditInfo.EDIT_GENDER);
 
 		log.info("Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown");
-		myInfoPage.selectDropdownByID(driver, "personal_cmbMarital", editEmpMarital);
+		myInfoPage.selectDropdownByID(driver, "personal_cmbMarital", Employee.EditInfo.EDIT_MARITAL);
 
 		log.info("Personal_Details - Step 13: Enter new value to 'Nationality' dropdown");
-		myInfoPage.selectDropdownByID(driver, "personal_cmbNation", editEmpNationality);
+		myInfoPage.selectDropdownByID(driver, "personal_cmbNation", Employee.EditInfo.EDIT_NATIONALITY);
 
 		log.info("Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form");
 		myInfoPage.clickToButtonByID(driver, "btnSave");
@@ -194,18 +182,18 @@ public class Level_19_Live_Coding extends BaseTest {
 		verifyTrue(myInfoPage.isSuccessMessageDisplayed(driver, "Successfully Saved"));
 		myInfoPage.sleepInSecond(5);
 		log.info("Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully");
-		verifyEquals(myInfoPage.getAttributeInTextboxByID(driver, "personal_txtEmpFirstName", "value"), editEmpFirstName);
+		verifyEquals(myInfoPage.getAttributeInTextboxByID(driver, "personal_txtEmpFirstName", "value"), Employee.EditInfo.EDIT_FIRST_NAME);
 		log.info("Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully");
-		verifyEquals(myInfoPage.getAttributeInTextboxByID(driver, "personal_txtEmpLastName", "value"), editEmpLastName);
+		verifyEquals(myInfoPage.getAttributeInTextboxByID(driver, "personal_txtEmpLastName", "value"), Employee.EditInfo.EDIT_LAST_NAME);
 
 		log.info("Personal_Details - Step 18: Verify 'Gender' radio is updated successfully");
-		verifyTrue(myInfoPage.isRadioCheckedByLabelName(driver, editEmpGender));
+		verifyTrue(myInfoPage.isRadioCheckedByLabelName(driver, Employee.EditInfo.EDIT_GENDER));
 
 		log.info("Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully");
-		verifyEquals(myInfoPage.getSelectedItemInDropdownByID(driver, "personal_cmbMarital"), editEmpMarital);
+		verifyEquals(myInfoPage.getSelectedItemInDropdownByID(driver, "personal_cmbMarital"), Employee.EditInfo.EDIT_MARITAL);
 
 		log.info("Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully");
-		verifyEquals(myInfoPage.getSelectedItemInDropdownByID(driver, "personal_cmbNation"), editEmpNationality);
+		verifyEquals(myInfoPage.getSelectedItemInDropdownByID(driver, "personal_cmbNation"), Employee.EditInfo.EDIT_NATIONALITY);
 
 		System.out.println("Employee ID: " + employeeID);
 		log.info("Personal_Details - Step 21: Verify 'Employee ID' textbox is correct");
@@ -309,9 +297,7 @@ public class Level_19_Live_Coding extends BaseTest {
 
 	private WebDriver driver;
 	private DataUtil faker;
-	private String empFirstName, empLastName, employeeID, statusValue, empUserName, empPassword, empFullName;
-	private String adminUserName, adminPassword;
-	private String editEmpFirstName, editEmpLastName, editEmpGender, editEmpMarital, editEmpNationality;
+	private String employeeID, statusValue;
 	private String contactAddress1, contactCity, contactCountry, contactMobile, contactWorkEmail;
 
 	private LoginPO loginPage;

@@ -1,0 +1,11 @@
+{
+	"firstname": "John",
+	"lastname": "Cena",
+	"fullname": "John Cena",
+	"username": "johncena123",
+	"password": "123123123",
+	"ContactDetail":{
+		"editFirstname" : "Harry",
+		"editLastname": "Kane"
+	}
+}

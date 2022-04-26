@@ -542,3 +542,483 @@ Session ID: e2061168-094a-412d-8ae9-36b56e563bce
 [2022-04-14 21:20:42,881] My Account - Step 10: Verify Newsletter Info is checked
 [2022-04-14 21:20:42,915] OS name = windows 10
 [2022-04-14 21:20:42,915] Driver instance name = firefoxdriver: firefox on windows (99d03e65-2958-4419-b481-a2a7c7fad70c)
+[2022-04-23 13:49:16,605] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 13:49:23,744] Precondition - Step 02: Login with Admin role
+[2022-04-23 13:49:28,265] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 13:49:31,045] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 13:49:31,812] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 13:49:31,945] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 13:49:32,068] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 13:49:32,113] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 13:49:32,214] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 13:49:32,343] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 13:49:32,468] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 13:49:32,590] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 13:49:32,671] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 13:49:32,760] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 13:49:36,396] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 13:49:37,094] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 13:49:38,242] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 13:49:38,490] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 13:49:41,924] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 13:49:43,388] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-23 13:49:44,257] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-23 13:49:44,343] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-23 13:49:45,976] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-23 13:49:46,022] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-23 13:49:46,086] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 13:49:46,985] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-23 13:49:47,038]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,080]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,120]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,163]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,204]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,244]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,290]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,335]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,374]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,413]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,453]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,453] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-23 13:49:47,558] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-23 13:49:47,601]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,601] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-23 13:49:47,648]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,649] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-23 13:49:47,679]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,680] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-23 13:49:47,713]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,754] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-23 13:49:47,786]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:49:47,786] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-23 13:49:47,904] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-23 13:49:48,030] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-23 13:49:48,111] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-23 13:49:48,202] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-23 13:49:48,295] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-23 13:49:49,678] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-23 13:49:54,727] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-23 13:49:54,767] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-23 13:49:54,806] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-23 13:49:54,845] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-23 13:49:54,925] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-23 13:49:55,110] OS name = windows 10
+[2022-04-23 13:49:55,110] Driver instance name = chromedriver: chrome on windows (5a6beabe5ef4f005e03f41cffd8cdf62)
+[2022-04-23 13:52:26,806] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 13:52:32,451] Precondition - Step 02: Login with Admin role
+[2022-04-23 13:52:37,051] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 13:52:39,957] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 13:52:40,677] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 13:52:40,812] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 13:52:40,936] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 13:52:40,982] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 13:52:41,082] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 13:52:41,204] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 13:52:41,348] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 13:52:41,479] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 13:52:41,560] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 13:52:41,645] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 13:52:44,988] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 13:52:45,700] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 13:52:46,866] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 13:52:47,087] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 13:52:50,562] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 13:52:51,606] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-23 13:52:52,311] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-23 13:52:52,379] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-23 13:52:53,850] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-23 13:52:53,897] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-23 13:52:53,959] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 13:52:54,779] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-23 13:52:54,826]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:54,877]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:54,919]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:54,960]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,002]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,046]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,090]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,132]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,177]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,215]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,255]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,255] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-23 13:52:55,335] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-23 13:52:55,370]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,370] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-23 13:52:55,405]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,406] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-23 13:52:55,438]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,438] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-23 13:52:55,471]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,471] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-23 13:52:55,504]  -------------------------- PASSED -------------------------- 
+[2022-04-23 13:52:55,504] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-23 13:52:55,627] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-23 13:52:55,756] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-23 13:52:55,846] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-23 13:52:55,933] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-23 13:52:56,025] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-23 13:52:57,433] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-23 13:53:02,478] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-23 13:53:02,523] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-23 13:53:02,569] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-23 13:53:02,608] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-23 13:53:02,691] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-23 13:53:02,903] OS name = windows 10
+[2022-04-23 13:53:02,904] Driver instance name = chromedriver: chrome on windows (9ba049ff6827b2216fbdbde25d323c86)
+[2022-04-23 13:59:36,047] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 13:59:42,290] Precondition - Step 02: Login with Admin role
+[2022-04-23 13:59:46,958] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 13:59:49,833] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 13:59:50,900] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 13:59:51,037] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 13:59:51,164] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 13:59:51,211] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 13:59:51,305] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 13:59:51,435] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 13:59:51,562] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 13:59:51,686] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 13:59:51,766] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 13:59:51,854] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 13:59:55,324] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 13:59:56,023] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 13:59:57,123] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 13:59:57,339] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 14:00:05,501] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 14:00:15,939] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 14:00:26,077] OS name = windows 10
+[2022-04-23 14:00:26,077] Driver instance name = chromedriver: chrome on windows (8bff0dd57d2841994b34109ff2be2508)
+[2022-04-23 14:00:26,083] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bff0dd57d2841994b34109ff2be2508
+[2022-04-23 14:00:41,429] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 14:00:46,964] Precondition - Step 02: Login with Admin role
+[2022-04-23 14:00:52,236] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 14:00:54,940] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 14:00:55,690] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 14:00:55,822] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 14:00:55,946] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 14:00:55,991] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 14:00:56,090] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 14:00:56,215] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 14:00:56,350] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 14:00:56,474] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 14:00:56,589] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 14:00:56,686] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 14:01:03,277] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 14:01:03,957] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 14:01:05,034] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 14:01:05,234] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 14:01:08,636] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 14:01:09,780] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-23 14:01:10,517] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-23 14:01:10,585] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-23 14:01:11,873] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-23 14:01:11,919] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-23 14:01:11,981] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 14:01:12,857] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-23 14:01:12,900]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:12,942]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:12,986]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,031]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,072]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,114]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,157]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,201]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,247]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,287]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,329]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,329] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-23 14:01:13,417] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-23 14:01:13,457]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,457] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-23 14:01:13,491]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,491] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-23 14:01:13,525]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,525] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-23 14:01:13,558]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,558] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-23 14:01:13,594]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:01:13,594] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-23 14:01:13,720] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-23 14:01:13,852] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-23 14:01:13,940] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-23 14:01:14,035] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-23 14:01:14,127] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-23 14:01:15,501] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-23 14:01:20,549] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-23 14:01:20,587] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-23 14:01:20,623] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-23 14:01:20,658] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-23 14:01:20,745] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-23 14:01:20,920] OS name = windows 10
+[2022-04-23 14:01:20,920] Driver instance name = chromedriver: chrome on windows (84f1918b983234e955398fb6a385fa0b)
+[2022-04-23 14:56:49,608] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 14:56:56,693] Precondition - Step 02: Login with Admin role
+[2022-04-23 14:57:01,118] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 14:57:04,140] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 14:57:04,874] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 14:57:05,031] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 14:57:05,157] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 14:57:05,198] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 14:57:05,291] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 14:57:05,412] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 14:57:05,538] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 14:57:05,664] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 14:57:05,744] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 14:57:05,829] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 14:57:09,219] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 14:57:09,913] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 14:57:11,011] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 14:57:11,252] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 14:57:14,633] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 14:57:15,661] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-23 14:57:16,361] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-23 14:57:16,431] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-23 14:57:17,898] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-23 14:57:17,945] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-23 14:57:18,007] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 14:57:18,826] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-23 14:57:18,869]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:18,913]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:18,956]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,002]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,047]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,089]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,133]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,173]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,212]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,255]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,297]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,297] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-23 14:57:19,382] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-23 14:57:19,420]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,420] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-23 14:57:19,452]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,452] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-23 14:57:19,488]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,488] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-23 14:57:19,523]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,523] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-23 14:57:19,557]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:19,557] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-23 14:57:19,690] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-23 14:57:19,812] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-23 14:57:19,895] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-23 14:57:19,981] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-23 14:57:20,069] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-23 14:57:21,373] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-23 14:57:26,426] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-23 14:57:26,459] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-23 14:57:26,495] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-23 14:57:26,529] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-23 14:57:26,607] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-23 14:57:26,723] Personal_Details - Step 21: Verify 'Employee ID' textbox is correct
+[2022-04-23 14:57:26,777] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-23 14:57:27,901] Contact Details - Step 02: Verify all fields are disabled
+[2022-04-23 14:57:27,945]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:27,986]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,028]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,069]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,111]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,150]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,191]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,230]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,271]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,309]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,349]  -------------------------- PASSED -------------------------- 
+[2022-04-23 14:57:28,349] Contact Details - Step 03: Click to 'Edit' button
+[2022-04-23 14:57:28,432] Contact Details - Step 04: Enter new value to 'Address Street 1' textbox
+[2022-04-23 14:57:28,562] Contact Details - Step 04: Enter new value to 'City' textbox
+[2022-04-23 14:57:28,696] Contact Details - Step 05: Choose new value in 'Country' dropdown
+[2022-04-23 14:57:28,803] Contact Details - Step 06: Enter new value to 'Mobile' textbox
+[2022-04-23 14:57:28,924] Contact Details - Step 07: Enter new value to 'Work Email' textbox
+[2022-04-23 14:57:29,063] Contact Details - Step 08: Click to 'Save' button
+[2022-04-23 14:57:29,142] Contact Details - Step 09: Verify 'Address Street 1' is updated
+[2022-04-23 14:57:29,179] Contact Details - Step 10: Verify 'City' is updated
+[2022-04-23 14:57:29,213] Contact Details - Step 11: Verify 'Country' is updated
+[2022-04-23 14:57:29,259] OS name = windows 10
+[2022-04-23 14:57:29,259] Driver instance name = chromedriver: chrome on windows (697bf1448198fe6a75c4d1e6345c7ee0)
+[2022-04-23 15:00:55,436] OS name = windows 10
+[2022-04-23 15:00:55,437] 
+[2022-04-23 15:01:31,860] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 15:01:37,355] Precondition - Step 02: Login with Admin role
+[2022-04-23 15:01:41,607] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 15:01:44,507] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 15:01:45,224] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 15:01:45,350] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 15:01:45,472] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 15:01:45,517] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 15:01:45,610] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 15:01:45,740] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 15:01:45,872] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 15:01:45,997] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 15:01:46,076] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 15:01:46,165] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 15:01:49,678] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 15:01:50,373] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 15:01:51,578] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 15:01:51,807] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 15:01:55,166] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 15:01:56,186] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-23 15:01:56,902] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-23 15:01:56,967] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-23 15:01:58,417] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-23 15:01:58,467] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-23 15:01:58,531] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 15:01:59,291] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-23 15:01:59,339]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,381]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,423]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,464]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,507]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,548]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,591]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,631]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,672]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,715]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,759]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,759] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-23 15:01:59,846] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-23 15:01:59,881]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,881] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-23 15:01:59,914]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,915] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-23 15:01:59,946]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,946] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-23 15:01:59,981]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:01:59,981] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-23 15:02:00,016]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:00,016] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-23 15:02:00,138] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-23 15:02:00,264] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-23 15:02:00,345] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-23 15:02:00,432] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-23 15:02:00,527] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-23 15:02:01,894] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-23 15:02:06,956] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-23 15:02:06,991] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-23 15:02:07,025] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-23 15:02:07,061] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-23 15:02:07,141] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-23 15:02:07,261] Personal_Details - Step 21: Verify 'Employee ID' textbox is correct
+[2022-04-23 15:02:07,316] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-23 15:02:08,281] Contact Details - Step 02: Verify all fields are disabled
+[2022-04-23 15:02:08,332]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,372]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,413]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,452]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,494]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,535]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,576]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,616]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,655]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,695]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,733]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:02:08,733] Contact Details - Step 03: Click to 'Edit' button
+[2022-04-23 15:02:08,813] Contact Details - Step 04: Enter new value to 'Address Street 1' textbox
+[2022-04-23 15:02:08,987] Contact Details - Step 04: Enter new value to 'City' textbox
+[2022-04-23 15:02:09,127] Contact Details - Step 05: Choose new value in 'Country' dropdown
+[2022-04-23 15:02:09,220] Contact Details - Step 06: Enter new value to 'Mobile' textbox
+[2022-04-23 15:02:09,352] Contact Details - Step 07: Enter new value to 'Work Email' textbox
+[2022-04-23 15:02:09,481] Contact Details - Step 08: Click to 'Save' button
+[2022-04-23 15:02:09,557] Contact Details - Step 09: Verify 'Address Street 1' is updated
+[2022-04-23 15:02:09,592] Contact Details - Step 10: Verify 'City' is updated
+[2022-04-23 15:02:09,623] Contact Details - Step 11: Verify 'Country' is updated
+[2022-04-23 15:02:10,501] Contact Details - Step 12: Verify 'Mobile' is updated
+[2022-04-23 15:02:10,543] Contact Details - Step 13: Verify 'Work Email' is updated
+[2022-04-23 15:02:10,632] OS name = windows 10
+[2022-04-23 15:02:10,633] Driver instance name = chromedriver: chrome on windows (21fe8e6160a90b6b35c8505acb8c0878)
+[2022-04-23 15:03:52,960] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-23 15:03:58,563] Precondition - Step 02: Login with Admin role
+[2022-04-23 15:04:02,836] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-23 15:04:05,571] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-23 15:04:06,297] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-23 15:04:06,434] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-23 15:04:06,553] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-23 15:04:06,596] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-23 15:04:06,688] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-23 15:04:06,807] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-23 15:04:06,929] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-23 15:04:07,050] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-23 15:04:07,130] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-23 15:04:07,214] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-23 15:04:10,673] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-23 15:04:11,351] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-23 15:04:12,476] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-23 15:04:12,699] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-23 15:04:16,053] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-23 15:04:17,068] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-23 15:04:17,795] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-23 15:04:17,862] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-23 15:04:19,418] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-23 15:04:19,468] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-23 15:04:19,530] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-23 15:04:20,350] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-23 15:04:20,395]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,437]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,490]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,536]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,586]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,638]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,684]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,724]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,761]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,803]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,844]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,844] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-23 15:04:20,916] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-23 15:04:20,950]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,950] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-23 15:04:20,983]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:20,983] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-23 15:04:21,016]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:21,016] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-23 15:04:21,047]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:21,047] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-23 15:04:21,082]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:21,082] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-23 15:04:21,200] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-23 15:04:21,324] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-23 15:04:21,430] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-23 15:04:21,531] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-23 15:04:21,631] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-23 15:04:22,926] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-23 15:04:27,981] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-23 15:04:28,019] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-23 15:04:28,052] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-23 15:04:28,087] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-23 15:04:28,178] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-23 15:04:28,299] Personal_Details - Step 21: Verify 'Employee ID' textbox is correct
+[2022-04-23 15:04:28,344] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-23 15:04:29,331] Contact Details - Step 02: Verify all fields are disabled
+[2022-04-23 15:04:29,375]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,413]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,455]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,498]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,549]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,591]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,629]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,667]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,707]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,747]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,787]  -------------------------- PASSED -------------------------- 
+[2022-04-23 15:04:29,787] Contact Details - Step 03: Click to 'Edit' button
+[2022-04-23 15:04:29,866] Contact Details - Step 04: Enter new value to 'Address Street 1' textbox
+[2022-04-23 15:04:29,999] Contact Details - Step 04: Enter new value to 'City' textbox
+[2022-04-23 15:04:30,133] Contact Details - Step 05: Choose new value in 'Country' dropdown
+[2022-04-23 15:04:30,229] Contact Details - Step 06: Enter new value to 'Mobile' textbox
+[2022-04-23 15:04:30,357] Contact Details - Step 07: Enter new value to 'Work Email' textbox
+[2022-04-23 15:04:30,494] Contact Details - Step 08: Click to 'Save' button
+[2022-04-23 15:04:30,604] Contact Details - Step 09: Verify 'Address Street 1' is updated
+[2022-04-23 15:04:30,638] Contact Details - Step 10: Verify 'City' is updated
+[2022-04-23 15:04:30,673] Contact Details - Step 11: Verify 'Country' is updated
+[2022-04-23 15:04:31,549] Contact Details - Step 12: Verify 'Mobile' is updated
+[2022-04-23 15:04:31,585] Contact Details - Step 13: Verify 'Work Email' is updated
+[2022-04-23 15:04:31,668] OS name = windows 10
+[2022-04-23 15:04:31,669] Driver instance name = chromedriver: chrome on windows (3501230708849da23e54fa5d5625f750)
