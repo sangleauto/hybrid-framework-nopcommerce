@@ -2,6 +2,10 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -12,6 +16,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -71,10 +78,46 @@ public class BaseTest {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH + File.separator + "browserLogs" + File.separator + "Firefox.log");
+
+			FirefoxOptions options = new FirefoxOptions();
+			options.addPreference("intl.accept_languages", "vi-vn, vi, en-us, en");
+			driver = new FirefoxDriver(options);
+		} else if (browserList == BrowserList.H_FIREFOX) {
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.addArguments("--headless");
+			options.addArguments("window-size=1920x1080");
+			driver = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
+
+			ChromeOptions options = new ChromeOptions();
+			// Disable info bar when running auto test
+			options.setExperimentalOption("useAutomationExtension", false);
+			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			// Disable notification popup
+			options.addArguments("--disable-notifications");
+			// Disable location popup
+			options.addArguments("--disable-geolocation");
+			// Disable save password popup
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			options.setExperimentalOption("prefs", prefs);
+
+			driver = new ChromeDriver(options);
+		} else if (browserList == BrowserList.H_CHROME) {
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless");
+			options.addArguments("window-size=1920x1080");
+			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
@@ -225,6 +268,16 @@ public class BaseTest {
 				e.printStackTrace();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
+			}
+		}
+	}
+
+	protected void showBrowserConsoleLogs(WebDriver driver) {
+		if (driver.toString().contains("chrome")) {
+			LogEntries logs = driver.manage().logs().get("browser");
+			List<LogEntry> logList = logs.getAll();
+			for (LogEntry logging : logList) {
+				log.info("-------------" + logging.getLevel().toString() + "------------- \n" + logging.getMessage());
 			}
 		}
 	}

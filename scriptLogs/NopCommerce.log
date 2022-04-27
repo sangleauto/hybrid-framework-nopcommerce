@@ -1022,3 +1022,280 @@ Session ID: 8bff0dd57d2841994b34109ff2be2508
 [2022-04-23 15:04:31,585] Contact Details - Step 13: Verify 'Work Email' is updated
 [2022-04-23 15:04:31,668] OS name = windows 10
 [2022-04-23 15:04:31,669] Driver instance name = chromedriver: chrome on windows (3501230708849da23e54fa5d5625f750)
+[2022-04-26 19:20:24,960] Precondition - Step 01: Open 'h_firefox' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 19:20:35,230] Precondition - Step 02: Login with Admin role
+[2022-04-26 19:20:40,763] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 19:20:45,079] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 19:20:46,528] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 19:20:46,619] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-26 19:20:46,664] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-26 19:20:46,703] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-26 19:20:46,959] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-26 19:20:47,002] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-26 19:20:47,072] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-26 19:20:47,121] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-26 19:20:47,179] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-26 19:20:47,427] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-26 19:20:51,091] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-26 19:20:51,710] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-26 19:20:53,324] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-26 19:20:53,550] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 19:21:29,708] Precondition - Step 01: Open 'h_chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 19:21:40,067] Precondition - Step 02: Login with Admin role
+[2022-04-26 19:21:45,106] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 19:21:49,305] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 19:21:50,262] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 19:21:50,400] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-26 19:21:50,530] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-26 19:21:50,582] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-26 19:21:50,700] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-26 19:21:50,820] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-26 19:21:50,968] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-26 19:21:51,103] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-26 19:21:51,210] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-26 19:21:51,332] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-26 19:21:57,593] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-26 19:21:58,316] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-26 19:21:59,839] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-26 19:22:00,178] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 19:22:04,835] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-26 19:22:06,537] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-26 19:22:07,958] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-26 19:22:08,049] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-26 19:22:10,276] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-26 19:22:10,331] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-26 19:22:10,401] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-26 19:22:12,402] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-26 19:22:12,449]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,495]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,547]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,595]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,645]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,699]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,749]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,795]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,843]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,890]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,939]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:12,940] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-26 19:22:13,032] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-26 19:22:13,069]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:13,069] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-26 19:22:13,109]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:13,109] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-26 19:22:13,151]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:13,151] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-26 19:22:13,192]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:13,192] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-26 19:22:13,231]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:13,231] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-26 19:22:13,348] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-26 19:22:13,465] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-26 19:22:13,559] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-26 19:22:13,670] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-26 19:22:13,779] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-26 19:22:16,204] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-26 19:22:21,261] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-26 19:22:21,302] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-26 19:22:21,345] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-26 19:22:21,406] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-26 19:22:21,540] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-26 19:22:21,683] Personal_Details - Step 21: Verify 'Employee ID' textbox is correct
+[2022-04-26 19:22:21,735] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-26 19:22:23,069] Contact Details - Step 02: Verify all fields are disabled
+[2022-04-26 19:22:23,115]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,161]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,215]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,272]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,326]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,372]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,417]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,464]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,507]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,554]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,605]  -------------------------- PASSED -------------------------- 
+[2022-04-26 19:22:23,605] Contact Details - Step 03: Click to 'Edit' button
+[2022-04-26 19:22:23,705] Contact Details - Step 04: Enter new value to 'Address Street 1' textbox
+[2022-04-26 19:22:23,819] Contact Details - Step 04: Enter new value to 'City' textbox
+[2022-04-26 19:22:23,946] Contact Details - Step 05: Choose new value in 'Country' dropdown
+[2022-04-26 19:22:24,064] Contact Details - Step 06: Enter new value to 'Mobile' textbox
+[2022-04-26 19:22:24,216] Contact Details - Step 07: Enter new value to 'Work Email' textbox
+[2022-04-26 19:22:24,383] Contact Details - Step 08: Click to 'Save' button
+[2022-04-26 19:22:24,485] Contact Details - Step 09: Verify 'Address Street 1' is updated
+[2022-04-26 19:22:24,531] Contact Details - Step 10: Verify 'City' is updated
+[2022-04-26 19:22:24,586] Contact Details - Step 11: Verify 'Country' is updated
+[2022-04-26 19:22:25,657] Contact Details - Step 12: Verify 'Mobile' is updated
+[2022-04-26 19:22:25,692] Contact Details - Step 13: Verify 'Work Email' is updated
+[2022-04-26 19:22:25,792] OS name = windows 10
+[2022-04-26 19:22:25,792] Driver instance name = chromedriver: chrome on windows (67dfa944c06a935fea21bf40f47c00fe)
+[2022-04-26 20:33:30,207] Precondition - Step 01: Open 'firefox' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 20:33:40,882] Precondition - Step 02: Login with Admin role
+[2022-04-26 20:33:44,551] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 20:33:54,567] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 20:33:54,582] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-26 20:33:54,594] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-26 20:33:54,688] OS name = windows 10
+[2022-04-26 20:33:54,688] Driver instance name = firefoxdriver: firefox on windows (6f004ced-6485-4469-9b10-cd4d5bf72394)
+[2022-04-26 20:33:54,696] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14868, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6f004ced-6485-4469-9b10-cd4d5bf72394
+[2022-04-26 20:59:46,084] Precondition - Step 01: Open 'firefox' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 20:59:56,850] Precondition - Step 02: Login with Admin role
+[2022-04-26 21:00:05,499] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 21:00:08,483] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 21:00:09,299] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 21:00:09,402] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-26 21:00:09,467] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-26 21:00:09,510] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-26 21:00:09,767] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-26 21:00:09,812] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-26 21:00:09,891] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-26 21:00:09,949] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-26 21:00:10,091] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-26 21:00:12,493] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-26 21:00:14,674] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-26 21:00:15,301] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-26 21:00:16,436] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-26 21:00:16,601] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 21:00:20,001] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-26 21:00:21,663] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-26 21:00:22,598] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-26 21:00:22,622] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-26 21:00:24,142] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-26 21:00:24,187] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-26 21:00:24,237] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-26 21:00:25,459] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-26 21:00:25,499]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,529]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,570]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,602]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,640]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,675]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,712]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,743]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,770]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,797]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,830]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:25,830] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-26 21:00:26,089] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-26 21:00:26,115]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:26,116] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-26 21:00:26,143]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:26,144] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-26 21:00:26,170]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:26,170] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-26 21:00:26,195]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:26,195] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-26 21:00:26,222]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:26,222] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-26 21:00:26,275] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-26 21:00:26,332] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-26 21:00:26,580] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-26 21:00:26,830] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-26 21:00:27,082] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-26 21:00:28,980] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-26 21:00:34,030] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-26 21:00:34,063] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-26 21:00:34,093] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-26 21:00:34,121] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-26 21:00:34,174] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-26 21:00:34,250] Personal_Details - Step 21: Verify 'Employee ID' textbox is correct
+[2022-04-26 21:00:34,286] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-26 21:00:35,609] Contact Details - Step 02: Verify all fields are disabled
+[2022-04-26 21:00:35,644]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,673]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,699]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,729]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,761]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,803]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,836]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,867]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,901]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,944]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,975]  -------------------------- PASSED -------------------------- 
+[2022-04-26 21:00:35,975] Contact Details - Step 03: Click to 'Edit' button
+[2022-04-26 21:00:36,229] Contact Details - Step 04: Enter new value to 'Address Street 1' textbox
+[2022-04-26 21:00:36,283] Contact Details - Step 04: Enter new value to 'City' textbox
+[2022-04-26 21:00:36,328] Contact Details - Step 05: Choose new value in 'Country' dropdown
+[2022-04-26 21:00:36,596] Contact Details - Step 06: Enter new value to 'Mobile' textbox
+[2022-04-26 21:00:36,662] Contact Details - Step 07: Enter new value to 'Work Email' textbox
+[2022-04-26 21:00:36,730] Contact Details - Step 08: Click to 'Save' button
+[2022-04-26 21:00:38,166] Contact Details - Step 09: Verify 'Address Street 1' is updated
+[2022-04-26 21:00:38,198] Contact Details - Step 10: Verify 'City' is updated
+[2022-04-26 21:00:38,227] Contact Details - Step 11: Verify 'Country' is updated
+[2022-04-26 21:00:38,558] Contact Details - Step 12: Verify 'Mobile' is updated
+[2022-04-26 21:00:38,585] Contact Details - Step 13: Verify 'Work Email' is updated
+[2022-04-26 21:00:38,663] OS name = windows 10
+[2022-04-26 21:00:38,663] Driver instance name = firefoxdriver: firefox on windows (8d67eede-f949-4384-8b83-ac221fcbea66)
+[2022-04-26 21:03:18,263] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 21:03:24,993] Precondition - Step 02: Login with Admin role
+[2022-04-26 21:03:30,478] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 21:03:33,541] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 21:03:33,713] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 21:03:37,907] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 21:03:49,932] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-26 21:03:49,939] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-26 21:03:49,983] OS name = windows 10
+[2022-04-26 21:03:49,983] Driver instance name = chromedriver: chrome on windows (9e7437e7280ee67c6f0ee16ded9706c9)
+[2022-04-26 21:04:01,998] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59140}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e7437e7280ee67c6f0ee16ded9706c9
+[2022-04-26 21:25:43,536] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 21:25:52,057] Precondition - Step 02: Login with Admin role
+[2022-04-26 21:25:57,047] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 21:25:59,995] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 21:26:00,779] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 21:26:00,904] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-26 21:26:01,018] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-26 21:26:01,061] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-26 21:26:01,156] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-26 21:26:01,268] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-26 21:26:01,398] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-26 21:26:01,526] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-26 21:26:01,615] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-26 21:26:01,707] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-26 21:26:07,425] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 21:26:19,452] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-26 21:26:31,476] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-26 21:26:43,541] OS name = windows 10
+[2022-04-26 21:26:43,541] Driver instance name = chromedriver: chrome on windows (871e7c794eaa133c14b03576e43ad899)
+[2022-04-26 21:26:55,563] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 871e7c794eaa133c14b03576e43ad899
+[2022-04-26 21:29:48,089] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 21:29:56,528] Precondition - Step 02: Login with Admin role
+[2022-04-26 21:30:01,595] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 21:30:04,674] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 21:30:05,356] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 21:30:15,591] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-26 21:30:25,673] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-26 21:30:25,683] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-26 21:30:25,746] OS name = windows 10
+[2022-04-26 21:30:25,747] Driver instance name = chromedriver: chrome on windows (42f1e44530d42f2405d7f1a9e1272e4f)
+[2022-04-26 21:30:25,750] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42f1e44530d42f2405d7f1a9e1272e4f
+[2022-04-26 21:37:16,095] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-26 21:37:24,339] Precondition - Step 02: Login with Admin role
+[2022-04-26 21:37:29,255] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-26 21:37:32,206] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-26 21:37:32,999] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-26 21:37:33,128] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-26 21:37:33,259] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-26 21:37:33,497] Upload_Avatar - Step 01: Login with Employee role
