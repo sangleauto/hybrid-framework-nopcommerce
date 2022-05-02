@@ -17,6 +17,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.opera.OperaDriver;
@@ -75,6 +76,7 @@ public class BaseTest {
 	}
 
 	protected WebDriver GetBrowserDriver(String browserName, String appUrl) {
+
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
@@ -94,6 +96,7 @@ public class BaseTest {
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
 
+			// Disable show log on Eclipse
 			System.setProperty("webdriver.chrome.args", "--disable-logging");
 			System.setProperty("webdriver.chrome.silentOutput", "true");
 
@@ -118,6 +121,9 @@ public class BaseTest {
 			options.addArguments("--headless");
 			options.addArguments("window-size=1920x1080");
 			driver = new ChromeDriver(options);
+		} else if (browserList == BrowserList.IE) {
+			WebDriverManager.iedriver().arch32().driverVersion("3.141.59").setup();
+			driver = new InternetExplorerDriver();
 		} else if (browserList == BrowserList.EDGE) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();

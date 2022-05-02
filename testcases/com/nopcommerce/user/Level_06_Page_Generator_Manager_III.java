@@ -34,11 +34,11 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		// 2
 		registerPage = homePage.openRegisterPage();
 
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(existingEmail);
-		registerPage.inputToPasswordTextbox(correctPassword);
-		registerPage.inputToConfirmPasswordTextbox(correctPassword);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(existingEmail);
+		registerPage.enterToPasswordTextbox(correctPassword);
+		registerPage.enterToConfirmPasswordTextbox(correctPassword);
 
 		registerPage.clickToRegisterButton();
 

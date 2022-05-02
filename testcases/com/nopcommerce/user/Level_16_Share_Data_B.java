@@ -28,19 +28,19 @@ public class Level_16_Share_Data_B extends BaseTest {
 		registerPage = homePage.openRegisterPage();
 
 		log.info("Precondition - Step 02: Enter to Firstname textbox with value is: '" + firstName + "'");
-		registerPage.inputToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(firstName);
 
 		log.info("Precondition - Step 03: Enter to Lastname textbox with value is: '" + lastName + "'");
-		registerPage.inputToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(lastName);
 
 		log.info("Precondition - Step 04: Enter to Email textbox with value is: '" + email + "'");
-		registerPage.inputToEmailnameTextbox(email);
+		registerPage.enterToEmailTextbox(email);
 
 		log.info("Precondition - Step 05: Enter to Password textbox with value is: '" + password + "'");
-		registerPage.inputToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(password);
 
 		log.info("Precondition - Step 06: Enter to Confirm password textbox with value is: '" + password + "'");
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		log.info("Precondition - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();

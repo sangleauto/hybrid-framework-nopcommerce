@@ -26,6 +26,7 @@ import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageUIs.hrm.BasePageHrmUI;
 import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
@@ -180,7 +181,12 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locatorType) {
-		getWebElement(driver, locatorType).click();
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, locatorType);
+			sleepInSecond(2);
+		} else {
+			getWebElement(driver, locatorType).click();
+		}
 	}
 
 	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
@@ -714,6 +720,12 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_ADMIN);
 		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_LINK_ADMIN);
 		return PageGeneratorManager.getAdminLoginPage(driver);
+	}
+
+	public UserRegisterPageObject clickToRegisterLink(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.REGISTER_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.REGISTER_LINK);
+		return PageGeneratorManager.getUserRegisterPage(driver);
 	}
 
 	// HRM Orange Page

@@ -40,11 +40,11 @@ public class Level_20_Independence_Test extends BaseTest {
 		// Click Register link => Nhay qua trang Register
 		registerPage = new UserRegisterPageObject(driver);
 
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(existingEmail);
-		registerPage.inputToPasswordTextbox(correctPassword);
-		registerPage.inputToConfirmPasswordTextbox(correctPassword);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(existingEmail);
+		registerPage.enterToPasswordTextbox(correctPassword);
+		registerPage.enterToConfirmPasswordTextbox(correctPassword);
 
 		registerPage.clickToRegisterButton();
 

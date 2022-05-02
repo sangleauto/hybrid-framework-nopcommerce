@@ -36,15 +36,15 @@ public class Level_15_ExtentV4 extends BaseTest {
 	public void User_01_Register(Method method) {
 		registerPage = homePage.openRegisterPage();
 
-		registerPage.inputToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(firstName);
 
-		registerPage.inputToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(lastName);
 
-		registerPage.inputToEmailnameTextbox(email);
+		registerPage.enterToEmailTextbox(email);
 
-		registerPage.inputToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(password);
 
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		registerPage.clickToRegisterButton();
 

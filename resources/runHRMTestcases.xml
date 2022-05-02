@@ -4,18 +4,20 @@
 
 	<listeners>
 			<listener class-name="commons.MethodListener"/>
-	<!-- 	<listener class-name="reportConfig.ReportNGListener"/>		
+		<!-- <listener class-name="reportConfig.ReportNGListener"/> -->		
 		<listener class-name="reportConfig.ExtentTestListener"/>
-		<listener class-name="reportConfig.AllureTestListener"/>
+		<!-- <listener class-name="reportConfig.AllureTestListener"/> -->
 		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>
 	
 	<parameter name ="url" value = "https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+	<!-- <parameter name ="url" value = "https://demo.nopcommerce.com/"/> -->
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "chrome"/>
 		<classes>
 			<class name="com.hrm.employee.Level_19_Live_Coding"/>
+			<!-- <class name="com.nopcommerce.user.Level_15_ExtentV5"/> -->
 		</classes>
 	</test> 
 </suite> <!-- Suite -->

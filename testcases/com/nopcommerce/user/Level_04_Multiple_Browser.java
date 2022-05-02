@@ -59,11 +59,11 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_02 - Step 2: Input to required fields");
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox("123@sangle#456");
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox("123@sangle#456");
+		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		System.out.println("Register_02 - Step 3: Click to Register Button");
 		registerPage.clickToRegisterButton();
@@ -80,11 +80,11 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_03 - Step 2: Input to required fields");
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(emailAddress);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(emailAddress);
+		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		System.out.println("Register_03 - Step 3: Click to Register Button");
 		registerPage.clickToRegisterButton();
@@ -108,11 +108,11 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_04 - Step 2: Input to required fields");
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox("existedemail213@gmail.com");
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox("existedemail213@gmail.com");
+		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		System.out.println("Register_04 - Step 3: Click to Register Button");
 		registerPage.clickToRegisterButton();
@@ -129,11 +129,11 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_05 - Step 2: Input to required fields");
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(emailAddress);
-		registerPage.inputToPasswordTextbox("123");
-		registerPage.inputToConfirmPasswordTextbox("123");
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(emailAddress);
+		registerPage.enterToPasswordTextbox("123");
+		registerPage.enterToConfirmPasswordTextbox("123");
 
 		System.out.println("Register_05 - Step 3: Click to Register Button");
 		registerPage.clickToRegisterButton();
@@ -150,11 +150,11 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_06 - Step 2: Input to required fields");
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(emailAddress);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox("123abc");
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(emailAddress);
+		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox("123abc");
 
 		System.out.println("Register_06 - Step 3: Click to Register Button");
 		registerPage.clickToRegisterButton();

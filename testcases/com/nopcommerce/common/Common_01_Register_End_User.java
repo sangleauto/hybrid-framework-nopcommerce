@@ -23,22 +23,22 @@ public class Common_01_Register_End_User extends BaseTest {
 		password = "123456";
 
 		log.info("Precondition - Step 01: Open 'Register' page");
-		registerPage = homePage.openRegisterPage();
+		registerPage = homePage.clickToRegisterLink(driver);
 
 		log.info("Precondition - Step 02: Enter to Firstname textbox with value is: '" + firstName + "'");
-		registerPage.inputToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(firstName);
 
 		log.info("Precondition - Step 03: Enter to Lastname textbox with value is: '" + lastName + "'");
-		registerPage.inputToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(lastName);
 
 		log.info("Precondition - Step 04: Enter to Email textbox with value is: '" + email + "'");
-		registerPage.inputToEmailnameTextbox(email);
+		registerPage.enterToEmailTextbox(email);
 
 		log.info("Precondition - Step 05: Enter to Password textbox with value is: '" + password + "'");
-		registerPage.inputToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(password);
 
 		log.info("Precondition - Step 06: Enter to Confirm password textbox with value is: '" + password + "'");
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		log.info("Precondition - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();

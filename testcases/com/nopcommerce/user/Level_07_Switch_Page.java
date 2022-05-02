@@ -38,11 +38,11 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		registerPage = homePage.openRegisterPage();
 
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(email);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(email);
+		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		registerPage.clickToRegisterButton();
 

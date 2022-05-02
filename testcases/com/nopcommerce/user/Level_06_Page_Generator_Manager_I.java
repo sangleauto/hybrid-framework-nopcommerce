@@ -40,11 +40,11 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// 2
 		registerPage = new UserRegisterPageObject(driver);
 
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailnameTextbox(existingEmail);
-		registerPage.inputToPasswordTextbox(correctPassword);
-		registerPage.inputToConfirmPasswordTextbox(correctPassword);
+		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToEmailTextbox(existingEmail);
+		registerPage.enterToPasswordTextbox(correctPassword);
+		registerPage.enterToConfirmPasswordTextbox(correctPassword);
 
 		registerPage.clickToRegisterButton();
 

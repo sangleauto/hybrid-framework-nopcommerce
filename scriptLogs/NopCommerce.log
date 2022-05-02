@@ -1299,3 +1299,615 @@ Session ID: 42f1e44530d42f2405d7f1a9e1272e4f
 [2022-04-26 21:37:33,128] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
 [2022-04-26 21:37:33,259] Add_New_Employee - Step 05: Get value of 'Employee ID'
 [2022-04-26 21:37:33,497] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:30:02,691] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:30:14,390] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:30:25,833] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:30:34,533] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:30:34,550] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:30:34,565] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:30:34,624] OS name = windows 10
+[2022-04-27 20:30:34,624] Driver instance name = edgedriver: msedge on windows (ca84a6de98ad54c5540883724afd9cd3)
+[2022-04-27 20:30:46,639] chrome not reachable
+  (Session info: MicrosoftEdge=100.0.1185.50)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59774}, msedge: {msedgedriverVersion: 100.0.1185.50 (d8ee69a5ee9b..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca84a6de98ad54c5540883724afd9cd3
+[2022-04-27 20:31:42,255] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:34:16,710] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:36:23,320] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:36:47,954] OS name = windows 10
+[2022-04-27 20:36:47,954] Driver instance name = internetexplorerdriver: internet explorer on windows (9090fd46-55ce-4625-9286-10d52a2646db)
+[2022-04-27 20:36:55,748] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:3218
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 20:37:00,419] OS name = windows 10
+[2022-04-27 20:37:00,420] Driver instance name = internetexplorerdriver: internet explorer on windows (56e2c106-7c28-4744-96d0-e0127f8d06a1)
+[2022-04-27 20:37:00,512] OS name = windows 10
+[2022-04-27 20:37:00,513] Driver instance name = internetexplorerdriver: internet explorer on windows (17403f45-9b69-4371-be1b-3993f3288382)
+[2022-04-27 20:37:04,425] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31752
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 20:37:04,531] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:41915
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 20:38:07,436] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:40:20,175] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:40:22,791] OS name = windows 10
+[2022-04-27 20:40:22,791] 
+[2022-04-27 20:41:02,039] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:43:09,958] OS name = windows 10
+[2022-04-27 20:43:09,958] Driver instance name = internetexplorerdriver: internet explorer on windows (dfbad5b2-8ba4-4743-a7c5-22754ebd0dc2)
+[2022-04-27 20:43:16,513] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:28469
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 20:43:37,924] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:43:45,783] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:44:02,896] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:44:05,850] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-27 20:44:06,573] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-27 20:44:06,693] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-27 20:44:06,809] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-27 20:44:06,853] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-27 20:44:06,955] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-27 20:44:07,077] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-27 20:44:07,201] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-27 20:44:07,316] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-27 20:44:07,399] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-27 20:44:07,491] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-27 20:44:11,206] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-27 20:44:11,891] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-27 20:44:13,031] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-27 20:44:13,274] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:44:21,164] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:44:26,141] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:44:32,593] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:44:33,191] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:44:45,246] OS name = windows 10
+[2022-04-27 20:44:45,247] Driver instance name = chromedriver: chrome on windows (89beb42b81302f0e861ca93adb800efc)
+[2022-04-27 20:44:45,409] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:44:51,702] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:44:51,715] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:44:51,728] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:44:51,794] OS name = windows 10
+[2022-04-27 20:44:51,794] Driver instance name = chromedriver: chrome on windows (f2d9c6304b8fcf76ebcf4775a18b60fb)
+[2022-04-27 20:44:54,493] Precondition - Step 01: Open 'firefox' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:44:57,283] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 89beb42b81302f0e861ca93adb800efc
+[2022-04-27 20:44:58,022] OS name = windows 10
+[2022-04-27 20:44:58,022] 
+[2022-04-27 20:45:02,367] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:13862
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 20:45:23,043] Precondition - Step 01: Open 'firefox' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:45:32,490] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:45:39,600] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:45:46,707] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-27 20:45:47,730] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-27 20:45:47,823] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-27 20:45:47,879] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-27 20:45:47,927] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-27 20:45:48,206] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-27 20:45:48,256] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-27 20:45:48,330] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-27 20:45:48,393] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-27 20:45:48,460] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-27 20:45:48,723] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-27 20:45:51,269] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-27 20:45:51,912] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-27 20:45:52,869] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-27 20:45:53,131] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:45:56,700] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-27 20:45:58,595] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-27 20:45:59,433] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-27 20:45:59,459] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-27 20:46:01,162] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-27 20:46:01,201] Upload_Avatar - Step 06: Verify new Avatar IMG is displayed
+[2022-04-27 20:46:01,255] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:46:02,240] Personal_Details - Step 02: Verify all fields are disabled
+[2022-04-27 20:46:02,270]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,299]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,326]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,358]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,390]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,416]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,443]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,471]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,501]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,532]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,566]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,566] Personal_Details - Step 03: Click to 'Edit' button
+[2022-04-27 20:46:02,827] Personal_Details - Step 04: Verify 'Employee ID' textbox is disabled
+[2022-04-27 20:46:02,854]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,854] Personal_Details - Step 05: Verify 'Driver's License Number' textbox is disabled
+[2022-04-27 20:46:02,882]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,882] Personal_Details - Step 06: Verify 'SSN Number' textbox is disabled
+[2022-04-27 20:46:02,910]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,910] Personal_Details - Step 07: Verify 'SIN Number' textbox is disabled
+[2022-04-27 20:46:02,940]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,940] Personal_Details - Step 08: Verify 'Date of Birth' textbox is disabled
+[2022-04-27 20:46:02,966]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:02,966] Personal_Details - Step 09: Enter new value to 'First Name' textbox
+[2022-04-27 20:46:03,034] Personal_Details - Step 10: Enter new value to 'Last Name' textbox
+[2022-04-27 20:46:03,101] Personal_Details - Step 11: Enter new value to 'Gender' radio
+[2022-04-27 20:46:03,351] Personal_Details - Step 12: Enter new value to 'Marital Status' dropdown
+[2022-04-27 20:46:03,609] Personal_Details - Step 13: Enter new value to 'Nationality' dropdown
+[2022-04-27 20:46:03,862] Personal_Details - Step 14: Click to 'Save' button at 'Personal Details' form
+[2022-04-27 20:46:05,693] Personal_Details - Step 15: Verify Success Message is displayed
+[2022-04-27 20:46:10,746] Personal_Details - Step 16: Verify 'First Name' textbox is updated successfully
+[2022-04-27 20:46:10,775] Personal_Details - Step 17: Verify 'Last Name' textbox is updated successfully
+[2022-04-27 20:46:10,805] Personal_Details - Step 18: Verify 'Gender' radio is updated successfully
+[2022-04-27 20:46:10,830] Personal_Details - Step 19: Verify 'Marital Status' dropdown is updated successfully
+[2022-04-27 20:46:10,887] Personal_Details - Step 20: Verify 'Nationality' dropdown is updated successfully
+[2022-04-27 20:46:10,962] Personal_Details - Step 21: Verify 'Employee ID' textbox is correct
+[2022-04-27 20:46:11,002] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:46:12,410] Contact Details - Step 02: Verify all fields are disabled
+[2022-04-27 20:46:12,444]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,473]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,499]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,526]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,551]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,581]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,611]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,640]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,665]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,689]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,717]  -------------------------- PASSED -------------------------- 
+[2022-04-27 20:46:12,717] Contact Details - Step 03: Click to 'Edit' button
+[2022-04-27 20:46:12,969] Contact Details - Step 04: Enter new value to 'Address Street 1' textbox
+[2022-04-27 20:46:13,019] Contact Details - Step 04: Enter new value to 'City' textbox
+[2022-04-27 20:46:13,075] Contact Details - Step 05: Choose new value in 'Country' dropdown
+[2022-04-27 20:46:13,345] Contact Details - Step 06: Enter new value to 'Mobile' textbox
+[2022-04-27 20:46:13,395] Contact Details - Step 07: Enter new value to 'Work Email' textbox
+[2022-04-27 20:46:13,449] Contact Details - Step 08: Click to 'Save' button
+[2022-04-27 20:46:14,927] Contact Details - Step 09: Verify 'Address Street 1' is updated
+[2022-04-27 20:46:14,959] Contact Details - Step 10: Verify 'City' is updated
+[2022-04-27 20:46:14,989] Contact Details - Step 11: Verify 'Country' is updated
+[2022-04-27 20:46:15,323] Contact Details - Step 12: Verify 'Mobile' is updated
+[2022-04-27 20:46:15,353] Contact Details - Step 13: Verify 'Work Email' is updated
+[2022-04-27 20:46:15,446] OS name = windows 10
+[2022-04-27 20:46:15,446] Driver instance name = firefoxdriver: firefox on windows (f0518957-413d-4ba5-ac27-9d64aef97922)
+[2022-04-27 20:46:35,718] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:46:42,390] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:46:49,510] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:47:01,503] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:47:01,512] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:47:01,522] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:47:01,580] OS name = windows 10
+[2022-04-27 20:47:01,580] Driver instance name = chromedriver: chrome on windows (ff12725daefd76db603864a467519800)
+[2022-04-27 20:47:13,592] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff12725daefd76db603864a467519800
+[2022-04-27 20:48:38,400] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:48:44,572] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:48:54,837] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:49:03,651] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:49:03,662] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:49:03,670] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:49:03,728] OS name = windows 10
+[2022-04-27 20:49:03,729] Driver instance name = chromedriver: chrome on windows (71f10d481074f934bda518f3ee465c2a)
+[2022-04-27 20:51:58,840] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 20:52:08,323] Precondition - Step 02: Login with Admin role
+[2022-04-27 20:52:12,960] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 20:52:17,157] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-27 20:52:17,913] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-27 20:52:18,051] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-27 20:52:18,182] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-27 20:52:18,224] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-27 20:52:18,314] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-27 20:52:18,429] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-27 20:52:18,555] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-27 20:52:18,668] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-27 20:52:18,748] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-27 20:52:18,832] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-27 20:52:22,623] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-27 20:52:23,314] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-27 20:52:24,404] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-27 20:52:24,644] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 20:52:28,061] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-27 20:52:29,189] Upload_Avatar - Step 03: Click to change Avatar IMG
+[2022-04-27 20:52:29,996] Upload_Avatar - Step 04: Upload Avatar IMG
+[2022-04-27 20:52:30,062] Upload_Avatar - Step 05: Click to Upload button
+[2022-04-27 20:52:30,494] Upload_Avatar - Step 06: Verify Success Message is displayed
+[2022-04-27 20:52:34,579] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 20:52:46,610] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 20:52:58,702] OS name = windows 10
+[2022-04-27 20:52:58,703] Driver instance name = chromedriver: chrome on windows (cea98011eea9a4976d9e7ae87272bf11)
+[2022-04-27 20:53:10,832] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cea98011eea9a4976d9e7ae87272bf11
+[2022-04-27 21:05:59,123] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 21:11:02,574] OS name = windows 10
+[2022-04-27 21:11:02,575] Driver instance name = internetexplorerdriver: internet explorer on windows (b2eb8f1d-5313-4e70-91e2-9c5d9f25f837)
+[2022-04-27 21:11:09,020] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:42452
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 21:18:03,435] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 21:18:03,800] OS name = windows 10
+[2022-04-27 21:18:03,800] 
+[2022-04-27 21:18:52,830] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 21:19:13,354] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 21:19:18,924] Precondition - Step 02: Login with Admin role
+[2022-04-27 21:19:23,418] ChromeDriver: chrome on WINDOWS (1977f5f5a9d6ba907cd55f5092bb6f62)
+[2022-04-27 21:19:23,418] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 21:19:26,358] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-27 21:19:27,154] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-27 21:19:27,272] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-27 21:19:27,388] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-27 21:19:27,430] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-27 21:19:27,524] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-27 21:19:27,637] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-27 21:19:27,765] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-27 21:19:27,880] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-27 21:19:27,967] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-27 21:19:28,054] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-27 21:19:31,490] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-27 21:19:32,179] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-27 21:19:57,493] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 21:20:09,517] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 21:20:21,540] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 21:20:33,617] OS name = windows 10
+[2022-04-27 21:20:33,617] Driver instance name = chromedriver: chrome on windows (1977f5f5a9d6ba907cd55f5092bb6f62)
+[2022-04-27 21:20:45,634] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50245}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1977f5f5a9d6ba907cd55f5092bb6f62
+[2022-04-27 21:23:55,231] OS name = windows 10
+[2022-04-27 21:23:55,231] Driver instance name = internetexplorerdriver: internet explorer on windows (0b9851f8-6bbf-44de-8093-a216dad697ff)
+[2022-04-27 21:24:02,085] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45767
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+[2022-04-27 22:55:17,091] Precondition - Step 01: Open 'ie' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 22:56:06,010] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 22:56:14,542] Precondition - Step 02: Login with Admin role
+[2022-04-27 22:56:15,885] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 22:56:28,034] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 22:56:28,047] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 22:56:28,055] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 22:56:28,110] OS name = windows 10
+[2022-04-27 22:56:28,110] Driver instance name = chromedriver: chrome on windows (aa5fb9102f75d810dd9a935666fbdf65)
+[2022-04-27 22:56:40,123] chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa5fb9102f75d810dd9a935666fbdf65
+[2022-04-27 23:20:17,939] Precondition - Step 01: Open 'coccoc' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 23:20:27,003] Precondition - Step 02: Login with Admin role
+[2022-04-27 23:20:30,939] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 23:20:43,086] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 23:20:43,105] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-27 23:20:43,115] Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar
+[2022-04-27 23:20:43,273] OS name = windows 10
+[2022-04-27 23:20:43,276] Driver instance name = chromedriver: chrome on windows (e9a6dc15b4432c8cb2c40bcff75591a7)
+[2022-04-27 23:20:55,290] chrome not reachable
+  (Session info: chrome=99.0.4844.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.88, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9a6dc15b4432c8cb2c40bcff75591a7
+[2022-04-27 23:26:03,523] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-27 23:26:10,755] Precondition - Step 02: Login with Admin role
+[2022-04-27 23:26:15,128] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-27 23:26:17,927] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-27 23:26:18,656] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-27 23:26:18,798] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-27 23:26:18,930] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-27 23:26:18,978] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-27 23:26:19,081] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-27 23:26:19,220] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-27 23:26:19,347] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-27 23:26:19,468] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-27 23:26:19,547] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-27 23:26:19,629] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-27 23:26:23,128] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-27 23:26:23,848] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-27 23:26:24,952] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-27 23:26:25,178] Upload_Avatar - Step 01: Login with Employee role
+[2022-04-27 23:26:27,651] Upload_Avatar - Step 02: Click to Personal Detail Page
+[2022-04-27 23:26:31,744] Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar
+[2022-04-28 20:14:57,477] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-28 20:15:04,324] Precondition - Step 02: Login with Admin role
+[2022-04-28 20:15:09,217] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-28 20:15:12,235] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-28 20:15:13,074] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-28 20:15:13,199] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-28 20:15:13,315] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-28 20:15:13,365] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-28 20:15:13,484] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-28 20:15:13,624] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-28 20:15:13,758] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-28 20:15:13,888] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-28 20:15:13,988] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-28 20:15:14,074] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-28 20:15:17,834] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-28 20:15:18,523] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-28 20:15:19,633] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-28 20:15:19,938] OS name = windows 10
+[2022-04-28 20:15:19,938] Driver instance name = chromedriver: chrome on windows (45c10b64e3909d44fe2cc05718f5fd4b)
+[2022-04-28 20:19:24,691] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-28 20:19:30,766] Precondition - Step 02: Login with Admin role
+[2022-04-28 20:19:35,335] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-28 20:19:38,749] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-28 20:19:39,502] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-28 20:19:39,633] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-28 20:19:39,775] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-28 20:19:39,829] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-28 20:19:39,929] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-28 20:19:40,055] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-28 20:19:40,178] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-28 20:19:40,298] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-28 20:19:40,381] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-28 20:19:40,475] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-28 20:19:44,294] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-28 20:19:44,998] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-28 20:19:46,093] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-28 20:19:46,362] OS name = windows 10
+[2022-04-28 20:19:46,362] Driver instance name = chromedriver: chrome on windows (50306d26b9d451b97161ba147133893e)
+[2022-04-28 20:24:40,363] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-28 20:24:46,458] Precondition - Step 02: Login with Admin role
+[2022-04-28 20:24:50,959] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-28 20:24:53,804] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-28 20:24:54,548] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-28 20:24:54,693] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-28 20:24:54,823] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-28 20:24:54,882] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-28 20:24:54,986] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-28 20:24:55,135] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-28 20:24:55,293] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-28 20:24:55,436] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-28 20:24:55,517] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-28 20:24:55,605] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-28 20:24:59,164] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-28 20:24:59,863] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-28 20:25:00,968] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-28 20:25:01,297] OS name = windows 10
+[2022-04-28 20:25:01,297] Driver instance name = chromedriver: chrome on windows (9f55d9231e0fbe4084fd561b85715ced)
+[2022-04-28 20:29:54,716] Precondition - Step 01: Open 'chrome' browser and navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+[2022-04-28 20:30:02,518] Precondition - Step 02: Login with Admin role
+[2022-04-28 20:30:06,671] Add_New_Employee - Step 01: Open 'Employee List' page
+[2022-04-28 20:30:10,839] Add_New_Employee - Step 02: Click to 'Add' button
+[2022-04-28 20:30:11,600] Add_New_Employee - Step 03: Enter valid info to 'First Name' textbox
+[2022-04-28 20:30:11,747] Add_New_Employee - Step 04: Enter valid info 'Last Name' textbox
+[2022-04-28 20:30:11,871] Add_New_Employee - Step 05: Get value of 'Employee ID'
+[2022-04-28 20:30:11,912] Add_New_Employee - Step 06: Check to 'Create Login Details' checkbox
+[2022-04-28 20:30:12,008] Add_New_Employee - Step 07: Enter valid info to 'User Name' textbox
+[2022-04-28 20:30:12,139] Add_New_Employee - Step 08: Enter valid info to 'Password' textbox
+[2022-04-28 20:30:12,343] Add_New_Employee - Step 09: Enter valid info to 'Confirm Password' textbox
+[2022-04-28 20:30:12,508] Add_New_Employee - Step 10: Select 'Enabled ' value in 'Status' dropdown
+[2022-04-28 20:30:12,603] Add_New_Employee - Step 11: Click to 'Save' button
+[2022-04-28 20:30:12,723] Add_New_Employee - Step 12: Open 'Employee List' page
+[2022-04-28 20:30:16,358] Add_New_Employee - Step 13: Enter valid info to 'Employee Name' textbox
+[2022-04-28 20:30:17,088] Add_New_Employee - Step 14: Click to 'Search' button
+[2022-04-28 20:30:18,207] Add_New_Employee - Step 15: Verify Employee Infomation at 'Result Table'
+[2022-04-28 20:30:18,618] OS name = windows 10
+[2022-04-28 20:30:18,618] Driver instance name = chromedriver: chrome on windows (dd894ad88dedda88390252f66eb076fd)
+[2022-05-02 19:40:08,442] Register Empty Data - Step 01: Open Register page
+[2022-05-02 19:40:09,140] Register Empty Data - Step 02: Click to Register button
+[2022-05-02 19:40:09,432] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-02 19:40:09,476] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-02 19:40:09,512] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-02 19:40:09,549] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-02 19:40:09,582] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-02 19:40:09,710] Register Invalid Email - Step 01: Open Register page
+[2022-05-02 19:40:10,178] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-02 19:40:10,250] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:40:10,322] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-02 19:40:10,390] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-02 19:40:10,447] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:40:10,508] Register Invalid Email - Step 07: Click to Register button
+[2022-05-02 19:40:10,784] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-02 19:40:10,825] Register Successfully - Step 01: Open Register page
+[2022-05-02 19:40:11,283] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-02 19:40:11,347] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-02 19:40:11,413] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-02 19:40:11,496] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-02 19:40:11,561] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:40:11,625] Register Successfully - Step 07: Click to Register button
+[2022-05-02 19:40:12,571] Register Successfully - Step 08: Verify Register success message
+[2022-05-02 19:40:12,607] Register Successfully - Step 09: Click to Logout link
+[2022-05-02 19:40:13,411] Register With Existed Email - Step 01: Open Register page
+[2022-05-02 19:40:13,874] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-02 19:40:13,945] Register With Existed Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:40:14,004] Register With Existed Email- Step 04: Enter existed Email to Email textbox
+[2022-05-02 19:40:14,076] Register With Existed Email- Step 05: Enter to Password textbox
+[2022-05-02 19:40:14,122] Register With Existed Email- Step 06: Enter to Confirm password textbox
+[2022-05-02 19:40:14,175] Register With Existed Email - Step 07: Click to Register button
+[2022-05-02 19:40:14,613] Register With Existed Email - Step 08: Verify Error message after clicking Register button
+[2022-05-02 19:40:14,663] Register With Less Than 6 Characters Password - Step 01: Open Register page
+[2022-05-02 19:40:15,088] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-02 19:40:15,156] Register With Less Than 6 Characters Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:40:15,206] Register With Less Than 6 Characters Password - Step 04: Enter to Email textbox
+[2022-05-02 19:40:15,273] Register With Less Than 6 Characters Password - Step 05: Enter invalid Password to Password textbox
+[2022-05-02 19:40:15,314] Register With Less Than 6 Characters Password - Step 06: Verify Error message in Password textbox
+[2022-05-02 19:40:25,345] Register With Not Matched Confirm Password - Step 01: Open Register page
+[2022-05-02 19:40:25,792] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-02 19:40:25,856] Register With Not Matched Confirm Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:40:25,910] Register With Not Matched Confirm Password - Step 04: Enter to Email textbox
+[2022-05-02 19:40:26,005] Register With Not Matched Confirm Password - Step 05: Enter to Password textbox
+[2022-05-02 19:40:26,076] Register With Not Matched Confirm Password - Step 06: Enter invalid Confirm password to Confirm password textbox
+[2022-05-02 19:40:26,142] Register With Not Matched Confirm Password - Step 07: Verify Error message in Confirm password textbox
+[2022-05-02 19:40:27,890] OS name = windows 10
+[2022-05-02 19:40:27,890] Driver instance name = firefoxdriver: firefox on windows (052c4a8f-b976-4a6f-891e-89a4a773ad29)
+[2022-05-02 19:40:27,901] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '172.17.174.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 10948, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052c4a8f-b976-4a6f-891e-89a4a773ad29
+[2022-05-02 19:42:40,518] Register Empty Data - Step 01: Open Register page
+[2022-05-02 19:42:41,201] Register Empty Data - Step 02: Click to Register button
+[2022-05-02 19:42:41,489] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-02 19:42:41,535] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-02 19:42:41,577] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-02 19:42:41,614] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-02 19:42:41,647] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-02 19:42:41,800] Register Invalid Email - Step 01: Open Register page
+[2022-05-02 19:42:42,270] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-02 19:42:42,339] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:42:42,402] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-02 19:42:42,461] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-02 19:42:42,518] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:42:42,575] Register Invalid Email - Step 07: Click to Register button
+[2022-05-02 19:42:42,848] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-02 19:42:42,883] Register Successfully - Step 01: Open Register page
+[2022-05-02 19:42:43,343] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-02 19:42:43,408] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-02 19:42:43,459] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-02 19:42:43,527] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-02 19:42:43,579] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:42:43,639] Register Successfully - Step 07: Click to Register button
+[2022-05-02 19:42:44,605] Register Successfully - Step 08: Verify Register success message
+[2022-05-02 19:42:44,652] Register Successfully - Step 09: Click to Logout link
+[2022-05-02 19:42:45,482] Register With Existed Email - Step 01: Open Register page
+[2022-05-02 19:42:45,982] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-02 19:42:46,054] Register With Existed Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:42:46,104] Register With Existed Email- Step 04: Enter existed Email to Email textbox
+[2022-05-02 19:42:46,174] Register With Existed Email- Step 05: Enter to Password textbox
+[2022-05-02 19:42:46,224] Register With Existed Email- Step 06: Enter to Confirm password textbox
+[2022-05-02 19:42:46,276] Register With Existed Email - Step 07: Click to Register button
+[2022-05-02 19:42:46,765] Register With Existed Email - Step 08: Verify Error message after clicking Register button
+[2022-05-02 19:42:46,808] Register With Less Than 6 Characters Password - Step 01: Open Register page
+[2022-05-02 19:42:47,482] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-02 19:42:47,538] Register With Less Than 6 Characters Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:42:47,587] Register With Less Than 6 Characters Password - Step 04: Enter to Email textbox
+[2022-05-02 19:42:47,657] Register With Less Than 6 Characters Password - Step 05: Enter invalid Password to Password textbox
+[2022-05-02 19:42:47,706] Register With Less Than 6 Characters Password - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:42:47,758] Register With Less Than 6 Characters Password - Step 07: Click to Register button
+[2022-05-02 19:42:48,032] Register With Less Than 6 Characters Password - Step 08: Verify Error message in Password textbox
+[2022-05-02 19:42:48,078] Register With Not Matched Confirm Password - Step 01: Open Register page
+[2022-05-02 19:42:48,547] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-02 19:42:48,624] Register With Not Matched Confirm Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:42:48,686] Register With Not Matched Confirm Password - Step 04: Enter to Email textbox
+[2022-05-02 19:42:48,762] Register With Not Matched Confirm Password - Step 05: Enter to Password textbox
+[2022-05-02 19:42:48,830] Register With Not Matched Confirm Password - Step 06: Enter invalid Confirm password to Confirm password textbox
+[2022-05-02 19:42:48,890] Register With Not Matched Confirm Password - Step 07: Click to Register button
+[2022-05-02 19:42:49,156] Register With Not Matched Confirm Password - Step 08: Verify Error message in Confirm password textbox
+[2022-05-02 19:42:49,189] OS name = windows 10
+[2022-05-02 19:42:49,189] Driver instance name = firefoxdriver: firefox on windows (1f63a6dd-2d9f-473a-968d-97bad1e73279)
+[2022-05-02 19:45:23,132] Register Empty Data - Step 01: Open Register page
+[2022-05-02 19:45:23,776] Register Empty Data - Step 02: Click to Register button
+[2022-05-02 19:45:24,066] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-02 19:45:24,110] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-02 19:45:24,151] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-02 19:45:24,192] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-02 19:45:24,230] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-02 19:45:24,378] Register Invalid Email - Step 01: Open Register page
+[2022-05-02 19:45:24,836] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-02 19:45:24,912] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:45:24,970] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-02 19:45:25,049] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-02 19:45:25,129] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:45:25,211] Register Invalid Email - Step 07: Click to Register button
+[2022-05-02 19:45:25,475] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-02 19:45:25,515] Register Successfully - Step 01: Open Register page
+[2022-05-02 19:45:25,949] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-02 19:45:26,014] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-02 19:45:26,067] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-02 19:45:26,140] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-02 19:45:26,195] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:45:26,248] Register Successfully - Step 07: Click to Register button
+[2022-05-02 19:45:27,152] Register Successfully - Step 08: Verify Register success message
+[2022-05-02 19:45:27,195] Register Successfully - Step 09: Click to Logout link
+[2022-05-02 19:45:28,063] Register With Existed Email - Step 01: Open Register page
+[2022-05-02 19:45:28,558] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-02 19:45:28,632] Register With Existed Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:45:28,684] Register With Existed Email- Step 04: Enter existed Email to Email textbox
+[2022-05-02 19:45:28,756] Register With Existed Email- Step 05: Enter to Password textbox
+[2022-05-02 19:45:28,804] Register With Existed Email- Step 06: Enter to Confirm password textbox
+[2022-05-02 19:45:28,861] Register With Existed Email - Step 07: Click to Register button
+[2022-05-02 19:45:29,333] Register With Existed Email - Step 08: Verify Error message after clicking Register button
+[2022-05-02 19:45:29,377] Register With Less Than 6 Characters Password - Step 01: Open Register page
+[2022-05-02 19:45:29,802] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-02 19:45:29,876] Register With Less Than 6 Characters Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:45:29,935] Register With Less Than 6 Characters Password - Step 04: Enter to Email textbox
+[2022-05-02 19:45:30,011] Register With Less Than 6 Characters Password - Step 05: Enter invalid Password to Password textbox
+[2022-05-02 19:45:30,057] Register With Less Than 6 Characters Password - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:45:30,109] Register With Less Than 6 Characters Password - Step 07: Click to Register button
+[2022-05-02 19:45:30,379] Register With Less Than 6 Characters Password - Step 08: Verify Error message in Password textbox
+[2022-05-02 19:45:30,421] Register With Not Matched Confirm Password - Step 01: Open Register page
+[2022-05-02 19:45:30,848] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-02 19:45:30,933] Register With Not Matched Confirm Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:45:31,013] Register With Not Matched Confirm Password - Step 04: Enter to Email textbox
+[2022-05-02 19:45:31,085] Register With Not Matched Confirm Password - Step 05: Enter to Password textbox
+[2022-05-02 19:45:31,158] Register With Not Matched Confirm Password - Step 06: Enter invalid Confirm password to Confirm password textbox
+[2022-05-02 19:45:31,257] Register With Not Matched Confirm Password - Step 07: Click to Register button
+[2022-05-02 19:45:31,559] Register With Not Matched Confirm Password - Step 08: Verify Error message in Confirm password textbox
+[2022-05-02 19:45:31,591] OS name = windows 10
+[2022-05-02 19:45:31,591] Driver instance name = firefoxdriver: firefox on windows (f682af3b-b16f-4e55-a337-5f8c100bd35f)
+[2022-05-02 19:47:05,684] Register Empty Data - Step 01: Open Register page
+[2022-05-02 19:47:06,360] Register Empty Data - Step 02: Click to Register button
+[2022-05-02 19:47:06,695] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-02 19:47:06,740] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-02 19:47:06,778] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-02 19:47:06,816] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-02 19:47:06,857] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-02 19:47:06,982] Register Invalid Email - Step 01: Open Register page
+[2022-05-02 19:47:07,442] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-02 19:47:07,511] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:47:07,574] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-02 19:47:07,638] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-02 19:47:07,693] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:47:07,748] Register Invalid Email - Step 07: Click to Register button
+[2022-05-02 19:47:08,024] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-02 19:47:08,060] Register Successfully - Step 01: Open Register page
+[2022-05-02 19:47:08,508] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-02 19:47:08,567] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-02 19:47:08,624] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-02 19:47:08,692] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-02 19:47:08,743] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:47:08,796] Register Successfully - Step 07: Click to Register button
+[2022-05-02 19:47:09,779] Register Successfully - Step 08: Verify Register success message
+[2022-05-02 19:47:09,816] Register Successfully - Step 09: Click to Logout link
+[2022-05-02 19:47:10,670] Register With Existed Email - Step 01: Open Register page
+[2022-05-02 19:47:11,157] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-02 19:47:11,225] Register With Existed Email - Step 03: Enter to Last name textbox
+[2022-05-02 19:47:11,276] Register With Existed Email- Step 04: Enter existed Email to Email textbox
+[2022-05-02 19:47:11,355] Register With Existed Email- Step 05: Enter to Password textbox
+[2022-05-02 19:47:11,399] Register With Existed Email- Step 06: Enter to Confirm password textbox
+[2022-05-02 19:47:11,448] Register With Existed Email - Step 07: Click to Register button
+[2022-05-02 19:47:11,879] Register With Existed Email - Step 08: Verify Error message after clicking Register button
+[2022-05-02 19:47:11,929] Register With Less Than 6 Characters Password - Step 01: Open Register page
+[2022-05-02 19:47:12,357] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-02 19:47:12,413] Register With Less Than 6 Characters Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:47:12,464] Register With Less Than 6 Characters Password - Step 04: Enter to Email textbox
+[2022-05-02 19:47:12,533] Register With Less Than 6 Characters Password - Step 05: Enter invalid Password to Password textbox
+[2022-05-02 19:47:12,579] Register With Less Than 6 Characters Password - Step 06: Enter to Confirm password textbox
+[2022-05-02 19:47:12,643] Register With Less Than 6 Characters Password - Step 07: Click to Register button
+[2022-05-02 19:47:12,909] Register With Less Than 6 Characters Password - Step 08: Verify Error message in Password textbox
+[2022-05-02 19:47:12,946] Register With Not Matched Confirm Password - Step 01: Open Register page
+[2022-05-02 19:47:13,365] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-02 19:47:13,432] Register With Not Matched Confirm Password - Step 03: Enter to Last name textbox
+[2022-05-02 19:47:13,495] Register With Not Matched Confirm Password - Step 04: Enter to Email textbox
+[2022-05-02 19:47:13,563] Register With Not Matched Confirm Password - Step 05: Enter to Password textbox
+[2022-05-02 19:47:13,620] Register With Not Matched Confirm Password - Step 06: Enter invalid Confirm password to Confirm password textbox
+[2022-05-02 19:47:13,684] Register With Not Matched Confirm Password - Step 07: Click to Register button
+[2022-05-02 19:47:14,440] Register With Not Matched Confirm Password - Step 08: Verify Error message in Confirm password textbox
+[2022-05-02 19:47:14,470] OS name = windows 10
+[2022-05-02 19:47:14,470] Driver instance name = firefoxdriver: firefox on windows (52586752-74e1-42b8-b4db-ef4eb9b84c7e)

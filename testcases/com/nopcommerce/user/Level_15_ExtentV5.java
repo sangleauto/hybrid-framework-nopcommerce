@@ -42,19 +42,19 @@ public class Level_15_ExtentV5 extends BaseTest {
 		registerPage = homePage.openRegisterPage();
 
 		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 02: Enter to Firstname textbox with value is '" + firstName + "'");
-		registerPage.inputToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(firstName);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 03: Enter to Lastname textbox with value is '" + lastName + "'");
-		registerPage.inputToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(lastName);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 04: Enter to Email textbox with value is '" + email + "'");
-		registerPage.inputToEmailnameTextbox(email);
+		registerPage.enterToEmailTextbox(email);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 05: Enter to Password textbox with value is '" + password + "'");
-		registerPage.inputToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(password);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 06: Enter to Confirm Password textbox with value is '" + password + "'");
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Register - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();

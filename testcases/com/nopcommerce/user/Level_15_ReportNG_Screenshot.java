@@ -36,19 +36,19 @@ public class Level_15_ReportNG_Screenshot extends BaseTest {
 		registerPage = homePage.openRegisterPage();
 
 		log.info("Register - Step 02: Enter to Firstname textbox with value is: '" + firstName + "'");
-		registerPage.inputToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(firstName);
 
 		log.info("Register - Step 03: Enter to Lastname textbox with value is: '" + lastName + "'");
-		registerPage.inputToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(lastName);
 
 		log.info("Register - Step 04: Enter to Email textbox with value is: '" + email + "'");
-		registerPage.inputToEmailnameTextbox(email);
+		registerPage.enterToEmailTextbox(email);
 
 		log.info("Register - Step 05: Enter to Password textbox with value is: '" + password + "'");
-		registerPage.inputToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(password);
 
 		log.info("Register - Step 06: Enter to Confirm password textbox with value is: '" + password + "'");
-		registerPage.inputToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(password);
 
 		log.info("Register - Step 07: Click to 'Register' button");
 		registerPage.clickToRegisterButton();

@@ -20,6 +20,7 @@ public class Level_19_Live_Coding extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass // Multiple browser
 	public void beforeClass(String browserName, String appUrl) {
+		verifyTrue(false);
 		log.info("Precondition - Step 01: Open '" + browserName + "' browser and navigate to '" + appUrl + "'");
 		driver = GetBrowserDriver(browserName, appUrl);
 		loginPage = PageGeneratorManagerHRM.getLoginPage(driver);
@@ -112,7 +113,7 @@ public class Level_19_Live_Coding extends BaseTest {
 		verifyEquals(employeeListPage.getValueTextInTableByIDAtRowAndColumnIndex(driver, "resultTable", "1", "Last Name"), empLastName);
 	}
 
-	@Test
+	// @Test
 	public void Employee_02_Upload_Avatar() {
 		log.info("Upload_Avatar - Step 01: Login with Employee role");
 		loginPage = employeeListPage.logoutToSystem(driver);
@@ -138,7 +139,7 @@ public class Level_19_Live_Coding extends BaseTest {
 		verifyTrue(myInfoPage.isNewAvatarDisplayed());
 	}
 
-	@Test
+	// @Test
 	public void Employee_03_Personal_Details() {
 		log.info("Personal_Details - Step 01: Open 'Personal Details' tab at the Sidebar");
 		myInfoPage.openTabAtSideBarByName("Personal Details");
@@ -212,7 +213,7 @@ public class Level_19_Live_Coding extends BaseTest {
 		verifyEquals(myInfoPage.getAttributeInTextboxByID(driver, "personal_txtEmployeeId", "value"), employeeID);
 	}
 
-	@Test
+	// @Test
 	public void Employee_04_Contact_Details() {
 		log.info("Contact Details - Step 01: Open 'Contact Details' tab at the Sidebar");
 		myInfoPage.openTabAtSideBarByName("Contact Details");
