@@ -148,6 +148,27 @@ public class BaseTest {
 		return driver;
 	}
 
+	public String getEnvironmentURL(String environmentName) {
+		String envUrl = null;
+		EnvironmentList environment = EnvironmentList.valueOf(environmentName.toUpperCase());
+		if (environment == EnvironmentList.DEV) {
+			envUrl = "https://demo.guru99.com/v1/";
+		}
+
+		else if (environment == EnvironmentList.TESTING) {
+			envUrl = "https://demo.guru99.com/v2/";
+		}
+
+		else if (environment == EnvironmentList.STAGING) {
+			envUrl = "https://demo.guru99.com/v3/";
+		}
+
+		else if (environment == EnvironmentList.PROD) {
+			envUrl = "https://demo.guru99.com/v4/";
+		}
+		return envUrl;
+	}
+
 	public WebDriver getDriverInstance() {
 		return this.driver;
 	}
