@@ -59,9 +59,9 @@ public class Level_15_Allure extends BaseTest {
 		homePage = registerPage.clickToLogoutLink();
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(email);
+		loginPage.enterToEmailTextbox(email);
 
-		loginPage.inputToPasswordTextbox(password);
+		loginPage.enterToPasswordTextbox(password);
 
 		homePage = loginPage.clickToLoginButton();
 

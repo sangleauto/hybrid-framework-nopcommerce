@@ -70,23 +70,23 @@ public class Level_20_Independence_Test extends BaseTest {
 
 		loginPage.clickToLoginButton();
 
-		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
+		Assert.assertEquals(loginPage.getErrorMessageInEmailTextbox(), "Please enter your email");
 	}
 
 	@Test
 	public void Login_02_Invalid_Email() {
 
-		loginPage.inputToEmailnameTextbox(invalidEmail);
+		loginPage.enterToEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
-		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Wrong email");
+		Assert.assertEquals(loginPage.getErrorMessageInEmailTextbox(), "Wrong email");
 	}
 
 	@Test
 	public void Login_03_Email_Not_Found() {
 
-		loginPage.inputToEmailnameTextbox(notFoundEmail);
+		loginPage.enterToEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -96,8 +96,8 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_04_Existing_Email() {
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox("");
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -107,8 +107,8 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_05_Existing_Email_Incorrect_Password() {
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(incorrectPassword);
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -118,8 +118,8 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_06_Valid_Email_Password() {
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(correctPassword);
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox(correctPassword);
 
 		loginPage.clickToLoginButton();
 

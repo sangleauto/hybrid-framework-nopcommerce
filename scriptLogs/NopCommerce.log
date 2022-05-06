@@ -1911,3 +1911,122 @@ Session ID: 052c4a8f-b976-4a6f-891e-89a4a773ad29
 [2022-05-02 19:47:14,440] Register With Not Matched Confirm Password - Step 08: Verify Error message in Confirm password textbox
 [2022-05-02 19:47:14,470] OS name = windows 10
 [2022-05-02 19:47:14,470] Driver instance name = firefoxdriver: firefox on windows (52586752-74e1-42b8-b4db-ef4eb9b84c7e)
+[2022-05-05 13:41:59,755] OS name = windows 10
+[2022-05-05 13:41:59,756] Driver instance name = firefoxdriver: firefox on windows (1a6af915-d511-4ab0-b5c4-72c5f1a68963)
+[2022-05-05 13:43:29,734] Register Empty Data - Step 01: Open Register page
+[2022-05-05 13:43:30,307] Register Empty Data - Step 02: Click to Register button
+[2022-05-05 13:43:30,599] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-05 13:43:30,659] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-05 13:43:30,698] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-05 13:43:30,731] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-05 13:43:30,767] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-05 13:43:30,895] Register Invalid Email - Step 01: Open Register page
+[2022-05-05 13:43:31,303] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-05 13:43:31,377] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-05 13:43:31,445] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-05 13:43:31,515] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-05 13:43:31,580] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-05 13:43:31,651] Register Invalid Email - Step 07: Click to Register button
+[2022-05-05 13:43:31,920] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-05 13:43:31,960] Register Successfully - Step 01: Open Register page
+[2022-05-05 13:43:32,378] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-05 13:43:32,439] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-05 13:43:32,495] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-05 13:43:32,575] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-05 13:43:32,636] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-05 13:43:32,697] Register Successfully - Step 07: Click to Register button
+[2022-05-05 13:43:33,530] Register Successfully - Step 08: Verify Register success message
+[2022-05-05 13:43:33,575] Register Successfully - Step 09: Click to Logout link
+[2022-05-05 13:43:34,292] Register With Existed Email - Step 01: Open Register page
+[2022-05-05 13:43:34,730] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-05 13:43:34,808] Register With Existed Email - Step 03: Enter to Last name textbox
+[2022-05-05 13:43:34,861] Register With Existed Email- Step 04: Enter existed Email to Email textbox
+[2022-05-05 13:43:34,931] Register With Existed Email- Step 05: Enter to Password textbox
+[2022-05-05 13:43:34,989] Register With Existed Email- Step 06: Enter to Confirm password textbox
+[2022-05-05 13:43:35,060] Register With Existed Email - Step 07: Click to Register button
+[2022-05-05 13:43:35,454] Register With Existed Email - Step 08: Verify Error message after clicking Register button
+[2022-05-05 13:43:35,500] Register With Less Than 6 Characters Password - Step 01: Open Register page
+[2022-05-05 13:43:35,905] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-05 13:43:35,967] Register With Less Than 6 Characters Password - Step 03: Enter to Last name textbox
+[2022-05-05 13:43:36,022] Register With Less Than 6 Characters Password - Step 04: Enter to Email textbox
+[2022-05-05 13:43:36,090] Register With Less Than 6 Characters Password - Step 05: Enter invalid Password to Password textbox
+[2022-05-05 13:43:36,138] Register With Less Than 6 Characters Password - Step 06: Enter to Confirm password textbox
+[2022-05-05 13:43:36,191] Register With Less Than 6 Characters Password - Step 07: Click to Register button
+[2022-05-05 13:43:36,466] Register With Less Than 6 Characters Password - Step 08: Verify Error message in Password textbox
+[2022-05-05 13:43:36,503] Register With Not Matched Confirm Password - Step 01: Open Register page
+[2022-05-05 13:43:36,888] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-05 13:43:36,952] Register With Not Matched Confirm Password - Step 03: Enter to Last name textbox
+[2022-05-05 13:43:37,024] Register With Not Matched Confirm Password - Step 04: Enter to Email textbox
+[2022-05-05 13:43:37,095] Register With Not Matched Confirm Password - Step 05: Enter to Password textbox
+[2022-05-05 13:43:37,173] Register With Not Matched Confirm Password - Step 06: Enter invalid Confirm password to Confirm password textbox
+[2022-05-05 13:43:37,238] Register With Not Matched Confirm Password - Step 07: Click to Register button
+[2022-05-05 13:43:37,981] Register With Not Matched Confirm Password - Step 08: Verify Error message in Confirm password textbox
+[2022-05-05 13:43:38,014] OS name = windows 10
+[2022-05-05 13:43:38,014] Driver instance name = firefoxdriver: firefox on windows (08e60188-e99b-426a-bab3-a9a327cc3051)
+[2022-05-06 12:48:23,546] OS name = windows 10
+[2022-05-06 12:48:23,547] 
+[2022-05-06 12:48:50,112] Login With Empty Data - Step 01: Open Log in page
+[2022-05-06 12:48:50,877] Login With Empty Data - Step 02: Click to LOG IN button
+[2022-05-06 12:48:51,160] Login With Empty Data - Step 03: Verify error message at Email textbox
+[2022-05-06 12:48:51,322] Login With Invalid Email - Step 01: Open Log in page
+[2022-05-06 12:48:52,215] Login With Unregistered Email - Step 01: Open Log in page
+[2022-05-06 12:48:52,234] Login With Empty Password - Step 01: Open Log in page
+[2022-05-06 12:48:52,256] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:48:52,281] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:48:52,312] OS name = windows 10
+[2022-05-06 12:48:52,312] Driver instance name = firefoxdriver: firefox on windows (d282df77-4e0f-4122-91fa-bd068a552de0)
+[2022-05-06 12:48:52,317] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 8608, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d282df77-4e0f-4122-91fa-bd068a552de0
+[2022-05-06 12:49:43,126] Login With Empty Data - Step 01: Open Log in page
+[2022-05-06 12:49:43,797] Login With Empty Data - Step 02: Click to LOG IN button
+[2022-05-06 12:49:44,105] Login With Empty Data - Step 03: Verify error message at Email textbox
+[2022-05-06 12:49:44,267] Login With Invalid Email - Step 01: Open Log in page
+[2022-05-06 12:49:44,777] Login With Invalid Email - Step 02: Enter Invalid Email to Email textbox
+[2022-05-06 12:49:44,851] Login With Invalid Email - Step 03: Click to LOG IN button
+[2022-05-06 12:49:45,126] Login With Invalid Email - Step 04: Verify error message at Email textbox
+[2022-05-06 12:49:45,165] Login With Unregistered Email - Step 01: Open Log in page
+[2022-05-06 12:49:45,599] Login With Unregistered Email - Step 02: Enter Unregistered Email to Email textbox
+[2022-05-06 12:49:45,668] Login With Unregistered Email - Step 03: Enter Password to Password textbox
+[2022-05-06 12:49:45,714] Login With Empty Password - Step 01: Open Log in page
+[2022-05-06 12:49:46,138] Login With Empty Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:49:46,190] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:49:46,598] Login With Wrong Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:49:46,651] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:49:47,027] Login With Wrong Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:49:47,078] OS name = windows 10
+[2022-05-06 12:49:47,078] Driver instance name = firefoxdriver: firefox on windows (eb8c7259-2a51-43ac-96e5-947cab7a6d0d)
+[2022-05-06 12:54:06,930] OS name = windows 10
+[2022-05-06 12:54:06,930] 
+[2022-05-06 12:55:32,863] Login With Empty Data - Step 01: Open Log in page
+[2022-05-06 12:55:33,403] Login With Empty Data - Step 02: Click to LOG IN button
+[2022-05-06 12:55:33,695] Login With Empty Data - Step 03: Verify error message at Email textbox
+[2022-05-06 12:55:33,840] Login With Invalid Email - Step 01: Open Log in page
+[2022-05-06 12:55:34,260] Login With Invalid Email - Step 02: Enter Invalid Email to Email textbox
+[2022-05-06 12:55:34,318] Login With Invalid Email - Step 03: Click to LOG IN button
+[2022-05-06 12:55:34,578] Login With Invalid Email - Step 04: Verify error message at Email textbox
+[2022-05-06 12:55:34,633] Login With Unregistered Email - Step 01: Open Log in page
+[2022-05-06 12:55:35,060] Login With Unregistered Email - Step 02: Enter Unregistered Email to Email textbox
+[2022-05-06 12:55:35,129] Login With Unregistered Email - Step 03: Enter Password to Password textbox
+[2022-05-06 12:55:35,183] Login With Unregistered Email - Step 04: Click to LOG IN button
+[2022-05-06 12:55:35,633] Login With Unregistered Email - Step 05: Verify error message at Email textbox
+[2022-05-06 12:55:35,699] Login With Empty Password - Step 01: Open Log in page
+[2022-05-06 12:55:36,092] Login With Empty Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:55:36,157] Login With Empty Password - Step 03: Enter Empty Password to Password textbox
+[2022-05-06 12:55:36,204] Login With Empty Password - Step 04: Click to LOG IN button
+[2022-05-06 12:55:36,635] Login With Empty Password - Step 05: Verify error message at Email textbox
+[2022-05-06 12:55:36,703] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:55:37,106] Login With Wrong Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:55:37,173] Login With Wrong Password - Step 03: Enter Wrong Password to Password textbox
+[2022-05-06 12:55:37,221] Login With Wrong Password - Step 04: Click to LOG IN button
+[2022-05-06 12:55:37,654] Login With Wrong Password - Step 05: Verify error message at Email textbox
+[2022-05-06 12:55:37,712] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:55:38,148] Login With Wrong Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:55:38,215] Login With Wrong Password - Step 03: Enter Password to Password textbox
+[2022-05-06 12:55:38,260] Login With Wrong Password - Step 04: Click to LOG IN button
+[2022-05-06 12:55:39,004] Login With Wrong Password - Step 05: Verify My account link is displayed
+[2022-05-06 12:55:39,065] OS name = windows 10
+[2022-05-06 12:55:39,065] Driver instance name = firefoxdriver: firefox on windows (91ede298-7ab1-49fe-8e0a-ef00b6d9728a)

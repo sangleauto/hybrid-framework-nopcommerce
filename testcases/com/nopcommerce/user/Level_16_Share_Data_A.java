@@ -23,16 +23,16 @@ public class Level_16_Share_Data_A extends BaseTest {
 		email = Common_01_Register_End_User.email;
 		password = Common_01_Register_End_User.password;
 
-		log.info("Login - Step 01: Open Login page");
+		log.info("Precondition - Step 01: Open Login page");
 		loginPage = homePage.openLoginPage();
 
-		log.info("Login - Step 02: Enter to Email textbox with value is: '" + email + "'");
-		loginPage.inputToEmailnameTextbox(email);
+		log.info("Precondition - Step 02: Enter to Email textbox with value is: '" + email + "'");
+		loginPage.enterToEmailTextbox(email);
 
-		log.info("Login - Step 03: Enter to Password textbox with value is: '" + password + "'");
-		loginPage.inputToPasswordTextbox(password);
+		log.info("Precondition - Step 03: Enter to Password textbox with value is: '" + password + "'");
+		loginPage.enterToPasswordTextbox(password);
 
-		log.info("Login - Step 04: Click to Login button");
+		log.info("Precondition - Step 04: Click to Login button");
 		homePage = loginPage.clickToLoginButton();
 	}
 

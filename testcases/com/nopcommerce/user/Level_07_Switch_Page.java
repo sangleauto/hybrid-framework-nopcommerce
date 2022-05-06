@@ -55,8 +55,8 @@ public class Level_07_Switch_Page extends BaseTest {
 	public void User_02_Login() {
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(email);
-		loginPage.inputToPasswordTextbox(password);
+		loginPage.enterToEmailTextbox(email);
+		loginPage.enterToPasswordTextbox(password);
 
 		homePage = loginPage.clickToLoginButton();
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());

@@ -8,6 +8,7 @@ import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import ultilities.DataUtil;
 
 public class Common_01_Register_End_User extends BaseTest {
 
@@ -16,10 +17,11 @@ public class Common_01_Register_End_User extends BaseTest {
 	public void Register(String browserName, String appUrl) {
 		driver = GetBrowserDriver(browserName, appUrl);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
+		faker = DataUtil.getData();
 
-		firstName = "Sang";
-		lastName = "Le";
-		email = "afc" + generateRandomNumber() + "@gmail.com";
+		firstName = faker.getFirstName();
+		lastName = faker.getLastName();
+		email = faker.getEmailAddress();
 		password = "123456";
 
 		log.info("Precondition - Step 01: Open 'Register' page");
@@ -50,6 +52,7 @@ public class Common_01_Register_End_User extends BaseTest {
 	}
 
 	private WebDriver driver;
+	private DataUtil faker;
 	private String firstName, lastName;
 	public static String email, password;
 	private UserHomePageObject homePage;

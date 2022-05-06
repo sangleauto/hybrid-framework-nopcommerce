@@ -25,6 +25,7 @@ import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
@@ -726,6 +727,12 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.REGISTER_LINK);
 		clickToElement(driver, BasePageNopCommerceUI.REGISTER_LINK);
 		return PageGeneratorManager.getUserRegisterPage(driver);
+	}
+
+	public UserLoginPageObject clickToLoginLink(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.LOGIN_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.LOGIN_LINK);
+		return PageGeneratorManager.getUserLoginPage(driver);
 	}
 
 	// HRM Orange Page

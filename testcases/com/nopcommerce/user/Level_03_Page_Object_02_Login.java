@@ -69,7 +69,7 @@ public class Level_03_Page_Object_02_Login {
 
 		loginPage.clickToLoginButton();
 
-		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
+		Assert.assertEquals(loginPage.getErrorMessageInEmailTextbox(), "Please enter your email");
 	}
 
 	@Test
@@ -79,11 +79,11 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.inputToEmailnameTextbox(invalidEmail);
+		loginPage.enterToEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
-		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Wrong email");
+		Assert.assertEquals(loginPage.getErrorMessageInEmailTextbox(), "Wrong email");
 	}
 
 	@Test
@@ -93,7 +93,7 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.inputToEmailnameTextbox(notFoundEmail);
+		loginPage.enterToEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -107,8 +107,8 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox("");
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -122,8 +122,8 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(incorrectPassword);
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -137,8 +137,8 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(correctPassword);
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox(correctPassword);
 
 		loginPage.clickToLoginButton();
 

@@ -60,7 +60,7 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 
 		loginPage.clickToLoginButton();
 
-		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
+		Assert.assertEquals(loginPage.getErrorMessageInEmailTextbox(), "Please enter your email");
 	}
 
 	@Test
@@ -69,11 +69,11 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 		// 5
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(invalidEmail);
+		loginPage.enterToEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
-		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Wrong email");
+		Assert.assertEquals(loginPage.getErrorMessageInEmailTextbox(), "Wrong email");
 	}
 
 	@Test
@@ -82,7 +82,7 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 		// 6
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(notFoundEmail);
+		loginPage.enterToEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -95,8 +95,8 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 		// 7
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox("");
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -109,8 +109,8 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 		// 8
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(incorrectPassword);
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -123,8 +123,8 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 		// 9
 		loginPage = homePage.openLoginPage();
 
-		loginPage.inputToEmailnameTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(correctPassword);
+		loginPage.enterToEmailTextbox(existingEmail);
+		loginPage.enterToPasswordTextbox(correctPassword);
 
 		loginPage.clickToLoginButton();
 

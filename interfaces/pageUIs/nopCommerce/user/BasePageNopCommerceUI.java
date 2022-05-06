@@ -9,6 +9,7 @@ public class BasePageNopCommerceUI {
 	public static final String LOGOUT_LINK_USER = "xpath=//a[@class='ico-logout']";
 	public static final String LOGOUT_LINK_ADMIN = "xpath=//a[text()='Logout']";
 	public static final String REGISTER_LINK = "xpath=//a[@class='ico-register']";
+	public static final String LOGIN_LINK = "xpath=//a[@class='ico-login']";
 
 	// Pattern Object
 	public static final String DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='%s']";

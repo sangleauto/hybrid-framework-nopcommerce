@@ -10,20 +10,22 @@ import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import ultilities.DataUtil;
 
-public class Nopcommerce_Register extends BaseTest {
+public class Nopcommerce_01_Register extends BaseTest {
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
 		driver = GetBrowserDriver(browserName, appUrl);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
+		faker = DataUtil.getData();
 
-		firstName = "John";
-		lastName = "Cena";
-		email = "johncena" + generateRandomNumber() + "@gmail.com";
-		secondEmail = "harry" + generateRandomNumber() + "@gmail.com";
-		password = "123123";
+		firstName = faker.getFirstName();
+		lastName = faker.getLastName();
+		email = faker.getEmailAddress();
+		secondEmail = faker.getEmailAddress();
+		password = faker.getPassword();
 		invalidEmail = "john@cena@123";
 		passwordLessThanSixChars = "12345";
 		invalidConfirmPassword = "123abc";
@@ -201,6 +203,7 @@ public class Nopcommerce_Register extends BaseTest {
 	}
 
 	private WebDriver driver;
+	private DataUtil faker;
 	private String firstName, lastName, email, secondEmail, password, invalidEmail, passwordLessThanSixChars, invalidConfirmPassword;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;

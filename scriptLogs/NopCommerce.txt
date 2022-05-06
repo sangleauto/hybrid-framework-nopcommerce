@@ -1,0 +1,29 @@
+[2022-05-06 12:55:32,863] Login With Empty Data - Step 01: Open Log in page
+[2022-05-06 12:55:33,403] Login With Empty Data - Step 02: Click to LOG IN button
+[2022-05-06 12:55:33,695] Login With Empty Data - Step 03: Verify error message at Email textbox
+[2022-05-06 12:55:33,840] Login With Invalid Email - Step 01: Open Log in page
+[2022-05-06 12:55:34,260] Login With Invalid Email - Step 02: Enter Invalid Email to Email textbox
+[2022-05-06 12:55:34,318] Login With Invalid Email - Step 03: Click to LOG IN button
+[2022-05-06 12:55:34,578] Login With Invalid Email - Step 04: Verify error message at Email textbox
+[2022-05-06 12:55:34,633] Login With Unregistered Email - Step 01: Open Log in page
+[2022-05-06 12:55:35,060] Login With Unregistered Email - Step 02: Enter Unregistered Email to Email textbox
+[2022-05-06 12:55:35,129] Login With Unregistered Email - Step 03: Enter Password to Password textbox
+[2022-05-06 12:55:35,183] Login With Unregistered Email - Step 04: Click to LOG IN button
+[2022-05-06 12:55:35,633] Login With Unregistered Email - Step 05: Verify error message at Email textbox
+[2022-05-06 12:55:35,699] Login With Empty Password - Step 01: Open Log in page
+[2022-05-06 12:55:36,092] Login With Empty Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:55:36,157] Login With Empty Password - Step 03: Enter Empty Password to Password textbox
+[2022-05-06 12:55:36,204] Login With Empty Password - Step 04: Click to LOG IN button
+[2022-05-06 12:55:36,635] Login With Empty Password - Step 05: Verify error message at Email textbox
+[2022-05-06 12:55:36,703] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:55:37,106] Login With Wrong Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:55:37,173] Login With Wrong Password - Step 03: Enter Wrong Password to Password textbox
+[2022-05-06 12:55:37,221] Login With Wrong Password - Step 04: Click to LOG IN button
+[2022-05-06 12:55:37,654] Login With Wrong Password - Step 05: Verify error message at Email textbox
+[2022-05-06 12:55:37,712] Login With Wrong Password - Step 01: Open Log in page
+[2022-05-06 12:55:38,148] Login With Wrong Password - Step 02: Enter Email to Email textbox
+[2022-05-06 12:55:38,215] Login With Wrong Password - Step 03: Enter Password to Password textbox
+[2022-05-06 12:55:38,260] Login With Wrong Password - Step 04: Click to LOG IN button
+[2022-05-06 12:55:39,004] Login With Wrong Password - Step 05: Verify My account link is displayed
+[2022-05-06 12:55:39,065] OS name = windows 10
+[2022-05-06 12:55:39,065] Driver instance name = firefoxdriver: firefox on windows (91ede298-7ab1-49fe-8e0a-ef00b6d9728a)
