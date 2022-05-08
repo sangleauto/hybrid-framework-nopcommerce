@@ -76,7 +76,7 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_02_Invalid_Email() {
 
-		loginPage.enterToEmailTextbox(invalidEmail);
+		loginPage.enterEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -86,7 +86,7 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_03_Email_Not_Found() {
 
-		loginPage.enterToEmailTextbox(notFoundEmail);
+		loginPage.enterEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -96,8 +96,8 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_04_Existing_Email() {
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox("");
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -107,8 +107,8 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_05_Existing_Email_Incorrect_Password() {
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(incorrectPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -118,8 +118,8 @@ public class Level_20_Independence_Test extends BaseTest {
 	@Test
 	public void Login_06_Valid_Email_Password() {
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(correctPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(correctPassword);
 
 		loginPage.clickToLoginButton();
 

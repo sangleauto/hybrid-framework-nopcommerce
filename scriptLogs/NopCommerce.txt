@@ -1,29 +1,86 @@
-[2022-05-06 12:55:32,863] Login With Empty Data - Step 01: Open Log in page
-[2022-05-06 12:55:33,403] Login With Empty Data - Step 02: Click to LOG IN button
-[2022-05-06 12:55:33,695] Login With Empty Data - Step 03: Verify error message at Email textbox
-[2022-05-06 12:55:33,840] Login With Invalid Email - Step 01: Open Log in page
-[2022-05-06 12:55:34,260] Login With Invalid Email - Step 02: Enter Invalid Email to Email textbox
-[2022-05-06 12:55:34,318] Login With Invalid Email - Step 03: Click to LOG IN button
-[2022-05-06 12:55:34,578] Login With Invalid Email - Step 04: Verify error message at Email textbox
-[2022-05-06 12:55:34,633] Login With Unregistered Email - Step 01: Open Log in page
-[2022-05-06 12:55:35,060] Login With Unregistered Email - Step 02: Enter Unregistered Email to Email textbox
-[2022-05-06 12:55:35,129] Login With Unregistered Email - Step 03: Enter Password to Password textbox
-[2022-05-06 12:55:35,183] Login With Unregistered Email - Step 04: Click to LOG IN button
-[2022-05-06 12:55:35,633] Login With Unregistered Email - Step 05: Verify error message at Email textbox
-[2022-05-06 12:55:35,699] Login With Empty Password - Step 01: Open Log in page
-[2022-05-06 12:55:36,092] Login With Empty Password - Step 02: Enter Email to Email textbox
-[2022-05-06 12:55:36,157] Login With Empty Password - Step 03: Enter Empty Password to Password textbox
-[2022-05-06 12:55:36,204] Login With Empty Password - Step 04: Click to LOG IN button
-[2022-05-06 12:55:36,635] Login With Empty Password - Step 05: Verify error message at Email textbox
-[2022-05-06 12:55:36,703] Login With Wrong Password - Step 01: Open Log in page
-[2022-05-06 12:55:37,106] Login With Wrong Password - Step 02: Enter Email to Email textbox
-[2022-05-06 12:55:37,173] Login With Wrong Password - Step 03: Enter Wrong Password to Password textbox
-[2022-05-06 12:55:37,221] Login With Wrong Password - Step 04: Click to LOG IN button
-[2022-05-06 12:55:37,654] Login With Wrong Password - Step 05: Verify error message at Email textbox
-[2022-05-06 12:55:37,712] Login With Wrong Password - Step 01: Open Log in page
-[2022-05-06 12:55:38,148] Login With Wrong Password - Step 02: Enter Email to Email textbox
-[2022-05-06 12:55:38,215] Login With Wrong Password - Step 03: Enter Password to Password textbox
-[2022-05-06 12:55:38,260] Login With Wrong Password - Step 04: Click to LOG IN button
-[2022-05-06 12:55:39,004] Login With Wrong Password - Step 05: Verify My account link is displayed
-[2022-05-06 12:55:39,065] OS name = windows 10
-[2022-05-06 12:55:39,065] Driver instance name = firefoxdriver: firefox on windows (91ede298-7ab1-49fe-8e0a-ef00b6d9728a)
+[2022-05-08 23:40:16,770] Precondition - Step 01: Open Log in page
+[2022-05-08 23:40:17,328] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:40:17,422] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:40:17,496] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:40:18,242] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:40:18,304] Precondition - Step 06: Open My Account page
+[2022-05-08 23:40:18,895] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 23:40:18,932] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 23:40:18,970] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 23:40:19,012] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 23:40:19,061] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 23:40:19,326] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 23:40:19,390] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 23:40:19,457] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 23:40:20,259] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 23:40:20,331] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 23:40:20,392] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 23:40:21,138] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 23:40:21,192] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 23:40:21,235] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 23:40:21,277] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 23:40:21,319] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 23:40:21,745] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 23:40:21,778] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 23:40:21,809] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 23:40:22,534] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 23:40:22,964] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 23:40:23,041] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 23:40:23,102] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 23:40:23,874] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 23:40:23,944] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 23:40:24,602] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 23:40:25,136] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 23:40:25,723] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 23:40:25,801] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 23:40:25,866] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 23:40:25,953] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 23:40:26,022] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 23:40:26,311] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 23:40:29,374] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 23:40:29,424] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 23:40:29,497] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 23:40:29,556] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 23:40:29,616] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 23:40:29,672] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 23:40:29,723] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 23:40:30,458] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 23:40:30,508] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 23:40:30,536] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 23:40:30,563] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 23:40:30,590] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 23:40:30,617] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 23:40:30,647] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 23:40:30,677] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 23:40:30,707] My Account Add New Address - Step 24: Back to Customer info page
+[2022-05-08 23:40:31,146] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 23:40:31,662] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 23:40:31,734] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 23:40:31,788] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 23:40:31,851] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 23:40:32,352] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 23:40:32,455] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 23:40:38,769] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 23:40:39,435] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 23:40:39,860] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 23:40:39,938] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 23:40:39,983] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 23:40:40,666] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 23:40:40,726] My Account Change Password - Step 14: Open My Account page
+[2022-05-08 23:40:41,178] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:40:41,909] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:40:43,083] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:40:44,200] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:40:44,278] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:40:44,337] My Account Add Review - Step 06: Rating
+[2022-05-08 23:40:44,602] My Account Add Review - Step 07: Click SUBMIT REVIEW button
+[2022-05-08 23:40:45,043] My Account Add Review - Step 08: Verify Review title in Product reviews page
+[2022-05-08 23:40:45,111] My Account Add Review - Step 09: Verify Review text in Product reviews page
+[2022-05-08 23:40:45,143] My Account Add Review - Step 10: Verify Review rating in Product reviews page
+[2022-05-08 23:40:45,176] My Account Add Review - Step 11: Open My Account page
+[2022-05-08 23:40:45,566] My Account Add Review - Step 12: Open My product reviews page
+[2022-05-08 23:40:46,063] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
+[2022-05-08 23:40:46,108] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
+[2022-05-08 23:40:46,134] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
+[2022-05-08 23:40:46,168] OS name = windows 10
+[2022-05-08 23:40:46,168] Driver instance name = firefoxdriver: firefox on windows (891f74d2-d0e7-439f-b8ab-63e98fa80058)

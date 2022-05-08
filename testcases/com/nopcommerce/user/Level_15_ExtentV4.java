@@ -56,9 +56,9 @@ public class Level_15_ExtentV4 extends BaseTest {
 		homePage = registerPage.clickToLogoutLink();
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(email);
+		loginPage.enterEmailTextbox(email);
 
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.enterPasswordTextbox(password);
 
 		homePage = loginPage.clickToLoginButton();
 

@@ -13,12 +13,12 @@ public class UserLoginPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void enterToEmailTextbox(String email) {
+	public void enterEmailTextbox(String email) {
 		waitForElementVisible(driver, UserLoginPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, UserLoginPageUI.EMAIL_TEXTBOX, email);
 	}
 
-	public void enterToPasswordTextbox(String password) {
+	public void enterPasswordTextbox(String password) {
 		waitForElementVisible(driver, UserLoginPageUI.PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, UserLoginPageUI.PASSWORD_TEXTBOX, password);
 	}
@@ -40,8 +40,8 @@ public class UserLoginPageObject extends BasePage {
 	}
 
 	public UserHomePageObject loginAsUser(String email, String password) {
-		enterToEmailTextbox(email);
-		enterToPasswordTextbox(password);
+		enterEmailTextbox(email);
+		enterPasswordTextbox(password);
 		clickToLoginButton();
 		return PageGeneratorManager.getUserHomePage(driver);
 	}

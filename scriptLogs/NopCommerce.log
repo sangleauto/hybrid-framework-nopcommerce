@@ -2030,3 +2030,1638 @@ Session ID: d282df77-4e0f-4122-91fa-bd068a552de0
 [2022-05-06 12:55:39,004] Login With Wrong Password - Step 05: Verify My account link is displayed
 [2022-05-06 12:55:39,065] OS name = windows 10
 [2022-05-06 12:55:39,065] Driver instance name = firefoxdriver: firefox on windows (91ede298-7ab1-49fe-8e0a-ef00b6d9728a)
+[2022-05-06 13:03:04,026] Precondition - Step 01: Open Register page
+[2022-05-06 13:03:04,752] Register Empty Data - Step 02: Click to Register button
+[2022-05-06 13:03:05,056] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-06 13:03:05,094] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-06 13:03:05,129] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-06 13:03:05,162] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-06 13:03:05,208] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-06 13:03:05,333] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-06 13:03:05,397] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-06 13:03:05,471] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-06 13:03:05,559] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-06 13:03:05,623] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-06 13:03:05,693] Register Invalid Email - Step 07: Click to Register button
+[2022-05-06 13:03:05,948] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-06 13:03:05,983] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-06 13:03:06,048] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-06 13:03:06,116] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-06 13:03:06,219] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-06 13:03:06,293] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-06 13:03:06,387] Register Successfully - Step 07: Click to Register button
+[2022-05-06 13:03:07,212] Register Successfully - Step 08: Verify Register success message
+[2022-05-06 13:03:07,267] Register Successfully - Step 09: Click to Logout link
+[2022-05-06 13:03:08,024] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-06 13:03:18,054] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-06 13:03:28,077] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-06 13:03:38,091] OS name = windows 10
+[2022-05-06 13:03:38,091] Driver instance name = firefoxdriver: firefox on windows (e8a5cdc4-6a44-4238-a910-4ce2305aac2f)
+[2022-05-06 13:04:33,245] Precondition - Step 01: Open Register page
+[2022-05-06 13:04:33,946] Register Empty Data - Step 02: Click to Register button
+[2022-05-06 13:04:34,257] Register Empty Data - Step 03: Verify error message in First Name textbox
+[2022-05-06 13:04:34,295] Register Empty Data - Step 04: Verify error message in Last Name textbox
+[2022-05-06 13:04:34,336] Register Empty Data - Step 05: Verify error message in Email textbox
+[2022-05-06 13:04:34,367] Register Empty Data - Step 06: Verify error message in Password textbox
+[2022-05-06 13:04:34,410] Register Empty Data - Step 07: Verify error message in Confirm Password textbox
+[2022-05-06 13:04:34,558] Register Invalid Email - Step 02: Enter to First name textbox
+[2022-05-06 13:04:34,626] Register Invalid Email - Step 03: Enter to Last name textbox
+[2022-05-06 13:04:34,702] Register Invalid Email - Step 04: Enter invalid email to Email textbox
+[2022-05-06 13:04:34,778] Register Invalid Email - Step 05: Enter to Password textbox
+[2022-05-06 13:04:34,841] Register Invalid Email - Step 06: Enter to Confirm password textbox
+[2022-05-06 13:04:34,910] Register Invalid Email - Step 07: Click to Register button
+[2022-05-06 13:04:35,166] Register Invalid Email - Step 08: Verify error message in Email textbox
+[2022-05-06 13:04:35,201] Register Successfully - Step 02: Enter to First name textbox
+[2022-05-06 13:04:35,279] Register Successfully - Step 03: Enter to Last name textbox
+[2022-05-06 13:04:35,367] Register Successfully - Step 04: Enter to Email textbox
+[2022-05-06 13:04:35,461] Register Successfully - Step 05: Enter to Password textbox
+[2022-05-06 13:04:35,540] Register Successfully - Step 06: Enter to Confirm password textbox
+[2022-05-06 13:04:35,613] Register Successfully - Step 07: Click to Register button
+[2022-05-06 13:04:36,416] Register Successfully - Step 08: Verify Register success message
+[2022-05-06 13:04:36,463] Register Successfully - Step 09: Click to Logout link
+[2022-05-06 13:04:37,180] Register With Existed Email - Step 01: Open Register page
+[2022-05-06 13:04:37,634] Register With Existed Email - Step 02: Enter to First name textbox
+[2022-05-06 13:04:37,699] Register With Existed Email - Step 03: Enter to Last name textbox
+[2022-05-06 13:04:37,758] Register With Existed Email- Step 04: Enter existed Email to Email textbox
+[2022-05-06 13:04:37,828] Register With Existed Email- Step 05: Enter to Password textbox
+[2022-05-06 13:04:37,882] Register With Existed Email- Step 06: Enter to Confirm password textbox
+[2022-05-06 13:04:37,946] Register With Existed Email - Step 07: Click to Register button
+[2022-05-06 13:04:38,373] Register With Existed Email - Step 08: Verify Error message after clicking Register button
+[2022-05-06 13:04:38,419] Register With Less Than 6 Characters Password - Step 02: Enter to First name textbox
+[2022-05-06 13:04:38,483] Register With Less Than 6 Characters Password - Step 03: Enter to Last name textbox
+[2022-05-06 13:04:38,561] Register With Less Than 6 Characters Password - Step 04: Enter to Email textbox
+[2022-05-06 13:04:38,639] Register With Less Than 6 Characters Password - Step 05: Enter invalid Password to Password textbox
+[2022-05-06 13:04:38,683] Register With Less Than 6 Characters Password - Step 06: Enter to Confirm password textbox
+[2022-05-06 13:04:38,741] Register With Less Than 6 Characters Password - Step 07: Click to Register button
+[2022-05-06 13:04:39,009] Register With Less Than 6 Characters Password - Step 08: Verify Error message in Password textbox
+[2022-05-06 13:04:39,051] Register With Not Matched Confirm Password - Step 02: Enter to First name textbox
+[2022-05-06 13:04:39,102] Register With Not Matched Confirm Password - Step 03: Enter to Last name textbox
+[2022-05-06 13:04:39,165] Register With Not Matched Confirm Password - Step 04: Enter to Email textbox
+[2022-05-06 13:04:39,241] Register With Not Matched Confirm Password - Step 05: Enter to Password textbox
+[2022-05-06 13:04:39,315] Register With Not Matched Confirm Password - Step 06: Enter invalid Confirm password to Confirm password textbox
+[2022-05-06 13:04:39,381] Register With Not Matched Confirm Password - Step 07: Click to Register button
+[2022-05-06 13:04:39,630] Register With Not Matched Confirm Password - Step 08: Verify Error message in Confirm password textbox
+[2022-05-06 13:04:39,661] OS name = windows 10
+[2022-05-06 13:04:39,661] Driver instance name = firefoxdriver: firefox on windows (e1d69a23-7382-43d0-b57c-441fc512e60e)
+[2022-05-06 13:08:40,103] Precondition - Step 01: Open Log in page
+[2022-05-06 13:08:40,779] Login With Empty Data - Step 01: Click to LOG IN button
+[2022-05-06 13:08:41,108] Login With Empty Data - Step 02: Verify error message at Email textbox
+[2022-05-06 13:08:41,251] Login With Invalid Email - Step 01: Enter Invalid Email to Email textbox
+[2022-05-06 13:08:41,312] Login With Invalid Email - Step 02: Click to LOG IN button
+[2022-05-06 13:08:41,571] Login With Invalid Email - Step 03: Verify error message at Email textbox
+[2022-05-06 13:08:41,616] Login With Unregistered Email - Step 01: Enter Unregistered Email to Email textbox
+[2022-05-06 13:08:41,709] Login With Unregistered Email - Step 02: Enter Password to Password textbox
+[2022-05-06 13:08:41,748] Login With Empty Password - Step 01: Enter Email to Email textbox
+[2022-05-06 13:08:41,804] Login With Wrong Password - Step 01: Enter Email to Email textbox
+[2022-05-06 13:08:41,850] Login With Wrong Password - Step 01: Enter Email to Email textbox
+[2022-05-06 13:08:41,890] OS name = windows 10
+[2022-05-06 13:08:41,890] Driver instance name = firefoxdriver: firefox on windows (f37da2a9-061c-4fff-a937-2bbac6be78fa)
+[2022-05-06 13:09:28,858] Precondition - Step 01: Open Log in page
+[2022-05-06 13:09:29,490] Login With Empty Data - Step 01: Click to LOG IN button
+[2022-05-06 13:09:29,764] Login With Empty Data - Step 02: Verify error message at Email textbox
+[2022-05-06 13:09:29,960] Login With Invalid Email - Step 01: Enter Invalid Email to Email textbox
+[2022-05-06 13:09:30,024] Login With Invalid Email - Step 02: Click to LOG IN button
+[2022-05-06 13:09:30,290] Login With Invalid Email - Step 03: Verify error message at Email textbox
+[2022-05-06 13:09:30,327] Login With Unregistered Email - Step 01: Enter Unregistered Email to Email textbox
+[2022-05-06 13:09:30,413] Login With Unregistered Email - Step 02: Enter Password to Password textbox
+[2022-05-06 13:09:30,465] Login With Unregistered Email - Step 03: Click to LOG IN button
+[2022-05-06 13:09:30,893] Login With Unregistered Email - Step 04: Verify error message at Email textbox
+[2022-05-06 13:09:30,947] Login With Empty Password - Step 01: Enter Email to Email textbox
+[2022-05-06 13:09:31,018] Login With Empty Password - Step 02: Enter Empty Password to Password textbox
+[2022-05-06 13:09:31,068] Login With Empty Password - Step 03: Click to LOG IN button
+[2022-05-06 13:09:31,502] Login With Empty Password - Step 04: Verify error message at Email textbox
+[2022-05-06 13:09:31,553] Login With Wrong Password - Step 01: Enter Email to Email textbox
+[2022-05-06 13:09:31,618] Login With Wrong Password - Step 02: Enter Wrong Password to Password textbox
+[2022-05-06 13:09:31,670] Login With Wrong Password - Step 03: Click to LOG IN button
+[2022-05-06 13:09:32,080] Login With Wrong Password - Step 04: Verify error message at Email textbox
+[2022-05-06 13:09:32,151] Login With Wrong Password - Step 01: Enter Email to Email textbox
+[2022-05-06 13:09:32,221] Login With Wrong Password - Step 02: Enter Password to Password textbox
+[2022-05-06 13:09:32,269] Login With Wrong Password - Step 03: Click to LOG IN button
+[2022-05-06 13:09:33,044] Login With Wrong Password - Step 04: Verify My account link is displayed
+[2022-05-06 13:09:33,108] OS name = windows 10
+[2022-05-06 13:09:33,108] Driver instance name = firefoxdriver: firefox on windows (22157c47-e84a-45f6-8fa1-75233440993c)
+[2022-05-06 15:06:38,696] Precondition - Step 01: Open Log in page
+[2022-05-06 15:06:39,248] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:06:39,317] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:06:39,365] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:06:40,083] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:06:40,246] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:06:50,434] OS name = windows 10
+[2022-05-06 15:06:50,435] Driver instance name = firefoxdriver: firefox on windows (89a1a41c-9a26-4f3d-95b4-632dc01439a9)
+[2022-05-06 15:07:53,446] Precondition - Step 01: Open Log in page
+[2022-05-06 15:07:54,020] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:07:54,105] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:07:54,175] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:07:54,954] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:07:55,088] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:07:55,651] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:07:55,698] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:07:55,724] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:07:55,757] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:07:55,786] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:07:56,033] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:07:56,104] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:07:56,169] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:08:06,662] OS name = windows 10
+[2022-05-06 15:08:06,662] Driver instance name = firefoxdriver: firefox on windows (dabb1448-022d-4c4e-a2e7-8b1c7cfc8ff0)
+[2022-05-06 15:10:36,312] Precondition - Step 01: Open Log in page
+[2022-05-06 15:10:36,880] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:10:36,960] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:10:37,010] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:10:37,833] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:10:37,962] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:10:38,476] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:10:38,526] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:10:38,553] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:10:38,586] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:10:38,619] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:10:38,865] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:10:38,939] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:10:38,997] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:10:42,847] OS name = windows 10
+[2022-05-06 15:10:42,848] Driver instance name = firefoxdriver: firefox on windows (4be4cd88-4f4f-4f7b-9aa0-a72e6988009f)
+[2022-05-06 15:10:42,906] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 1100, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4be4cd88-4f4f-4f7b-9aa0-a72e6988009f
+[2022-05-06 15:12:20,545] Precondition - Step 01: Open Log in page
+[2022-05-06 15:12:21,078] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:12:21,152] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:12:21,208] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:12:21,947] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:12:22,080] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:12:22,584] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:12:22,629] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:12:22,658] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:12:22,690] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:12:22,721] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:12:22,975] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:12:23,044] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:12:23,110] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:12:33,554] OS name = windows 10
+[2022-05-06 15:12:33,554] Driver instance name = firefoxdriver: firefox on windows (61be3927-c1d3-4b6b-b5af-c32da53ad1e8)
+[2022-05-06 15:13:28,929] Precondition - Step 01: Open Log in page
+[2022-05-06 15:13:29,513] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:13:29,609] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:13:29,665] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:13:30,403] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:13:30,535] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:13:34,049] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:13:34,095] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:13:34,122] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:13:34,150] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:13:34,176] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:13:34,420] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:13:34,502] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:13:34,576] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:13:45,051] OS name = windows 10
+[2022-05-06 15:13:45,051] Driver instance name = firefoxdriver: firefox on windows (da89e07f-5109-4a35-a2a8-4ea84aad9e1c)
+[2022-05-06 15:18:22,303] OS name = windows 10
+[2022-05-06 15:18:22,304] 
+[2022-05-06 15:18:46,194] Precondition - Step 01: Open Log in page
+[2022-05-06 15:18:46,773] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:18:46,851] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:18:46,913] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:18:47,770] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:18:47,916] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:18:48,439] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:18:48,484] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:18:48,516] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:18:48,550] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:18:48,584] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:18:48,831] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:18:48,891] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:18:48,949] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:18:59,408] OS name = windows 10
+[2022-05-06 15:18:59,409] Driver instance name = firefoxdriver: firefox on windows (f4376465-3614-4801-a95b-4136d7472e34)
+[2022-05-06 15:20:50,324] Precondition - Step 01: Open Log in page
+[2022-05-06 15:20:50,847] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:20:50,925] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:20:50,975] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:20:51,689] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:20:51,824] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:20:52,308] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:20:52,355] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:20:52,390] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:20:52,425] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:20:52,458] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:20:52,711] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:20:52,772] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:20:52,830] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:20:53,620] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-06 15:20:53,688] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-06 15:20:53,745] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-06 15:20:54,445] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-06 15:20:54,498] My Account Update Customer Info - Step 14: Verify First name info is correct
+[2022-05-06 15:20:54,540] My Account Update Customer Info - Step 15: Verify Last name info is correct
+[2022-05-06 15:20:54,580] My Account Update Customer Info - Step 16: Verify Email info is correct
+[2022-05-06 15:20:54,615] My Account Update Customer Info - Step 17: Verify Newsletter checkbox is checked
+[2022-05-06 15:20:54,994] My Account Update Customer Info - Step 18: Verify Email info is correct
+[2022-05-06 15:20:55,022] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-06 15:20:55,199] OS name = windows 10
+[2022-05-06 15:20:55,199] Driver instance name = firefoxdriver: firefox on windows (a9cf6836-733a-4b19-85dd-52d2e4812fc4)
+[2022-05-06 15:23:18,263] Precondition - Step 01: Open Log in page
+[2022-05-06 15:23:18,842] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:23:18,921] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:23:18,988] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:23:19,716] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:23:19,857] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:23:20,366] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:23:20,412] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:23:20,444] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:23:20,480] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:23:20,512] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:23:20,772] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:23:20,829] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:23:20,884] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:23:21,667] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-06 15:23:21,729] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-06 15:23:21,785] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-06 15:23:22,202] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-06 15:23:22,245] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-06 15:23:22,279] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-06 15:23:22,317] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-06 15:23:22,355] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-06 15:23:22,761] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-06 15:23:22,789] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-06 15:23:22,952] OS name = windows 10
+[2022-05-06 15:23:22,953] Driver instance name = firefoxdriver: firefox on windows (ac527506-972a-440a-8591-b6b1b076e72a)
+[2022-05-06 15:24:04,915] Precondition - Step 01: Open Log in page
+[2022-05-06 15:24:05,479] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:24:05,556] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:24:05,608] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:24:06,370] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:24:06,504] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:24:07,014] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:24:07,061] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:24:07,092] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:24:07,127] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:24:07,159] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:24:07,410] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:24:07,477] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:24:07,530] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:24:08,338] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-06 15:24:08,400] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-06 15:24:08,458] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-06 15:24:09,168] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-06 15:24:09,210] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-06 15:24:09,245] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-06 15:24:09,277] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-06 15:24:09,310] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-06 15:24:09,728] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-06 15:24:09,760] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-06 15:24:09,919] OS name = windows 10
+[2022-05-06 15:24:09,920] Driver instance name = firefoxdriver: firefox on windows (254ff948-a589-45dc-a408-4f350901ae28)
+[2022-05-06 15:25:13,733] Precondition - Step 01: Open Log in page
+[2022-05-06 15:25:14,317] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 15:25:14,404] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 15:25:14,468] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 15:25:15,215] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 15:25:15,378] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 15:25:15,901] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 15:25:15,947] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 15:25:15,979] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 15:25:16,014] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 15:25:16,046] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 15:25:16,294] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 15:25:16,350] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 15:25:16,414] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 15:25:17,193] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-06 15:25:17,263] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-06 15:25:17,320] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-06 15:25:18,039] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-06 15:25:18,082] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-06 15:25:18,115] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-06 15:25:18,148] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-06 15:25:18,182] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-06 15:25:18,583] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-06 15:25:18,611] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-06 15:25:18,795] OS name = windows 10
+[2022-05-06 15:25:18,795] Driver instance name = firefoxdriver: firefox on windows (7ebf221a-77b6-4bbb-8b83-d844c164e2d8)
+[2022-05-06 21:24:11,529] Precondition - Step 01: Open Log in page
+[2022-05-06 21:24:12,150] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 21:24:12,246] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 21:24:12,340] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 21:24:13,130] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 21:24:13,340] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 21:24:13,845] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 21:24:13,885] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 21:24:13,919] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 21:24:13,954] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 21:24:13,990] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 21:24:14,234] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 21:24:14,295] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 21:24:14,354] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 21:24:15,135] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-06 21:24:15,201] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-06 21:24:15,260] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-06 21:24:15,979] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-06 21:24:16,020] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-06 21:24:16,053] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-06 21:24:16,092] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-06 21:24:16,123] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-06 21:24:16,531] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-06 21:24:16,562] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-06 21:24:16,585] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-06 21:24:17,306] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-06 21:24:17,737] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-06 21:24:17,803] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-06 21:24:17,851] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-06 21:24:18,276] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-06 21:24:21,381] OS name = windows 10
+[2022-05-06 21:24:21,381] Driver instance name = firefoxdriver: firefox on windows (d68469cf-6564-444e-a6e1-874fed61b4d5)
+[2022-05-06 21:24:21,444] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '172.16.17.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 11176, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d68469cf-6564-444e-a6e1-874fed61b4d5
+[2022-05-06 21:24:56,664] Precondition - Step 01: Open Log in page
+[2022-05-06 21:24:57,256] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-06 21:24:57,334] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-06 21:24:57,404] Precondition - Step 04: Click to LOG IN button
+[2022-05-06 21:24:58,180] Precondition - Step 05: Verify My account link is displayed
+[2022-05-06 21:24:58,317] My Account Update Customer Info - Step 01: Open My Account page
+[2022-05-06 21:24:58,868] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-06 21:24:58,913] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-06 21:24:58,947] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-06 21:24:58,983] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-06 21:24:59,015] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-06 21:24:59,267] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-06 21:24:59,329] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-06 21:24:59,385] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-06 21:25:00,168] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-06 21:25:00,234] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-06 21:25:00,295] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-06 21:25:01,015] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-06 21:25:01,060] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-06 21:25:01,091] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-06 21:25:01,126] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-06 21:25:01,157] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-06 21:25:01,606] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-06 21:25:01,638] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-06 21:25:01,689] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-06 21:25:02,380] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-06 21:25:02,828] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-06 21:25:02,895] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-06 21:25:02,948] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-06 21:25:03,660] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-06 21:25:03,898] OS name = windows 10
+[2022-05-06 21:25:03,899] Driver instance name = firefoxdriver: firefox on windows (6b6e3ba2-0e6a-4a4e-b323-5304b77cc010)
+[2022-05-08 13:00:10,184] Precondition - Step 01: Open Log in page
+[2022-05-08 13:00:10,734] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:00:10,815] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:00:10,881] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:00:11,657] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:00:11,720] Precondition - Step 06: Open My Account page
+[2022-05-08 13:00:12,414] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:00:12,454] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:00:12,487] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:00:12,523] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:00:12,556] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:00:12,800] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:00:12,882] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:00:12,952] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:00:13,784] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:00:13,850] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:00:13,909] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:00:14,668] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:00:14,705] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:00:14,736] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:00:14,767] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:00:14,809] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:00:15,211] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:00:15,237] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:00:15,261] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:00:15,932] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:00:16,380] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:00:16,443] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:00:16,488] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:00:17,200] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:00:17,394] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:00:27,465] OS name = windows 10
+[2022-05-08 13:00:27,465] Driver instance name = firefoxdriver: firefox on windows (ceebe206-5ddf-4d03-9c66-d0fedc70091d)
+[2022-05-08 13:08:49,808] Precondition - Step 01: Open Log in page
+[2022-05-08 13:08:50,398] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:08:50,486] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:08:50,546] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:08:51,327] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:08:51,388] Precondition - Step 06: Open My Account page
+[2022-05-08 13:08:52,015] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:08:52,053] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:08:52,092] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:08:52,141] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:08:52,181] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:08:52,443] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:08:52,509] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:08:52,569] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:08:53,364] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:08:53,427] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:08:53,485] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:08:53,908] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:08:53,955] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:08:53,992] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:08:54,030] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:08:54,068] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:08:54,483] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:08:54,516] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:08:54,542] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:08:55,251] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:08:55,698] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:08:55,764] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:08:55,813] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:08:56,556] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:08:56,620] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 13:08:57,163] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:08:57,689] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:08:58,303] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:08:58,384] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:08:58,455] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:08:58,528] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:08:58,584] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:08:58,680] OS name = windows 10
+[2022-05-08 13:08:58,681] Driver instance name = firefoxdriver: firefox on windows (d67a6340-a9fd-4fdd-b2f9-9a046fda3cdf)
+[2022-05-08 13:09:53,965] Precondition - Step 01: Open Log in page
+[2022-05-08 13:09:54,570] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:09:54,652] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:09:54,716] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:09:55,465] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:09:55,526] Precondition - Step 06: Open My Account page
+[2022-05-08 13:09:56,132] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:09:56,167] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:09:56,198] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:09:56,233] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:09:56,268] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:09:56,521] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:09:56,580] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:09:56,642] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:09:57,436] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:09:57,501] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:09:57,562] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:09:58,310] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:09:58,350] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:09:58,383] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:09:58,417] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:09:58,452] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:09:58,846] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:09:58,880] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:09:58,911] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:09:59,460] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:10:05,594] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:10:05,838] OS name = windows 10
+[2022-05-08 13:10:05,838] Driver instance name = firefoxdriver: firefox on windows (b87602b2-db15-4570-aab7-f406b5b8b7f1)
+[2022-05-08 13:10:05,843] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 4760, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b87602b2-db15-4570-aab7-f406b5b8b7f1
+[2022-05-08 13:10:35,549] Precondition - Step 01: Open Log in page
+[2022-05-08 13:10:36,100] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:10:36,183] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:10:36,240] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:10:37,020] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:10:37,080] Precondition - Step 06: Open My Account page
+[2022-05-08 13:10:37,663] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:10:37,701] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:10:37,731] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:10:37,764] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:10:37,802] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:10:38,051] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:10:38,115] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:10:38,177] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:10:38,973] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:10:39,039] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:10:39,099] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:10:39,817] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:10:39,875] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:10:39,909] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:10:39,953] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:10:39,996] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:10:40,398] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:10:40,426] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:10:40,453] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:10:41,184] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:10:41,650] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:10:41,719] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:10:41,765] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:10:42,485] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:10:42,544] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 13:10:43,074] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:10:43,644] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:10:44,224] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:10:44,286] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:10:44,349] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:10:44,423] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:10:44,486] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:10:44,574] OS name = windows 10
+[2022-05-08 13:10:44,574] Driver instance name = firefoxdriver: firefox on windows (c45dcc8f-b172-4589-97a0-a67a9443ff1f)
+[2022-05-08 13:15:29,134] Precondition - Step 01: Open Log in page
+[2022-05-08 13:15:29,717] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:15:29,788] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:15:29,851] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:15:30,585] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:15:30,644] Precondition - Step 06: Open My Account page
+[2022-05-08 13:15:31,211] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:15:31,250] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:15:31,284] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:15:31,325] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:15:31,358] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:15:31,606] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:15:31,667] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:15:31,724] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:15:32,524] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:15:32,592] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:15:32,657] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:15:33,352] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:15:33,396] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:15:33,426] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:15:33,460] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:15:33,492] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:15:33,885] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:15:33,916] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:15:33,952] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:15:34,688] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:15:35,117] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:15:35,190] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:15:35,238] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:15:35,945] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:15:36,011] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 13:15:36,541] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:15:37,003] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:15:37,594] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:15:37,661] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:15:37,731] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:15:37,815] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:15:37,890] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:15:38,005] OS name = windows 10
+[2022-05-08 13:15:38,005] Driver instance name = firefoxdriver: firefox on windows (706669a3-dc55-48eb-9b13-a37a68a32644)
+[2022-05-08 13:23:53,077] Precondition - Step 01: Open Log in page
+[2022-05-08 13:23:53,664] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:23:53,748] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:23:53,821] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:23:54,605] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:23:54,668] Precondition - Step 06: Open My Account page
+[2022-05-08 13:23:55,286] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:23:55,331] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:23:55,377] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:23:55,428] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:23:55,477] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:23:55,748] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:23:55,819] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:23:55,886] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:23:56,717] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:23:56,786] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:23:56,862] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:23:57,292] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:23:57,359] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:23:57,414] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:23:57,464] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:23:57,510] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:23:57,958] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:23:57,997] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:23:58,026] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:23:58,760] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:23:59,215] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:23:59,297] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:23:59,362] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:24:00,118] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:24:00,191] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 13:24:00,744] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:24:01,273] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:24:01,882] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:24:01,978] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:24:02,097] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:24:02,185] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:24:02,267] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:24:12,359] OS name = windows 10
+[2022-05-08 13:24:12,359] Driver instance name = firefoxdriver: firefox on windows (e291e86e-6113-458a-b334-38259401716d)
+[2022-05-08 13:24:54,225] Precondition - Step 01: Open Log in page
+[2022-05-08 13:24:54,827] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:24:54,992] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:24:55,074] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:24:55,906] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:24:55,966] Precondition - Step 06: Open My Account page
+[2022-05-08 13:24:56,572] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:24:56,613] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:24:56,666] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:24:56,706] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:24:56,742] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:24:56,996] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:24:57,064] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:24:57,136] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:24:57,958] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:24:58,040] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:24:58,117] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:24:58,890] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:24:58,959] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:24:59,003] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:24:59,044] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:24:59,081] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:24:59,513] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:24:59,549] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:24:59,577] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:25:00,289] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:25:00,740] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:25:00,819] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:25:00,872] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:25:01,623] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:25:01,693] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 13:25:02,312] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:25:02,858] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:25:03,455] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:25:03,520] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:25:03,585] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:25:03,668] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:25:03,734] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:25:04,036] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:25:04,092] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:25:04,173] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:25:04,243] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:25:04,318] OS name = windows 10
+[2022-05-08 13:25:04,318] Driver instance name = firefoxdriver: firefox on windows (6d4f845f-875e-4c3f-9bfc-7f0faeb81042)
+[2022-05-08 13:26:18,843] Precondition - Step 01: Open Log in page
+[2022-05-08 13:26:19,463] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:26:19,558] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:26:19,644] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:26:20,402] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:26:20,470] Precondition - Step 06: Open My Account page
+[2022-05-08 13:26:21,117] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 13:26:21,160] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 13:26:21,203] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 13:26:21,279] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 13:26:21,322] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 13:26:21,583] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 13:26:21,653] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 13:26:21,713] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 13:26:22,532] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 13:26:22,604] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 13:26:22,668] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 13:26:23,409] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 13:26:23,473] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 13:26:23,513] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 13:26:23,558] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 13:26:23,600] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 13:26:24,030] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 13:26:24,059] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 13:26:24,086] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 13:26:24,831] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 13:26:25,295] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 13:26:25,370] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 13:26:25,420] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 13:26:26,141] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 13:26:26,213] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 13:26:26,833] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:26:27,388] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:26:27,966] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:26:28,047] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:26:28,119] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:26:28,201] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:26:28,267] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:26:28,557] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:26:28,614] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:26:28,681] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:26:28,744] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:26:28,810] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:26:28,868] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:26:28,928] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:26:28,982] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:26:29,248] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:26:36,081] OS name = windows 10
+[2022-05-08 13:26:36,081] Driver instance name = firefoxdriver: firefox on windows (260c291a-8e5e-498f-bf61-e9a9bb62e538)
+[2022-05-08 13:26:36,088] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 11516, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 260c291a-8e5e-498f-bf61-e9a9bb62e538
+[2022-05-08 13:27:54,881] Precondition - Step 01: Open Log in page
+[2022-05-08 13:27:55,559] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:27:55,670] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:27:55,744] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:27:56,580] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:27:56,649] Precondition - Step 06: Open My Account page
+[2022-05-08 13:27:57,275] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:27:57,799] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:27:58,379] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:27:58,448] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:27:58,515] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:27:58,597] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:27:58,691] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:27:58,996] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:27:59,051] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:27:59,116] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:27:59,180] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:27:59,247] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:27:59,300] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:27:59,360] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:27:59,429] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:27:59,700] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:28:09,868] OS name = windows 10
+[2022-05-08 13:28:09,869] Driver instance name = firefoxdriver: firefox on windows (5f8c3893-83f9-4b13-9b75-a35c735b7f05)
+[2022-05-08 13:29:57,033] Precondition - Step 01: Open Log in page
+[2022-05-08 13:29:57,602] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:29:57,691] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:29:57,756] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:29:58,526] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:29:58,593] Precondition - Step 06: Open My Account page
+[2022-05-08 13:29:59,197] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:29:59,698] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:30:00,281] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:30:00,347] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:30:00,400] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:30:00,472] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:30:00,551] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:30:00,849] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:30:03,916] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:30:03,975] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:30:04,035] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:30:04,098] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:30:04,144] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:30:04,197] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:30:04,257] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:30:04,518] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:30:12,773] OS name = windows 10
+[2022-05-08 13:30:12,774] Driver instance name = firefoxdriver: firefox on windows (3defb2e3-033c-4af2-b678-bc2b34bf0195)
+[2022-05-08 13:30:12,962] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 3432, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3defb2e3-033c-4af2-b678-bc2b34bf0195
+[2022-05-08 13:31:48,014] Precondition - Step 01: Open Log in page
+[2022-05-08 13:31:48,575] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:31:48,652] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:31:48,713] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:31:49,493] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:31:49,554] Precondition - Step 06: Open My Account page
+[2022-05-08 13:31:50,143] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:31:50,649] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:31:51,215] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:31:51,279] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:31:51,333] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:31:51,412] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:31:51,499] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:31:51,794] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:31:54,843] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:31:54,891] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:31:54,949] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:31:55,008] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:31:55,062] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:31:55,117] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:31:55,174] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:31:55,963] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:31:56,012] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 13:31:56,044] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 13:31:56,071] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 13:31:56,106] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 13:31:56,141] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 13:31:56,175] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 13:31:56,208] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 13:31:56,428] OS name = windows 10
+[2022-05-08 13:31:56,428] Driver instance name = firefoxdriver: firefox on windows (467049fb-a765-4205-af4d-4dc408c9f87e)
+[2022-05-08 13:34:25,097] Precondition - Step 01: Open Log in page
+[2022-05-08 13:34:25,680] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:34:25,762] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:34:25,824] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:34:26,571] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:34:26,633] Precondition - Step 06: Open My Account page
+[2022-05-08 13:34:27,220] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:34:27,721] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:34:28,272] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:34:28,338] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:34:28,397] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:34:28,472] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:34:28,544] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:34:28,842] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:34:31,892] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:34:31,937] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:34:31,999] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:34:32,059] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:34:32,111] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:34:32,169] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:34:32,224] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:34:32,960] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:34:33,016] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 13:34:33,056] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 13:34:33,088] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 13:34:33,124] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 13:34:33,157] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 13:34:33,191] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 13:34:33,223] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 13:34:33,410] OS name = windows 10
+[2022-05-08 13:34:33,411] Driver instance name = firefoxdriver: firefox on windows (9a3140b4-97f6-4121-abfc-73ff5f029ad0)
+[2022-05-08 13:35:21,933] Precondition - Step 01: Open Log in page
+[2022-05-08 13:35:22,505] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:35:22,582] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:35:22,645] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:35:23,422] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:35:23,483] Precondition - Step 06: Open My Account page
+[2022-05-08 13:35:24,059] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:35:24,549] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:35:25,123] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:35:25,186] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:35:25,245] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:35:25,324] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:35:25,415] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:35:25,711] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:35:28,762] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:35:28,806] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:35:28,862] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:35:28,922] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:35:28,971] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:35:29,021] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:35:29,080] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:35:29,886] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:35:29,935] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 13:35:29,968] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 13:35:29,998] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 13:35:30,030] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 13:35:30,064] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 13:35:30,099] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 13:35:30,129] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 13:35:30,313] OS name = windows 10
+[2022-05-08 13:35:30,313] Driver instance name = firefoxdriver: firefox on windows (6a4c8774-f5c8-4c0c-a01b-acdf889d66c5)
+[2022-05-08 13:37:06,303] Precondition - Step 01: Open Log in page
+[2022-05-08 13:37:06,864] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 13:37:06,946] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 13:37:07,007] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 13:37:07,757] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 13:37:07,825] Precondition - Step 06: Open My Account page
+[2022-05-08 13:37:08,408] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 13:37:08,912] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 13:37:09,476] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 13:37:09,539] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 13:37:09,597] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 13:37:09,671] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 13:37:09,759] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 13:37:10,048] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 13:37:13,107] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 13:37:13,165] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 13:37:13,239] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 13:37:13,319] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 13:37:13,387] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 13:37:13,445] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 13:37:13,500] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 13:37:14,258] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 13:37:14,309] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 13:37:14,341] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 13:37:14,368] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 13:37:14,403] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 13:37:14,435] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 13:37:14,472] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 13:37:14,505] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 13:37:14,697] OS name = windows 10
+[2022-05-08 13:37:14,697] Driver instance name = firefoxdriver: firefox on windows (0870a276-a4f1-491c-834d-fd7db7e7a1de)
+[2022-05-08 14:38:26,057] Precondition - Step 01: Open Log in page
+[2022-05-08 14:38:26,634] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 14:38:26,723] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 14:38:26,781] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 14:38:27,538] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 14:38:27,603] Precondition - Step 06: Open My Account page
+[2022-05-08 14:38:28,197] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 14:38:28,238] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 14:38:28,274] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 14:38:28,314] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 14:38:28,347] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 14:38:28,593] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 14:38:28,649] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 14:38:28,706] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 14:38:29,504] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 14:38:29,571] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 14:38:29,629] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 14:38:30,331] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 14:38:30,376] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 14:38:30,407] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 14:38:30,439] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 14:38:30,474] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 14:38:30,890] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 14:38:30,917] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 14:38:30,943] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 14:38:31,643] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 14:38:32,123] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 14:38:32,188] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 14:38:32,235] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 14:38:32,915] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 14:38:32,990] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 14:38:33,552] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 14:38:34,037] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 14:38:34,601] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 14:38:34,659] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 14:38:34,735] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 14:38:34,814] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 14:38:34,885] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 14:38:35,168] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 14:38:38,220] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 14:38:38,276] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 14:38:38,340] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 14:38:38,401] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 14:38:38,454] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 14:38:38,510] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 14:38:38,572] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 14:38:39,317] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 14:38:39,367] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 14:38:39,400] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 14:38:39,427] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 14:38:39,458] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 14:38:39,486] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 14:38:39,516] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 14:38:39,546] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 14:38:39,583] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 14:38:39,607] OS name = windows 10
+[2022-05-08 14:38:39,607] Driver instance name = firefoxdriver: firefox on windows (2fffd6a7-940c-4038-8604-5fa22a009739)
+[2022-05-08 15:06:10,622] Precondition - Step 01: Open Log in page
+[2022-05-08 15:06:11,204] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:06:11,281] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:06:11,338] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:06:12,118] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:06:12,185] Precondition - Step 06: Open My Account page
+[2022-05-08 15:06:12,784] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:06:13,311] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:06:13,372] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:06:13,425] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:06:13,479] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:06:13,917] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:06:13,997] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:06:14,237] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:06:14,413] OS name = windows 10
+[2022-05-08 15:06:14,414] Driver instance name = firefoxdriver: firefox on windows (0973e506-bdda-4737-94ff-570dda8466bf)
+[2022-05-08 15:07:13,431] Precondition - Step 01: Open Log in page
+[2022-05-08 15:07:14,010] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:07:14,083] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:07:14,144] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:07:14,900] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:07:14,958] Precondition - Step 06: Open My Account page
+[2022-05-08 15:07:15,600] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:07:16,096] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:07:16,152] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:07:16,209] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:07:16,264] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:07:16,693] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:07:16,776] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:07:20,016] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:07:20,744] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 15:07:21,380] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 15:07:21,462] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 15:07:21,523] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 15:07:21,957] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 15:07:26,869] OS name = windows 10
+[2022-05-08 15:07:26,869] Driver instance name = firefoxdriver: firefox on windows (060bcc66-642f-46d8-a396-aa43ce404e69)
+[2022-05-08 15:07:26,873] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2976, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 060bcc66-642f-46d8-a396-aa43ce404e69
+[2022-05-08 15:08:47,620] Precondition - Step 01: Open Log in page
+[2022-05-08 15:08:48,163] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:08:48,238] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:08:48,289] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:08:49,041] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:08:49,132] Precondition - Step 06: Open My Account page
+[2022-05-08 15:08:49,725] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:08:50,212] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:08:50,275] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:08:50,330] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:08:50,379] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:08:50,800] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:08:50,882] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:08:51,127] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:08:51,297] OS name = windows 10
+[2022-05-08 15:08:51,298] Driver instance name = firefoxdriver: firefox on windows (743e1340-e6e2-4e1d-bc7c-40817fdb8def)
+[2022-05-08 15:10:15,893] Precondition - Step 01: Open Log in page
+[2022-05-08 15:10:16,432] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:10:16,510] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:10:16,560] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:10:17,293] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:10:17,359] Precondition - Step 06: Open My Account page
+[2022-05-08 15:10:17,931] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:10:18,415] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:10:18,476] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:10:18,525] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:10:18,578] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:10:19,002] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:10:19,083] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:10:19,327] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:10:19,515] OS name = windows 10
+[2022-05-08 15:10:19,515] Driver instance name = firefoxdriver: firefox on windows (b3c28499-45a6-4d14-8a0e-0c92bbd68089)
+[2022-05-08 15:29:05,041] Precondition - Step 01: Open Log in page
+[2022-05-08 15:29:05,663] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:29:05,736] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:29:05,787] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:29:06,665] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:29:06,732] Precondition - Step 06: Open My Account page
+[2022-05-08 15:29:07,333] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:29:07,832] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:29:07,891] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:29:07,952] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:29:08,001] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:29:08,457] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:29:08,534] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:29:08,780] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:29:37,602] OS name = windows 10
+[2022-05-08 15:29:37,603] Driver instance name = firefoxdriver: firefox on windows (82c256af-26a0-4336-b34c-3218f8d0c8b8)
+[2022-05-08 15:29:37,607] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 12012, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c256af-26a0-4336-b34c-3218f8d0c8b8
+[2022-05-08 15:30:58,453] Precondition - Step 01: Open Log in page
+[2022-05-08 15:30:59,051] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:30:59,131] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:30:59,205] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:30:59,938] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:31:00,000] Precondition - Step 06: Open My Account page
+[2022-05-08 15:31:00,575] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:31:01,071] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:31:01,127] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:31:01,186] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:31:01,242] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:31:01,671] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:31:01,759] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:31:02,005] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:31:17,221] OS name = windows 10
+[2022-05-08 15:31:17,222] Driver instance name = firefoxdriver: firefox on windows (071afdbb-8b7d-4d47-b9f5-1c89d930a9b0)
+[2022-05-08 15:40:23,554] Precondition - Step 01: Open Log in page
+[2022-05-08 15:40:24,111] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:40:24,174] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:40:24,237] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:40:25,007] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:40:25,077] Precondition - Step 06: Open My Account page
+[2022-05-08 15:40:25,691] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:40:26,208] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:40:26,274] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:40:26,333] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:40:26,394] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:40:26,818] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:40:26,882] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:40:42,300] OS name = windows 10
+[2022-05-08 15:40:42,301] Driver instance name = firefoxdriver: firefox on windows (a65c4f98-f2b1-42b7-8b87-3da0509b37d8)
+[2022-05-08 15:41:53,897] Precondition - Step 01: Open Log in page
+[2022-05-08 15:41:54,474] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:41:54,554] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:41:54,615] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:41:55,370] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:41:55,435] Precondition - Step 06: Open My Account page
+[2022-05-08 15:41:56,034] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:41:56,512] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:41:56,577] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:41:56,628] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:41:56,688] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:41:57,132] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:41:57,210] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:42:13,596] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:42:14,328] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 15:42:14,761] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 15:42:14,837] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 15:42:14,889] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 15:42:15,614] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 15:42:15,680] My Account Change Password - Step 14: Open My Account page
+[2022-05-08 15:42:16,273] OS name = windows 10
+[2022-05-08 15:42:16,273] Driver instance name = firefoxdriver: firefox on windows (ebbdf0d0-00cf-48c1-9d60-55cf0f091698)
+[2022-05-08 15:48:27,475] Precondition - Step 01: Open Log in page
+[2022-05-08 15:48:28,032] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:48:28,172] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:48:28,289] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:48:29,095] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:48:29,145] Precondition - Step 06: Open My Account page
+[2022-05-08 15:48:29,754] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:48:30,277] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:48:30,391] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:48:30,513] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:48:30,630] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:48:31,141] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:48:31,193] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:48:46,522] OS name = windows 10
+[2022-05-08 15:48:46,523] Driver instance name = chromedriver: chrome on windows (c4238ff3dc994f6e6bb3a545b5eda644)
+[2022-05-08 15:51:03,132] Precondition - Step 01: Open Log in page
+[2022-05-08 15:51:03,725] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:51:03,857] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:51:03,982] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:51:04,786] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:51:04,837] Precondition - Step 06: Open My Account page
+[2022-05-08 15:51:05,512] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:51:06,046] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:51:06,192] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:51:06,310] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:51:06,451] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:51:06,916] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:51:06,977] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:51:12,456] OS name = windows 10
+[2022-05-08 15:51:12,457] Driver instance name = chromedriver: chrome on windows (68ff5af1559bbc1e0244eeb8647514d5)
+[2022-05-08 15:52:40,598] Precondition - Step 01: Open Log in page
+[2022-05-08 15:52:41,162] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:52:41,294] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:52:41,412] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:52:42,130] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:52:42,179] Precondition - Step 06: Open My Account page
+[2022-05-08 15:52:42,796] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:52:43,299] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:52:43,415] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:52:43,539] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:52:43,656] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:52:44,128] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:52:44,193] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:52:44,293] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:52:49,667] OS name = windows 10
+[2022-05-08 15:52:49,668] Driver instance name = chromedriver: chrome on windows (3dd9ede231a9bf2bfc90d25ae4de433c)
+[2022-05-08 15:53:17,409] Precondition - Step 01: Open Log in page
+[2022-05-08 15:53:17,972] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:53:18,109] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:53:18,231] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:53:19,007] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:53:19,066] Precondition - Step 06: Open My Account page
+[2022-05-08 15:53:19,681] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:53:20,209] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:53:20,325] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:53:20,451] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:53:20,572] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:53:21,259] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:53:21,322] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:53:21,401] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:53:28,293] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 15:53:28,761] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 15:53:28,893] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 15:53:29,009] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 15:53:29,898] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 15:53:29,948] My Account Change Password - Step 14: Open My Account page
+[2022-05-08 15:53:30,545] OS name = windows 10
+[2022-05-08 15:53:30,545] Driver instance name = chromedriver: chrome on windows (1d9fd5f639369890e9969cd2eae835c6)
+[2022-05-08 15:54:42,752] Precondition - Step 01: Open Log in page
+[2022-05-08 15:54:43,366] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 15:54:43,470] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 15:54:43,533] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 15:54:44,347] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 15:54:44,411] Precondition - Step 06: Open My Account page
+[2022-05-08 15:54:45,002] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 15:54:45,502] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 15:54:45,563] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 15:54:45,619] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 15:54:45,675] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 15:54:46,113] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 15:54:46,211] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 15:54:52,538] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 15:54:53,251] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 15:54:53,691] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 15:54:53,766] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 15:54:53,818] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 15:54:54,542] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 15:54:54,621] My Account Change Password - Step 14: Open My Account page
+[2022-05-08 15:54:55,176] OS name = windows 10
+[2022-05-08 15:54:55,176] Driver instance name = firefoxdriver: firefox on windows (00126a32-9629-4ee1-a2a7-d2413d44603f)
+[2022-05-08 21:57:11,529] Precondition - Step 01: Open Log in page
+[2022-05-08 21:57:12,186] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 21:57:12,308] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 21:57:12,385] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 21:57:13,173] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 21:57:13,255] Precondition - Step 06: Open My Account page
+[2022-05-08 21:57:13,936] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 21:57:29,134] OS name = windows 10
+[2022-05-08 21:57:29,135] Driver instance name = firefoxdriver: firefox on windows (681b4d90-ffba-48f5-9fd3-7a7d88aa639c)
+[2022-05-08 21:59:50,244] Precondition - Step 01: Open Log in page
+[2022-05-08 21:59:50,916] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 21:59:51,037] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 21:59:51,098] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 21:59:51,957] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 21:59:52,033] Precondition - Step 06: Open My Account page
+[2022-05-08 21:59:52,742] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 21:59:53,488] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 21:59:55,080] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 22:00:10,193] OS name = windows 10
+[2022-05-08 22:00:10,193] Driver instance name = firefoxdriver: firefox on windows (2e8f68c5-8983-4a0e-8ebd-2b3002ec2b6a)
+[2022-05-08 23:00:59,911] Precondition - Step 01: Open Log in page
+[2022-05-08 23:01:00,544] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:01:00,649] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:01:00,726] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:01:01,509] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:01:01,585] Precondition - Step 06: Open My Account page
+[2022-05-08 23:01:02,230] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:01:03,056] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:01:04,506] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:01:05,073] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:01:05,231] OS name = windows 10
+[2022-05-08 23:01:05,231] Driver instance name = firefoxdriver: firefox on windows (4fb15024-a626-4f8e-9bd5-efb56f28f495)
+[2022-05-08 23:02:33,209] Precondition - Step 01: Open Log in page
+[2022-05-08 23:02:33,897] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:02:34,049] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:02:34,134] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:02:34,919] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:02:35,006] Precondition - Step 06: Open My Account page
+[2022-05-08 23:02:35,622] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:02:36,522] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:02:37,794] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:02:38,334] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:02:38,457] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:02:53,570] OS name = windows 10
+[2022-05-08 23:02:53,570] Driver instance name = firefoxdriver: firefox on windows (c2970cc1-7116-4c87-a72f-87a5167cb2ae)
+[2022-05-08 23:05:16,378] Precondition - Step 01: Open Log in page
+[2022-05-08 23:05:16,984] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:05:17,080] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:05:17,159] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:05:17,964] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:05:18,035] Precondition - Step 06: Open My Account page
+[2022-05-08 23:05:18,685] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:05:19,368] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:05:20,613] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:05:21,154] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:05:21,257] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:05:21,401] My Account Add Review - Step 06: Rating
+[2022-05-08 23:05:21,546] OS name = windows 10
+[2022-05-08 23:05:21,546] Driver instance name = firefoxdriver: firefox on windows (e5196ebc-a700-45ff-b5c5-d0d949c8b1dc)
+[2022-05-08 23:10:02,743] Precondition - Step 01: Open Log in page
+[2022-05-08 23:10:03,671] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:10:10,775] OS name = windows 10
+[2022-05-08 23:10:10,776] Driver instance name = firefoxdriver: firefox on windows (0ed83935-ad4d-4a87-9690-1deeb0f96ced)
+[2022-05-08 23:10:11,003] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 9604, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0ed83935-ad4d-4a87-9690-1deeb0f96ced
+[2022-05-08 23:10:28,245] Precondition - Step 01: Open Log in page
+[2022-05-08 23:10:28,833] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:10:28,906] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:10:28,976] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:10:29,758] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:10:29,822] Precondition - Step 06: Open My Account page
+[2022-05-08 23:10:30,393] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:10:31,149] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:10:32,424] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:10:32,936] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:10:33,025] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:10:33,166] My Account Add Review - Step 06: Rating
+[2022-05-08 23:10:33,336] OS name = windows 10
+[2022-05-08 23:10:33,336] Driver instance name = firefoxdriver: firefox on windows (2b6f6689-3696-42e6-aaff-37dc905574c8)
+[2022-05-08 23:15:12,181] Precondition - Step 01: Open Log in page
+[2022-05-08 23:15:12,728] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:15:12,798] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:15:12,850] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:15:13,594] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:15:13,652] Precondition - Step 06: Open My Account page
+[2022-05-08 23:15:14,227] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:15:15,004] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:15:16,600] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:15:17,276] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:15:17,352] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:15:17,437] My Account Add Review - Step 06: Rating
+[2022-05-08 23:15:17,702] My Account Add Review - Step 07: Click SUBMIT REVIEW button
+[2022-05-08 23:15:18,172] My Account Add Review - Step 08: Verify Review title in Product reviews page
+[2022-05-08 23:15:18,221] My Account Add Review - Step 09: Verify Review text in Product reviews page
+[2022-05-08 23:15:18,252] My Account Add Review - Step 10: Verify Review rating in Product reviews page
+[2022-05-08 23:15:18,284] My Account Add Review - Step 11: Open My Account page
+[2022-05-08 23:15:18,749] My Account Add Review - Step 12: Open My product reviews page
+[2022-05-08 23:15:19,285] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
+[2022-05-08 23:15:19,323] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
+[2022-05-08 23:15:19,355] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
+[2022-05-08 23:15:19,521] OS name = windows 10
+[2022-05-08 23:15:19,521] Driver instance name = firefoxdriver: firefox on windows (63a7fb51-c2b7-4435-8d33-4f44784a68ea)
+[2022-05-08 23:22:16,133] Precondition - Step 01: Open Log in page
+[2022-05-08 23:22:16,706] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:22:16,785] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:22:16,852] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:22:17,615] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:22:17,685] Precondition - Step 06: Open My Account page
+[2022-05-08 23:22:18,298] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:22:19,024] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:22:20,251] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:22:20,785] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:22:20,863] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:22:20,987] My Account Add Review - Step 06: Rating
+[2022-05-08 23:22:21,278] My Account Add Review - Step 07: Click SUBMIT REVIEW button
+[2022-05-08 23:22:21,717] My Account Add Review - Step 08: Verify Review title in Product reviews page
+[2022-05-08 23:22:21,771] My Account Add Review - Step 09: Verify Review text in Product reviews page
+[2022-05-08 23:22:21,806] My Account Add Review - Step 10: Verify Review rating in Product reviews page
+[2022-05-08 23:22:21,845] My Account Add Review - Step 11: Open My Account page
+[2022-05-08 23:22:22,271] My Account Add Review - Step 12: Open My product reviews page
+[2022-05-08 23:22:22,783] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
+[2022-05-08 23:22:22,823] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
+[2022-05-08 23:22:22,855] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
+[2022-05-08 23:22:23,009] OS name = windows 10
+[2022-05-08 23:22:23,009] Driver instance name = firefoxdriver: firefox on windows (af46f460-e4a2-468c-853b-7cfdf75e9b8e)
+[2022-05-08 23:30:25,994] Precondition - Step 01: Open Log in page
+[2022-05-08 23:30:26,583] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:30:26,656] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:30:26,711] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:30:27,472] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:30:27,554] Precondition - Step 06: Open My Account page
+[2022-05-08 23:30:28,154] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:30:28,849] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:30:30,037] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:30:30,611] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:30:30,690] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:30:30,821] My Account Add Review - Step 06: Rating
+[2022-05-08 23:30:31,119] My Account Add Review - Step 07: Click SUBMIT REVIEW button
+[2022-05-08 23:30:31,544] My Account Add Review - Step 08: Verify Review title in Product reviews page
+[2022-05-08 23:30:31,601] My Account Add Review - Step 09: Verify Review text in Product reviews page
+[2022-05-08 23:30:31,636] My Account Add Review - Step 10: Verify Review rating in Product reviews page
+[2022-05-08 23:30:31,674] My Account Add Review - Step 11: Open My Account page
+[2022-05-08 23:30:32,103] My Account Add Review - Step 12: Open My product reviews page
+[2022-05-08 23:30:32,613] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
+[2022-05-08 23:30:32,655] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
+[2022-05-08 23:30:32,685] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
+[2022-05-08 23:30:32,844] OS name = windows 10
+[2022-05-08 23:30:32,844] Driver instance name = firefoxdriver: firefox on windows (ec0337b5-29c1-4d2f-a040-a9852c666b25)
+[2022-05-08 23:34:26,150] Precondition - Step 01: Open Log in page
+[2022-05-08 23:34:26,711] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:34:26,791] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:34:26,854] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:34:27,620] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:34:27,692] Precondition - Step 06: Open My Account page
+[2022-05-08 23:34:28,319] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:34:29,034] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:34:30,346] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:34:30,929] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:34:31,038] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:34:31,206] My Account Add Review - Step 06: Rating
+[2022-05-08 23:34:31,485] My Account Add Review - Step 07: Click SUBMIT REVIEW button
+[2022-05-08 23:34:31,907] My Account Add Review - Step 08: Verify Review title in Product reviews page
+[2022-05-08 23:34:31,962] My Account Add Review - Step 09: Verify Review text in Product reviews page
+[2022-05-08 23:34:31,998] My Account Add Review - Step 10: Verify Review rating in Product reviews page
+[2022-05-08 23:34:32,032] My Account Add Review - Step 11: Open My Account page
+[2022-05-08 23:34:32,468] My Account Add Review - Step 12: Open My product reviews page
+[2022-05-08 23:34:32,996] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
+[2022-05-08 23:34:33,040] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
+[2022-05-08 23:34:33,082] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
+[2022-05-08 23:34:33,222] OS name = windows 10
+[2022-05-08 23:34:33,222] Driver instance name = firefoxdriver: firefox on windows (b3ec7689-a719-4282-87b8-8af582744114)
+[2022-05-08 23:35:34,597] Precondition - Step 01: Open Log in page
+[2022-05-08 23:35:35,179] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:35:35,268] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:35:35,341] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:35:36,101] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:35:36,167] Precondition - Step 06: Open My Account page
+[2022-05-08 23:35:36,755] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 23:35:36,803] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 23:35:36,842] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 23:35:36,886] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 23:35:36,923] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 23:35:37,192] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 23:35:37,255] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 23:35:37,350] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 23:35:38,171] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 23:35:38,244] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 23:35:38,305] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 23:35:39,028] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 23:35:39,100] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 23:35:39,143] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 23:35:39,187] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 23:35:39,236] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 23:35:39,718] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 23:35:39,752] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 23:35:39,779] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 23:35:40,473] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 23:35:40,928] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 23:35:41,019] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 23:35:41,086] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 23:35:41,817] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 23:35:41,876] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 23:35:42,418] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 23:35:42,919] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 23:35:43,843] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 23:35:43,928] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 23:35:43,986] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 23:35:44,068] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 23:35:44,126] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 23:35:44,414] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 23:35:47,472] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 23:35:47,522] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 23:35:47,592] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 23:35:47,658] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 23:35:47,726] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 23:35:47,785] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 23:35:47,845] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 23:35:48,650] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 23:35:48,700] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 23:35:48,731] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 23:35:48,762] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 23:35:48,789] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 23:35:48,816] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 23:35:48,849] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 23:35:48,880] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 23:35:48,907] My Account Add New Address - Step 24: Back to Customer info page
+[2022-05-08 23:35:49,357] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 23:35:49,887] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 23:35:49,951] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 23:35:50,013] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 23:35:50,092] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 23:35:50,524] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 23:35:50,590] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 23:35:56,901] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 23:35:57,572] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 23:35:58,012] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 23:35:58,098] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 23:35:58,145] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 23:35:58,577] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 23:36:13,596] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:36:14,339] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:36:15,575] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:36:16,116] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:36:16,164] OS name = windows 10
+[2022-05-08 23:36:16,164] Driver instance name = firefoxdriver: firefox on windows (faa57a88-8f54-41d0-8a05-80f198b90d34)
+[2022-05-08 23:37:33,310] Precondition - Step 01: Open Log in page
+[2022-05-08 23:37:33,936] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:37:34,044] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:37:34,129] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:37:34,913] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:37:35,003] Precondition - Step 06: Open My Account page
+[2022-05-08 23:37:35,624] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 23:37:35,664] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 23:37:35,703] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 23:37:35,750] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 23:37:35,790] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 23:37:36,046] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 23:37:36,122] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 23:37:36,187] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 23:37:36,993] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 23:37:37,064] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 23:37:37,142] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 23:37:37,582] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 23:37:37,629] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 23:37:37,668] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 23:37:37,706] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 23:37:37,751] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 23:37:38,179] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 23:37:38,210] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 23:37:38,251] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 23:37:38,963] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 23:37:39,426] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 23:37:39,500] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 23:37:39,552] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 23:37:39,984] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 23:37:46,053] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 23:37:46,127] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 23:37:46,142] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:37:46,152] OS name = windows 10
+[2022-05-08 23:37:46,152] Driver instance name = firefoxdriver: firefox on windows (42608f47-b4a5-4f68-991f-7aa279c72ce1)
+[2022-05-08 23:37:46,156] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 9708, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 42608f47-b4a5-4f68-991f-7aa279c72ce1
+[2022-05-08 23:38:51,340] Precondition - Step 01: Open Log in page
+[2022-05-08 23:38:51,911] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:38:52,002] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:38:52,086] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:38:52,881] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:38:52,966] Precondition - Step 06: Open My Account page
+[2022-05-08 23:38:53,577] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 23:38:53,617] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 23:38:53,654] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 23:38:53,704] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 23:38:53,747] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 23:38:54,010] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 23:38:54,071] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 23:38:54,139] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 23:38:54,942] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 23:38:55,018] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 23:38:55,090] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 23:38:55,868] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 23:38:55,924] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 23:38:55,965] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 23:38:56,010] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 23:38:56,070] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 23:38:56,466] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 23:38:56,497] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 23:38:56,523] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 23:38:57,317] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 23:38:57,756] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 23:38:57,830] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 23:38:57,881] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 23:38:58,613] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 23:38:58,673] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 23:38:59,231] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 23:38:59,752] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 23:39:00,332] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 23:39:00,403] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 23:39:00,470] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 23:39:00,548] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 23:39:00,614] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 23:39:00,892] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 23:39:03,940] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 23:39:03,994] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 23:39:04,072] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 23:39:04,137] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 23:39:04,222] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 23:39:04,285] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 23:39:04,345] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 23:39:05,126] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 23:39:05,178] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 23:39:05,209] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 23:39:05,237] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 23:39:05,265] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 23:39:05,294] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 23:39:05,321] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 23:39:05,352] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 23:39:05,394] My Account Add New Address - Step 24: Back to Customer info page
+[2022-05-08 23:39:05,834] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 23:39:06,333] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 23:39:06,399] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 23:39:06,455] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 23:39:06,520] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 23:39:06,958] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 23:39:07,037] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 23:39:13,352] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 23:39:14,043] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 23:39:14,501] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 23:39:14,575] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 23:39:14,626] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 23:39:15,049] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 23:39:24,384] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:39:25,131] OS name = windows 10
+[2022-05-08 23:39:25,131] Driver instance name = firefoxdriver: firefox on windows (aa9298de-b9fa-4f9a-ae26-2c3f669449e3)
+[2022-05-08 23:39:25,136] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-DEEIO7H', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7572, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa9298de-b9fa-4f9a-ae26-2c3f669449e3
+[2022-05-08 23:40:16,770] Precondition - Step 01: Open Log in page
+[2022-05-08 23:40:17,328] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-08 23:40:17,422] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-08 23:40:17,496] Precondition - Step 04: Click to LOG IN button
+[2022-05-08 23:40:18,242] Precondition - Step 05: Verify My account link is displayed
+[2022-05-08 23:40:18,304] Precondition - Step 06: Open My Account page
+[2022-05-08 23:40:18,895] My Account Update Customer Info - Step 02: Verify First name info is correct
+[2022-05-08 23:40:18,932] My Account Update Customer Info - Step 03: Verify Last name info is correct
+[2022-05-08 23:40:18,970] My Account Update Customer Info - Step 04: Verify Email info is correct
+[2022-05-08 23:40:19,012] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
+[2022-05-08 23:40:19,061] My Account Update Customer Info - Step 06: Select Gender = Female
+[2022-05-08 23:40:19,326] My Account Update Customer Info - Step 07: Enter new First name
+[2022-05-08 23:40:19,390] My Account Update Customer Info - Step 08: Enter new Last name
+[2022-05-08 23:40:19,457] My Account Update Customer Info - Step 09: Enter Date of birth
+[2022-05-08 23:40:20,259] My Account Update Customer Info - Step 10: Enter new Email
+[2022-05-08 23:40:20,331] My Account Update Customer Info - Step 11: Enter Company name
+[2022-05-08 23:40:20,392] My Account Update Customer Info - Step 12: Click to Save button
+[2022-05-08 23:40:21,138] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
+[2022-05-08 23:40:21,192] My Account Update Customer Info - Step 14: Verify new First name info is correct
+[2022-05-08 23:40:21,235] My Account Update Customer Info - Step 15: Verify new Last name info is correct
+[2022-05-08 23:40:21,277] My Account Update Customer Info - Step 16: Verify new Email info is correct
+[2022-05-08 23:40:21,319] My Account Update Customer Info - Step 17: Verify DOB info
+[2022-05-08 23:40:21,745] My Account Update Customer Info - Step 18: Verify Company Name info is correct
+[2022-05-08 23:40:21,778] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
+[2022-05-08 23:40:21,809] My Account Update Customer Info - Step 20: Click to Log out link
+[2022-05-08 23:40:22,534] My Account Update Customer Info - Step 21: Click to Log in link
+[2022-05-08 23:40:22,964] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
+[2022-05-08 23:40:23,041] My Account Update Customer Info - Step 23: Enter password to Password textbox
+[2022-05-08 23:40:23,102] My Account Update Customer Info - Step 24: Click to LOG IN button
+[2022-05-08 23:40:23,874] My Account Update Customer Info - Step 25: Verify My account link is displayed
+[2022-05-08 23:40:23,944] My Account Update Customer Info - Step 26: Open My Account page
+[2022-05-08 23:40:24,602] My Account Add New Address - Step 01: Open Addresses page
+[2022-05-08 23:40:25,136] My Account Add New Address - Step 02: Click to ADD NEW button
+[2022-05-08 23:40:25,723] My Account Add New Address - Step 03: Enter First name textbox
+[2022-05-08 23:40:25,801] My Account Add New Address - Step 04: Enter Last name textbox
+[2022-05-08 23:40:25,866] My Account Add New Address - Step 05: Enter Email textbox
+[2022-05-08 23:40:25,953] My Account Add New Address - Step 06: Enter Company textbox
+[2022-05-08 23:40:26,022] My Account Add New Address - Step 07: Select Country in dropdown
+[2022-05-08 23:40:26,311] My Account Add New Address - Step 08: Select State/ province in dropdown
+[2022-05-08 23:40:29,374] My Account Add New Address - Step 09: Enter City textbox
+[2022-05-08 23:40:29,424] My Account Add New Address - Step 10: Enter Address 1 textbox
+[2022-05-08 23:40:29,497] My Account Add New Address - Step 11: Enter Address 2 textbox
+[2022-05-08 23:40:29,556] My Account Add New Address - Step 12: Enter Zip / postal code textbox
+[2022-05-08 23:40:29,616] My Account Add New Address - Step 13: Enter Phone number textbox
+[2022-05-08 23:40:29,672] My Account Add New Address - Step 14: Enter Fax number textbox
+[2022-05-08 23:40:29,723] My Account Add New Address - Step 15: Click to Save button
+[2022-05-08 23:40:30,458] My Account Add New Address - Step 16: Verify Full name info
+[2022-05-08 23:40:30,508] My Account Add New Address - Step 17: Verify Email name info
+[2022-05-08 23:40:30,536] My Account Add New Address - Step 18: Verify Phone info
+[2022-05-08 23:40:30,563] My Account Add New Address - Step 19: Verify Fax number info
+[2022-05-08 23:40:30,590] My Account Add New Address - Step 20: Verify Address1 info
+[2022-05-08 23:40:30,617] My Account Add New Address - Step 21: Verify Address2 info
+[2022-05-08 23:40:30,647] My Account Add New Address - Step 22: Verify Full name
+[2022-05-08 23:40:30,677] My Account Add New Address - Step 23: Verify Country info
+[2022-05-08 23:40:30,707] My Account Add New Address - Step 24: Back to Customer info page
+[2022-05-08 23:40:31,146] My Account Change Password - Step 01: Open Change Password page
+[2022-05-08 23:40:31,662] My Account Change Password - Step 02: Enter Old password to Old password textbox
+[2022-05-08 23:40:31,734] My Account Change Password - Step 03: Enter New password to New password textbox
+[2022-05-08 23:40:31,788] My Account Change Password - Step 04: Enter New password to Confirm password textbox
+[2022-05-08 23:40:31,851] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
+[2022-05-08 23:40:32,352] My Account Change Password - Step 06: Verify 'Password was changed' message
+[2022-05-08 23:40:32,455] My Account Change Password - Step 07: Click to Close icon
+[2022-05-08 23:40:38,769] My Account Change Password - Step 08: Click to Log out link
+[2022-05-08 23:40:39,435] My Account Change Password - Step 09: Open Log in page
+[2022-05-08 23:40:39,860] My Account Change Password - Step 10: Enter Email to Email textbox
+[2022-05-08 23:40:39,938] My Account Change Password - Step 11: Enter Password to Password textbox
+[2022-05-08 23:40:39,983] My Account Change Password - Step 12: Click to LOG IN button
+[2022-05-08 23:40:40,666] My Account Change Password - Step 13: Verify My account link is displayed
+[2022-05-08 23:40:40,726] My Account Change Password - Step 14: Open My Account page
+[2022-05-08 23:40:41,178] My Account Add Review - Step 01: Open to Desktops page in Header menu
+[2022-05-08 23:40:41,909] My Account Add Review - Step 02: Open Desktop product detail
+[2022-05-08 23:40:43,083] My Account Add Review - Step 03: Click to Add your review link
+[2022-05-08 23:40:44,200] My Account Add Review - Step 04: Add Review title
+[2022-05-08 23:40:44,278] My Account Add Review - Step 05: Add Review text
+[2022-05-08 23:40:44,337] My Account Add Review - Step 06: Rating
+[2022-05-08 23:40:44,602] My Account Add Review - Step 07: Click SUBMIT REVIEW button
+[2022-05-08 23:40:45,043] My Account Add Review - Step 08: Verify Review title in Product reviews page
+[2022-05-08 23:40:45,111] My Account Add Review - Step 09: Verify Review text in Product reviews page
+[2022-05-08 23:40:45,143] My Account Add Review - Step 10: Verify Review rating in Product reviews page
+[2022-05-08 23:40:45,176] My Account Add Review - Step 11: Open My Account page
+[2022-05-08 23:40:45,566] My Account Add Review - Step 12: Open My product reviews page
+[2022-05-08 23:40:46,063] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
+[2022-05-08 23:40:46,108] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
+[2022-05-08 23:40:46,134] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
+[2022-05-08 23:40:46,168] OS name = windows 10
+[2022-05-08 23:40:46,168] Driver instance name = firefoxdriver: firefox on windows (891f74d2-d0e7-439f-b8ab-63e98fa80058)

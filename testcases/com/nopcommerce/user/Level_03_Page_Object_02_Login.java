@@ -79,7 +79,7 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(invalidEmail);
+		loginPage.enterEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -93,7 +93,7 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(notFoundEmail);
+		loginPage.enterEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -107,8 +107,8 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox("");
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -122,8 +122,8 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(incorrectPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -137,8 +137,8 @@ public class Level_03_Page_Object_02_Login {
 		// Tu trang Home => Click Login link => Qua trang Login
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(correctPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(correctPassword);
 
 		loginPage.clickToLoginButton();
 

@@ -605,12 +605,6 @@ public class BasePage {
 
 	}
 
-	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_USER);
-		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_LINK_USER);
-		return PageGeneratorManager.getUserHomePage(driver);
-	}
-
 	// Tối ưu ở bài Level_09_Dynamic_Locator (dung 1 trong 2)
 	public BasePage openPagesAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA, pageName);
@@ -624,9 +618,19 @@ public class BasePage {
 			return PageGeneratorManager.getUserAddressPage(driver);
 		case "Reward points":
 			return PageGeneratorManager.getUserRewardPointPage(driver);
+		case "Change password":
+			return PageGeneratorManager.getUserChangePasswordPage(driver);
 		default:
 			throw new RuntimeException("Page name is not correct !");
 		}
+	}
+
+	public void openSubMenuHeader(WebDriver driver, String menuPage, String subMenuPage) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_MENU_PAGE_BY_NAME, menuPage);
+		hoverMouseToElement(driver, BasePageNopCommerceUI.DYNAMIC_MENU_PAGE_BY_NAME, menuPage);
+
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_SUB_MENU_PAGE_BY_NAME, subMenuPage);
+		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_SUB_MENU_PAGE_BY_NAME, subMenuPage);
 	}
 
 	// Pattern Object
@@ -717,6 +721,13 @@ public class BasePage {
 			 */
 
 	// Level_08_Switch_Role
+
+	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_USER);
+		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_LINK_USER);
+		return PageGeneratorManager.getUserHomePage(driver);
+	}
+
 	public AdminLoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_ADMIN);
 		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_LINK_ADMIN);
@@ -733,6 +744,12 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGIN_LINK);
 		clickToElement(driver, BasePageNopCommerceUI.LOGIN_LINK);
 		return PageGeneratorManager.getUserLoginPage(driver);
+	}
+
+	public UserCustomerInfoPageObject clickToMyAccountLink(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.MY_ACCOUNT_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.MY_ACCOUNT_LINK);
+		return PageGeneratorManager.getUserCustomerInfoPageObject(driver);
 	}
 
 	// HRM Orange Page

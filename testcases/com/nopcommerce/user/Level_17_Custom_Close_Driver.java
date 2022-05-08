@@ -58,10 +58,10 @@ public class Level_17_Custom_Close_Driver extends BaseTest {
 		loginPage = homePage.openLoginPage();
 
 		log.info("Precondition - Step 11: Enter to Email textbox with value is: '" + email + "'");
-		loginPage.enterToEmailTextbox(email);
+		loginPage.enterEmailTextbox(email);
 
 		log.info("Precondition - Step 12: Enter to Password textbox with value is: '" + password + "'");
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.enterPasswordTextbox(password);
 
 		log.info("Precondition - Step 13: Click to Login button");
 		homePage = loginPage.clickToLoginButton();

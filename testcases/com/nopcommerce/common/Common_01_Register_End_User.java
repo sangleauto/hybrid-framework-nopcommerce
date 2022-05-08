@@ -53,7 +53,7 @@ public class Common_01_Register_End_User extends BaseTest {
 
 	private WebDriver driver;
 	private DataUtil faker;
-	private String firstName, lastName;
+	public static String firstName, lastName;
 	public static String email, password;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;

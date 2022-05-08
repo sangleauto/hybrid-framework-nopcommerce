@@ -11,7 +11,7 @@ import com.nopcommerce.common.Common_01_Register_End_User;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserHomePageObject;
-import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
 
 public class Nopcommerce_00_Template extends BaseTest {
 
@@ -23,35 +23,50 @@ public class Nopcommerce_00_Template extends BaseTest {
 
 		email = Common_01_Register_End_User.email;
 		password = Common_01_Register_End_User.password;
+
+		log.info("Precondition - Step 01: Open Log in page");
+		loginPage = homePage.clickToLoginLink(driver);
+
+		log.info("Precondition - Step 02: Enter Email to Email textbox");
+		loginPage.enterEmailTextbox(email);
+
+		log.info("Precondition - Step 03: Enter Password to Password textbox");
+		loginPage.enterPasswordTextbox(password);
+
+		log.info("Precondition - Step 04: Click to LOG IN button");
+		homePage = loginPage.clickToLoginButton();
+
+		log.info("Precondition - Step 05: Verify My account link is displayed");
+		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
 	@Test
-	public void Register_01_Empty_Data() {
-
-	}
-
-	@Test
-	public void Register_02_Invalid_Email() {
-
-	}
-
-	@Test
-	public void Register_03_Register_Successfully() {
-
-	}
-
-	@Test
-	public void Register_04_Existed_Email() {
-
-	}
-
-	@Test
-	public void Register_05_Password_Less_Than_6_Characters() {
+	public void Register_01_() {
 
 	}
 
 	@Test
-	public void Register_06_Confirm_Password_Does_Not_Match() {
+	public void Register_02_() {
+
+	}
+
+	@Test
+	public void Register_03_() {
+
+	}
+
+	@Test
+	public void Register_04_() {
+
+	}
+
+	@Test
+	public void Register_05_() {
+
+	}
+
+	@Test
+	public void Register_06_() {
 
 	}
 
@@ -63,6 +78,6 @@ public class Nopcommerce_00_Template extends BaseTest {
 	private WebDriver driver;
 	private String email, password;
 	private UserHomePageObject homePage;
-	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
 
 }

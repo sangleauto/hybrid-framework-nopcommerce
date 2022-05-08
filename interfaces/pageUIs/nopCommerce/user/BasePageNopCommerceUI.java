@@ -10,6 +10,7 @@ public class BasePageNopCommerceUI {
 	public static final String LOGOUT_LINK_ADMIN = "xpath=//a[text()='Logout']";
 	public static final String REGISTER_LINK = "xpath=//a[@class='ico-register']";
 	public static final String LOGIN_LINK = "xpath=//a[@class='ico-login']";
+	public static final String MY_ACCOUNT_LINK = "xpath=//a[@class='ico-account']";
 
 	// Pattern Object
 	public static final String DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='%s']";
@@ -18,5 +19,6 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_RADIO_BY_LABEL = "xpath=//label[text()='%s']/preceding-sibling::input";
 	public static final String DYNAMIC_DROPDOWN_BY_NAME = "xpath=//select[@name='%s']";
 	public static final String DYNAMIC_CHECKBOX_BY_LABEL = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
-
+	public static final String DYNAMIC_MENU_PAGE_BY_NAME = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(), '%s')]";
+	public static final String DYNAMIC_SUB_MENU_PAGE_BY_NAME = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(), '%s')]";
 }

@@ -52,8 +52,8 @@ public class Level_12_Assert extends BaseTest {
 		// Login
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(email);
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.enterEmailTextbox(email);
+		loginPage.enterPasswordTextbox(password);
 
 		homePage = loginPage.clickToLoginButton();
 		verifyFalse(homePage.isMyAccountLinkDisplayed());

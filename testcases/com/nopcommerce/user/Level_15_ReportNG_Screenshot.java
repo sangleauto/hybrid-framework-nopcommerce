@@ -66,10 +66,10 @@ public class Level_15_ReportNG_Screenshot extends BaseTest {
 		loginPage = homePage.openLoginPage();
 
 		log.info("Login - Step 02: Enter to Email textbox with value is: '" + email + "'");
-		loginPage.enterToEmailTextbox(email);
+		loginPage.enterEmailTextbox(email);
 
 		log.info("Login - Step 03: Enter to Password textbox with value is: '" + password + "'");
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.enterPasswordTextbox(password);
 
 		log.info("Login - Step 04: Click to Login button");
 		homePage = loginPage.clickToLoginButton();

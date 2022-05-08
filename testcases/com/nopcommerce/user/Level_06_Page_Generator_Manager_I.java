@@ -75,7 +75,7 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// 5
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(invalidEmail);
+		loginPage.enterEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -89,7 +89,7 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// 6
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(notFoundEmail);
+		loginPage.enterEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -103,8 +103,8 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// 7
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox("");
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -118,8 +118,8 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// 8
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(incorrectPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -133,8 +133,8 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// 9
 		loginPage = new UserLoginPageObject(driver);
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(correctPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(correctPassword);
 
 		loginPage.clickToLoginButton();
 

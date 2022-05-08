@@ -27,10 +27,10 @@ public class Level_16_Share_Data_A extends BaseTest {
 		loginPage = homePage.openLoginPage();
 
 		log.info("Precondition - Step 02: Enter to Email textbox with value is: '" + email + "'");
-		loginPage.enterToEmailTextbox(email);
+		loginPage.enterEmailTextbox(email);
 
 		log.info("Precondition - Step 03: Enter to Password textbox with value is: '" + password + "'");
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.enterPasswordTextbox(password);
 
 		log.info("Precondition - Step 04: Click to Login button");
 		homePage = loginPage.clickToLoginButton();

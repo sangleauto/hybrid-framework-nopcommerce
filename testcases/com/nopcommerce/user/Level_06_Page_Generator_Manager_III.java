@@ -65,7 +65,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		// 5
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(invalidEmail);
+		loginPage.enterEmailTextbox(invalidEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -78,7 +78,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		// 6
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(notFoundEmail);
+		loginPage.enterEmailTextbox(notFoundEmail);
 
 		loginPage.clickToLoginButton();
 
@@ -91,8 +91,8 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		// 7
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox("");
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox("");
 
 		loginPage.clickToLoginButton();
 
@@ -105,8 +105,8 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		// 8
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(incorrectPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(incorrectPassword);
 
 		loginPage.clickToLoginButton();
 
@@ -119,8 +119,8 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		// 9
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(existingEmail);
-		loginPage.enterToPasswordTextbox(correctPassword);
+		loginPage.enterEmailTextbox(existingEmail);
+		loginPage.enterPasswordTextbox(correctPassword);
 
 		// 10
 		homePage = loginPage.clickToLoginButton();

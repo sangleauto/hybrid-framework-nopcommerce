@@ -53,8 +53,8 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		// Login
 		loginPage = homePage.openLoginPage();
 
-		loginPage.enterToEmailTextbox(email);
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.enterEmailTextbox(email);
+		loginPage.enterPasswordTextbox(password);
 
 		homePage = loginPage.clickToLoginButton();
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
