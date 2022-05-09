@@ -13,6 +13,7 @@ import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageObjects.nopCommerce.user.UserSearchPageObject;
 
 public class PageGeneratorManager {
 
@@ -50,6 +51,10 @@ public class PageGeneratorManager {
 
 	public static UserChangePasswordPageObject getUserChangePasswordPage(WebDriver driver) {
 		return new UserChangePasswordPageObject(driver);
+	}
+
+	public static UserSearchPageObject getUserSearchPage(WebDriver driver) {
+		return new UserSearchPageObject(driver);
 	}
 
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {

@@ -10,6 +10,7 @@ import com.nopcommerce.common.Common_01_Register_End_User;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
+import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 
@@ -38,6 +39,10 @@ public class Nopcommerce_00_Template extends BaseTest {
 
 		log.info("Precondition - Step 05: Verify My account link is displayed");
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
+
+		log.info("Precondition - Step 06: Open My Account page");
+		customerInfoPage = homePage.clickToMyAccountLink(driver);
+
 	}
 
 	@Test
@@ -79,5 +84,6 @@ public class Nopcommerce_00_Template extends BaseTest {
 	private String email, password;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
+	private UserCustomerInfoPageObject customerInfoPage;
 
 }

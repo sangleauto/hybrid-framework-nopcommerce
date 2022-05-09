@@ -29,6 +29,7 @@ import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageObjects.nopCommerce.user.UserSearchPageObject;
 import pageUIs.hrm.BasePageHrmUI;
 import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
@@ -631,6 +632,12 @@ public class BasePage {
 
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_SUB_MENU_PAGE_BY_NAME, subMenuPage);
 		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_SUB_MENU_PAGE_BY_NAME, subMenuPage);
+	}
+
+	public UserSearchPageObject openSearchPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.SEARCH_PAGE_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.SEARCH_PAGE_LINK);
+		return PageGeneratorManager.getUserSearchPage(driver);
 	}
 
 	// Pattern Object
