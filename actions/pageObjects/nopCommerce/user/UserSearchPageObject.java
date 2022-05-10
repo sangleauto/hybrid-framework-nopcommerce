@@ -1,5 +1,6 @@
 package pageObjects.nopCommerce.user;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -35,16 +36,18 @@ public class UserSearchPageObject extends BasePage {
 		sendkeyToElement(driver, UserSearchPageUI.SEARCH_KEYWORD_TEXTBOX, notExistedData);
 	}
 
-	public String getFirstProductName() {
-		waitForElementVisible(driver, UserSearchPageUI.PRODUCT_NAME);
-		List<WebElement> productNames = getListWebElement(driver, UserSearchPageUI.PRODUCT_NAME);
-		return productNames.get(0).getText();
-	}
+	public boolean isProductNameDisplayed(String... names) {
+		List<WebElement> productElements = getListWebElement(driver, UserSearchPageUI.PRODUCT_NAME);
+		List<String> productNames = new ArrayList<String>();
+		for (WebElement productElement : productElements) {
+			productNames.add(productElement.getText());
+		}
+		List<String> dataNames = new ArrayList<String>();
+		for (String name : names) {
+			dataNames.add(name);
+		}
 
-	public Object getSecondProductName() {
-		waitForElementVisible(driver, UserSearchPageUI.PRODUCT_NAME);
-		List<WebElement> productNames = getListWebElement(driver, UserSearchPageUI.PRODUCT_NAME);
-		return productNames.get(1).getText();
+		return productNames.equals(dataNames);
 	}
 
 	public void checkToAdvancedSearchCheckbox() {

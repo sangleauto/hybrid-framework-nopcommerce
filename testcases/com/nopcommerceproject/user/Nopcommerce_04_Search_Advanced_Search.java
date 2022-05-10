@@ -93,12 +93,8 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		log.info("Search with Relative name - Step 03: Verify number of items are shown after clicking Search");
 		verifyEquals(searchPage.getElementSize(driver, UserSearchPageUI.PRODUCT_NAME), 2);
 
-		log.info("Search with Relative name - Step 04: Verify first item name is shown after clicking Search");
-		verifyEquals(searchPage.getFirstProductName(), lenovoItemName1);
-
-		log.info("Search with Relative name - Step 05: Verify second item name is shown after clicking Search");
-		verifyEquals(searchPage.getSecondProductName(), lenovoItemName2);
-
+		log.info("Search with Relative name - Step 04: Verify all product names are shown after clicking Search");
+		verifyTrue(searchPage.isProductNameDisplayed(lenovoItemName1, lenovoItemName2));
 	}
 
 	@Test
@@ -112,8 +108,8 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		log.info("Search with Absolute data - Step 03: Verify number of items are shown after clicking Search");
 		verifyEquals(searchPage.getElementSize(driver, UserSearchPageUI.PRODUCT_NAME), 1);
 
-		log.info("Search with Absolute data - Step 04: Verify first item name is shown after clicking Search");
-		verifyEquals(searchPage.getFirstProductName(), thinkpadItemName);
+		log.info("Search with Absolute data - Step 04: Verify all product names are shown after clicking Search");
+		verifyTrue(searchPage.isProductNameDisplayed(thinkpadItemName));
 	}
 
 	@Test
@@ -155,8 +151,9 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		log.info("Search with Sub Categores - Step 06: Verify number of items are shown after clicking Search");
 		verifyEquals(searchPage.getElementSize(driver, UserSearchPageUI.PRODUCT_NAME), 1);
 
-		log.info("Search with Sub Categores - Step 07: Verify first item name is shown after clicking Search");
-		verifyEquals(searchPage.getFirstProductName(), appleItemName);
+		log.info("Search with Sub Categores - Step 07: Verify all product names are shown after clicking Search");
+		verifyTrue(searchPage.isProductNameDisplayed(appleItemName));
+
 	}
 
 	@Test
@@ -207,8 +204,8 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		log.info("Search with correct manufacturer - Step 08: Verify number of items are shown after clicking Search");
 		verifyEquals(searchPage.getElementSize(driver, UserSearchPageUI.PRODUCT_NAME), 1);
 
-		log.info("Search with correct manufacturer - Step 09: Verify first item name is shown after clicking Search");
-		verifyEquals(searchPage.getFirstProductName(), appleItemName);
+		log.info("Search with correct manufacturer - Step 09: Verify all product names are shown after clicking Search");
+		verifyTrue(searchPage.isProductNameDisplayed(appleItemName));
 	}
 
 	@AfterClass(alwaysRun = true)
