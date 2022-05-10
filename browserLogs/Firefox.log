@@ -1,69 +1,11 @@
-1652166417487	geckodriver	INFO	Listening on 127.0.0.1:15556
-1652166417962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilemHjCv6"
-1652166418477	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilemHjCv6\\search.json.mozlz4", (void 0)))
-1652166420840	Marionette	INFO	Listening on port 58972
-Read port: 58972
-1652166420932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-console.warn: LoginRecipes: "getRecipes: falling back toJ a synavcahSrcornous meispsaget  ferorro:r":  r"ehstotuprsc:e:////demo.nopcogmrmee/rmcoed.ucloems"/L
-oginManagerParent.jsm, line 136: TypeError: cgRoencsiopleeM.awnaargne:r  Liosg innuRlelci
-pes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: fallinJg back to a synchronous message for:" "ahvtatSpcs://demo.nopcommerrciep.tc oemr"ro
-r: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: faJllianvaScript error: rg back to a synchronous message for:" "https://demo.nopcommerce.com"
-esource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-JavaScript error: resource:console.warn: LoginRecipes: "getRecipes: falling back to a synchronous messa/g/eg rfeo/rm:" "https://demo.nopcommerce.com"
-odules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "gJeatvRaeSccript error: resource://gre/modules/LoginManagerParent.jsm, line ipes:1 36: Tyfalling back pteoE rar soynchronous mre:s sgaRgeec ifpoerManager is null
-:" "https://demo.nopcJaommerce.com"v
-aScripcto nesrorloer.:w arrens:o uLrocgei:n//gre/mRoedcuiles/LoginManagerParentp.ejss:m ," gleitnRee 136:c iTpyepse:E rror: gRecipfalling eManager is null
-back to a synchronous message for:" "https://demo.nopcommerce.com"
-console.warn: LoginRecipes: "getRecipes: falling back to aJ sayvaScript error:n crhroneosuosu rmcees:s/a/ge for:g"r e"/hmtotdpusl:e/s//dLeomgoi.nnMoapncaogmemrePracree.ncto.mj"sm
-, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: fallinJg back to a asvaScripytn cehrrronouso rm:e srsesaoguer cfeo:r/:/"g r"e/mhotdtuplse://demos./nLoopgcionmMmaenrcea.gceormP"ar
-ent.jsm, line 136: TypeError: gRecipeMacnoager is nnsuolll
-e.warn: LoginRecipes: "getRecipes: falling back to aJ synchronous message for:" "htatvps://demo.nopcommerce.coamS"cr
-ipt error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to aJ syncavaScript error: resource://gre/modules/LoginManagerParent.jsm, lihronous message for:" "https://demo.nopcommerce.com"
-ne 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to Ja avaScript error: resource://grsynceh/rmoondouulse sm/eLsosgaigneM afnoarg:e"r P"ahrtetnpts.://jsm, line 136: TypeError: gRecipeManagedre mios. nnouplclom
-merJcaev.acSocmr"ip
-t error: resource://gconsre/modules/LoginManagoele.warrParent.jsm, line 136: TypeError: gRecipeManager is null
-n: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronoJus messavaScrage for:" ipt er"rhotrt:p sr:e/s/oduercem:o/./ngorpec/ommomerce.cdom"
-ules/LoginManagecroPnasroelnet..warn: LoginRecipes: "getRecipesjsm, line: 136: T falling byapeError: gRecicpke Mtao a synchronous messangaeg efro ri:s"  n"uhltltp
-sJ:a/v/adSecmroi.pnto error: resourcpec:o/m/mgerrce.com"
-e/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling bJack to a synchronous messaage for:v"aScript  "ehrtrtoprs:: /r/edseomuor.cneo:p//gcommerrce/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-e.com"
-console.warn: LoginRecipes: "getRecipes: falling bJack toa a synchronous message for:" "https://demo.nopcommevracSec.rciopmt" e
-rror:c roensource://gre/modules/LoginManagerPasole.warrent.jsm, line 13n6::  LToygpienERreciperso:r : "ggReetRceicpiepMeasn:a gfearl liisn gn ublalck
- Jtaov aaS csryinpcth reornroours:  mreesssource://graeg/emodul es/LoginManagerParenfor:" "https://dte.mjos.mn,o plcionmmerce.com"
-e 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling backJ to a synchronous message for:" "https://demo.nopcommerce.com"
-avaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falliJng baacvk to a synchronous maSessagcer ifpotr :e"r ror: resource"http:/s/:g/r/ed/emmood.ulnopcommeerce.com"
-s/LoginManagerParent.jsm, line c1o3n6s: TypeEorlreo.rw:a rgnR:e cLoipeManager is nuglilnR
-ecipes: "getRecipes: falling back to a synchronous message for:" "hJtatvpasS:c/r/idpetm oe.rnrooprc:o mrmeesrocuer.cceo:m/"/g
-re/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synJchraovnaoSucsr impets seargreo rf:o rr:e"s o"uhrtctps://demo.noep:c/o/mgmrerce.com"
-e/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipJes:avaScript erro rf:all resource://gre/minodg back to a synchronous message for:" "https://demo.nopcommerce.com"
-ulescon/sLoole.warn: LoginRecipes: ginManagerP"getRecipes:arent.jsm, line f a136: TypeError: gRecipeMalling back to nager is nual lsy
-nJcahvraoSncoruisp tm eesrsraogre: for resourc:e": /"/hgtrtep/sm:o/d/udleemso/LoginManagerParent.jsm, line 136: TypeError.nopcommerce.co:m"
- gRecipeManager is null
-1652166431470	Marionette	INFO	Stopped listening on port 58972
+1652193397036	geckodriver	INFO	Listening on 127.0.0.1:2153
+1652193397691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilealVR7I"
+1652193398205	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilealVR7I\\search.json.mozlz4", (void 0)))
+1652193400528	Marionette	INFO	Listening on port 51320
+Read port: 51320
+1652193400577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652193430674	Marionette	INFO	Stopped listening on port 51320
 
-###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
-
-
-###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 

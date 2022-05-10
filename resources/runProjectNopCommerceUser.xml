@@ -15,8 +15,8 @@
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "firefox"/>
 		<classes>
-			<class name="com.nopcommerce.common.Common_01_Register_End_User"/>
-			<class name="com.nopcommerceproject.user.Nopcommerce_04_Search_Advanced_Search"/>
+			<!-- <class name="com.nopcommerce.common.Common_01_Register_End_User"/> -->
+			<class name="com.nopcommerceproject.user.Nopcommerce_05_Sort_Display_Paging"/>
 		</classes>
 	</test> 
 </suite> <!-- Suite -->

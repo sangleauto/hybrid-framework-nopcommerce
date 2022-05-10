@@ -50,6 +50,8 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		reviewText = "This is Review Text " + generateRandomNumber();
 		reviewRating = "4";
 		passwordChangedSuccessfullyMsg = "Password was changed";
+		menuName = "Computers";
+		subMenuName = "Desktops";
 
 		log.info("Precondition - Step 01: Open Log in page");
 		loginPage = homePage.clickToLoginLink(driver);
@@ -278,7 +280,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 	@Test
 	public void My_Account_04_Add_Review_To_My_Product_Reviews() {
 		log.info("My Account Add Review - Step 01: Open to Desktops page in Header menu");
-		customerInfoPage.openSubMenuHeader(driver, "Computers", "Desktops");
+		customerInfoPage.openSubMenuHeader(driver, menuName, subMenuName);
 		desktopPage = PageGeneratorManager.getUserDesktopPage(driver);
 
 		log.info("My Account Add Review - Step 02: Open Desktop product detail");
@@ -330,7 +332,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String email, password, firstName, lastName, newFirstName, newLastname, newEmail, companyName;
+	private String email, password, firstName, lastName, newFirstName, newLastname, newEmail, companyName, menuName, subMenuName;
 	private String day, month, year;
 	private String country, stateProvince, city, address1, address2, zipCode, phoneNumber, faxNumber, newPassword;
 	private String reviewTitle, reviewText, reviewRating;

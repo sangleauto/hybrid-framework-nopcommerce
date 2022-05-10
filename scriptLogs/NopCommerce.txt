@@ -1,49 +1,24 @@
-[2022-05-10 13:20:39,606] Precondition - Step 01: Open Log in page
-[2022-05-10 13:20:40,161] Precondition - Step 02: Enter Email to Email textbox
-[2022-05-10 13:20:40,241] Precondition - Step 03: Enter Password to Password textbox
-[2022-05-10 13:20:40,297] Precondition - Step 04: Click to LOG IN button
-[2022-05-10 13:20:41,098] Precondition - Step 05: Verify My account link is displayed
-[2022-05-10 13:20:41,157] Precondition - Step 06: Open Search page
-[2022-05-10 13:20:41,851] Search with Empty data - Step 01: Click to Search button
-[2022-05-10 13:20:42,298] Search with Empty data - Step 02: Verify Search error message (minimum 3 chars)
-[2022-05-10 13:20:42,477] Search with Data not existed - Step 01: Enter not existed data to Search keyword textbox
-[2022-05-10 13:20:42,548] Search with Data not existed - Step 02: Click to Search button
-[2022-05-10 13:20:43,051] Search with Data not existed - Step 03: Verify Search error message (no products were matched criteria)
-[2022-05-10 13:20:43,106] Search with Relative name - Step 01: Enter Relative name value to Search keyword textbox
-[2022-05-10 13:20:43,179] Search with Relative name- Step 02: Click to Search button
-[2022-05-10 13:20:43,666] Search with Relative name - Step 03: Verify number of items are shown after clicking Search
-[2022-05-10 13:20:43,681] Search with Relative name - Step 04: Verify first item name is shown after clicking Search
-[2022-05-10 13:20:43,731] Search with Relative name - Step 05: Verify second item name is shown after clicking Search
-[2022-05-10 13:20:43,772] Search with Absolute name - Step 01: Enter Absolute name value to Search keyword textbox
-[2022-05-10 13:20:43,846] Search with Absolute data - Step 02: Click to Search button
-[2022-05-10 13:20:44,289] Search with Absolute data - Step 03: Verify number of items are shown after clicking Search
-[2022-05-10 13:20:44,299] Search with Absolute data - Step 04: Verify first item name is shown after clicking Search
-[2022-05-10 13:20:44,352] Search with Parent Categores - Step 01: Enter Product name to Search keyword textbox
-[2022-05-10 13:20:44,437] Search with Parent Categores - Step 02: Check to Advanced search checkbox
-[2022-05-10 13:20:44,687] Search with Parent Categores - Step 03: Select 'Computers' in Category dropdown
-[2022-05-10 13:20:44,962] Search with Parent Categores - Step 04: Click to Search button
-[2022-05-10 13:20:45,440] Search with Parent Categores - Step 05: Verify Search error message (no products were matched criteria)
-[2022-05-10 13:20:45,487] Search with Sub Categores - Step 01: Enter Product name to Search keyword textbox
-[2022-05-10 13:20:45,604] Search with Sub Categores - Step 02: Check to 'Advanced search' checkbox
-[2022-05-10 13:20:45,647] Search with Sub Categores - Step 03: Select 'Computers' in Category dropdown
-[2022-05-10 13:20:45,717] Search with Sub Categores - Step 04: Check to 'Automatically search sub categories' search checkbox
-[2022-05-10 13:20:45,962] Search with Sub Categores - Step 05: Click to Search button
-[2022-05-10 13:20:46,528] Search with Sub Categores - Step 06: Verify number of items are shown after clicking Search
-[2022-05-10 13:20:46,539] Search with Sub Categores - Step 07: Verify first item name is shown after clicking Search
-[2022-05-10 13:20:46,595] Search with incorrect manufacturer - Step 01: Enter Product name to Search keyword textbox
-[2022-05-10 13:20:46,673] Search with incorrect manufacturer - Step 02: Check to 'Advanced search' checkbox
-[2022-05-10 13:20:46,714] Search with incorrect manufacturer - Step 03: Select 'Computers' in Category dropdown
-[2022-05-10 13:20:46,765] Search with incorrect manufacturer - Step 04: Check to 'Automatically search sub categories' search checkbox
-[2022-05-10 13:20:46,795] Search with incorrect manufacturer - Step 05: Select Incorrect manufacturer in Manufacturer dropdown
-[2022-05-10 13:20:47,050] Search with incorrect manufacturer - Step 07: Click to Search button
-[2022-05-10 13:20:47,609] Search with incorrect manufacturer - Step 08: Verify Search error message (no products were matched criteria)
-[2022-05-10 13:20:47,666] Search with correct manufacturer - Step 01: Enter Product name to Search keyword textbox
-[2022-05-10 13:20:47,744] Search with correct manufacturer - Step 02: Check to 'Advanced search' checkbox
-[2022-05-10 13:20:47,777] Search with correct manufacturer - Step 03: Select 'Computers' in Category dropdown
-[2022-05-10 13:20:47,833] Search with correct manufacturer - Step 04: Check to 'Automatically search sub categories' search checkbox
-[2022-05-10 13:20:47,868] Search with correct manufacturer - Step 05: Select Correct manufacturer in Manufacturer dropdown
-[2022-05-10 13:20:48,131] Search with correct manufacturer - Step 07: Click to Search button
-[2022-05-10 13:20:48,731] Search with correct manufacturer - Step 08: Verify number of items are shown after clicking Search
-[2022-05-10 13:20:48,742] Search with correct manufacturer - Step 09: Verify first item name is shown after clicking Search
-[2022-05-10 13:20:48,802] OS name = windows 10
-[2022-05-10 13:20:48,802] Driver instance name = firefoxdriver: firefox on windows (cf11b96c-2354-429d-88dc-6002df1b0216)
+[2022-05-10 21:36:42,983] Precondition - Step 01: Open Notebook page in Sub Menu
+[2022-05-10 21:36:43,976] Sort Name A to Z - Step 01: Select 'Name: A to Z' in Sort by dropdown
+[2022-05-10 21:36:44,841] Sort Name A to Z - Step 02: Verify all product names are sorted with ascending order
+[2022-05-10 21:36:45,007] Sort Name Z to A - Step 01: Select 'Name: Z to A' in Sort by dropdown
+[2022-05-10 21:36:45,844] Sort Name Z to A - Step 02: Verify all product names are sorted with descending order
+[2022-05-10 21:36:45,895] Sort Price Low to High - Step 01: Select 'Price: Low to High' in Sort by dropdown
+[2022-05-10 21:36:46,704] Sort Price Low to High - Step 02: Verify all product prices are sorted with ascending order
+[2022-05-10 21:36:46,745] Sort Price Low to High - Step 01: Select 'Price: High to Low' in Sort by dropdown
+[2022-05-10 21:36:47,552] Sort Price Low to High - Step 02: Verify all product prices are sorted with descending order
+[2022-05-10 21:36:47,595] Display 3 products per page - Step 01: Select '3' in Display dropdown
+[2022-05-10 21:36:48,394] Display 3 products per page - Step 02: Verify <= 3 products are shown per page
+[2022-05-10 21:36:48,402] Display 3 products per page - Step 03: Verify Page 1 Number is activated
+[2022-05-10 21:36:48,440] Display 3 products per page - Step 04: Verify Next icon is shown when on Page 1
+[2022-05-10 21:36:48,479] Display 3 products per page - Step 05: Click to Page 2 icon
+[2022-05-10 21:36:48,725] Display 3 products per page - Step 06: Verify Page 2 Number is activated
+[2022-05-10 21:36:48,878] Display 3 products per page - Step 07: Verify Previous icon is shown when on Page 2
+[2022-05-10 21:36:48,938] Display 6 products per page - Step 01: Select '6' in Display dropdown
+[2022-05-10 21:36:49,751] Display 6 products per page - Step 02: Verify <= 6 products are shown per page
+[2022-05-10 21:36:49,762] Display 6 products per page - Step 03: Verify Pagination is disappeared
+[2022-05-10 21:36:59,805] Display 9 products per page - Step 01: Select '9' in Display dropdown
+[2022-05-10 21:37:00,620] Display 9 products per page - Step 02: Verify <= 9 products are shown per page
+[2022-05-10 21:37:00,631] Display 9 products per page - Step 03: Verify Pagination is disappeared
+[2022-05-10 21:37:10,664] OS name = windows 10
+[2022-05-10 21:37:10,664] Driver instance name = firefoxdriver: firefox on windows (2777778d-4d4f-4f9d-b4b3-9b0e84ec8325)
