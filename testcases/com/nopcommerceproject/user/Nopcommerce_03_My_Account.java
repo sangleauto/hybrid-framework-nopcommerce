@@ -49,6 +49,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		reviewTitle = "Review Title " + generateRandomNumber();
 		reviewText = "This is Review Text " + generateRandomNumber();
 		reviewRating = "4";
+		passwordChangedSuccessfullyMsg = "Password was changed";
 
 		log.info("Precondition - Step 01: Open Log in page");
 		loginPage = homePage.clickToLoginLink(driver);
@@ -246,7 +247,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		changePasswordPage.clickToChangePasswordButton();
 
 		log.info("My Account Change Password - Step 06: Verify 'Password was changed' message");
-		verifyTrue(changePasswordPage.isPasswordChangedSuccessfully());
+		verifyEquals(changePasswordPage.getPasswordChangedSuccessfullyMessage(), passwordChangedSuccessfullyMsg);
 
 		log.info("My Account Change Password - Step 07: Click to Close icon");
 		changePasswordPage.clickToCloseIcon();
@@ -333,6 +334,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 	private String day, month, year;
 	private String country, stateProvince, city, address1, address2, zipCode, phoneNumber, faxNumber, newPassword;
 	private String reviewTitle, reviewText, reviewRating;
+	private String passwordChangedSuccessfullyMsg;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserCustomerInfoPageObject customerInfoPage;

@@ -26,6 +26,10 @@ public class Nopcommerce_02_Login extends BaseTest {
 		wrongEmail = "abc123";
 		wrongPassword = "pass123";
 		unregisteredEmail = "autotesting@gmail.com";
+		loginEmptyDataMsg = "Please enter your email";
+		loginInvalidEmailMsg = "Wrong email";
+		loginUnregisteredEmailMsg = "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found";
+		loginInvalidPasswordMsg = "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect";
 
 		log.info("Precondition - Step 01: Open Log in page");
 		loginPage = homePage.clickToLoginLink(driver);
@@ -38,7 +42,7 @@ public class Nopcommerce_02_Login extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Empty Data - Step 02: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), "Please enter your email");
+		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), loginEmptyDataMsg);
 	}
 
 	@Test
@@ -51,7 +55,7 @@ public class Nopcommerce_02_Login extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Invalid Email - Step 03: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), "Wrong email");
+		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), loginInvalidEmailMsg);
 
 	}
 
@@ -68,7 +72,7 @@ public class Nopcommerce_02_Login extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Unregistered Email - Step 04: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found");
+		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), loginUnregisteredEmailMsg);
 	}
 
 	@Test
@@ -84,7 +88,7 @@ public class Nopcommerce_02_Login extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Empty Password - Step 04: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
+		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), loginInvalidPasswordMsg);
 	}
 
 	@Test
@@ -126,6 +130,7 @@ public class Nopcommerce_02_Login extends BaseTest {
 
 	private WebDriver driver;
 	private String email, password, wrongEmail, unregisteredEmail, wrongPassword;
+	private String loginEmptyDataMsg, loginInvalidEmailMsg, loginUnregisteredEmailMsg, loginInvalidPasswordMsg;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 

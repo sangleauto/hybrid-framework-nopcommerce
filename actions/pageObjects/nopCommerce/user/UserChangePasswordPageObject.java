@@ -36,9 +36,9 @@ public class UserChangePasswordPageObject extends BasePage {
 
 	}
 
-	public boolean isPasswordChangedSuccessfully() {
+	public String getPasswordChangedSuccessfullyMessage() {
 		waitForElementVisible(driver, UserChangePasswordPageUI.PASSWORD_CHANGED_MESSAGE);
-		return isElementDisplayed(driver, UserChangePasswordPageUI.PASSWORD_CHANGED_MESSAGE);
+		return getElementText(driver, UserChangePasswordPageUI.PASSWORD_CHANGED_MESSAGE);
 	}
 
 	public void clickToCloseIcon() {

@@ -47,7 +47,6 @@ public class UserMyProductReviewPageObject extends BasePage {
 	public String getValueReviewRating() {
 		waitForElementVisible(driver, UserMyProductReviewPageUI.REVIEW_RATING);
 		String ratingAttrValue = getAttributeValue(driver, UserMyProductReviewPageUI.REVIEW_RATING, "style");
-		System.out.println("Test: " + ratingAttrValue);
 		String rating = null;
 		if (ratingAttrValue.contains("20%")) {
 			rating = "1";

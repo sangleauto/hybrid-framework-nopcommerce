@@ -1,86 +1,49 @@
-[2022-05-08 23:40:16,770] Precondition - Step 01: Open Log in page
-[2022-05-08 23:40:17,328] Precondition - Step 02: Enter Email to Email textbox
-[2022-05-08 23:40:17,422] Precondition - Step 03: Enter Password to Password textbox
-[2022-05-08 23:40:17,496] Precondition - Step 04: Click to LOG IN button
-[2022-05-08 23:40:18,242] Precondition - Step 05: Verify My account link is displayed
-[2022-05-08 23:40:18,304] Precondition - Step 06: Open My Account page
-[2022-05-08 23:40:18,895] My Account Update Customer Info - Step 02: Verify First name info is correct
-[2022-05-08 23:40:18,932] My Account Update Customer Info - Step 03: Verify Last name info is correct
-[2022-05-08 23:40:18,970] My Account Update Customer Info - Step 04: Verify Email info is correct
-[2022-05-08 23:40:19,012] My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked
-[2022-05-08 23:40:19,061] My Account Update Customer Info - Step 06: Select Gender = Female
-[2022-05-08 23:40:19,326] My Account Update Customer Info - Step 07: Enter new First name
-[2022-05-08 23:40:19,390] My Account Update Customer Info - Step 08: Enter new Last name
-[2022-05-08 23:40:19,457] My Account Update Customer Info - Step 09: Enter Date of birth
-[2022-05-08 23:40:20,259] My Account Update Customer Info - Step 10: Enter new Email
-[2022-05-08 23:40:20,331] My Account Update Customer Info - Step 11: Enter Company name
-[2022-05-08 23:40:20,392] My Account Update Customer Info - Step 12: Click to Save button
-[2022-05-08 23:40:21,138] My Account Update Customer Info - Step 13: Verify Femail Radio is checked
-[2022-05-08 23:40:21,192] My Account Update Customer Info - Step 14: Verify new First name info is correct
-[2022-05-08 23:40:21,235] My Account Update Customer Info - Step 15: Verify new Last name info is correct
-[2022-05-08 23:40:21,277] My Account Update Customer Info - Step 16: Verify new Email info is correct
-[2022-05-08 23:40:21,319] My Account Update Customer Info - Step 17: Verify DOB info
-[2022-05-08 23:40:21,745] My Account Update Customer Info - Step 18: Verify Company Name info is correct
-[2022-05-08 23:40:21,778] My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked
-[2022-05-08 23:40:21,809] My Account Update Customer Info - Step 20: Click to Log out link
-[2022-05-08 23:40:22,534] My Account Update Customer Info - Step 21: Click to Log in link
-[2022-05-08 23:40:22,964] My Account Update Customer Info - Step 22: Enter new Email to Email textbox
-[2022-05-08 23:40:23,041] My Account Update Customer Info - Step 23: Enter password to Password textbox
-[2022-05-08 23:40:23,102] My Account Update Customer Info - Step 24: Click to LOG IN button
-[2022-05-08 23:40:23,874] My Account Update Customer Info - Step 25: Verify My account link is displayed
-[2022-05-08 23:40:23,944] My Account Update Customer Info - Step 26: Open My Account page
-[2022-05-08 23:40:24,602] My Account Add New Address - Step 01: Open Addresses page
-[2022-05-08 23:40:25,136] My Account Add New Address - Step 02: Click to ADD NEW button
-[2022-05-08 23:40:25,723] My Account Add New Address - Step 03: Enter First name textbox
-[2022-05-08 23:40:25,801] My Account Add New Address - Step 04: Enter Last name textbox
-[2022-05-08 23:40:25,866] My Account Add New Address - Step 05: Enter Email textbox
-[2022-05-08 23:40:25,953] My Account Add New Address - Step 06: Enter Company textbox
-[2022-05-08 23:40:26,022] My Account Add New Address - Step 07: Select Country in dropdown
-[2022-05-08 23:40:26,311] My Account Add New Address - Step 08: Select State/ province in dropdown
-[2022-05-08 23:40:29,374] My Account Add New Address - Step 09: Enter City textbox
-[2022-05-08 23:40:29,424] My Account Add New Address - Step 10: Enter Address 1 textbox
-[2022-05-08 23:40:29,497] My Account Add New Address - Step 11: Enter Address 2 textbox
-[2022-05-08 23:40:29,556] My Account Add New Address - Step 12: Enter Zip / postal code textbox
-[2022-05-08 23:40:29,616] My Account Add New Address - Step 13: Enter Phone number textbox
-[2022-05-08 23:40:29,672] My Account Add New Address - Step 14: Enter Fax number textbox
-[2022-05-08 23:40:29,723] My Account Add New Address - Step 15: Click to Save button
-[2022-05-08 23:40:30,458] My Account Add New Address - Step 16: Verify Full name info
-[2022-05-08 23:40:30,508] My Account Add New Address - Step 17: Verify Email name info
-[2022-05-08 23:40:30,536] My Account Add New Address - Step 18: Verify Phone info
-[2022-05-08 23:40:30,563] My Account Add New Address - Step 19: Verify Fax number info
-[2022-05-08 23:40:30,590] My Account Add New Address - Step 20: Verify Address1 info
-[2022-05-08 23:40:30,617] My Account Add New Address - Step 21: Verify Address2 info
-[2022-05-08 23:40:30,647] My Account Add New Address - Step 22: Verify Full name
-[2022-05-08 23:40:30,677] My Account Add New Address - Step 23: Verify Country info
-[2022-05-08 23:40:30,707] My Account Add New Address - Step 24: Back to Customer info page
-[2022-05-08 23:40:31,146] My Account Change Password - Step 01: Open Change Password page
-[2022-05-08 23:40:31,662] My Account Change Password - Step 02: Enter Old password to Old password textbox
-[2022-05-08 23:40:31,734] My Account Change Password - Step 03: Enter New password to New password textbox
-[2022-05-08 23:40:31,788] My Account Change Password - Step 04: Enter New password to Confirm password textbox
-[2022-05-08 23:40:31,851] My Account Change Password - Step 05: Click to CHANGE PASSWORD button
-[2022-05-08 23:40:32,352] My Account Change Password - Step 06: Verify 'Password was changed' message
-[2022-05-08 23:40:32,455] My Account Change Password - Step 07: Click to Close icon
-[2022-05-08 23:40:38,769] My Account Change Password - Step 08: Click to Log out link
-[2022-05-08 23:40:39,435] My Account Change Password - Step 09: Open Log in page
-[2022-05-08 23:40:39,860] My Account Change Password - Step 10: Enter Email to Email textbox
-[2022-05-08 23:40:39,938] My Account Change Password - Step 11: Enter Password to Password textbox
-[2022-05-08 23:40:39,983] My Account Change Password - Step 12: Click to LOG IN button
-[2022-05-08 23:40:40,666] My Account Change Password - Step 13: Verify My account link is displayed
-[2022-05-08 23:40:40,726] My Account Change Password - Step 14: Open My Account page
-[2022-05-08 23:40:41,178] My Account Add Review - Step 01: Open to Desktops page in Header menu
-[2022-05-08 23:40:41,909] My Account Add Review - Step 02: Open Desktop product detail
-[2022-05-08 23:40:43,083] My Account Add Review - Step 03: Click to Add your review link
-[2022-05-08 23:40:44,200] My Account Add Review - Step 04: Add Review title
-[2022-05-08 23:40:44,278] My Account Add Review - Step 05: Add Review text
-[2022-05-08 23:40:44,337] My Account Add Review - Step 06: Rating
-[2022-05-08 23:40:44,602] My Account Add Review - Step 07: Click SUBMIT REVIEW button
-[2022-05-08 23:40:45,043] My Account Add Review - Step 08: Verify Review title in Product reviews page
-[2022-05-08 23:40:45,111] My Account Add Review - Step 09: Verify Review text in Product reviews page
-[2022-05-08 23:40:45,143] My Account Add Review - Step 10: Verify Review rating in Product reviews page
-[2022-05-08 23:40:45,176] My Account Add Review - Step 11: Open My Account page
-[2022-05-08 23:40:45,566] My Account Add Review - Step 12: Open My product reviews page
-[2022-05-08 23:40:46,063] My Account Add Review - Step 13: Verify Review title in My account - My product reviews
-[2022-05-08 23:40:46,108] My Account Add Review - Step 14: Verify Review text in My account - My product reviews
-[2022-05-08 23:40:46,134] My Account Add Review - Step 15: Verify Review rating in My account - My product reviews
-[2022-05-08 23:40:46,168] OS name = windows 10
-[2022-05-08 23:40:46,168] Driver instance name = firefoxdriver: firefox on windows (891f74d2-d0e7-439f-b8ab-63e98fa80058)
+[2022-05-10 13:20:39,606] Precondition - Step 01: Open Log in page
+[2022-05-10 13:20:40,161] Precondition - Step 02: Enter Email to Email textbox
+[2022-05-10 13:20:40,241] Precondition - Step 03: Enter Password to Password textbox
+[2022-05-10 13:20:40,297] Precondition - Step 04: Click to LOG IN button
+[2022-05-10 13:20:41,098] Precondition - Step 05: Verify My account link is displayed
+[2022-05-10 13:20:41,157] Precondition - Step 06: Open Search page
+[2022-05-10 13:20:41,851] Search with Empty data - Step 01: Click to Search button
+[2022-05-10 13:20:42,298] Search with Empty data - Step 02: Verify Search error message (minimum 3 chars)
+[2022-05-10 13:20:42,477] Search with Data not existed - Step 01: Enter not existed data to Search keyword textbox
+[2022-05-10 13:20:42,548] Search with Data not existed - Step 02: Click to Search button
+[2022-05-10 13:20:43,051] Search with Data not existed - Step 03: Verify Search error message (no products were matched criteria)
+[2022-05-10 13:20:43,106] Search with Relative name - Step 01: Enter Relative name value to Search keyword textbox
+[2022-05-10 13:20:43,179] Search with Relative name- Step 02: Click to Search button
+[2022-05-10 13:20:43,666] Search with Relative name - Step 03: Verify number of items are shown after clicking Search
+[2022-05-10 13:20:43,681] Search with Relative name - Step 04: Verify first item name is shown after clicking Search
+[2022-05-10 13:20:43,731] Search with Relative name - Step 05: Verify second item name is shown after clicking Search
+[2022-05-10 13:20:43,772] Search with Absolute name - Step 01: Enter Absolute name value to Search keyword textbox
+[2022-05-10 13:20:43,846] Search with Absolute data - Step 02: Click to Search button
+[2022-05-10 13:20:44,289] Search with Absolute data - Step 03: Verify number of items are shown after clicking Search
+[2022-05-10 13:20:44,299] Search with Absolute data - Step 04: Verify first item name is shown after clicking Search
+[2022-05-10 13:20:44,352] Search with Parent Categores - Step 01: Enter Product name to Search keyword textbox
+[2022-05-10 13:20:44,437] Search with Parent Categores - Step 02: Check to Advanced search checkbox
+[2022-05-10 13:20:44,687] Search with Parent Categores - Step 03: Select 'Computers' in Category dropdown
+[2022-05-10 13:20:44,962] Search with Parent Categores - Step 04: Click to Search button
+[2022-05-10 13:20:45,440] Search with Parent Categores - Step 05: Verify Search error message (no products were matched criteria)
+[2022-05-10 13:20:45,487] Search with Sub Categores - Step 01: Enter Product name to Search keyword textbox
+[2022-05-10 13:20:45,604] Search with Sub Categores - Step 02: Check to 'Advanced search' checkbox
+[2022-05-10 13:20:45,647] Search with Sub Categores - Step 03: Select 'Computers' in Category dropdown
+[2022-05-10 13:20:45,717] Search with Sub Categores - Step 04: Check to 'Automatically search sub categories' search checkbox
+[2022-05-10 13:20:45,962] Search with Sub Categores - Step 05: Click to Search button
+[2022-05-10 13:20:46,528] Search with Sub Categores - Step 06: Verify number of items are shown after clicking Search
+[2022-05-10 13:20:46,539] Search with Sub Categores - Step 07: Verify first item name is shown after clicking Search
+[2022-05-10 13:20:46,595] Search with incorrect manufacturer - Step 01: Enter Product name to Search keyword textbox
+[2022-05-10 13:20:46,673] Search with incorrect manufacturer - Step 02: Check to 'Advanced search' checkbox
+[2022-05-10 13:20:46,714] Search with incorrect manufacturer - Step 03: Select 'Computers' in Category dropdown
+[2022-05-10 13:20:46,765] Search with incorrect manufacturer - Step 04: Check to 'Automatically search sub categories' search checkbox
+[2022-05-10 13:20:46,795] Search with incorrect manufacturer - Step 05: Select Incorrect manufacturer in Manufacturer dropdown
+[2022-05-10 13:20:47,050] Search with incorrect manufacturer - Step 07: Click to Search button
+[2022-05-10 13:20:47,609] Search with incorrect manufacturer - Step 08: Verify Search error message (no products were matched criteria)
+[2022-05-10 13:20:47,666] Search with correct manufacturer - Step 01: Enter Product name to Search keyword textbox
+[2022-05-10 13:20:47,744] Search with correct manufacturer - Step 02: Check to 'Advanced search' checkbox
+[2022-05-10 13:20:47,777] Search with correct manufacturer - Step 03: Select 'Computers' in Category dropdown
+[2022-05-10 13:20:47,833] Search with correct manufacturer - Step 04: Check to 'Automatically search sub categories' search checkbox
+[2022-05-10 13:20:47,868] Search with correct manufacturer - Step 05: Select Correct manufacturer in Manufacturer dropdown
+[2022-05-10 13:20:48,131] Search with correct manufacturer - Step 07: Click to Search button
+[2022-05-10 13:20:48,731] Search with correct manufacturer - Step 08: Verify number of items are shown after clicking Search
+[2022-05-10 13:20:48,742] Search with correct manufacturer - Step 09: Verify first item name is shown after clicking Search
+[2022-05-10 13:20:48,802] OS name = windows 10
+[2022-05-10 13:20:48,802] Driver instance name = firefoxdriver: firefox on windows (cf11b96c-2354-429d-88dc-6002df1b0216)

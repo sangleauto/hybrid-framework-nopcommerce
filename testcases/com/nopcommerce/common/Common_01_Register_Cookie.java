@@ -25,6 +25,7 @@ public class Common_01_Register_Cookie extends BaseTest {
 		lastName = "Le";
 		email = "afc" + generateRandomNumber() + "@gmail.com";
 		password = "123456";
+		registerSuccessMsg = "Your registration completed";
 
 		log.info("Register - Step 01: Open 'Register' page");
 		registerPage = homePage.clickToRegisterLink(driver);
@@ -48,7 +49,7 @@ public class Common_01_Register_Cookie extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register - Step 08: Verify Register Success Message is displayed");
-		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
+		verifyEquals(registerPage.getRegisterSuccessMessage(), registerSuccessMsg);
 
 		loggedCookies = registerPage.getAllCookies(driver);
 		for (Cookie cookie : loggedCookies) {
@@ -62,7 +63,7 @@ public class Common_01_Register_Cookie extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String firstName, lastName, email, password;
+	private String firstName, lastName, email, password, registerSuccessMsg;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	public static Set<Cookie> loggedCookies;

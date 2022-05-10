@@ -37,6 +37,8 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		categoryValue = "Computers";
 		incorrectManufacturer = "HP";
 		correctManufacturer = "Apple";
+		searchEmptyDataMsg = "Search term minimum length is 3 characters";
+		searchDataNotExistedMsg = "No products were found that matched your criteria.";
 
 		log.info("Precondition - Step 01: Open Log in page");
 		loginPage = homePage.clickToLoginLink(driver);
@@ -64,7 +66,7 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		searchPage.clickToSearchButton();
 
 		log.info("Search with Empty data - Step 02: Verify Search error message (minimum 3 chars)");
-		verifyEquals(searchPage.getSearchEmptyErrorMessage(), "Search term minimum length is 3 characters");
+		verifyEquals(searchPage.getSearchEmptyErrorMessage(), searchEmptyDataMsg);
 	}
 
 	@Test
@@ -76,7 +78,7 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		searchPage.clickToSearchButton();
 
 		log.info("Search with Data not existed - Step 03: Verify Search error message (no products were matched criteria)");
-		verifyEquals(searchPage.getSearchNoResultErrorMessage(), "No products were found that matched your criteria.");
+		verifyEquals(searchPage.getSearchNoResultErrorMessage(), searchDataNotExistedMsg);
 
 	}
 
@@ -129,7 +131,7 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		searchPage.clickToSearchButton();
 
 		log.info("Search with Parent Categores - Step 05: Verify Search error message (no products were matched criteria)");
-		verifyEquals(searchPage.getSearchNoResultErrorMessage(), "No products were found that matched your criteria.");
+		verifyEquals(searchPage.getSearchNoResultErrorMessage(), searchDataNotExistedMsg);
 
 	}
 
@@ -178,7 +180,7 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 		searchPage.clickToSearchButton();
 
 		log.info("Search with incorrect manufacturer - Step 08: Verify Search error message (no products were matched criteria)");
-		verifyEquals(searchPage.getSearchNoResultErrorMessage(), "No products were found that matched your criteria.");
+		verifyEquals(searchPage.getSearchNoResultErrorMessage(), searchDataNotExistedMsg);
 
 	}
 
@@ -217,6 +219,7 @@ public class Nopcommerce_04_Search_Advanced_Search extends BaseTest {
 	private WebDriver driver;
 	private String email, password;
 	private String notExistedData, relativeName, absoluteName, lenovoItemName1, lenovoItemName2, thinkpadItemName, appleItemName, advancedSearchProductName, categoryValue, incorrectManufacturer, correctManufacturer;
+	private String searchEmptyDataMsg, searchDataNotExistedMsg;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserSearchPageObject searchPage;

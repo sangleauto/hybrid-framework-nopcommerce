@@ -29,6 +29,15 @@ public class Nopcommerce_01_Register extends BaseTest {
 		invalidEmail = "john@cena@123";
 		passwordLessThanSixChars = "12345";
 		invalidConfirmPassword = "123abc";
+		firstNameErrorMsg = "First name is required.";
+		lastNameErrorMsg = "Last name is required.";
+		emailErrorMsg = "Email is required.";
+		passwordErrorMsg = "Password is required.";
+		invalidEmailErrorMsg = "Wrong email";
+		registerSuccessMsg = "Your registration completed";
+		existedEmailErrorMsg = "The specified email already exists";
+		passwordLessThan6CharsErrorMsg = "Password must meet the following rules:\nmust have at least 6 characters";
+		confirmPasswordNotMatchedErrorMsg = "The password and confirmation password do not match.";
 
 		log.info("Precondition - Step 01: Open Register page");
 		registerPage = homePage.clickToRegisterLink(driver);
@@ -42,19 +51,19 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register Empty Data - Step 02: Verify error message in First Name textbox");
-		verifyEquals(registerPage.getErrorMessageAtFirstNameTextbox(), "First name is required.");
+		verifyEquals(registerPage.getErrorMessageAtFirstNameTextbox(), firstNameErrorMsg);
 
 		log.info("Register Empty Data - Step 03: Verify error message in Last Name textbox");
-		verifyEquals(registerPage.getErrorMessageAtLastNameTextbox(), "Last name is required.");
+		verifyEquals(registerPage.getErrorMessageAtLastNameTextbox(), lastNameErrorMsg);
 
 		log.info("Register Empty Data - Step 04: Verify error message in Email textbox");
-		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), "Email is required.");
+		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), emailErrorMsg);
 
 		log.info("Register Empty Data - Step 05: Verify error message in Password textbox");
-		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), "Password is required.");
+		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), passwordErrorMsg);
 
 		log.info("Register Empty Data - Step 06: Verify error message in Confirm Password textbox");
-		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), "Password is required.");
+		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), passwordErrorMsg);
 
 	}
 
@@ -80,7 +89,7 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register Invalid Email - Step 07: Verify error message in Email textbox");
-		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), "Wrong email");
+		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), invalidEmailErrorMsg);
 	}
 
 	@Test
@@ -105,7 +114,7 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register Successfully - Step 07: Verify Register success message");
-		verifyEquals(registerPage.getVerifySuccessMessage(), "Your registration completed");
+		verifyEquals(registerPage.getVerifySuccessMessage(), registerSuccessMsg);
 
 		log.info("Register Successfully - Step 08: Click to Logout link");
 		homePage = registerPage.clickToLogoutLinkAtUserPage(driver);
@@ -136,7 +145,7 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register With Existed Email - Step 08: Verify Error message after clicking Register button");
-		verifyEquals(registerPage.getRegisterErrorMessage(), "The specified email already exists");
+		verifyEquals(registerPage.getRegisterErrorMessage(), existedEmailErrorMsg);
 
 	}
 
@@ -162,7 +171,7 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register With Less Than 6 Characters Password - Step 07: Verify Error message in Password textbox");
-		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), "Password must meet the following rules:\nmust have at least 6 characters");
+		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), passwordLessThan6CharsErrorMsg);
 	}
 
 	@Test
@@ -187,7 +196,7 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register With Not Matched Confirm Password - Step 07: Verify Error message in Confirm password textbox");
-		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), "The password and confirmation password do not match.");
+		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), confirmPasswordNotMatchedErrorMsg);
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -198,6 +207,7 @@ public class Nopcommerce_01_Register extends BaseTest {
 	private WebDriver driver;
 	private DataUtil faker;
 	private String firstName, lastName, email, secondEmail, password, invalidEmail, passwordLessThanSixChars, invalidConfirmPassword;
+	private String firstNameErrorMsg, lastNameErrorMsg, emailErrorMsg, passwordErrorMsg, invalidEmailErrorMsg, registerSuccessMsg, existedEmailErrorMsg, passwordLessThan6CharsErrorMsg, confirmPasswordNotMatchedErrorMsg;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 
