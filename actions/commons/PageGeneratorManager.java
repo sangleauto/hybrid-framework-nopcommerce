@@ -6,15 +6,19 @@ import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopCommerce.user.UserCompareProductPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserDesktopPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserNotebookPageObject;
+import pageObjects.nopCommerce.user.UserRecentViewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageObjects.nopCommerce.user.UserSearchPageObject;
+import pageObjects.nopCommerce.user.UserShoppingCartPageObject;
+import pageObjects.nopCommerce.user.UserWishlistPageObject;
 
 public class PageGeneratorManager {
 
@@ -60,6 +64,22 @@ public class PageGeneratorManager {
 
 	public static UserNotebookPageObject getUserNotebookPage(WebDriver driver) {
 		return new UserNotebookPageObject(driver);
+	}
+
+	public static UserWishlistPageObject getUserWishlistPage(WebDriver driver) {
+		return new UserWishlistPageObject(driver);
+	}
+
+	public static UserCompareProductPageObject getUserCompareProductPage(WebDriver driver) {
+		return new UserCompareProductPageObject(driver);
+	}
+
+	public static UserShoppingCartPageObject getUserShoppingCartPage(WebDriver driver) {
+		return new UserShoppingCartPageObject(driver);
+	}
+
+	public static UserRecentViewPageObject getUserRecentViewPage(WebDriver driver) {
+		return new UserRecentViewPageObject(driver);
 	}
 
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {

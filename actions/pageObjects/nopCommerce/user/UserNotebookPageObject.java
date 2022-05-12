@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import commons.BasePage;
+import commons.PageGeneratorManager;
 import pageUIs.nopCommerce.user.UserNotebookPageUI;
 
 public class UserNotebookPageObject extends BasePage {
@@ -119,6 +120,43 @@ public class UserNotebookPageObject extends BasePage {
 	public boolean isPaginationUndisplayed() {
 		waitForElementUndisplayed(driver, UserNotebookPageUI.PAGINATION);
 		return isElementUndisplayed(driver, UserNotebookPageUI.PAGINATION);
+	}
+
+	public void openProductDetailPage(String productName) {
+		waitForElementClickable(driver, UserNotebookPageUI.PRODUCT_LINK, productName);
+		clickToElement(driver, UserNotebookPageUI.PRODUCT_LINK, productName);
+	}
+
+	public void clickToAddToCompareListButton() {
+		waitForElementClickable(driver, UserNotebookPageUI.ADD_TO_COMPARE_LIST);
+		clickToElement(driver, UserNotebookPageUI.ADD_TO_COMPARE_LIST);
+	}
+
+	public String getAddedComparisonMessage() {
+		waitForElementVisible(driver, UserNotebookPageUI.ADDED_SUCCESS_MESSAGE);
+		return getElementText(driver, UserNotebookPageUI.ADDED_SUCCESS_MESSAGE);
+	}
+
+	public UserCompareProductPageObject clickToComparisonLinkInAddedMsg() {
+		waitForElementClickable(driver, UserNotebookPageUI.COMPARE_LINK_IN_ADDED_SUCCESS_MESSAGE);
+		clickToElement(driver, UserNotebookPageUI.COMPARE_LINK_IN_ADDED_SUCCESS_MESSAGE);
+		return PageGeneratorManager.getUserCompareProductPage(driver);
+	}
+
+	public void clickToCloseIconAtAddedMessage() {
+		waitForElementClickable(driver, UserNotebookPageUI.CLOSE_ICON);
+		clickToElement(driver, UserNotebookPageUI.CLOSE_ICON);
+
+	}
+
+	public void viewDetail5Products(String... products) {
+
+		for (int i = 0; i < products.length; i++) {
+			waitForElementClickable(driver, UserNotebookPageUI.PRODUCT_LINK, products[i]);
+			clickToElement(driver, UserNotebookPageUI.PRODUCT_LINK, products[i]);
+			backToPage(driver);
+		}
+
 	}
 
 }

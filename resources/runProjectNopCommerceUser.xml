@@ -13,10 +13,10 @@
 	
 	<parameter name ="url" value = "https://demo.nopcommerce.com/"/>
 	<test name="Run on Firefox">
-		<parameter name ="browser" value = "firefox"/>
+		<parameter name ="browser" value = "firefox"/>	
 		<classes>
-			<!-- <class name="com.nopcommerce.common.Common_01_Register_End_User"/> -->
-			<class name="com.nopcommerceproject.user.Nopcommerce_05_Sort_Display_Paging"/>
+			<class name="com.nopcommerce.common.Common_01_Register_End_User"/>			
+			<class name="com.nopcommerceproject.user.Nopcommerce_06_Wishlist_Compare_RecentView"/>
 		</classes>
 	</test> 
 </suite> <!-- Suite -->

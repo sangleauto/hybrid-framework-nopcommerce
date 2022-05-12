@@ -12,6 +12,10 @@ public class BasePageNopCommerceUI {
 	public static final String LOGIN_LINK = "xpath=//a[@class='ico-login']";
 	public static final String MY_ACCOUNT_LINK = "xpath=//a[@class='ico-account']";
 	public static final String SEARCH_PAGE_LINK = "xpath=//a[text()='Search']";
+	public static final String WISHLIST_LINK = "xpath=//a[@class='ico-wishlist']";
+	public static final String SHOPPING_CART_LINK = "xpath=//a[@class='ico-cart']";
+	public static final String RECENT_VIEW_LINK = "xpath=//a[text()='Recently viewed products']";
+	public static final String HOME_PAGE_ICON = "xpath=//img[@alt='nopCommerce demo store']";
 
 	// Pattern Object
 	public static final String DYNAMIC_PAGES_AT_MY_ACCOUNT_AREA = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='%s']";

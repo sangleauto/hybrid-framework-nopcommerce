@@ -21,6 +21,7 @@ public class Common_01_Register_End_User extends BaseTest {
 
 		firstName = faker.getFirstName();
 		lastName = faker.getLastName();
+		fullName = firstName + " " + lastName;
 		email = faker.getEmailAddress();
 		password = "123456";
 
@@ -53,7 +54,7 @@ public class Common_01_Register_End_User extends BaseTest {
 
 	private WebDriver driver;
 	private DataUtil faker;
-	public static String firstName, lastName;
+	public static String firstName, lastName, fullName;
 	public static String email, password;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;

@@ -27,9 +27,12 @@ import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserRecentViewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageObjects.nopCommerce.user.UserSearchPageObject;
+import pageObjects.nopCommerce.user.UserShoppingCartPageObject;
+import pageObjects.nopCommerce.user.UserWishlistPageObject;
 import pageUIs.hrm.BasePageHrmUI;
 import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
@@ -335,7 +338,7 @@ public class BasePage {
 		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).isDisplayed();
 	}
 
-	// Case 2 + 3
+	// Case 2 + 3 (Verify Element Undisplayed)
 	public void overrideImplicitTimeout(WebDriver driver, long timeout) {
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
@@ -640,6 +643,29 @@ public class BasePage {
 		return PageGeneratorManager.getUserSearchPage(driver);
 	}
 
+	public UserWishlistPageObject openWishlistPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.WISHLIST_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.WISHLIST_LINK);
+		return PageGeneratorManager.getUserWishlistPage(driver);
+	}
+
+	public UserShoppingCartPageObject openShoppingCartPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.SHOPPING_CART_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.SHOPPING_CART_LINK);
+		return PageGeneratorManager.getUserShoppingCartPage(driver);
+	}
+
+	public UserRecentViewPageObject openRecentViewPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.RECENT_VIEW_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.RECENT_VIEW_LINK);
+		return PageGeneratorManager.getUserRecentViewPage(driver);
+	}
+
+	public UserHomePageObject backToHomePage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.HOME_PAGE_ICON);
+		clickToElement(driver, BasePageNopCommerceUI.HOME_PAGE_ICON);
+		return PageGeneratorManager.getUserHomePage(driver);
+	}
 	// Pattern Object
 
 	/*
