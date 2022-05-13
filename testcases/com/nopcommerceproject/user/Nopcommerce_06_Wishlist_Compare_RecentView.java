@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.nopcommerce.common.Common_01_Register_End_User;
+import com.nopcommerce.data.DataTest_06_Wishlist;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
@@ -29,32 +30,6 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 
 		email = Common_01_Register_End_User.email;
 		password = Common_01_Register_End_User.password;
-		fullName = Common_01_Register_End_User.fullName;
-		menuName = "Computers";
-		subMenuNameDesktop = "Desktops";
-		subMenuNameNotebook = "Notebooks";
-		desktopLenovoProductName = "Lenovo IdeaCentre 600 All-in-One PC";
-		desktopLenovoProductPrice = "$500.00";
-		notebookAppleName = "Apple MacBook Pro 13-inch";
-		notebookApplePrice = "$1,800.00";
-		notebookAsusName = "Asus N551JK-XO076H Laptop";
-		notebookAsusPrice = "$1,500.00";
-		notebookHPName = "HP Spectre XT Pro UltraBook";
-		notebookLenovoName = "Lenovo Thinkpad X1 Carbon Laptop";
-		notebookSamsungName = "Samsung Series 9 NP900X4C Premium Ultrabook";
-
-		wishlistEmptyMessage = "The wishlist is empty!";
-		addedWishlistMessage = "The product has been added to your wishlist";
-		addedComparisonMessage = "The product has been added to your product comparison";
-		compareEmptyMessage = "You have no items to compare.";
-		productColumn = "Product(s)";
-		priceColumn = "Price";
-		addToCartColumn = "Add to cart";
-		removeColumn = "Remove";
-		tableIndex1 = "1";
-		tableIndex2 = "2";
-		tableIndex3 = "3";
-		tableIndex4 = "4";
 
 		log.info("Precondition - Step 01: Open Log in page");
 		loginPage = homePage.clickToLoginLink(driver);
@@ -72,7 +47,7 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 
 		log.info("Precondition - Step 06: Open Desktop page in Sub Menu");
-		homePage.openSubMenuHeader(driver, menuName, subMenuNameDesktop);
+		homePage.openSubMenuHeader(driver, DataTest_06_Wishlist.menuHeaderInfo.MENU_NAME, DataTest_06_Wishlist.menuHeaderInfo.SUB_MENU_NAME_DESKTOP);
 		desktopPage = PageGeneratorManager.getUserDesktopPage(driver);
 
 	}
@@ -80,30 +55,30 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 	@Test
 	public void Wishlist_01_Add_To_Wishlist() {
 		log.info("Add to Wishlist - Step 01: Click to product");
-		desktopPage.openProductDetailPage(desktopLenovoProductName);
+		desktopPage.openProductDetailPage(DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
 
 		log.info("Add to Wishlist - Step 02: Click to 'Add to wishlist' button");
 		desktopPage.clickToAddToWishlistButton();
 
 		log.info("Add to Wishlist - Step 03: Verify added to wishlist message");
-		verifyEquals(desktopPage.getAddedWishlistMessage(), addedWishlistMessage);
+		verifyEquals(desktopPage.getAddedWishlistMessage(), DataTest_06_Wishlist.wishlistMessage.ADDED_WISHLIST_MESSAGE);
 
 		log.info("Add to Wishlist - Step 04: Click to 'wishlist' link");
 		wishlistPage = desktopPage.clickToWishlistLinkInAddedMsg();
 
 		log.info("Add to Wishlist - Step 05: Verify product is added successfully");
-		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(tableIndex1, productColumn), desktopLenovoProductName);
-		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(tableIndex1, priceColumn), desktopLenovoProductPrice);
+		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRODUCT_COLUMN), DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
+		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRICE_COLUMN), DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_PRICE);
 
 		log.info("Add to Wishlist - Step 06: Click to wishlist sharing URL");
 		wishlistPage.clickToWishlistURL();
 
 		log.info("Add to Wishlist - Step 07: Verify Full name info in 'Wishlist of ...' title");
-		verifyTrue(wishlistPage.isWishlistTitleContainsFullname(fullName));
+		verifyTrue(wishlistPage.isWishlistTitleContainsFullname(DataTest_06_Wishlist.wishlistInfo.FULL_NAME));
 
 		log.info("Add to Wishlist - Step 08: Verify product is added successfully");
-		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(tableIndex1, productColumn), desktopLenovoProductName);
-		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(tableIndex1, priceColumn), desktopLenovoProductPrice);
+		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRODUCT_COLUMN), DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
+		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRICE_COLUMN), DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_PRICE);
 	}
 
 	@Test
@@ -115,7 +90,7 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 		wishlistPage = homePage.openWishlistPage(driver);
 
 		log.info("Add from Wishlist to Cart - Step 03: Check to checkbox");
-		wishlistPage.checkToCheckboxInWishlistTable(tableIndex1, addToCartColumn);
+		wishlistPage.checkToCheckboxInWishlistTable(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.ADD_TO_CART_COLUMN);
 
 		log.info("Add from Wishlist to Cart - Step 04: Click to 'ADD TO CART' button");
 		shoppingcartPage = wishlistPage.clickToAddToCartButton();
@@ -128,44 +103,46 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 		wishlistPage = shoppingcartPage.openWishlistPage(driver);
 
 		log.info("Add from Wishlist to Cart - Step 07: Verify the wishlist is empty");
-		verifyEquals(wishlistPage.getWishlistEmptyMessage(), wishlistEmptyMessage);
+		verifyEquals(wishlistPage.getWishlistEmptyMessage(), DataTest_06_Wishlist.wishlistMessage.WISHLIST_EMPTY_MESSAGE);
 
 		log.info("Add from Wishlist to Cart - Step 08: Click to 'Shopping cart' link");
 		shoppingcartPage = wishlistPage.openShoppingCartPage(driver);
 
 		log.info("Add from Wishlist to Cart - Step 09: Verify product info (Name + Price)");
-		verifyEquals(shoppingcartPage.getValueInShoppingCartTableAtRowAndColumnIndex(tableIndex1, productColumn), desktopLenovoProductName);
-		verifyEquals(shoppingcartPage.getValueInShoppingCartTableAtRowAndColumnIndex(tableIndex1, priceColumn), desktopLenovoProductPrice);
+		verifyEquals(shoppingcartPage.getValueInShoppingCartTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRODUCT_COLUMN),
+				DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
+		verifyEquals(shoppingcartPage.getValueInShoppingCartTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRICE_COLUMN),
+				DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_PRICE);
 
 	}
 
 	@Test
 	public void Wishlist_03_Remove_Product_In_Wishlist_Page() {
 		log.info("Remove product in Wishlist page - Step 01: Open Desktop page in Sub Menu");
-		shoppingcartPage.openSubMenuHeader(driver, menuName, subMenuNameDesktop);
+		shoppingcartPage.openSubMenuHeader(driver, DataTest_06_Wishlist.menuHeaderInfo.MENU_NAME, DataTest_06_Wishlist.menuHeaderInfo.SUB_MENU_NAME_DESKTOP);
 		desktopPage = PageGeneratorManager.getUserDesktopPage(driver);
 
 		log.info("Remove product in Wishlist page - Step 02: Click to product");
-		desktopPage.openProductDetailPage(desktopLenovoProductName);
+		desktopPage.openProductDetailPage(DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
 
 		log.info("Remove product in Wishlist page - Step 03: Click to 'Add to wishlist' button");
 		desktopPage.clickToAddToWishlistButton();
 
 		log.info("Remove product in Wishlist page - Step 04: Verify added to wishlist message");
-		verifyEquals(desktopPage.getAddedWishlistMessage(), addedWishlistMessage);
+		verifyEquals(desktopPage.getAddedWishlistMessage(), DataTest_06_Wishlist.wishlistMessage.ADDED_WISHLIST_MESSAGE);
 
 		log.info("Remove product in Wishlist page - Step 05: Click to 'wishlist' link");
 		wishlistPage = desktopPage.clickToWishlistLinkInAddedMsg();
 
 		log.info("Remove product in Wishlist page - Step 06: Verify product is added successfully");
-		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(tableIndex1, productColumn), desktopLenovoProductName);
-		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(tableIndex1, priceColumn), desktopLenovoProductPrice);
+		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRODUCT_COLUMN), DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
+		verifyEquals(wishlistPage.getValueInWishlistTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRICE_COLUMN), DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_PRICE);
 
 		log.info("Remove product in Wishlist page - Step 07: Click to 'Remove' icon");
-		wishlistPage.clickToRemoveIconInWishlistTable(tableIndex1, removeColumn);
+		wishlistPage.clickToRemoveIconInWishlistTable(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.REMOVE_COLUMN);
 
 		log.info("Remove product in Wishlist page - Step 08: Verify the wishlist is empty");
-		verifyEquals(wishlistPage.getWishlistEmptyMessage(), wishlistEmptyMessage);
+		verifyEquals(wishlistPage.getWishlistEmptyMessage(), DataTest_06_Wishlist.wishlistMessage.WISHLIST_EMPTY_MESSAGE);
 
 		log.info("Remove product in Wishlist page - Step 09: Verify the product is not shown on Wishlist page");
 		verifyTrue(wishlistPage.isWishlistTableUndisplayed());
@@ -174,47 +151,47 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 	@Test
 	public void Wishlist_04_Compare_Product() {
 		log.info("Add product to compare - Step 01: Open Notebook page in Sub Menu");
-		wishlistPage.openSubMenuHeader(driver, menuName, subMenuNameNotebook);
+		wishlistPage.openSubMenuHeader(driver, DataTest_06_Wishlist.menuHeaderInfo.MENU_NAME, DataTest_06_Wishlist.menuHeaderInfo.SUB_MENU_NAME_NOTEBOOK);
 		notebookPage = PageGeneratorManager.getUserNotebookPage(driver);
 		log.info("Add product to compare - Step 02: Click to first product");
-		notebookPage.openProductDetailPage(notebookAppleName);
+		notebookPage.openProductDetailPage(DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_APPLE_NAME);
 
 		log.info("Add product to compare - Step 03: Click to 'Add to compare list' button");
 		notebookPage.clickToAddToCompareListButton();
 
 		log.info("Add product to compare - Step 04: Verify added succesfully message");
-		verifyEquals(notebookPage.getAddedComparisonMessage(), addedComparisonMessage);
+		verifyEquals(notebookPage.getAddedComparisonMessage(), DataTest_06_Wishlist.wishlistMessage.ADDED_COMPARISON_MESSAGE);
 
 		log.info("Add product to compare - Step 05: Click to close icon");
 		notebookPage.clickToCloseIconAtAddedMessage();
 
 		log.info("Add product to compare - Step 06: Open Notebook page in Sub Menu");
-		notebookPage.openSubMenuHeader(driver, menuName, subMenuNameNotebook);
+		notebookPage.openSubMenuHeader(driver, DataTest_06_Wishlist.menuHeaderInfo.MENU_NAME, DataTest_06_Wishlist.menuHeaderInfo.SUB_MENU_NAME_NOTEBOOK);
 
 		log.info("Add product to compare - Step 07: Click to second product");
-		notebookPage.openProductDetailPage(notebookAsusName);
+		notebookPage.openProductDetailPage(DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_ASUS_NAME);
 
 		log.info("Add product to compare - Step 08: Click to 'Add to compare list' button");
 		notebookPage.clickToAddToCompareListButton();
 
 		log.info("Add product to compare - Step 09: Verify added succesfully message");
-		verifyEquals(notebookPage.getAddedComparisonMessage(), addedComparisonMessage);
+		verifyEquals(notebookPage.getAddedComparisonMessage(), DataTest_06_Wishlist.wishlistMessage.ADDED_COMPARISON_MESSAGE);
 
 		log.info("Add product to compare - Step 10: Click to 'product comparision' link");
 		compareProductPage = notebookPage.clickToComparisonLinkInAddedMsg();
 
 		log.info("Add product to compare - Step 11: Verify info of 2 added products (Name + Price)");
-		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(tableIndex3, tableIndex2), notebookAsusName);
-		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(tableIndex4, tableIndex2), notebookAsusPrice);
+		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_3, DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_2), DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_ASUS_NAME);
+		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_4, DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_2), DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_ASUS_PRICE);
 
-		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(tableIndex3, tableIndex3), notebookAppleName);
-		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(tableIndex4, tableIndex3), notebookApplePrice);
+		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_3, DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_3), DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_APPLE_NAME);
+		verifyEquals(compareProductPage.getValueInCompareTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_4, DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_3), DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_APPLE_PRICE);
 
 		log.info("Add product to compare - Step 12: Click to 'CLEAR LIST' button");
 		compareProductPage.clickToClearListButton();
 
 		log.info("Add product to compare - Step 13: Verify no items to compare message");
-		verifyEquals(compareProductPage.getCompareEmptyMessage(), compareEmptyMessage);
+		verifyEquals(compareProductPage.getCompareEmptyMessage(), DataTest_06_Wishlist.wishlistMessage.COMPARE_EMPTY_MESSAGE);
 
 		log.info("Add product to compare - Step 14: Verify all item infomations are disappeared");
 		verifyTrue(compareProductPage.isCompareTableUndisplayed());
@@ -223,17 +200,19 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 	@Test
 	public void Wishlist_05_Recently_Viewed_Products() {
 		log.info("Recently Viewed Products - Step 01: Open Notebook page");
-		compareProductPage.openSubMenuHeader(driver, menuName, subMenuNameNotebook);
+		compareProductPage.openSubMenuHeader(driver, DataTest_06_Wishlist.menuHeaderInfo.MENU_NAME, DataTest_06_Wishlist.menuHeaderInfo.SUB_MENU_NAME_NOTEBOOK);
 		notebookPage = PageGeneratorManager.getUserNotebookPage(driver);
 
 		log.info("Recently Viewed Products - Step 02: View details of 5 products");
-		notebookPage.viewDetail5Products(notebookAppleName, notebookAsusName, notebookHPName, notebookLenovoName, notebookSamsungName);
+		notebookPage.viewDetail5Products(DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_APPLE_NAME, DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_ASUS_NAME, DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_HP_NAME,
+				DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_LENOVO_NAME, DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_SAMSUNG_NAME);
 
 		log.info("Recently Viewed Products - Step 03: Open 'Recently viewed products' page");
 		recentViewPage = notebookPage.openRecentViewPage(driver);
 
 		log.info("Recently Viewed Products - Step 04: Verify only show last 3 products viewed recently");
-		verifyTrue(recentViewPage.isRecentViewPageOnlyShow3Products(notebookAppleName, notebookAsusName, notebookHPName, notebookLenovoName, notebookSamsungName));
+		verifyTrue(recentViewPage.isRecentViewPageOnlyShow3Products(DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_APPLE_NAME, DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_ASUS_NAME, DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_HP_NAME,
+				DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_LENOVO_NAME, DataTest_06_Wishlist.wishlistInfo.NOTEBOOK_SAMSUNG_NAME));
 
 	}
 
@@ -243,10 +222,7 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String email, password, fullName, menuName, subMenuNameDesktop, subMenuNameNotebook;
-	private String desktopLenovoProductName, desktopLenovoProductPrice, notebookAppleName, notebookApplePrice, notebookAsusName, notebookAsusPrice, notebookHPName, notebookLenovoName, notebookSamsungName;
-	private String wishlistEmptyMessage, addedWishlistMessage, addedComparisonMessage, compareEmptyMessage;
-	private String productColumn, priceColumn, addToCartColumn, removeColumn, tableIndex1, tableIndex2, tableIndex3, tableIndex4;
+	private String email, password;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserDesktopPageObject desktopPage;

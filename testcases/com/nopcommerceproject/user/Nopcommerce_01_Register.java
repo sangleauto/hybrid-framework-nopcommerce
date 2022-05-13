@@ -6,11 +6,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.nopcommerce.data.DataTest_01_Register;
+
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
-import ultilities.DataUtil;
 
 public class Nopcommerce_01_Register extends BaseTest {
 
@@ -19,25 +20,6 @@ public class Nopcommerce_01_Register extends BaseTest {
 	public void beforeClass(String browserName, String appUrl) {
 		driver = GetBrowserDriver(browserName, appUrl);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
-		faker = DataUtil.getData();
-
-		firstName = faker.getFirstName();
-		lastName = faker.getLastName();
-		email = faker.getEmailAddress();
-		secondEmail = faker.getEmailAddress();
-		password = faker.getPassword();
-		invalidEmail = "john@cena@123";
-		passwordLessThanSixChars = "12345";
-		invalidConfirmPassword = "123abc";
-		firstNameErrorMsg = "First name is required.";
-		lastNameErrorMsg = "Last name is required.";
-		emailErrorMsg = "Email is required.";
-		passwordErrorMsg = "Password is required.";
-		invalidEmailErrorMsg = "Wrong email";
-		registerSuccessMsg = "Your registration completed";
-		existedEmailErrorMsg = "The specified email already exists";
-		passwordLessThan6CharsErrorMsg = "Password must meet the following rules:\nmust have at least 6 characters";
-		confirmPasswordNotMatchedErrorMsg = "The password and confirmation password do not match.";
 
 		log.info("Precondition - Step 01: Open Register page");
 		registerPage = homePage.clickToRegisterLink(driver);
@@ -51,19 +33,19 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage.clickToRegisterButton();
 
 		log.info("Register Empty Data - Step 02: Verify error message in First Name textbox");
-		verifyEquals(registerPage.getErrorMessageAtFirstNameTextbox(), firstNameErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtFirstNameTextbox(), DataTest_01_Register.registerMessage.FIRST_NAME_ERROR_MSG);
 
 		log.info("Register Empty Data - Step 03: Verify error message in Last Name textbox");
-		verifyEquals(registerPage.getErrorMessageAtLastNameTextbox(), lastNameErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtLastNameTextbox(), DataTest_01_Register.registerMessage.LAST_NAME_ERROR_MSG);
 
 		log.info("Register Empty Data - Step 04: Verify error message in Email textbox");
-		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), emailErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), DataTest_01_Register.registerMessage.EMAIL_ERROR_MSG);
 
 		log.info("Register Empty Data - Step 05: Verify error message in Password textbox");
-		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), passwordErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), DataTest_01_Register.registerMessage.PASSWORD_ERROR_MSG);
 
 		log.info("Register Empty Data - Step 06: Verify error message in Confirm Password textbox");
-		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), passwordErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), DataTest_01_Register.registerMessage.PASSWORD_ERROR_MSG);
 
 	}
 
@@ -71,50 +53,50 @@ public class Nopcommerce_01_Register extends BaseTest {
 	public void Register_02_Invalid_Email() {
 
 		log.info("Register Invalid Email - Step 01: Enter to First name textbox");
-		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(DataTest_01_Register.registerInfo.FIRSTNAME);
 
 		log.info("Register Invalid Email - Step 02: Enter to Last name textbox");
-		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(DataTest_01_Register.registerInfo.LASTNAME);
 
 		log.info("Register Invalid Email - Step 03: Enter invalid email to Email textbox");
-		registerPage.enterToEmailTextbox(invalidEmail);
+		registerPage.enterToEmailTextbox(DataTest_01_Register.registerInfo.INVALID_EMAIL);
 
 		log.info("Register Invalid Email - Step 04: Enter to Password textbox");
-		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register Invalid Email - Step 05: Enter to Confirm password textbox");
-		registerPage.enterToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register Invalid Email - Step 06: Click to Register button");
 		registerPage.clickToRegisterButton();
 
 		log.info("Register Invalid Email - Step 07: Verify error message in Email textbox");
-		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), invalidEmailErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtEmailTextbox(), DataTest_01_Register.registerMessage.INVALID_EMAIL_ERROR_MSG);
 	}
 
 	@Test
 	public void Register_03_Register_Successfully() {
 
 		log.info("Register Successfully - Step 01: Enter to First name textbox");
-		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(DataTest_01_Register.registerInfo.FIRSTNAME);
 
 		log.info("Register Successfully - Step 02: Enter to Last name textbox");
-		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(DataTest_01_Register.registerInfo.LASTNAME);
 
 		log.info("Register Successfully - Step 03: Enter to Email textbox");
-		registerPage.enterToEmailTextbox(email);
+		registerPage.enterToEmailTextbox(DataTest_01_Register.registerInfo.EMAIL);
 
 		log.info("Register Successfully - Step 04: Enter to Password textbox");
-		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register Successfully - Step 05: Enter to Confirm password textbox");
-		registerPage.enterToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register Successfully - Step 06: Click to Register button");
 		registerPage.clickToRegisterButton();
 
 		log.info("Register Successfully - Step 07: Verify Register success message");
-		verifyEquals(registerPage.getVerifySuccessMessage(), registerSuccessMsg);
+		verifyEquals(registerPage.getVerifySuccessMessage(), DataTest_01_Register.registerMessage.REGISTER_SUCCESS_MSG);
 
 		log.info("Register Successfully - Step 08: Click to Logout link");
 		homePage = registerPage.clickToLogoutLinkAtUserPage(driver);
@@ -127,25 +109,25 @@ public class Nopcommerce_01_Register extends BaseTest {
 		registerPage = homePage.clickToRegisterLink(driver);
 
 		log.info("Register With Existed Email - Step 02: Enter to First name textbox");
-		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(DataTest_01_Register.registerInfo.FIRSTNAME);
 
 		log.info("Register With Existed Email - Step 03: Enter to Last name textbox");
-		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(DataTest_01_Register.registerInfo.LASTNAME);
 
 		log.info("Register With Existed Email- Step 04: Enter existed Email to Email textbox");
-		registerPage.enterToEmailTextbox(email);
+		registerPage.enterToEmailTextbox(DataTest_01_Register.registerInfo.EMAIL);
 
 		log.info("Register With Existed Email- Step 05: Enter to Password textbox");
-		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register With Existed Email- Step 06: Enter to Confirm password textbox");
-		registerPage.enterToConfirmPasswordTextbox(password);
+		registerPage.enterToConfirmPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register With Existed Email - Step 07: Click to Register button");
 		registerPage.clickToRegisterButton();
 
 		log.info("Register With Existed Email - Step 08: Verify Error message after clicking Register button");
-		verifyEquals(registerPage.getRegisterErrorMessage(), existedEmailErrorMsg);
+		verifyEquals(registerPage.getRegisterErrorMessage(), DataTest_01_Register.registerMessage.EXISTED_EMAIL_ERROR_MSG);
 
 	}
 
@@ -153,50 +135,50 @@ public class Nopcommerce_01_Register extends BaseTest {
 	public void Register_05_Password_Less_Than_6_Characters() {
 
 		log.info("Register With Less Than 6 Characters Password - Step 01: Enter to First name textbox");
-		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(DataTest_01_Register.registerInfo.FIRSTNAME);
 
 		log.info("Register With Less Than 6 Characters Password - Step 02: Enter to Last name textbox");
-		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(DataTest_01_Register.registerInfo.LASTNAME);
 
 		log.info("Register With Less Than 6 Characters Password - Step 03: Enter to Email textbox");
-		registerPage.enterToEmailTextbox(secondEmail);
+		registerPage.enterToEmailTextbox(DataTest_01_Register.registerInfo.SECOND_EMAIL);
 
 		log.info("Register With Less Than 6 Characters Password - Step 04: Enter invalid Password to Password textbox");
-		registerPage.enterToPasswordTextbox(passwordLessThanSixChars);
+		registerPage.enterToPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD_LESS_THAN_6_CHARS);
 
 		log.info("Register With Less Than 6 Characters Password - Step 05: Enter to Confirm password textbox");
-		registerPage.enterToConfirmPasswordTextbox(passwordLessThanSixChars);
+		registerPage.enterToConfirmPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD_LESS_THAN_6_CHARS);
 
 		log.info("Register With Less Than 6 Characters Password - Step 06: Click to Register button");
 		registerPage.clickToRegisterButton();
 
 		log.info("Register With Less Than 6 Characters Password - Step 07: Verify Error message in Password textbox");
-		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), passwordLessThan6CharsErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(), DataTest_01_Register.registerMessage.PASSWORD_LESS_THAN_6_Chars_ERROR_MSG);
 	}
 
 	@Test
 	public void Register_06_Confirm_Password_Does_Not_Match() {
 
 		log.info("Register With Not Matched Confirm Password - Step 01: Enter to First name textbox");
-		registerPage.enterToFirstnameTextbox(firstName);
+		registerPage.enterToFirstnameTextbox(DataTest_01_Register.registerInfo.FIRSTNAME);
 
 		log.info("Register With Not Matched Confirm Password - Step 02: Enter to Last name textbox");
-		registerPage.enterToLastnameTextbox(lastName);
+		registerPage.enterToLastnameTextbox(DataTest_01_Register.registerInfo.LASTNAME);
 
 		log.info("Register With Not Matched Confirm Password - Step 03: Enter to Email textbox");
-		registerPage.enterToEmailTextbox(secondEmail);
+		registerPage.enterToEmailTextbox(DataTest_01_Register.registerInfo.SECOND_EMAIL);
 
 		log.info("Register With Not Matched Confirm Password - Step 04: Enter to Password textbox");
-		registerPage.enterToPasswordTextbox(password);
+		registerPage.enterToPasswordTextbox(DataTest_01_Register.registerInfo.PASSWORD);
 
 		log.info("Register With Not Matched Confirm Password - Step 05: Enter invalid Confirm password to Confirm password textbox");
-		registerPage.enterToConfirmPasswordTextbox(invalidConfirmPassword);
+		registerPage.enterToConfirmPasswordTextbox(DataTest_01_Register.registerInfo.INVALID_CONFIRM_PASSWORD);
 
 		log.info("Register With Not Matched Confirm Password - Step 06: Click to Register button");
 		registerPage.clickToRegisterButton();
 
 		log.info("Register With Not Matched Confirm Password - Step 07: Verify Error message in Confirm password textbox");
-		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), confirmPasswordNotMatchedErrorMsg);
+		verifyEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), DataTest_01_Register.registerMessage.CONFIRM_PASSWORD_NOT_MATCHED_ERROR_MSG);
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -205,9 +187,6 @@ public class Nopcommerce_01_Register extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private DataUtil faker;
-	private String firstName, lastName, email, secondEmail, password, invalidEmail, passwordLessThanSixChars, invalidConfirmPassword;
-	private String firstNameErrorMsg, lastNameErrorMsg, emailErrorMsg, passwordErrorMsg, invalidEmailErrorMsg, registerSuccessMsg, existedEmailErrorMsg, passwordLessThan6CharsErrorMsg, confirmPasswordNotMatchedErrorMsg;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 

@@ -173,7 +173,7 @@ public class BaseTest {
 		return this.driver;
 	}
 
-	protected int generateRandomNumber() {
+	public int generateRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);
 	}

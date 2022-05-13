@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.nopcommerce.common.Common_01_Register_End_User;
+import com.nopcommerce.data.DataTest_03_My_Account;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
@@ -26,41 +26,14 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		driver = GetBrowserDriver(browserName, appUrl);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
-		email = Common_01_Register_End_User.email;
-		password = Common_01_Register_End_User.password;
-		firstName = Common_01_Register_End_User.firstName;
-		lastName = Common_01_Register_End_User.lastName;
-		newFirstName = "Automation";
-		newLastname = "FC";
-		day = "1";
-		month = "January";
-		year = "1999";
-		newEmail = "automationfc" + generateRandomNumber() + "@gmail.com";
-		companyName = "Automation FC";
-		country = "Viet Nam";
-		stateProvince = "Other";
-		city = "Da Nang";
-		address1 = "123/04 Le Lai";
-		address2 = "234/05 Hai Phong";
-		zipCode = "550000";
-		phoneNumber = "0123456789";
-		faxNumber = "09876543231";
-		newPassword = "123147";
-		reviewTitle = "Review Title " + generateRandomNumber();
-		reviewText = "This is Review Text " + generateRandomNumber();
-		reviewRating = "4";
-		passwordChangedSuccessfullyMsg = "Password was changed";
-		menuName = "Computers";
-		subMenuName = "Desktops";
-
 		log.info("Precondition - Step 01: Open Log in page");
 		loginPage = homePage.clickToLoginLink(driver);
 
 		log.info("Precondition - Step 02: Enter Email to Email textbox");
-		loginPage.enterEmailTextbox(email);
+		loginPage.enterEmailTextbox(DataTest_03_My_Account.myAccountInfo.EMAIL);
 
 		log.info("Precondition - Step 03: Enter Password to Password textbox");
-		loginPage.enterPasswordTextbox(password);
+		loginPage.enterPasswordTextbox(DataTest_03_My_Account.myAccountInfo.PASSWORD);
 
 		log.info("Precondition - Step 04: Click to LOG IN button");
 		homePage = loginPage.clickToLoginButton();
@@ -77,13 +50,13 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 	public void My_Account_01_Update_Customer_Info() {
 
 		log.info("My Account Update Customer Info - Step 02: Verify First name info is correct");
-		verifyEquals(customerInfoPage.getValueInFirstNameTextbox(), firstName);
+		verifyEquals(customerInfoPage.getValueInFirstNameTextbox(), DataTest_03_My_Account.myAccountInfo.FIRSTNAME);
 
 		log.info("My Account Update Customer Info - Step 03: Verify Last name info is correct");
-		verifyEquals(customerInfoPage.getValueInLastNameTextbox(), lastName);
+		verifyEquals(customerInfoPage.getValueInLastNameTextbox(), DataTest_03_My_Account.myAccountInfo.LASTNAME);
 
 		log.info("My Account Update Customer Info - Step 04: Verify Email info is correct");
-		verifyEquals(customerInfoPage.getValueInEmailTextbox(), email);
+		verifyEquals(customerInfoPage.getValueInEmailTextbox(), DataTest_03_My_Account.myAccountInfo.EMAIL);
 
 		log.info("My Account Update Customer Info - Step 05: Verify Newsletter checkbox is checked");
 		verifyTrue(customerInfoPage.isNewsLetterCheckboxChecked());
@@ -92,21 +65,21 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		customerInfoPage.checkToFemaleGenderRadio();
 
 		log.info("My Account Update Customer Info - Step 07: Enter new First name");
-		customerInfoPage.enterFirstNameTextbox(newFirstName);
+		customerInfoPage.enterFirstNameTextbox(DataTest_03_My_Account.myAccountInfo.NEW_FIRSTNAME);
 
 		log.info("My Account Update Customer Info - Step 08: Enter new Last name");
-		customerInfoPage.enterLastNameTextbox(newLastname);
+		customerInfoPage.enterLastNameTextbox(DataTest_03_My_Account.myAccountInfo.NEW_LASTNAME);
 
 		log.info("My Account Update Customer Info - Step 09: Enter Date of birth");
-		customerInfoPage.selectDate(day);
-		customerInfoPage.selectMonth(month);
-		customerInfoPage.selectYear(year);
+		customerInfoPage.selectDate(DataTest_03_My_Account.myAccountInfo.DAY);
+		customerInfoPage.selectMonth(DataTest_03_My_Account.myAccountInfo.MONTH);
+		customerInfoPage.selectYear(DataTest_03_My_Account.myAccountInfo.YEAR);
 
 		log.info("My Account Update Customer Info - Step 10: Enter new Email");
-		customerInfoPage.enterEmailTextbox(newEmail);
+		customerInfoPage.enterEmailTextbox(DataTest_03_My_Account.myAccountInfo.NEW_EMAIL);
 
 		log.info("My Account Update Customer Info - Step 11: Enter Company name");
-		customerInfoPage.enterCompanyNameTextbox(companyName);
+		customerInfoPage.enterCompanyNameTextbox(DataTest_03_My_Account.myAccountInfo.COMPANY_NAME);
 
 		log.info("My Account Update Customer Info - Step 12: Click to Save button");
 		customerInfoPage.clickToSaveButton();
@@ -115,21 +88,21 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		verifyTrue(customerInfoPage.isFemailRadioChecked());
 
 		log.info("My Account Update Customer Info - Step 14: Verify new First name info is correct");
-		verifyEquals(customerInfoPage.getValueInFirstNameTextbox(), newFirstName);
+		verifyEquals(customerInfoPage.getValueInFirstNameTextbox(), DataTest_03_My_Account.myAccountInfo.NEW_FIRSTNAME);
 
 		log.info("My Account Update Customer Info - Step 15: Verify new Last name info is correct");
-		verifyEquals(customerInfoPage.getValueInLastNameTextbox(), newLastname);
+		verifyEquals(customerInfoPage.getValueInLastNameTextbox(), DataTest_03_My_Account.myAccountInfo.NEW_LASTNAME);
 
 		log.info("My Account Update Customer Info - Step 16: Verify new Email info is correct");
-		verifyEquals(customerInfoPage.getValueInEmailTextbox(), newEmail);
+		verifyEquals(customerInfoPage.getValueInEmailTextbox(), DataTest_03_My_Account.myAccountInfo.NEW_EMAIL);
 
 		log.info("My Account Update Customer Info - Step 17: Verify DOB info");
-		verifyEquals(customerInfoPage.getValueInDayDropdown(), day);
-		verifyEquals(customerInfoPage.getValueInMonthDropdown(), month);
-		verifyEquals(customerInfoPage.getValueInYearDropdown(), year);
+		verifyEquals(customerInfoPage.getValueInDayDropdown(), DataTest_03_My_Account.myAccountInfo.DAY);
+		verifyEquals(customerInfoPage.getValueInMonthDropdown(), DataTest_03_My_Account.myAccountInfo.MONTH);
+		verifyEquals(customerInfoPage.getValueInYearDropdown(), DataTest_03_My_Account.myAccountInfo.YEAR);
 
 		log.info("My Account Update Customer Info - Step 18: Verify Company Name info is correct");
-		verifyEquals(customerInfoPage.getValueInCompanyNameTextbox(), companyName);
+		verifyEquals(customerInfoPage.getValueInCompanyNameTextbox(), DataTest_03_My_Account.myAccountInfo.COMPANY_NAME);
 
 		log.info("My Account Update Customer Info - Step 19: Verify Newsletter checkbox is checked");
 		verifyTrue(customerInfoPage.isNewsLetterCheckboxChecked());
@@ -141,10 +114,10 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		loginPage = homePage.clickToLoginLink(driver);
 
 		log.info("My Account Update Customer Info - Step 22: Enter new Email to Email textbox");
-		loginPage.enterEmailTextbox(newEmail);
+		loginPage.enterEmailTextbox(DataTest_03_My_Account.myAccountInfo.NEW_EMAIL);
 
 		log.info("My Account Update Customer Info - Step 23: Enter password to Password textbox");
-		loginPage.enterPasswordTextbox(password);
+		loginPage.enterPasswordTextbox(DataTest_03_My_Account.myAccountInfo.PASSWORD);
 
 		log.info("My Account Update Customer Info - Step 24: Click to LOG IN button");
 		homePage = loginPage.clickToLoginButton();
@@ -165,67 +138,67 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		addressPage.clickToAddNewButton();
 
 		log.info("My Account Add New Address - Step 03: Enter First name textbox");
-		addressPage.enterFirstnameTextbox(firstName);
+		addressPage.enterFirstnameTextbox(DataTest_03_My_Account.myAccountInfo.FIRSTNAME);
 
 		log.info("My Account Add New Address - Step 04: Enter Last name textbox");
-		addressPage.enterLastnameTextbox(lastName);
+		addressPage.enterLastnameTextbox(DataTest_03_My_Account.myAccountInfo.LASTNAME);
 
 		log.info("My Account Add New Address - Step 05: Enter Email textbox");
-		addressPage.enterEmailTextbox(email);
+		addressPage.enterEmailTextbox(DataTest_03_My_Account.myAccountInfo.EMAIL);
 
 		log.info("My Account Add New Address - Step 06: Enter Company textbox");
-		addressPage.enterCompanyTextbox(companyName);
+		addressPage.enterCompanyTextbox(DataTest_03_My_Account.myAccountInfo.COMPANY_NAME);
 
 		log.info("My Account Add New Address - Step 07: Select Country in dropdown");
-		addressPage.selectCountryDropdown(country);
+		addressPage.selectCountryDropdown(DataTest_03_My_Account.myAccountInfo.COUNTRY);
 
 		log.info("My Account Add New Address - Step 08: Select State/ province in dropdown");
-		addressPage.selectStateProvinceDropdown(stateProvince);
+		addressPage.selectStateProvinceDropdown(DataTest_03_My_Account.myAccountInfo.STATE_PROVINCE);
 		addressPage.sleepInSecond(3);
 		log.info("My Account Add New Address - Step 09: Enter City textbox");
-		addressPage.enterCityTextbox(city);
+		addressPage.enterCityTextbox(DataTest_03_My_Account.myAccountInfo.CITY);
 
 		log.info("My Account Add New Address - Step 10: Enter Address 1 textbox");
-		addressPage.enterAddress1(address1);
+		addressPage.enterAddress1(DataTest_03_My_Account.myAccountInfo.ADDRESS1);
 
 		log.info("My Account Add New Address - Step 11: Enter Address 2 textbox");
-		addressPage.enterAddress2(address2);
+		addressPage.enterAddress2(DataTest_03_My_Account.myAccountInfo.ADDRESS2);
 
 		log.info("My Account Add New Address - Step 12: Enter Zip / postal code textbox");
-		addressPage.enterZipCodeTextbox(zipCode);
+		addressPage.enterZipCodeTextbox(DataTest_03_My_Account.myAccountInfo.ZIP_CODE);
 
 		log.info("My Account Add New Address - Step 13: Enter Phone number textbox");
-		addressPage.enterPhoneNumberTextbox(phoneNumber);
+		addressPage.enterPhoneNumberTextbox(DataTest_03_My_Account.myAccountInfo.PHONE_NUMBER);
 
 		log.info("My Account Add New Address - Step 14: Enter Fax number textbox");
-		addressPage.enterFaxNumberTextbox(faxNumber);
+		addressPage.enterFaxNumberTextbox(DataTest_03_My_Account.myAccountInfo.FAX_NUMBER);
 
 		log.info("My Account Add New Address - Step 15: Click to Save button");
 		addressPage.clickToSaveButton();
 
 		log.info("My Account Add New Address - Step 16: Verify Full name info");
-		verifyEquals(addressPage.getValueFullNameInfo(), firstName + " " + lastName);
+		verifyEquals(addressPage.getValueFullNameInfo(), DataTest_03_My_Account.myAccountInfo.FIRSTNAME + " " + DataTest_03_My_Account.myAccountInfo.LASTNAME);
 
 		log.info("My Account Add New Address - Step 17: Verify Email name info");
-		verifyEquals(addressPage.getValueEmailInfo(), "Email: " + email);
+		verifyEquals(addressPage.getValueEmailInfo(), "Email: " + DataTest_03_My_Account.myAccountInfo.EMAIL);
 
 		log.info("My Account Add New Address - Step 18: Verify Phone info");
-		verifyEquals(addressPage.getValuePhoneInfo(), "Phone number: " + phoneNumber);
+		verifyEquals(addressPage.getValuePhoneInfo(), "Phone number: " + DataTest_03_My_Account.myAccountInfo.PHONE_NUMBER);
 
 		log.info("My Account Add New Address - Step 19: Verify Fax number info");
-		verifyEquals(addressPage.getValueFaxNumberInfo(), "Fax number: " + faxNumber);
+		verifyEquals(addressPage.getValueFaxNumberInfo(), "Fax number: " + DataTest_03_My_Account.myAccountInfo.FAX_NUMBER);
 
 		log.info("My Account Add New Address - Step 20: Verify Address1 info");
-		verifyEquals(addressPage.getValueAddress1Info(), address1);
+		verifyEquals(addressPage.getValueAddress1Info(), DataTest_03_My_Account.myAccountInfo.ADDRESS1);
 
 		log.info("My Account Add New Address - Step 21: Verify Address2 info");
-		verifyEquals(addressPage.getValueAddress2Info(), address2);
+		verifyEquals(addressPage.getValueAddress2Info(), DataTest_03_My_Account.myAccountInfo.ADDRESS2);
 
 		log.info("My Account Add New Address - Step 22: Verify Full name");
-		verifyEquals(addressPage.getValueCityStateZipInfo(), city + addressPage.getStateInfo(stateProvince) + ", " + zipCode);
+		verifyEquals(addressPage.getValueCityStateZipInfo(), DataTest_03_My_Account.myAccountInfo.CITY + addressPage.getStateInfo(DataTest_03_My_Account.myAccountInfo.STATE_PROVINCE) + ", " + DataTest_03_My_Account.myAccountInfo.ZIP_CODE);
 
 		log.info("My Account Add New Address - Step 23: Verify Country info");
-		verifyEquals(addressPage.getCountryInfo(), country);
+		verifyEquals(addressPage.getCountryInfo(), DataTest_03_My_Account.myAccountInfo.COUNTRY);
 
 		log.info("My Account Add New Address - Step 24: Back to Customer info page");
 		customerInfoPage = addressPage.clickToMyAccountLink(driver);
@@ -237,19 +210,19 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		changePasswordPage = (UserChangePasswordPageObject) customerInfoPage.openPagesAtMyAccountByName(driver, "Change password");
 
 		log.info("My Account Change Password - Step 02: Enter Old password to Old password textbox");
-		changePasswordPage.enterOldPasswordTextbox(password);
+		changePasswordPage.enterOldPasswordTextbox(DataTest_03_My_Account.myAccountInfo.PASSWORD);
 
 		log.info("My Account Change Password - Step 03: Enter New password to New password textbox");
-		changePasswordPage.enterNewPasswordTextbox(newPassword);
+		changePasswordPage.enterNewPasswordTextbox(DataTest_03_My_Account.myAccountInfo.NEW_PASSWORD);
 
 		log.info("My Account Change Password - Step 04: Enter New password to Confirm password textbox");
-		changePasswordPage.enterConfirmPasswordTextbox(newPassword);
+		changePasswordPage.enterConfirmPasswordTextbox(DataTest_03_My_Account.myAccountInfo.NEW_PASSWORD);
 
 		log.info("My Account Change Password - Step 05: Click to CHANGE PASSWORD button");
 		changePasswordPage.clickToChangePasswordButton();
 
 		log.info("My Account Change Password - Step 06: Verify 'Password was changed' message");
-		verifyEquals(changePasswordPage.getPasswordChangedSuccessfullyMessage(), passwordChangedSuccessfullyMsg);
+		verifyEquals(changePasswordPage.getPasswordChangedSuccessfullyMessage(), DataTest_03_My_Account.myAccountInfo.PASSWORD_CHANGED_SUCCESS_MSG);
 
 		log.info("My Account Change Password - Step 07: Click to Close icon");
 		changePasswordPage.clickToCloseIcon();
@@ -261,10 +234,10 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		loginPage = homePage.clickToLoginLink(driver);
 
 		log.info("My Account Change Password - Step 10: Enter Email to Email textbox");
-		loginPage.enterEmailTextbox(newEmail);
+		loginPage.enterEmailTextbox(DataTest_03_My_Account.myAccountInfo.NEW_EMAIL);
 
 		log.info("My Account Change Password - Step 11: Enter Password to Password textbox");
-		loginPage.enterPasswordTextbox(newPassword);
+		loginPage.enterPasswordTextbox(DataTest_03_My_Account.myAccountInfo.NEW_PASSWORD);
 
 		log.info("My Account Change Password - Step 12: Click to LOG IN button");
 		homePage = loginPage.clickToLoginButton();
@@ -280,7 +253,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 	@Test
 	public void My_Account_04_Add_Review_To_My_Product_Reviews() {
 		log.info("My Account Add Review - Step 01: Open to Desktops page in Header menu");
-		customerInfoPage.openSubMenuHeader(driver, menuName, subMenuName);
+		customerInfoPage.openSubMenuHeader(driver, DataTest_03_My_Account.menuHeaderInfo.MENU_NAME, DataTest_03_My_Account.menuHeaderInfo.SUB_MENU_NAME);
 		desktopPage = PageGeneratorManager.getUserDesktopPage(driver);
 
 		log.info("My Account Add Review - Step 02: Open Desktop product detail");
@@ -290,25 +263,25 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		myProductReviewPage = desktopPage.clickToAddYourReviewLink();
 
 		log.info("My Account Add Review - Step 04: Add Review title");
-		myProductReviewPage.enterTitleToReviewTitleTextbox(reviewTitle);
+		myProductReviewPage.enterTitleToReviewTitleTextbox(DataTest_03_My_Account.myAccountInfo.REVIEW_TITLE);
 
 		log.info("My Account Add Review - Step 05: Add Review text");
-		myProductReviewPage.enterTextToReviewTitleTextbox(reviewText);
+		myProductReviewPage.enterTextToReviewTitleTextbox(DataTest_03_My_Account.myAccountInfo.REVIEW_TEXT);
 
 		log.info("My Account Add Review - Step 06: Rating");
-		myProductReviewPage.selectRating(reviewRating);
+		myProductReviewPage.selectRating(DataTest_03_My_Account.myAccountInfo.REVIEW_RATING);
 
 		log.info("My Account Add Review - Step 07: Click SUBMIT REVIEW button");
 		myProductReviewPage.clickSubmitReviewButton();
 
 		log.info("My Account Add Review - Step 08: Verify Review title in Product reviews page");
-		verifyEquals(myProductReviewPage.getValueInReviewTitleTextbox(), reviewTitle);
+		verifyEquals(myProductReviewPage.getValueInReviewTitleTextbox(), DataTest_03_My_Account.myAccountInfo.REVIEW_TITLE);
 
 		log.info("My Account Add Review - Step 09: Verify Review text in Product reviews page");
-		verifyEquals(myProductReviewPage.getValueInReviewTextTextbox(), reviewText);
+		verifyEquals(myProductReviewPage.getValueInReviewTextTextbox(), DataTest_03_My_Account.myAccountInfo.REVIEW_TEXT);
 
 		log.info("My Account Add Review - Step 10: Verify Review rating in Product reviews page");
-		verifyEquals(myProductReviewPage.getValueReviewRating(), reviewRating);
+		verifyEquals(myProductReviewPage.getValueReviewRating(), DataTest_03_My_Account.myAccountInfo.REVIEW_RATING);
 
 		log.info("My Account Add Review - Step 11: Open My Account page");
 		customerInfoPage = myProductReviewPage.clickToMyAccountLink(driver);
@@ -317,13 +290,13 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 		myProductReviewPage = (UserMyProductReviewPageObject) customerInfoPage.openPagesAtMyAccountByName(driver, "My product reviews");
 
 		log.info("My Account Add Review - Step 13: Verify Review title in My account - My product reviews");
-		verifyEquals(myProductReviewPage.getValueInReviewTitleTextbox(), reviewTitle);
+		verifyEquals(myProductReviewPage.getValueInReviewTitleTextbox(), DataTest_03_My_Account.myAccountInfo.REVIEW_TITLE);
 
 		log.info("My Account Add Review - Step 14: Verify Review text in My account - My product reviews");
-		verifyEquals(myProductReviewPage.getValueInReviewTextTextbox(), reviewText);
+		verifyEquals(myProductReviewPage.getValueInReviewTextTextbox(), DataTest_03_My_Account.myAccountInfo.REVIEW_TEXT);
 
 		log.info("My Account Add Review - Step 15: Verify Review rating in My account - My product reviews");
-		verifyEquals(myProductReviewPage.getValueReviewRating(), reviewRating);
+		verifyEquals(myProductReviewPage.getValueReviewRating(), DataTest_03_My_Account.myAccountInfo.REVIEW_RATING);
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -332,11 +305,7 @@ public class Nopcommerce_03_My_Account extends BaseTest {
 	}
 
 	private WebDriver driver;
-	private String email, password, firstName, lastName, newFirstName, newLastname, newEmail, companyName, menuName, subMenuName;
-	private String day, month, year;
-	private String country, stateProvince, city, address1, address2, zipCode, phoneNumber, faxNumber, newPassword;
-	private String reviewTitle, reviewText, reviewRating;
-	private String passwordChangedSuccessfullyMsg;
+
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
 	private UserCustomerInfoPageObject customerInfoPage;
