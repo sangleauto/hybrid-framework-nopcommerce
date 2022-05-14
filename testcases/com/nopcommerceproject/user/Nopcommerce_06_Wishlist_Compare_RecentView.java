@@ -109,9 +109,9 @@ public class Nopcommerce_06_Wishlist_Compare_RecentView extends BaseTest {
 		shoppingcartPage = wishlistPage.openShoppingCartPage(driver);
 
 		log.info("Add from Wishlist to Cart - Step 09: Verify product info (Name + Price)");
-		verifyEquals(shoppingcartPage.getValueInShoppingCartTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRODUCT_COLUMN),
+		verifyEquals(shoppingcartPage.getValueInCartAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRODUCT_COLUMN),
 				DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_NAME);
-		verifyEquals(shoppingcartPage.getValueInShoppingCartTableAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRICE_COLUMN),
+		verifyEquals(shoppingcartPage.getValueInCartAtRowAndColumnIndex(DataTest_06_Wishlist.wishlistInfo.TABLE_INDEX_1, DataTest_06_Wishlist.wishlistInfo.PRICE_COLUMN),
 				DataTest_06_Wishlist.wishlistInfo.DESKTOP_LENOVO_PRODUCT_PRICE);
 
 	}

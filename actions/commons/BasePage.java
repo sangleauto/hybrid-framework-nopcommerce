@@ -36,6 +36,7 @@ import pageObjects.nopCommerce.user.UserWishlistPageObject;
 import pageUIs.hrm.BasePageHrmUI;
 import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
+import pageUIs.nopCommerce.user.UserDesktopPageUI;
 
 // Common class
 /**
@@ -650,8 +651,8 @@ public class BasePage {
 	}
 
 	public UserShoppingCartPageObject openShoppingCartPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.SHOPPING_CART_LINK);
-		clickToElement(driver, BasePageNopCommerceUI.SHOPPING_CART_LINK);
+		waitForElementClickable(driver, UserDesktopPageUI.SHOPPING_CART_LINK_IN_ADDED_SUCCESS_MESSAGE);
+		clickToElement(driver, UserDesktopPageUI.SHOPPING_CART_LINK_IN_ADDED_SUCCESS_MESSAGE);
 		return PageGeneratorManager.getUserShoppingCartPage(driver);
 	}
 
