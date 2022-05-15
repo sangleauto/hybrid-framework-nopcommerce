@@ -6,7 +6,7 @@ import com.nopcommerce.common.Common_01_Register_End_User;
 
 public class DataTest_03_My_Account {
 
-	public static class myAccountInfo {
+	public static class MyAccountInfo {
 		public static final String EMAIL = Common_01_Register_End_User.email;
 		public static final String PASSWORD = Common_01_Register_End_User.password;
 		public static final String FIRSTNAME = Common_01_Register_End_User.firstName;
@@ -34,7 +34,7 @@ public class DataTest_03_My_Account {
 
 	}
 
-	public static class menuHeaderInfo {
+	public static class MenuHeaderInfo {
 		public static final String MENU_NAME = "Computers";
 		public static final String SUB_MENU_NAME = "Desktops";
 	}

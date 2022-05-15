@@ -5,7 +5,7 @@ import ultilities.DataUtil;
 public class DataTest_01_Register {
 	public static DataUtil faker = DataUtil.getData();
 
-	public static class registerInfo {
+	public static class RegisterInfo {
 		public static final String FIRSTNAME = faker.getFirstName();
 		public static final String LASTNAME = faker.getLastName();
 		public static final String EMAIL = faker.getEmailAddress();
@@ -16,7 +16,7 @@ public class DataTest_01_Register {
 		public static final String INVALID_CONFIRM_PASSWORD = "123abc";
 	}
 
-	public static class registerMessage {
+	public static class RegisterMessage {
 		public static final String FIRST_NAME_ERROR_MSG = "First name is required.";
 		public static final String LAST_NAME_ERROR_MSG = "Last name is required.";
 		public static final String EMAIL_ERROR_MSG = "Email is required.";

@@ -3,7 +3,7 @@ package com.nopcommerce.data;
 import com.nopcommerce.common.Common_01_Register_End_User;
 
 public class DataTest_06_Wishlist {
-	public static class wishlistInfo {
+	public static class WishlistInfo {
 		public static final String FULL_NAME = Common_01_Register_End_User.fullName;
 		public static final String DESKTOP_LENOVO_PRODUCT_NAME = "Lenovo IdeaCentre 600 All-in-One PC";
 		public static final String DESKTOP_LENOVO_PRODUCT_PRICE = "$500.00";
@@ -24,13 +24,13 @@ public class DataTest_06_Wishlist {
 		public static final String TABLE_INDEX_4 = "4";
 	}
 
-	public static class menuHeaderInfo {
+	public static class MenuHeaderInfo {
 		public static final String MENU_NAME = "Computers";
 		public static final String SUB_MENU_NAME_DESKTOP = "Desktops";
 		public static final String SUB_MENU_NAME_NOTEBOOK = "Notebooks";
 	}
 
-	public static class wishlistMessage {
+	public static class WishlistMessage {
 		public static final String WISHLIST_EMPTY_MESSAGE = "The wishlist is empty!";
 		public static final String ADDED_WISHLIST_MESSAGE = "The product has been added to your wishlist";
 		public static final String ADDED_COMPARISON_MESSAGE = "The product has been added to your product comparison";

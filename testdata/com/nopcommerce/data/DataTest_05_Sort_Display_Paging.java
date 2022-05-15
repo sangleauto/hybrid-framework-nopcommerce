@@ -1,7 +1,7 @@
 package com.nopcommerce.data;
 
 public class DataTest_05_Sort_Display_Paging {
-	public static class sortDisplayPagingInfo {
+	public static class SortDisplayPagingInfo {
 		public static final String SORT_NAME_AZ = "Name: A to Z";
 		public static final String SORT_NAME_ZA = "Name: Z to A";
 		public static final String SORT_PRICE_ASC = "Price: Low to High";
@@ -13,7 +13,7 @@ public class DataTest_05_Sort_Display_Paging {
 		public static final String SECOND_PAGE_VALUE = "2";
 	}
 
-	public static class menuHeaderInfo {
+	public static class MenuHeaderInfo {
 		public static final String MENU_NAME = "Computers";
 		public static final String SUB_MENU_NAME = "Notebooks";
 	}

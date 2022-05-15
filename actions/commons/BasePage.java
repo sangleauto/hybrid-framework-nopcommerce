@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -88,6 +89,16 @@ public class BasePage {
 		}
 		sleepInSecond(3);
 	}
+
+	public boolean isAlertPresent(WebDriver driver) {
+		try {
+			driver.switchTo().alert();
+			return true;
+		} // try
+		catch (NoAlertPresentException Ex) {
+			return false;
+		} // catch
+	} // isAlertPresent()
 
 	public Alert waitForAlertPresence(WebDriver driver) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
@@ -625,6 +636,8 @@ public class BasePage {
 			return PageGeneratorManager.getUserRewardPointPage(driver);
 		case "Change password":
 			return PageGeneratorManager.getUserChangePasswordPage(driver);
+		case "Orders":
+			return PageGeneratorManager.getUserOrderPage(driver);
 		default:
 			throw new RuntimeException("Page name is not correct !");
 		}

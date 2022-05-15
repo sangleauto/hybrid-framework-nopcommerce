@@ -32,20 +32,20 @@ public class Nopcommerce_02_Login extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Empty Data - Step 02: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), DataTest_02_Login.loginMessage.LOGIN_EMPTY_DATA_MSG);
+		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), DataTest_02_Login.LoginMessage.LOGIN_EMPTY_DATA_MSG);
 	}
 
 	@Test
 	public void Login_02_Invalid_Email() {
 
 		log.info("Login With Invalid Email - Step 01: Enter Invalid Email to Email textbox");
-		loginPage.enterEmailTextbox(DataTest_02_Login.loginInfo.WRONG_EMAIL);
+		loginPage.enterEmailTextbox(DataTest_02_Login.LoginInfo.WRONG_EMAIL);
 
 		log.info("Login With Invalid Email - Step 02: Click to LOG IN button");
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Invalid Email - Step 03: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), DataTest_02_Login.loginMessage.LOGIN_INVALID_EMAIL_MSG);
+		verifyEquals(loginPage.getErrorMessageInEmailTextbox(), DataTest_02_Login.LoginMessage.LOGIN_INVALID_EMAIL_MSG);
 
 	}
 
@@ -53,23 +53,23 @@ public class Nopcommerce_02_Login extends BaseTest {
 	public void Login_03_Unregistered_Email() {
 
 		log.info("Login With Unregistered Email - Step 01: Enter Unregistered Email to Email textbox");
-		loginPage.enterEmailTextbox(DataTest_02_Login.loginInfo.UNREGISTERED_EMAIL);
+		loginPage.enterEmailTextbox(DataTest_02_Login.LoginInfo.UNREGISTERED_EMAIL);
 
 		log.info("Login With Unregistered Email - Step 02: Enter Password to Password textbox");
-		loginPage.enterPasswordTextbox(DataTest_02_Login.loginInfo.PASSWORD);
+		loginPage.enterPasswordTextbox(DataTest_02_Login.LoginInfo.PASSWORD);
 
 		log.info("Login With Unregistered Email - Step 03: Click to LOG IN button");
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Unregistered Email - Step 04: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), DataTest_02_Login.loginMessage.LOGIN_UNREGISTERED_EMAIL_MSG);
+		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), DataTest_02_Login.LoginMessage.LOGIN_UNREGISTERED_EMAIL_MSG);
 	}
 
 	@Test
 	public void Login_04_Empty_Password() {
 
 		log.info("Login With Empty Password - Step 01: Enter Email to Email textbox");
-		loginPage.enterEmailTextbox(DataTest_02_Login.loginInfo.EMAIL);
+		loginPage.enterEmailTextbox(DataTest_02_Login.LoginInfo.EMAIL);
 
 		log.info("Login With Empty Password - Step 02: Enter Empty Password to Password textbox");
 		loginPage.enterPasswordTextbox("");
@@ -78,33 +78,33 @@ public class Nopcommerce_02_Login extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Empty Password - Step 04: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), DataTest_02_Login.loginMessage.LOGIN_INVALID_PASSWORD_MSG);
+		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), DataTest_02_Login.LoginMessage.LOGIN_INVALID_PASSWORD_MSG);
 	}
 
 	@Test
 	public void Login_05_Wrong_Password() {
 
 		log.info("Login With Wrong Password - Step 01: Enter Email to Email textbox");
-		loginPage.enterEmailTextbox(DataTest_02_Login.loginInfo.EMAIL);
+		loginPage.enterEmailTextbox(DataTest_02_Login.LoginInfo.EMAIL);
 
 		log.info("Login With Wrong Password - Step 02: Enter Wrong Password to Password textbox");
-		loginPage.enterPasswordTextbox(DataTest_02_Login.loginInfo.WRONG_PASSWORD);
+		loginPage.enterPasswordTextbox(DataTest_02_Login.LoginInfo.WRONG_PASSWORD);
 
 		log.info("Login With Wrong Password - Step 03: Click to LOG IN button");
 		loginPage.clickToLoginButton();
 
 		log.info("Login With Wrong Password - Step 04: Verify error message at Email textbox");
-		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), DataTest_02_Login.loginMessage.LOGIN_INVALID_PASSWORD_MSG);
+		verifyEquals(loginPage.getErrorMessageLoginWasUnsuccessful(), DataTest_02_Login.LoginMessage.LOGIN_INVALID_PASSWORD_MSG);
 	}
 
 	@Test
 	public void Login_06_Correct_Info() {
 
 		log.info("Login With Wrong Password - Step 01: Enter Email to Email textbox");
-		loginPage.enterEmailTextbox(DataTest_02_Login.loginInfo.EMAIL);
+		loginPage.enterEmailTextbox(DataTest_02_Login.LoginInfo.EMAIL);
 
 		log.info("Login With Wrong Password - Step 02: Enter Password to Password textbox");
-		loginPage.enterPasswordTextbox(DataTest_02_Login.loginInfo.PASSWORD);
+		loginPage.enterPasswordTextbox(DataTest_02_Login.LoginInfo.PASSWORD);
 
 		log.info("Login With Wrong Password - Step 03: Click to LOG IN button");
 		homePage = loginPage.clickToLoginButton();

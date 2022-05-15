@@ -159,4 +159,14 @@ public class UserNotebookPageObject extends BasePage {
 
 	}
 
+	public void clickToAddToCartButton() {
+		waitForElementClickable(driver, UserNotebookPageUI.ADD_TO_CART_BUTTON);
+		clickToElement(driver, UserNotebookPageUI.ADD_TO_CART_BUTTON);
+	}
+
+	public String getAddedToCartSuccessMsg() {
+		waitForElementVisible(driver, UserNotebookPageUI.ADDED_SUCCESS_MESSAGE);
+		return getElementText(driver, UserNotebookPageUI.ADDED_SUCCESS_MESSAGE);
+	}
+
 }

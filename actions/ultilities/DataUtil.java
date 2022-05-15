@@ -61,4 +61,8 @@ public class DataUtil {
 		return faker.phoneNumber().cellPhone();
 	}
 
+	public String getCreditCart() {
+		return faker.finance().creditCard();
+	}
+
 }

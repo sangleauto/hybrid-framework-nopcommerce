@@ -1,7 +1,7 @@
 package com.nopcommerce.data;
 
 public class DataTest_04_Search {
-	public static class searchInfo {
+	public static class SearchInfo {
 		public static final String NOT_EXISTED_DATA = "Macbook Pro 2050";
 		public static final String RELATIVE_NAME = "Lenovo";
 		public static final String ABSOLUTE_NAME = "Thinkpad X1 Carbon";
@@ -15,7 +15,7 @@ public class DataTest_04_Search {
 		public static final String CORRECT_MANUFACTURER = "Apple";
 	}
 
-	public static class searchMessage {
+	public static class SearchMessage {
 		public static final String SEARCH_EMPTY_DATA_MSG = "Search term minimum length is 3 characters";
 		public static final String SEARCH_DATA_NOT_EXISTED_MSG = "No products were found that matched your criteria.";
 	}

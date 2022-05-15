@@ -31,16 +31,6 @@ public class UserShoppingCartPageObject extends BasePage {
 		return isElementDisplayed(driver, UserShoppingCartPageUI.SHOPPING_CART_TABLE);
 	}
 
-	public String getTotalPriceInCart(String price, String amount) {
-		String priceStr = price.replace("$", "").replace(".00", "").replace(",", "");
-		System.out.println("Test 1: " + priceStr);
-		int cartPrice = Integer.parseInt(priceStr);
-		int cartAmount = Integer.parseInt(amount);
-		System.out.println("Test 2: " + cartPrice + cartAmount);
-		System.out.println("Test 3: " + String.valueOf(cartPrice * cartAmount));
-		return String.valueOf(cartPrice * cartAmount);
-	}
-
 	public String getTextboxValueInCartAtRowAndColumnIndex(String rowIndex, String columnName) {
 		int columnIndex = getElementSize(driver, UserWishlistPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		waitForElementVisible(driver, UserShoppingCartPageUI.TEXTBOX_BY_ROW_AND_COLUMN_INDEX, rowIndex, String.valueOf(columnIndex));
@@ -54,7 +44,7 @@ public class UserShoppingCartPageObject extends BasePage {
 	}
 
 	public void clickToButtonInCartAtRowAndColumnIndex(String rowIndex, String columnName) {
-		int columnIndex = getElementSize(driver, UserWishlistPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+		int columnIndex = getElementSize(driver, UserShoppingCartPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		waitForElementVisible(driver, UserShoppingCartPageUI.BUTTON_BY_ROW_AND_COLUMN_INDEX, rowIndex, String.valueOf(columnIndex));
 		clickToElement(driver, UserShoppingCartPageUI.BUTTON_BY_ROW_AND_COLUMN_INDEX, rowIndex, String.valueOf(columnIndex));
 	}
@@ -69,7 +59,7 @@ public class UserShoppingCartPageObject extends BasePage {
 		return isElementUndisplayed(driver, UserShoppingCartPageUI.SHOPPING_CART_TABLE);
 	}
 
-	public void enterToTextboxByNameAtRowAndColumnIndex(String rowIndex, String columnName, String value) {
+	public void enterToTextboxAtRowAndColumnIndex(String rowIndex, String columnName, String value) {
 		int columnIndex = getElementSize(driver, UserWishlistPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		waitForElementVisible(driver, UserShoppingCartPageUI.TEXTBOX_BY_ROW_AND_COLUMN_INDEX, rowIndex, String.valueOf(columnIndex));
 		sendkeyToElement(driver, UserShoppingCartPageUI.TEXTBOX_BY_ROW_AND_COLUMN_INDEX, value, rowIndex, String.valueOf(columnIndex));
@@ -79,6 +69,18 @@ public class UserShoppingCartPageObject extends BasePage {
 	public void clickToUpdateShoppingCartButton() {
 		waitForElementClickable(driver, UserShoppingCartPageUI.UPDATE_SHOPPING_CART_BUTTON);
 		clickToElement(driver, UserShoppingCartPageUI.UPDATE_SHOPPING_CART_BUTTON);
+	}
+
+	public void checkToAgreeCheckbox() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.AGREE_CHECKBOX);
+		checkToDefaultCheckboxOrRadio(driver, UserShoppingCartPageUI.AGREE_CHECKBOX);
+	}
+
+	public UserCheckoutPageObject clickToCheckoutButton() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.CHECKOUT_BUTTON);
+		clickToElement(driver, UserShoppingCartPageUI.CHECKOUT_BUTTON);
+		return PageGeneratorManager.getUserCheckoutPage(driver);
+
 	}
 
 }

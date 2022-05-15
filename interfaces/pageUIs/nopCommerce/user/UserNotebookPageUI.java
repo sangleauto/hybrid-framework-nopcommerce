@@ -20,5 +20,6 @@ public class UserNotebookPageUI {
 	public static final String WISHLIST_LINK_IN_ADDED_SUCCESS_MESSAGE = "xpath=//div[@id='bar-notification']//a[text()= 'wishlist']";
 	public static final String COMPARE_LINK_IN_ADDED_SUCCESS_MESSAGE = "xpath=//div[@id='bar-notification']//a[text()= 'product comparison']";
 	public static final String CLOSE_ICON = "xpath=//div[@id='bar-notification']//span";
+	public static final String ADD_TO_CART_BUTTON = "xpath=//button[text()='Add to cart']";
 
 }
