@@ -26,4 +26,8 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_CHECKBOX_BY_LABEL = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
 	public static final String DYNAMIC_MENU_PAGE_BY_NAME = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(), '%s')]";
 	public static final String DYNAMIC_SUB_MENU_PAGE_BY_NAME = "xpath=//ul[@class='top-menu notmobile']//a[contains(text(), '%s')]";
+
+	public static final String SIDEBAR_BY_NAME = "xpath=(//li[contains(@class, 'nav-item has-treeview')]//p[contains(text(), '%s')])[1]";
+	public static final String SUB_SIDEBAR_BY_NAME = "xpath=(//ul[@class='nav nav-treeview']//p[(text()='%s')])";
+
 }

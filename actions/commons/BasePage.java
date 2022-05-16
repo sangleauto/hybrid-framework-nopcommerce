@@ -36,6 +36,7 @@ import pageObjects.nopCommerce.user.UserShoppingCartPageObject;
 import pageObjects.nopCommerce.user.UserWishlistPageObject;
 import pageUIs.hrm.BasePageHrmUI;
 import pageUIs.jquery.uploadFile.BasePagejQueryUploadUI;
+import pageUIs.nopCommerce.admin.AdminDashboardPageUI;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
 import pageUIs.nopCommerce.user.UserDesktopPageUI;
 
@@ -273,6 +274,27 @@ public class BasePage {
 					jsExecutor.executeScript("arguments[0].click()", tempElement);
 					sleepInSecond(1);
 				}
+				break;
+			}
+		}
+	}
+
+	public void selectItemInEditableDropdown(WebDriver driver, String parentLocator, String childLocator, String expectedValue) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(parentLocator)));
+		driver.findElement(By.xpath(parentLocator)).clear();
+		sleepInSecond(1);
+		driver.findElement(By.xpath(parentLocator)).sendKeys(expectedValue);
+		sleepInSecond(2);
+
+		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(childLocator)));
+
+		List<WebElement> itemList = driver.findElements(By.xpath(childLocator));
+
+		for (WebElement item : itemList) {
+			if (item.getText().trim().equals(expectedValue)) {
+				item.click();
+				sleepInSecond(2);
 				break;
 			}
 		}
@@ -649,6 +671,16 @@ public class BasePage {
 
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_SUB_MENU_PAGE_BY_NAME, subMenuPage);
 		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_SUB_MENU_PAGE_BY_NAME, subMenuPage);
+	}
+
+	public void openSidebarAdmin(WebDriver driver, String sidebarName, String subSidebarName) {
+		waitForElementInvisible(driver, AdminDashboardPageUI.LOADING_ICON);
+		waitForElementClickable(driver, BasePageNopCommerceUI.SIDEBAR_BY_NAME, sidebarName);
+		clickToElement(driver, BasePageNopCommerceUI.SIDEBAR_BY_NAME, sidebarName);
+
+		waitForElementClickable(driver, BasePageNopCommerceUI.SUB_SIDEBAR_BY_NAME, subSidebarName);
+		clickToElement(driver, BasePageNopCommerceUI.SUB_SIDEBAR_BY_NAME, subSidebarName);
+		waitForElementInvisible(driver, AdminDashboardPageUI.LOADING_ICON);
 	}
 
 	public UserSearchPageObject openSearchPage(WebDriver driver) {

@@ -59,7 +59,7 @@
 	<classpathentry kind="lib" path="libAllure/allure-testng-2.13.5.jar"/>
 	<classpathentry kind="lib" path="libAllure/aspectjlib-1.6.2.jar"/>
 	<classpathentry kind="lib" path="libAllure/aspectjrt-1.8.10.jar"/>
-	<classpathentry kind="lib" path="libAllure/aspectjtools-1.8.10.jar"/>
+	<classpathentry kind="lib" path="libAllure/aspectjtools-1.8.10.jar" sourcepath="C:/Users/Admin/AppData/Local/Temp/.org.sf.feeling.decompiler1652674864092/source/aspectjtools-1.8.10-sources.jar"/>
 	<classpathentry kind="lib" path="libAllure/aspectjweaver-1.8.10.jar"/>
 	<classpathentry kind="lib" path="libAllure/bsh-2.0b6.jar"/>
 	<classpathentry kind="lib" path="libAllure/byte-buddy-1.8.15.jar"/>
