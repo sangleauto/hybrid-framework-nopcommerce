@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import commons.PageGeneratorManager;
+import pageUIs.nopCommerce.admin.AdminCustomerInfoPageUI;
 import pageUIs.nopCommerce.admin.AdminDashboardPageUI;
 import pageUIs.nopCommerce.admin.BasePageNopCommerceUI;
 
@@ -21,7 +22,7 @@ public class AdminDashboardPageObject extends BasePage {
 	}
 
 	public void enterToProductNameTextbox(String productLenovoName) {
-		waitForAllElementsVisible(driver, AdminDashboardPageUI.LOADING_ICON);
+		waitForElementInvisible(driver, BasePageNopCommerceUI.LOADING_ICON);
 		waitForElementVisible(driver, AdminDashboardPageUI.PRODUCT_NAME_TEXTBOX);
 		sendkeyToElement(driver, AdminDashboardPageUI.PRODUCT_NAME_TEXTBOX, productLenovoName);
 	}
@@ -50,12 +51,6 @@ public class AdminDashboardPageObject extends BasePage {
 		int columnIndex = getElementSize(driver, AdminDashboardPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		waitForElementVisible(driver, AdminDashboardPageUI.ICON_BY_ROW_AND_COLUMN_INDEX, rowIndex, String.valueOf(columnIndex));
 		return getAttributeValue(driver, AdminDashboardPageUI.ICON_BY_ROW_AND_COLUMN_INDEX, "class", rowIndex, String.valueOf(columnIndex));
-	}
-
-	public void clickToNopLogo() {
-		waitForElementInvisible(driver, AdminDashboardPageUI.LOADING_ICON);
-		waitForElementClickable(driver, AdminDashboardPageUI.HOME_LOGO);
-		clickToElement(driver, AdminDashboardPageUI.HOME_LOGO);
 	}
 
 	public void selectCategoryDropdown(String categoryValue) {
@@ -105,16 +100,25 @@ public class AdminDashboardPageObject extends BasePage {
 
 	public void removeDefaultCustomerRole() {
 		waitForElementInvisible(driver, BasePageNopCommerceUI.LOADING_ICON);
+		waitForElementVisible(driver, AdminCustomerInfoPageUI.DEFAULT_ROLE);
 		waitForElementClickable(driver, AdminDashboardPageUI.REMOVE_DEFAULT_ROLE);
 		clickToElement(driver, AdminDashboardPageUI.REMOVE_DEFAULT_ROLE);
 
 	}
 
 	public void selectCustomerRoleDropdown(String customerRole) {
+		waitForElementInvisible(driver, BasePageNopCommerceUI.ROLE_DROPDOWN_LOADING);
 		waitForElementVisible(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN);
 		sendkeyToElement(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN, customerRole);
 		pressKeyToElement(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN, Keys.ENTER);
 		pressKeyToElement(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN, Keys.ESCAPE);
+
+		if (getElementText(driver, BasePageNopCommerceUI.ROLE_SPAN).equals("Registered")) {
+			removeDefaultCustomerRole();
+			sendkeyToElement(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN, customerRole);
+			pressKeyToElement(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN, Keys.ENTER);
+			pressKeyToElement(driver, AdminDashboardPageUI.PARENT_ROLE_DROPDOWN, Keys.ESCAPE);
+		}
 
 	}
 
@@ -128,6 +132,53 @@ public class AdminDashboardPageObject extends BasePage {
 			}
 		}
 		return flag;
+	}
+
+	public void enterEmailTextbox(String email) {
+		waitForElementInvisible(driver, AdminDashboardPageUI.LOADING_ICON);
+		waitForElementVisible(driver, AdminDashboardPageUI.EMAIL_TEXTBOX);
+		sendkeyToElement(driver, AdminDashboardPageUI.EMAIL_TEXTBOX, email);
+
+	}
+
+	public void enterFirstNameTextbox(String firstName) {
+		waitForElementVisible(driver, AdminDashboardPageUI.FIRSTNAME_TEXTBOX);
+
+		sendkeyToElement(driver, AdminDashboardPageUI.FIRSTNAME_TEXTBOX, firstName);
+	}
+
+	public void enterLastNameTextbox(String lastName) {
+		waitForElementVisible(driver, AdminDashboardPageUI.LASTNAME_TEXTBOX);
+		sendkeyToElement(driver, AdminDashboardPageUI.LASTNAME_TEXTBOX, lastName);
+	}
+
+	public void enterCompanyTextbox(String companyName) {
+		waitForElementVisible(driver, AdminDashboardPageUI.COMPANY_TEXTBOX);
+		sendkeyToElement(driver, AdminDashboardPageUI.COMPANY_TEXTBOX, companyName);
+
+	}
+
+	public void selectMonthDropdown(String dobMonth) {
+		waitForElementClickable(driver, AdminDashboardPageUI.MONTH_DROPDOWN);
+		selectItemInDefaultDropdown(driver, AdminDashboardPageUI.MONTH_DROPDOWN, dobMonth);
+	}
+
+	public void selectDayDropdown(String dobDay) {
+		waitForElementClickable(driver, AdminDashboardPageUI.DAY_DROPDOWN);
+		selectItemInDefaultDropdown(driver, AdminDashboardPageUI.DAY_DROPDOWN, dobDay);
+
+	}
+
+	public AdminCustomerInfoPageObject clickToEditButton() {
+		waitForElementClickable(driver, AdminDashboardPageUI.EDIT_BUTTON);
+		clickToElement(driver, AdminDashboardPageUI.EDIT_BUTTON);
+		return PageGeneratorManager.getAdminCustomerInfoPage(driver);
+	}
+
+	public String getEditSuccessMessage() {
+		waitForElementInvisible(driver, BasePageNopCommerceUI.LOADING_ICON);
+		waitForElementVisible(driver, AdminDashboardPageUI.EDIT_CUSTOMER_SUCCESS_MSG);
+		return getElementText(driver, AdminDashboardPageUI.EDIT_CUSTOMER_SUCCESS_MSG);
 	}
 
 }

@@ -24,5 +24,13 @@ public class AdminDashboardPageUI {
 
 	public static final String REMOVE_DEFAULT_ROLE = "xpath=//span[@aria-label='delete']";
 	public static final String ALL_ROW = "xpath=//tbody//tr";
+	public static final String EMAIL_TEXTBOX = "xpath=//input[@id='SearchEmail']";
+	public static final String FIRSTNAME_TEXTBOX = "xpath=//input[@id='SearchFirstName']";
+	public static final String LASTNAME_TEXTBOX = "xpath=//input[@id='SearchLastName']";
+	public static final String COMPANY_TEXTBOX = "xpath=//input[@id='SearchCompany']";
+	public static final String MONTH_DROPDOWN = "xpath=//select[@id='SearchMonthOfBirth']";
+	public static final String DAY_DROPDOWN = "xpath=//select[@id='SearchDayOfBirth']";
+	public static final String EDIT_BUTTON = "xpath=(//a[text()='Edit'])[1]";
+	public static final String EDIT_CUSTOMER_SUCCESS_MSG = "xpath=//div[contains(@class, 'alert-success')]";
 
 }

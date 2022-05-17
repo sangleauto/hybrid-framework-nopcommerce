@@ -683,6 +683,12 @@ public class BasePage {
 		waitForElementInvisible(driver, AdminDashboardPageUI.LOADING_ICON);
 	}
 
+	public void clickToNopLogo(WebDriver driver) {
+		waitForElementInvisible(driver, AdminDashboardPageUI.LOADING_ICON);
+		waitForElementClickable(driver, AdminDashboardPageUI.HOME_LOGO);
+		clickToElement(driver, AdminDashboardPageUI.HOME_LOGO);
+	}
+
 	public UserSearchPageObject openSearchPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.SEARCH_PAGE_LINK);
 		clickToElement(driver, BasePageNopCommerceUI.SEARCH_PAGE_LINK);
