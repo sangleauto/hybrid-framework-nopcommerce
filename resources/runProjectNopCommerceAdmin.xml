@@ -11,12 +11,11 @@
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
 	</listeners>
 	
-	<parameter name ="url" value = "https://demo.nopcommerce.com/"/>
+	<parameter name ="url" value = "https://admin-demo.nopcommerce.com/"/>
 	<test name="Run on Firefox">
 		<parameter name ="browser" value = "firefox"/>	
 		<classes>
-			<class name="com.nopcommerce.common.Common_01_Register_End_User"/>			
-			<class name="com.nopcommerceproject.user.Nopcommerce_03_My_Account"/>
+			<class name="com.nopcommerceproject.user.Nopcommerce_08_Admin"/>
 		</classes>
 	</test> 
 </suite> <!-- Suite -->
